@@ -1,0 +1,146 @@
+{
+  "format_version": 2,
+  "notes": "Generated from phase1-ingest-gold-expanded.json (usg-gold-adm-vNNN GovernmentalOrg rows). Operator/API pin: inauguration_year (year of DoB). gold_adm_index is internal for CI diff. Regenerate: python base-data/tools/generate_administration_catalog.py. Coverage is limited to administrations present in gold-expanded (currently Hoover 1929 through Trump second term 2025); pre-1929 terms require expanding certified gold first.",
+  "administrations": [
+    {
+      "inauguration_year": 1929,
+      "gold_adm_index": 20,
+      "name": "Presidency of Herbert Hoover",
+      "DoB": "1929-03-04",
+      "DoE": "1933-03-04"
+    },
+    {
+      "inauguration_year": 1933,
+      "gold_adm_index": 19,
+      "name": "First inauguration of Franklin D. Roosevelt",
+      "DoB": "1933-03-04",
+      "DoE": "1937-01-20"
+    },
+    {
+      "inauguration_year": 1937,
+      "gold_adm_index": 18,
+      "name": "Second inauguration of Franklin D. Roosevelt",
+      "DoB": "1937-01-20",
+      "DoE": "1941-01-20"
+    },
+    {
+      "inauguration_year": 1941,
+      "gold_adm_index": 17,
+      "name": "Third inauguration of Franklin D. Roosevelt",
+      "DoB": "1941-01-20",
+      "DoE": "1945-01-20"
+    },
+    {
+      "inauguration_year": 1945,
+      "gold_adm_index": 16,
+      "name": "Fourth term of Franklin D. Roosevelt",
+      "DoB": "1945-01-20",
+      "DoE": "1945-04-12"
+    },
+    {
+      "inauguration_year": 1945,
+      "gold_adm_index": 15,
+      "name": "Presidency of Harry S. Truman",
+      "DoB": "1945-04-12",
+      "DoE": "1953-01-20"
+    },
+    {
+      "inauguration_year": 1953,
+      "gold_adm_index": 14,
+      "name": "Presidency of Dwight D. Eisenhower",
+      "DoB": "1953-01-20",
+      "DoE": "1961-01-20"
+    },
+    {
+      "inauguration_year": 1961,
+      "gold_adm_index": 13,
+      "name": "Presidency of John F. Kennedy",
+      "DoB": "1961-01-20",
+      "DoE": "1963-11-22"
+    },
+    {
+      "inauguration_year": 1963,
+      "gold_adm_index": 12,
+      "name": "Presidency of Lyndon B. Johnson",
+      "DoB": "1963-11-22",
+      "DoE": "1969-01-20"
+    },
+    {
+      "inauguration_year": 1969,
+      "gold_adm_index": 11,
+      "name": "Presidency of Richard Nixon",
+      "DoB": "1969-01-20",
+      "DoE": "1974-08-09"
+    },
+    {
+      "inauguration_year": 1974,
+      "gold_adm_index": 10,
+      "name": "Presidency of Gerald Ford",
+      "DoB": "1974-08-09",
+      "DoE": "1977-01-20"
+    },
+    {
+      "inauguration_year": 1977,
+      "gold_adm_index": 9,
+      "name": "Presidency of Jimmy Carter",
+      "DoB": "1977-01-20",
+      "DoE": "1981-01-20"
+    },
+    {
+      "inauguration_year": 1981,
+      "gold_adm_index": 8,
+      "name": "Presidency of Ronald Reagan",
+      "DoB": "1981-01-20",
+      "DoE": "1989-01-20"
+    },
+    {
+      "inauguration_year": 1989,
+      "gold_adm_index": 7,
+      "name": "Presidency of George H. W. Bush",
+      "DoB": "1989-01-20",
+      "DoE": "1993-01-20"
+    },
+    {
+      "inauguration_year": 1993,
+      "gold_adm_index": 6,
+      "name": "Presidency of Bill Clinton",
+      "DoB": "1993-01-20",
+      "DoE": "2001-01-20"
+    },
+    {
+      "inauguration_year": 2001,
+      "gold_adm_index": 5,
+      "name": "Presidency of George W. Bush",
+      "DoB": "2001-01-20",
+      "DoE": "2009-01-20"
+    },
+    {
+      "inauguration_year": 2009,
+      "gold_adm_index": 4,
+      "name": "Presidency of Barack Obama",
+      "DoB": "2009-01-20",
+      "DoE": "2017-01-20"
+    },
+    {
+      "inauguration_year": 2017,
+      "gold_adm_index": 3,
+      "name": "Presidency of Donald Trump (first term)",
+      "DoB": "2017-01-20",
+      "DoE": "2021-01-20"
+    },
+    {
+      "inauguration_year": 2021,
+      "gold_adm_index": 2,
+      "name": "Presidency of Joe Biden",
+      "DoB": "2021-01-20",
+      "DoE": "2025-01-20"
+    },
+    {
+      "inauguration_year": 2025,
+      "gold_adm_index": 1,
+      "name": "Presidency of Donald Trump (second term)",
+      "DoB": "2025-01-20",
+      "DoE": null
+    }
+  ]
+}

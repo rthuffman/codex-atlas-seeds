@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "codex-seeds-ci"
+version = "0.1.0"
+description = "CI validate, bundle build, and GitHub Release upload for codex-atlas-seeds"
+readme = "README.md"
+requires-python = ">=3.14.3,<3.15"
+dependencies = [
+  "PyYAML>=6.0.1,<7",
+  "requests>=2.31.0,<3",
+]
+
+[project.scripts]
+codex-seeds-validate = "codex_seeds_ci.validate:main"
+codex-seeds-build-bundle = "codex_seeds_ci.build_bundle:main"
+codex-seeds-release = "codex_seeds_ci.release:main"
+codex-seeds-ci = "codex_seeds_ci.pipeline:main"
+codex-seeds-run-unit-tests = "codex_seeds_ci.unit_tests:main"
+codex-seeds-sync-from-athena = "codex_seeds_ci.migrate_from_athena:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["codex_seeds_ci"]
+
+[tool.pytest.ini_options]
+testpaths = ["../../tests"]
+pythonpath = ["."]

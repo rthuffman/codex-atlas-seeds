@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "notes": "First presidential term (inauguration_year) from which each statutory cabinet department participates in phase-1 administration skeleton Membership edges. Aligns with permanent department vertices (usg-gold-dept-v00571..585) in gold-current. Phase-1 builder includes department D only when term_inauguration_year >= cabinet_from_inauguration_year. Editorial dates from department establishment / cabinet participation conventions — not a live API. See docs/decisions/2026-05-19-administration-statutory-cabinet-phased-expansion.md.",
+  "departments": [
+    {"seat_key": "state", "gold_temp_id": "usg-gold-dept-v00571", "cabinet_from_inauguration_year": 1789, "name_hint": "Department of State"},
+    {"seat_key": "treasury", "gold_temp_id": "usg-gold-dept-v00572", "cabinet_from_inauguration_year": 1789, "name_hint": "Department of the Treasury"},
+    {"seat_key": "defense", "gold_temp_id": "usg-gold-dept-v00573", "cabinet_from_inauguration_year": 1789, "name_hint": "Department of Defense (War Department before 1947)"},
+    {"seat_key": "attorney_general", "gold_temp_id": "usg-gold-dept-v00574", "cabinet_from_inauguration_year": 1870, "name_hint": "Department of Justice (Attorney General in cabinet earlier; dept org from 1870)"},
+    {"seat_key": "interior", "gold_temp_id": "usg-gold-dept-v00575", "cabinet_from_inauguration_year": 1849, "name_hint": "Department of the Interior"},
+    {"seat_key": "agriculture", "gold_temp_id": "usg-gold-dept-v00576", "cabinet_from_inauguration_year": 1889, "name_hint": "Department of Agriculture"},
+    {"seat_key": "commerce", "gold_temp_id": "usg-gold-dept-v00577", "cabinet_from_inauguration_year": 1903, "name_hint": "Department of Commerce"},
+    {"seat_key": "labor", "gold_temp_id": "usg-gold-dept-v00578", "cabinet_from_inauguration_year": 1913, "name_hint": "Department of Labor"},
+    {"seat_key": "hhs", "gold_temp_id": "usg-gold-dept-v00579", "cabinet_from_inauguration_year": 1953, "name_hint": "Department of Health and Human Services (HEW from 1953)"},
+    {"seat_key": "hud", "gold_temp_id": "usg-gold-dept-v00580", "cabinet_from_inauguration_year": 1965, "name_hint": "Department of Housing and Urban Development"},
+    {"seat_key": "transportation", "gold_temp_id": "usg-gold-dept-v00581", "cabinet_from_inauguration_year": 1966, "name_hint": "Department of Transportation"},
+    {"seat_key": "energy", "gold_temp_id": "usg-gold-dept-v00582", "cabinet_from_inauguration_year": 1977, "name_hint": "Department of Energy"},
+    {"seat_key": "education", "gold_temp_id": "usg-gold-dept-v00583", "cabinet_from_inauguration_year": 1980, "name_hint": "Department of Education"},
+    {"seat_key": "va", "gold_temp_id": "usg-gold-dept-v00584", "cabinet_from_inauguration_year": 1989, "name_hint": "Department of Veterans Affairs"},
+    {"seat_key": "dhs", "gold_temp_id": "usg-gold-dept-v00585", "cabinet_from_inauguration_year": 2003, "name_hint": "Department of Homeland Security"}
+  ]
+}
