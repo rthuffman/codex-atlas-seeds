@@ -135,8 +135,85 @@ def validate_administration_catalog(data: dict[str, Any], *, path: str) -> list[
     return errors
 
 
+def _require_non_empty_list(
+    data: dict[str, Any],
+    *,
+    key: str,
+    path: str,
+) -> list[str]:
+    rows = data.get(key)
+    if not isinstance(rows, list) or not rows:
+        return [f"{path}: {key} must be a non-empty list"]
+    return []
+
+
+def validate_apportionment_vintages(data: dict[str, Any], *, path: str) -> list[str]:
+    errors = _require_non_empty_list(data, key="vintages", path=path)
+    for i, raw in enumerate(data.get("vintages") or []):
+        if not isinstance(raw, dict):
+            errors.append(f"{path}: vintages[{i}] must be an object")
+            continue
+        try:
+            int(raw["first_congress"])
+            int(raw["last_congress"])
+        except (KeyError, TypeError, ValueError):
+            errors.append(f"{path}: vintages[{i}] missing first_congress/last_congress")
+    return errors
+
+
+def validate_congress_bounds(data: dict[str, Any], *, path: str) -> list[str]:
+    errors = _require_non_empty_list(data, key="congresses", path=path)
+    for i, raw in enumerate(data.get("congresses") or []):
+        if not isinstance(raw, dict):
+            errors.append(f"{path}: congresses[{i}] must be an object")
+            continue
+        try:
+            c = int(raw["congress"])
+        except (KeyError, TypeError, ValueError):
+            errors.append(f"{path}: congresses[{i}] invalid congress")
+            continue
+        if c < 1:
+            errors.append(f"{path}: congresses[{i}] congress must be >= 1")
+    return errors
+
+
+def validate_state_seating(data: dict[str, Any], *, path: str) -> list[str]:
+    errors = _require_non_empty_list(data, key="rows", path=path)
+    for i, raw in enumerate(data.get("rows") or []):
+        if not isinstance(raw, dict):
+            errors.append(f"{path}: rows[{i}] must be an object")
+            continue
+        try:
+            int(raw["congress"])
+        except (KeyError, TypeError, ValueError):
+            errors.append(f"{path}: rows[{i}] invalid congress")
+        if not str(raw.get("postal") or "").strip():
+            errors.append(f"{path}: rows[{i}] missing postal")
+    return errors
+
+
+def validate_delegate_seats(data: dict[str, Any], *, path: str) -> list[str]:
+    errors = _require_non_empty_list(data, key="seats", path=path)
+    for i, raw in enumerate(data.get("seats") or []):
+        if not isinstance(raw, dict):
+            errors.append(f"{path}: seats[{i}] must be an object")
+            continue
+        try:
+            int(raw["first_congress"])
+        except (KeyError, TypeError, ValueError):
+            errors.append(f"{path}: seats[{i}] invalid first_congress")
+    return errors
+
+
 def validate_pack_payloads(repo_root: Path) -> list[str]:
     errors: list[str] = []
+    validators: dict[tuple[str, str], Any] = {
+        ("usg_administration_skeleton", "catalog.json"): validate_administration_catalog,
+        ("usg_house_apportionment_vintages", "vintages.json"): validate_apportionment_vintages,
+        ("usg_congress_session_bounds", "bounds.json"): validate_congress_bounds,
+        ("usg_congress_state_seating", "seating.json"): validate_state_seating,
+        ("usg_house_non_voting_delegate_seats", "delegates.json"): validate_delegate_seats,
+    }
     for pack_dir in discover_packs(repo_root):
         pack = load_pack_manifest(pack_dir)
         for rel in pack.get("files") or []:
@@ -149,13 +226,14 @@ def validate_pack_payloads(repo_root: Path) -> list[str]:
             except json.JSONDecodeError as exc:
                 errors.append(f"{path}: invalid JSON: {exc}")
                 continue
-            if pack_dir.name == "usg_administration_skeleton" and rel_s == "catalog.json":
-                if isinstance(data, dict):
-                    errors.extend(validate_administration_catalog(data, path=rel_s))
+            if not isinstance(data, dict):
+                errors.append(f"{path}: root must be an object")
+                continue
+            fn = validators.get((pack_dir.name, rel_s))
+            if fn is not None:
+                errors.extend(fn(data, path=rel_s))
             if pack_dir.name == "usg_statutory_cabinet_timeline" and rel_s == "timeline.json":
-                deps = data.get("departments") if isinstance(data, dict) else None
-                if not isinstance(deps, list) or not deps:
-                    errors.append(f"{path}: departments must be a non-empty list")
+                errors.extend(_require_non_empty_list(data, key="departments", path=rel_s))
     return errors
 
 

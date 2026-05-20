@@ -1,5 +1,5 @@
 pack_id: usg_administration_skeleton
-version: "0.1.0"
+version: "0.2.0"
 requires_atlas_schema_version: "1.1.0"
 description: Presidential administration term catalog (names, DoB/DoE, gold_adm_index for CI).
 files:

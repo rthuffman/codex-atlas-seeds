@@ -1,15 +1,33 @@
 bundle_format_version: 1
-bundle_version: "0.1.0"
+bundle_version: "0.2.0"
 requires_atlas_schema_version: "1.1.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
   ADR: athena-codex docs/decisions/2026-05-20-codex-atlas-seeds-reference-packs.md
+  v0.2.0: 1789 USG structure slice (admin catalog 50 rows, apportionment 1st–130th,
+  session bounds, Civil War seating mask, non-voting delegates).
 packs:
   - pack_id: usg_administration_skeleton
-    version: "0.1.0"
+    version: "0.2.0"
     files:
       - catalog.json
   - pack_id: usg_statutory_cabinet_timeline
     version: "0.1.0"
     files:
       - timeline.json
+  - pack_id: usg_house_apportionment_vintages
+    version: "0.2.0"
+    files:
+      - vintages.json
+  - pack_id: usg_congress_session_bounds
+    version: "0.2.0"
+    files:
+      - bounds.json
+  - pack_id: usg_congress_state_seating
+    version: "0.2.0"
+    files:
+      - seating.json
+  - pack_id: usg_house_non_voting_delegate_seats
+    version: "0.2.0"
+    files:
+      - delegates.json

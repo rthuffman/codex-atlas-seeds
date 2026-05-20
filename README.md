@@ -63,4 +63,17 @@ Pin consumed bundles in **athena-codex** deploy manifests (`version` + `sha256`)
 
 ## Status
 
-Initial packs: **USG administration catalog** + **statutory cabinet timeline** (synced from athena fixtures). Atlas populate / Artemis ilink read paths are follow-ups in athena-codex.
+**Bundle `0.2.0`** (six USG packs, synced from `athena/docs/fixtures/usg-structure/`):
+
+| Pack | Payload |
+|------|---------|
+| `usg_administration_skeleton` | 50 administrations (1789 → 2025) |
+| `usg_statutory_cabinet_timeline` | Department era map |
+| `usg_house_apportionment_vintages` | Apportionment 1st–130th |
+| `usg_congress_session_bounds` | Congress DoB/DoE hints |
+| `usg_congress_state_seating` | Civil War seating mask (37th–41st) |
+| `usg_house_non_voting_delegate_seats` | Territorial delegates |
+
+Refresh from athena-codex: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena` (optional `--regenerate-catalog`). Tag release: `codex-seeds-release --tag v0.2.0`.
+
+Atlas populate / Artemis ilink read paths are follow-ups in athena-codex (bootstrap bundle pin).

@@ -39,3 +39,4 @@ def test_bundle_contains_manifest_and_sums(tmp_path) -> None:
     assert "manifest.release.yaml" in names
     assert "SHA256SUMS" in names
     assert any(n.startswith("packs/usg_administration_skeleton/") for n in names)
+    assert any(n.startswith("packs/usg_house_apportionment_vintages/") for n in names)

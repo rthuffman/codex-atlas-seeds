@@ -1,0 +1,6 @@
+pack_id: usg_congress_session_bounds
+version: "0.2.0"
+requires_atlas_schema_version: "1.1.0"
+description: Optional DoB/DoE hints per numbered Congress (skeleton fallback; not iter-fill enumerator).
+files:
+  - bounds.json

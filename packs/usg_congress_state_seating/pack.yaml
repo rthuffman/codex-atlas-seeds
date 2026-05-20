@@ -1,0 +1,6 @@
+pack_id: usg_congress_state_seating
+version: "0.2.0"
+requires_atlas_schema_version: "1.1.0"
+description: Per-congress House seating mask (Civil War 37th–41st and extensions).
+files:
+  - seating.json

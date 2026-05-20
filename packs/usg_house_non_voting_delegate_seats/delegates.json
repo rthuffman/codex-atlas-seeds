@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "notes": "Non-voting House seats by first Congress. Regenerate from base-data/artemis/data/non_voting_delegate_seats.json when that file changes.",
+  "seats": [
+    {
+      "id": "PR",
+      "first_congress": 57,
+      "name_segment": "Puerto Rico",
+      "role_suffix": "Resident Commissioner",
+      "sticker": "House Resident Commissioner"
+    },
+    {
+      "id": "DC",
+      "first_congress": 92,
+      "name_segment": "District of Columbia",
+      "role_suffix": "Delegate",
+      "sticker": "House Non-Voting Delegate"
+    },
+    {
+      "id": "GU",
+      "first_congress": 93,
+      "name_segment": "Guam",
+      "role_suffix": "Delegate",
+      "sticker": "House Non-Voting Delegate"
+    },
+    {
+      "id": "VI",
+      "first_congress": 93,
+      "name_segment": "U.S. Virgin Islands",
+      "role_suffix": "Delegate",
+      "sticker": "House Non-Voting Delegate"
+    },
+    {
+      "id": "AS",
+      "first_congress": 97,
+      "name_segment": "American Samoa",
+      "role_suffix": "Delegate",
+      "sticker": "House Non-Voting Delegate"
+    },
+    {
+      "id": "MP",
+      "first_congress": 111,
+      "name_segment": "Northern Mariana Islands",
+      "role_suffix": "Delegate",
+      "sticker": "House Non-Voting Delegate"
+    }
+  ]
+}

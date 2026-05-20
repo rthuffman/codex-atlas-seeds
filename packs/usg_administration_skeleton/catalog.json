@@ -1,7 +1,187 @@
 {
   "format_version": 2,
-  "notes": "Generated from phase1-ingest-gold-expanded.json (usg-gold-adm-vNNN GovernmentalOrg rows). Operator/API pin: inauguration_year (year of DoB). gold_adm_index is internal for CI diff. Regenerate: python base-data/tools/generate_administration_catalog.py. Coverage is limited to administrations present in gold-expanded (currently Hoover 1929 through Trump second term 2025); pre-1929 terms require expanding certified gold first.",
+  "notes": "Administration catalog for iter-fill: historical skeleton (1789–1928) plus rows from phase1-ingest-gold-expanded.json (1929+). Operator/API pin: inauguration_year (year of DoB). gold_adm_index is internal for CI diff on gold-expanded rows only. Regenerate: python base-data/tools/generate_administration_catalog.py.",
   "administrations": [
+    {
+      "inauguration_year": 1789,
+      "name": "Presidency of George Washington",
+      "DoB": "1789-03-04",
+      "DoE": "1797-03-04"
+    },
+    {
+      "inauguration_year": 1797,
+      "name": "Presidency of John Adams",
+      "DoB": "1797-03-04",
+      "DoE": "1801-03-04"
+    },
+    {
+      "inauguration_year": 1801,
+      "name": "Presidency of Thomas Jefferson",
+      "DoB": "1801-03-04",
+      "DoE": "1809-03-04"
+    },
+    {
+      "inauguration_year": 1809,
+      "name": "Presidency of James Madison",
+      "DoB": "1809-03-04",
+      "DoE": "1817-03-04"
+    },
+    {
+      "inauguration_year": 1817,
+      "name": "Presidency of James Monroe",
+      "DoB": "1817-03-04",
+      "DoE": "1825-03-04"
+    },
+    {
+      "inauguration_year": 1825,
+      "name": "Presidency of John Quincy Adams",
+      "DoB": "1825-03-04",
+      "DoE": "1829-03-04"
+    },
+    {
+      "inauguration_year": 1829,
+      "name": "Presidency of Andrew Jackson",
+      "DoB": "1829-03-04",
+      "DoE": "1837-03-04"
+    },
+    {
+      "inauguration_year": 1837,
+      "name": "Presidency of Martin Van Buren",
+      "DoB": "1837-03-04",
+      "DoE": "1841-03-04"
+    },
+    {
+      "inauguration_year": 1841,
+      "name": "Presidency of William Henry Harrison",
+      "DoB": "1841-03-04",
+      "DoE": "1841-04-04"
+    },
+    {
+      "inauguration_year": 1841,
+      "name": "Presidency of John Tyler",
+      "DoB": "1841-04-04",
+      "DoE": "1845-03-04"
+    },
+    {
+      "inauguration_year": 1845,
+      "name": "Presidency of James K. Polk",
+      "DoB": "1845-03-04",
+      "DoE": "1849-03-04"
+    },
+    {
+      "inauguration_year": 1849,
+      "name": "Presidency of Zachary Taylor",
+      "DoB": "1849-03-04",
+      "DoE": "1850-07-09"
+    },
+    {
+      "inauguration_year": 1850,
+      "name": "Presidency of Millard Fillmore",
+      "DoB": "1850-07-09",
+      "DoE": "1853-03-04"
+    },
+    {
+      "inauguration_year": 1853,
+      "name": "Presidency of Franklin Pierce",
+      "DoB": "1853-03-04",
+      "DoE": "1857-03-04"
+    },
+    {
+      "inauguration_year": 1857,
+      "name": "Presidency of James Buchanan",
+      "DoB": "1857-03-04",
+      "DoE": "1861-03-04"
+    },
+    {
+      "inauguration_year": 1861,
+      "name": "Presidency of Abraham Lincoln",
+      "DoB": "1861-03-04",
+      "DoE": "1865-04-15"
+    },
+    {
+      "inauguration_year": 1865,
+      "name": "Presidency of Andrew Johnson",
+      "DoB": "1865-04-15",
+      "DoE": "1869-03-04"
+    },
+    {
+      "inauguration_year": 1869,
+      "name": "Presidency of Ulysses S. Grant",
+      "DoB": "1869-03-04",
+      "DoE": "1877-03-04"
+    },
+    {
+      "inauguration_year": 1877,
+      "name": "Presidency of Rutherford B. Hayes",
+      "DoB": "1877-03-04",
+      "DoE": "1881-03-04"
+    },
+    {
+      "inauguration_year": 1881,
+      "name": "Presidency of James A. Garfield",
+      "DoB": "1881-03-04",
+      "DoE": "1881-09-19"
+    },
+    {
+      "inauguration_year": 1881,
+      "name": "Presidency of Chester A. Arthur",
+      "DoB": "1881-09-19",
+      "DoE": "1885-03-04"
+    },
+    {
+      "inauguration_year": 1885,
+      "name": "Presidency of Grover Cleveland",
+      "DoB": "1885-03-04",
+      "DoE": "1889-03-04"
+    },
+    {
+      "inauguration_year": 1889,
+      "name": "Presidency of Benjamin Harrison",
+      "DoB": "1889-03-04",
+      "DoE": "1893-03-04"
+    },
+    {
+      "inauguration_year": 1893,
+      "name": "Second presidency of Grover Cleveland",
+      "DoB": "1893-03-04",
+      "DoE": "1897-03-04"
+    },
+    {
+      "inauguration_year": 1897,
+      "name": "Presidency of William McKinley",
+      "DoB": "1897-03-04",
+      "DoE": "1901-09-14"
+    },
+    {
+      "inauguration_year": 1901,
+      "name": "Presidency of Theodore Roosevelt",
+      "DoB": "1901-09-14",
+      "DoE": "1909-03-04"
+    },
+    {
+      "inauguration_year": 1909,
+      "name": "Presidency of William Howard Taft",
+      "DoB": "1909-03-04",
+      "DoE": "1913-03-04"
+    },
+    {
+      "inauguration_year": 1913,
+      "name": "Presidency of Woodrow Wilson",
+      "DoB": "1913-03-04",
+      "DoE": "1921-03-04"
+    },
+    {
+      "inauguration_year": 1921,
+      "name": "Presidency of Warren G. Harding",
+      "DoB": "1921-03-04",
+      "DoE": "1923-08-02"
+    },
+    {
+      "inauguration_year": 1923,
+      "name": "Presidency of Calvin Coolidge",
+      "DoB": "1923-08-02",
+      "DoE": "1929-03-04"
+    },
     {
       "inauguration_year": 1929,
       "gold_adm_index": 20,
