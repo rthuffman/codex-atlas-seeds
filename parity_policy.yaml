@@ -1,0 +1,71 @@
+policy_format_version: 1
+
+required_packs:
+  - usg_administration_skeleton
+  - usg_statutory_cabinet_timeline
+  - usg_house_apportionment_vintages
+  - usg_congress_session_bounds
+  - usg_congress_state_seating
+  - usg_house_non_voting_delegate_seats
+
+required_catalog_inauguration_years:
+  - 1789
+  - 1841
+  - 1865
+  - 1901
+  - 1945
+  - 2009
+  - 2013
+  - 2017
+  - 2021
+  - 2025
+
+scope:
+  sentinel:
+    congresses: [118]
+    administration_years: [2021]
+  full:
+    congresses: [1, 40, 80, 100, 118]
+    administration_years: [1789, 1841, 1865, 1901, 1945, 2009, 2013, 2021, 2025]
+
+catalog_only_congresses: [1, 40, 80, 100]
+
+catalog_only_administration_years: [1789, 1841, 1865, 1901, 1945, 2013, 2025]
+
+allowed_gold_membership_extra:
+  - Umbrella to numbered Congress
+
+legacy_exceptions:
+  - id: umbrella-to-numbered-congress
+    applies_to: allowed_gold_membership_extra
+    token: Umbrella to numbered Congress
+    rationale: |
+      Legacy gold-detail contains one umbrella membership edge for numbered Congress
+      that is not emitted by the deterministic API-first congress builder.
+    owner: artemis-structure
+    retirement_criteria: |
+      Remove this allowance after gold-detail parity source is normalized (or retired)
+      so congress membership comparison is fully deterministic without umbrella-only extras.
+    target_date: "2026-09-30"
+
+reserved_prospectus_id_prefix: "72a4cd2a-fa72-774a-a73c-72587"
+
+builder_fixture_mappings:
+  - pack_id: usg_administration_skeleton
+    source_file: catalog.json
+    builder_fixture_name: us_administration_skeleton_catalog.json
+  - pack_id: usg_statutory_cabinet_timeline
+    source_file: timeline.json
+    builder_fixture_name: us_statutory_cabinet_departments_timeline.json
+  - pack_id: usg_house_apportionment_vintages
+    source_file: vintages.json
+    builder_fixture_name: us_house_apportionment_vintages.json
+  - pack_id: usg_congress_session_bounds
+    source_file: bounds.json
+    builder_fixture_name: us_congress_session_bounds.json
+  - pack_id: usg_congress_state_seating
+    source_file: seating.json
+    builder_fixture_name: us_congress_state_seating.json
+  - pack_id: usg_house_non_voting_delegate_seats
+    source_file: delegates.json
+    builder_fixture_name: us_house_non_voting_delegate_seats.json

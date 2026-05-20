@@ -9,6 +9,12 @@
       "DoE": "1797-03-04"
     },
     {
+      "inauguration_year": 1793,
+      "name": "Second inauguration of George Washington",
+      "DoB": "1793-03-04",
+      "DoE": "1797-03-04"
+    },
+    {
       "inauguration_year": 1797,
       "name": "Presidency of John Adams",
       "DoB": "1797-03-04",
@@ -21,15 +27,33 @@
       "DoE": "1809-03-04"
     },
     {
+      "inauguration_year": 1805,
+      "name": "Second inauguration of Thomas Jefferson",
+      "DoB": "1805-03-04",
+      "DoE": "1809-03-04"
+    },
+    {
       "inauguration_year": 1809,
       "name": "Presidency of James Madison",
       "DoB": "1809-03-04",
       "DoE": "1817-03-04"
     },
     {
+      "inauguration_year": 1813,
+      "name": "Second inauguration of James Madison",
+      "DoB": "1813-03-04",
+      "DoE": "1817-03-04"
+    },
+    {
       "inauguration_year": 1817,
       "name": "Presidency of James Monroe",
       "DoB": "1817-03-04",
+      "DoE": "1825-03-04"
+    },
+    {
+      "inauguration_year": 1821,
+      "name": "Second inauguration of James Monroe",
+      "DoB": "1821-03-04",
       "DoE": "1825-03-04"
     },
     {
@@ -42,6 +66,12 @@
       "inauguration_year": 1829,
       "name": "Presidency of Andrew Jackson",
       "DoB": "1829-03-04",
+      "DoE": "1837-03-04"
+    },
+    {
+      "inauguration_year": 1833,
+      "name": "Second inauguration of Andrew Jackson",
+      "DoB": "1833-03-04",
       "DoE": "1837-03-04"
     },
     {
@@ -100,6 +130,12 @@
     },
     {
       "inauguration_year": 1865,
+      "name": "Second inauguration of Abraham Lincoln",
+      "DoB": "1865-03-04",
+      "DoE": "1865-04-15"
+    },
+    {
+      "inauguration_year": 1865,
       "name": "Presidency of Andrew Johnson",
       "DoB": "1865-04-15",
       "DoE": "1869-03-04"
@@ -108,6 +144,12 @@
       "inauguration_year": 1869,
       "name": "Presidency of Ulysses S. Grant",
       "DoB": "1869-03-04",
+      "DoE": "1877-03-04"
+    },
+    {
+      "inauguration_year": 1873,
+      "name": "Second inauguration of Ulysses S. Grant",
+      "DoB": "1873-03-04",
       "DoE": "1877-03-04"
     },
     {
@@ -154,6 +196,12 @@
     },
     {
       "inauguration_year": 1901,
+      "name": "Second inauguration of William McKinley",
+      "DoB": "1901-03-04",
+      "DoE": "1901-09-14"
+    },
+    {
+      "inauguration_year": 1901,
       "name": "Presidency of Theodore Roosevelt",
       "DoB": "1901-09-14",
       "DoE": "1909-03-04"
@@ -168,6 +216,12 @@
       "inauguration_year": 1913,
       "name": "Presidency of Woodrow Wilson",
       "DoB": "1913-03-04",
+      "DoE": "1921-03-04"
+    },
+    {
+      "inauguration_year": 1917,
+      "name": "Second inauguration of Woodrow Wilson",
+      "DoB": "1917-03-04",
       "DoE": "1921-03-04"
     },
     {
@@ -232,6 +286,12 @@
       "DoE": "1961-01-20"
     },
     {
+      "inauguration_year": 1957,
+      "name": "Second inauguration of Dwight D. Eisenhower",
+      "DoB": "1957-01-20",
+      "DoE": "1961-01-20"
+    },
+    {
       "inauguration_year": 1961,
       "gold_adm_index": 13,
       "name": "Presidency of John F. Kennedy",
@@ -250,6 +310,12 @@
       "gold_adm_index": 11,
       "name": "Presidency of Richard Nixon",
       "DoB": "1969-01-20",
+      "DoE": "1974-08-09"
+    },
+    {
+      "inauguration_year": 1973,
+      "name": "Second inauguration of Richard Nixon",
+      "DoB": "1973-01-20",
       "DoE": "1974-08-09"
     },
     {
@@ -274,6 +340,12 @@
       "DoE": "1989-01-20"
     },
     {
+      "inauguration_year": 1985,
+      "name": "Second inauguration of Ronald Reagan",
+      "DoB": "1985-01-20",
+      "DoE": "1989-01-20"
+    },
+    {
       "inauguration_year": 1989,
       "gold_adm_index": 7,
       "name": "Presidency of George H. W. Bush",
@@ -288,6 +360,12 @@
       "DoE": "2001-01-20"
     },
     {
+      "inauguration_year": 1997,
+      "name": "Second inauguration of Bill Clinton",
+      "DoB": "1997-01-20",
+      "DoE": "2001-01-20"
+    },
+    {
       "inauguration_year": 2001,
       "gold_adm_index": 5,
       "name": "Presidency of George W. Bush",
@@ -295,10 +373,22 @@
       "DoE": "2009-01-20"
     },
     {
+      "inauguration_year": 2005,
+      "name": "Second inauguration of George W. Bush",
+      "DoB": "2005-01-20",
+      "DoE": "2009-01-20"
+    },
+    {
       "inauguration_year": 2009,
       "gold_adm_index": 4,
       "name": "Presidency of Barack Obama",
       "DoB": "2009-01-20",
+      "DoE": "2017-01-20"
+    },
+    {
+      "inauguration_year": 2013,
+      "name": "Second inauguration of Barack Obama",
+      "DoB": "2013-01-20",
       "DoE": "2017-01-20"
     },
     {

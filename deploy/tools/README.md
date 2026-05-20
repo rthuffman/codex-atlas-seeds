@@ -25,9 +25,10 @@ python ../athena-codex/scripts/bootstrap_athena_codex_venv.py
 codex-seeds-validate
 codex-seeds-run-unit-tests
 codex-seeds-build-bundle
+codex-seeds-parity
 codex-seeds-ci --validate --test --build
 codex-seeds-release --tag v0.1.0
-codex-seeds-sync-from-athena
+codex-seeds-sync-from-athena --verify
 ```
 
 Or:
@@ -47,6 +48,15 @@ python -m codex_seeds_ci.pipeline --all
 | `--validate` | Check `manifest.yaml` and pack payloads |
 | `--test` | `pytest` under `tests/` |
 | `--build` | Write `dist/codex-atlas-seeds-<version>.tar.gz` + `.sha256` sidecar |
+| `--parity` | Run AS-5 gold-detail parity checks and write `dist/parity-report.json` + `dist/parity-summary.json` |
 | `--release TAG` | Build (unless assets exist) and upload to GitHub Releases |
 
-Default (no flags): `--validate`, `--test`, `--build`.
+Default (no flags): `--validate`, `--test`, `--build`, `--parity`.
+
+Parity policy is configured in repo-root `parity_policy.yaml` (policy format version, required pack IDs,
+sentinel/full scope windows, allowed legacy exceptions, reserved ID prefix, and
+pack payload -> builder fixture mapping). It also supports `catalog_only_administration_years`
+and `catalog_only_congresses` for years/congresses where gold-detail equivalence is intentionally
+replaced by deterministic catalog-backed invariant checks. `legacy_exceptions` metadata
+(`owner`, `rationale`, `retirement_criteria`, `target_date`) is emitted into parity reports
+to keep retirement work visible in CI.

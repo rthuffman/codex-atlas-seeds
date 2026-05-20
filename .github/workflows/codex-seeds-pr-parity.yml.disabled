@@ -1,0 +1,49 @@
+# Staged workflow (disabled by filename suffix).
+# Rename to .yml to enable PR parity gating.
+
+name: codex-seeds-pr-parity
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: codex-seeds-pr-parity-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pr-ci:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: rthuffman/athena-codex
+          path: athena-codex
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Bootstrap athena-codex venv
+        run: python scripts/bootstrap_athena_codex_venv.py
+        working-directory: athena-codex
+
+      - name: Install codex-seeds-ci
+        run: athena-codex/.venv/bin/python -m pip install -e ./deploy/tools
+        env:
+          ATHENA_CODEX_ROOT: ${{ github.workspace }}/athena-codex
+
+      - name: Validate, test, build, parity
+        run: athena-codex/.venv/bin/python -m codex_seeds_ci.pipeline --validate --test --build --parity
+        env:
+          ATHENA_CODEX_ROOT: ${{ github.workspace }}/athena-codex
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: codex-atlas-seeds-pr-ci
+          path: |
+            dist/*.tar.gz*
+            dist/parity-report.json
+            dist/parity-summary.json

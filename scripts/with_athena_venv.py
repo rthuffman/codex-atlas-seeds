@@ -30,6 +30,7 @@ _CLI_MODULES: dict[str, str] = {
     "codex-seeds-ci": "codex_seeds_ci.pipeline",
     "codex-seeds-run-unit-tests": "codex_seeds_ci.unit_tests",
     "codex-seeds-sync-from-athena": "codex_seeds_ci.migrate_from_athena",
+    "codex-seeds-parity": "codex_seeds_ci.parity",
 }
 
 

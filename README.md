@@ -36,6 +36,7 @@ d:\repos\athena-codex\.venv\Scripts\python.exe -m pip install -e "./deploy/tools
 ```bash
 python scripts/with_athena_venv.py codex-seeds-validate
 python scripts/with_athena_venv.py codex-seeds-ci --all
+python scripts/with_athena_venv.py codex-seeds-parity --mode full
 python scripts/with_athena_venv.py codex-seeds-sync-from-athena
 python scripts/with_athena_venv.py codex-seeds-release --tag v0.1.0
 ```
@@ -55,9 +56,9 @@ dist/                      # build output (gitignored)
 
 ## CI / releases
 
-`.github/workflows/codex-seeds-ci.yml` checks out **athena-codex** (for venv bootstrap), installs **`codex-seeds-ci`**, runs validate + test + build.
+`.github/workflows/codex-seeds-ci.yml` checks out **athena-codex** (for venv bootstrap), installs **`codex-seeds-ci`**, runs validate + test + build + parity.
 
-**Tag push** (`v*`) runs the same pipeline and **`codex-seeds-release`** to attach `dist/*.tar.gz` to GitHub Releases. You can also run release upload locally with `GITHUB_TOKEN` set.
+**Tag push** (`v*`) re-runs validate + build + parity and then **`codex-seeds-release`** to attach `dist/*.tar.gz` to GitHub Releases. You can also run release upload locally with `GITHUB_TOKEN` set.
 
 Pin consumed bundles in **athena-codex** deploy manifests (`version` + `sha256`) — not in application Docker images.
 
@@ -74,6 +75,8 @@ Pin consumed bundles in **athena-codex** deploy manifests (`version` + `sha256`)
 | `usg_congress_state_seating` | Civil War seating mask (37th–41st) |
 | `usg_house_non_voting_delegate_seats` | Territorial delegates |
 
-Refresh from athena-codex: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena` (optional `--regenerate-catalog`). Tag release: `codex-seeds-release --tag v0.2.0`.
+Refresh from athena-codex: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --verify` (optional `--regenerate-catalog`). Tag release: `codex-seeds-release --tag v0.2.0`.
 
 Atlas populate / Artemis ilink read paths are follow-ups in athena-codex (bootstrap bundle pin).
+
+Data stability work tracker: [`DATA_COMPLETENESS_CHECKLIST.md`](DATA_COMPLETENESS_CHECKLIST.md).

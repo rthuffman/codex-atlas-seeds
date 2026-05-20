@@ -34,3 +34,13 @@ def test_administration_catalog_covers_1789() -> None:
     rows = data["administrations"]
     assert len(rows) >= 50
     assert rows[0]["inauguration_year"] == 1789
+
+
+def test_administration_catalog_includes_obama_second_inauguration() -> None:
+    import json
+    from pathlib import Path
+
+    path = find_repo_root() / "packs" / "usg_administration_skeleton" / "catalog.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    years = {int(r["inauguration_year"]) for r in data["administrations"] if "inauguration_year" in r}
+    assert 2013 in years

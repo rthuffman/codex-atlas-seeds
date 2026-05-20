@@ -40,15 +40,18 @@ jobs:
         env:
           ATHENA_CODEX_ROOT: ${{ github.workspace }}/athena-codex
 
-      - name: Validate, test, build
-        run: athena-codex/.venv/bin/python -m codex_seeds_ci.pipeline --validate --test --build
+      - name: Validate, test, build, parity
+        run: athena-codex/.venv/bin/python -m codex_seeds_ci.pipeline --validate --test --build --parity
         env:
           ATHENA_CODEX_ROOT: ${{ github.workspace }}/athena-codex
 
       - uses: actions/upload-artifact@v4
         with:
           name: codex-atlas-seeds-bundle
-          path: dist/*.tar.gz*
+          path: |
+            dist/*.tar.gz*
+            dist/parity-report.json
+            dist/parity-summary.json
 
   release:
     if: startsWith(github.ref, 'refs/tags/v')
@@ -74,7 +77,7 @@ jobs:
 
       - name: Build and upload release
         run: |
-          athena-codex/.venv/bin/python -m codex_seeds_ci.pipeline --validate --build
+          athena-codex/.venv/bin/python -m codex_seeds_ci.pipeline --validate --build --parity
           athena-codex/.venv/bin/python -m codex_seeds_ci.release --tag "${{ github.ref_name }}"
         env:
           ATHENA_CODEX_ROOT: ${{ github.workspace }}/athena-codex
