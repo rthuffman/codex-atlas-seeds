@@ -65,7 +65,28 @@ dist/                      # build output (gitignored)
 
 Pin consumed bundles in **athena-codex** deploy manifests (`version` + `sha256`) — not in application Docker images.
 
+## Consumption in athena-codex
+
+| Stage | Where |
+|-------|--------|
+| **Atlas runtime** | `AtlasReferencePackSlice` rows after talisman-bootstrap **Apply Atlas reference packs** |
+| **Prospectus runtime** | **Project Atlas seeds → Prospectus** reads three projection slices + merges records ([`atlas_prospectus_bootstrap.ts`](https://github.com/rthuffman/athena-codex/blob/main/talisman/src/lib/atlas_prospectus_bootstrap.ts)) |
+| **Artemis structure jobs** | Catalog packs via Athena ilink / Atlas slices (apportionment, bounds, admin catalog, …) |
+| **Legacy / DR** | [`phase1-ingest-gold-current.json`](https://github.com/rthuffman/athena-codex/blob/main/base-data/phase1-ingest-gold-current.json) export — not authoritative after v0.3.0 |
+
+Runbook: [athena-codex `docs/prospectus-environment-first-setup.md`](https://github.com/rthuffman/athena-codex/blob/main/docs/prospectus-environment-first-setup.md) Phase **0.3a**, **0.4a**, **1B**.
+
+## Roadmap (not in this repo alone)
+
+- **AS-2b:** Operator pack-apply / export Atlas → git without full cluster reinstall
+- **AS-5:** Delegation-aware parity vs `gold-detail` (congress 118 full compare)
+- **AS-6:** Big-bang orchestrator gate on Atlas pack pin before structure fan-out
+- **SOC pack:** `soc_occupation_definitions_2018` in bundle (definitions CSV only)
+- **Sunset:** direct `gold-current.json` bootstrap where Atlas projection is available (Talisman imports page labels legacy path)
+
 ## Status
+
+**Release [`v0.3.0`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.0)** published **2026-05-24**. Pin in athena-codex: [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json).
 
 **Bundle `0.3.0`** (nine USG packs):
 

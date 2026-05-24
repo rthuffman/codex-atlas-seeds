@@ -51,6 +51,8 @@ python -m codex_seeds_ci.pipeline --all
 | `--parity` | Run AS-5 gold-detail parity checks and write `dist/parity-report.json` + `dist/parity-summary.json` |
 | `--release TAG` | Build (unless assets exist) and upload to GitHub Releases |
 
+**Note:** Parity compares the **six catalog packs** to Artemis builders via `builder_fixture_mappings`. **Projection packs** (`us_geo_bootstrap`, `us_gold_current_structure`, `us_gold_historical_structure`) are in `required_packs` for bundle validation but are **not** AS-5 builder fixtures — they are consumed at Prospectus projection time in athena-codex.
+
 Default (no flags): `--validate`, `--test`, `--build`, `--parity`.
 
 Parity policy is configured in repo-root `parity_policy.yaml` (policy format version, required pack IDs,

@@ -1,0 +1,3187 @@
+{
+  "pack_format_version": 1,
+  "pack_id": "us_geo_bootstrap",
+  "as_of": "2026-04-16",
+  "notes": "U.S. polity + geo bootstrap: NationState, US NatRegion, federal apex, 50 states (PrimaryCountrySubdivision + NatRegion), five inhabited territories, DC CapitalSpecialDistrict. Counties remain a separate USgeo job.",
+  "record_count": 220,
+  "records": [
+    {
+      "VertexType": "NationState",
+      "submission_temp_id": "us-geo-nation-v001",
+      "Name": "United States of America",
+      "Sticker": "US",
+      "Blurb": "Sovereign polity of the United States (nation anchor).",
+      "Links": [
+        {
+          "URL": "https://www.state.gov/",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "U.S. Department of State — sovereign polity reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NationState"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natregion-us-v001",
+      "Name": "United States",
+      "Sticker": "US",
+      "Blurb": "Territorial extent of the United States (geo anchor).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-nation-e001",
+      "from_vertex_temp_id": "us-geo-nation-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "Nation in US extent",
+      "Blurb": "NationState is anchored to the U.S. territorial NatRegion."
+    },
+    {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "us-geo-federal-v001",
+      "Name": "United States Federal Government",
+      "Sticker": "Federal",
+      "Blurb": "Standing federal apparatus representing the nation (browse root for USG structure).",
+      "Links": [
+        {
+          "URL": "https://www.usa.gov/agencies",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "USA.gov — federal agencies"
+        }
+      ],
+      "L1": "Organization",
+      "L2": "GovernmentalOrg"
+    },
+    {
+      "EdgeType": "Representation",
+      "submission_temp_id": "us-geo-federal-e001",
+      "from_vertex_temp_id": "us-geo-federal-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "Representation",
+      "Sticker": "Federal represents nation",
+      "Blurb": "The United States Federal Government formally represents the NationState."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "us-geo-federal-congress-e001",
+      "from_vertex_temp_id": "usg-gold-leg-v00001",
+      "to_vertex_temp_id": "us-geo-federal-v001",
+      "L1": "Vector",
+      "L2": "Membership",
+      "Sticker": "Branch in federal government",
+      "Blurb": "Federal branch participates in the United States Federal Government."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "us-geo-federal-exec-e001",
+      "from_vertex_temp_id": "usg-gold-exec-v00564",
+      "to_vertex_temp_id": "us-geo-federal-v001",
+      "L1": "Vector",
+      "L2": "Membership",
+      "Sticker": "Branch in federal government",
+      "Blurb": "Federal branch participates in the United States Federal Government."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "us-geo-federal-jud-e001",
+      "from_vertex_temp_id": "usg-gold-jud-v00600",
+      "to_vertex_temp_id": "us-geo-federal-v001",
+      "L1": "Vector",
+      "L2": "Membership",
+      "Sticker": "Branch in federal government",
+      "Blurb": "Federal branch participates in the United States Federal Government."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-AK-v001",
+      "Name": "Alaska",
+      "Sticker": "AK",
+      "Blurb": "U.S. state polity (Alaska).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1959-01-03"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-AK-v001",
+      "Name": "Alaska",
+      "Sticker": "AK",
+      "Blurb": "U.S. state geographic region (Alaska).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1959-01-03"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-AK-e001",
+      "from_vertex_temp_id": "us-geo-pcs-AK-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "AK polity in nation",
+      "Blurb": "Alaska polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-AK-e001",
+      "from_vertex_temp_id": "us-geo-natreg-AK-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "AK geo in US",
+      "Blurb": "Alaska NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-AL-v001",
+      "Name": "Alabama",
+      "Sticker": "AL",
+      "Blurb": "U.S. state polity (Alabama).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1819-12-14"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-AL-v001",
+      "Name": "Alabama",
+      "Sticker": "AL",
+      "Blurb": "U.S. state geographic region (Alabama).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1819-12-14"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-AL-e001",
+      "from_vertex_temp_id": "us-geo-pcs-AL-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "AL polity in nation",
+      "Blurb": "Alabama polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-AL-e001",
+      "from_vertex_temp_id": "us-geo-natreg-AL-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "AL geo in US",
+      "Blurb": "Alabama NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-AR-v001",
+      "Name": "Arkansas",
+      "Sticker": "AR",
+      "Blurb": "U.S. state polity (Arkansas).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1836-06-15"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-AR-v001",
+      "Name": "Arkansas",
+      "Sticker": "AR",
+      "Blurb": "U.S. state geographic region (Arkansas).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1836-06-15"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-AR-e001",
+      "from_vertex_temp_id": "us-geo-pcs-AR-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "AR polity in nation",
+      "Blurb": "Arkansas polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-AR-e001",
+      "from_vertex_temp_id": "us-geo-natreg-AR-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "AR geo in US",
+      "Blurb": "Arkansas NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-AZ-v001",
+      "Name": "Arizona",
+      "Sticker": "AZ",
+      "Blurb": "U.S. state polity (Arizona).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1912-02-14"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-AZ-v001",
+      "Name": "Arizona",
+      "Sticker": "AZ",
+      "Blurb": "U.S. state geographic region (Arizona).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1912-02-14"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-AZ-e001",
+      "from_vertex_temp_id": "us-geo-pcs-AZ-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "AZ polity in nation",
+      "Blurb": "Arizona polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-AZ-e001",
+      "from_vertex_temp_id": "us-geo-natreg-AZ-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "AZ geo in US",
+      "Blurb": "Arizona NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-CA-v001",
+      "Name": "California",
+      "Sticker": "CA",
+      "Blurb": "U.S. state polity (California).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1850-09-09"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-CA-v001",
+      "Name": "California",
+      "Sticker": "CA",
+      "Blurb": "U.S. state geographic region (California).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1850-09-09"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-CA-e001",
+      "from_vertex_temp_id": "us-geo-pcs-CA-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "CA polity in nation",
+      "Blurb": "California polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-CA-e001",
+      "from_vertex_temp_id": "us-geo-natreg-CA-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "CA geo in US",
+      "Blurb": "California NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-CO-v001",
+      "Name": "Colorado",
+      "Sticker": "CO",
+      "Blurb": "U.S. state polity (Colorado).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1876-08-01"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-CO-v001",
+      "Name": "Colorado",
+      "Sticker": "CO",
+      "Blurb": "U.S. state geographic region (Colorado).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1876-08-01"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-CO-e001",
+      "from_vertex_temp_id": "us-geo-pcs-CO-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "CO polity in nation",
+      "Blurb": "Colorado polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-CO-e001",
+      "from_vertex_temp_id": "us-geo-natreg-CO-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "CO geo in US",
+      "Blurb": "Colorado NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-CT-v001",
+      "Name": "Connecticut",
+      "Sticker": "CT",
+      "Blurb": "U.S. state polity (Connecticut).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1788-01-09"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-CT-v001",
+      "Name": "Connecticut",
+      "Sticker": "CT",
+      "Blurb": "U.S. state geographic region (Connecticut).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1788-01-09"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-CT-e001",
+      "from_vertex_temp_id": "us-geo-pcs-CT-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "CT polity in nation",
+      "Blurb": "Connecticut polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-CT-e001",
+      "from_vertex_temp_id": "us-geo-natreg-CT-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "CT geo in US",
+      "Blurb": "Connecticut NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-DE-v001",
+      "Name": "Delaware",
+      "Sticker": "DE",
+      "Blurb": "U.S. state polity (Delaware).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1787-12-07"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-DE-v001",
+      "Name": "Delaware",
+      "Sticker": "DE",
+      "Blurb": "U.S. state geographic region (Delaware).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1787-12-07"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-DE-e001",
+      "from_vertex_temp_id": "us-geo-pcs-DE-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "DE polity in nation",
+      "Blurb": "Delaware polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-DE-e001",
+      "from_vertex_temp_id": "us-geo-natreg-DE-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "DE geo in US",
+      "Blurb": "Delaware NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-FL-v001",
+      "Name": "Florida",
+      "Sticker": "FL",
+      "Blurb": "U.S. state polity (Florida).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1845-03-03"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-FL-v001",
+      "Name": "Florida",
+      "Sticker": "FL",
+      "Blurb": "U.S. state geographic region (Florida).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1845-03-03"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-FL-e001",
+      "from_vertex_temp_id": "us-geo-pcs-FL-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "FL polity in nation",
+      "Blurb": "Florida polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-FL-e001",
+      "from_vertex_temp_id": "us-geo-natreg-FL-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "FL geo in US",
+      "Blurb": "Florida NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-GA-v001",
+      "Name": "Georgia",
+      "Sticker": "GA",
+      "Blurb": "U.S. state polity (Georgia).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1788-01-02"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-GA-v001",
+      "Name": "Georgia",
+      "Sticker": "GA",
+      "Blurb": "U.S. state geographic region (Georgia).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1788-01-02"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-GA-e001",
+      "from_vertex_temp_id": "us-geo-pcs-GA-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "GA polity in nation",
+      "Blurb": "Georgia polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-GA-e001",
+      "from_vertex_temp_id": "us-geo-natreg-GA-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "GA geo in US",
+      "Blurb": "Georgia NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-HI-v001",
+      "Name": "Hawaii",
+      "Sticker": "HI",
+      "Blurb": "U.S. state polity (Hawaii).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1959-08-21"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-HI-v001",
+      "Name": "Hawaii",
+      "Sticker": "HI",
+      "Blurb": "U.S. state geographic region (Hawaii).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1959-08-21"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-HI-e001",
+      "from_vertex_temp_id": "us-geo-pcs-HI-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "HI polity in nation",
+      "Blurb": "Hawaii polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-HI-e001",
+      "from_vertex_temp_id": "us-geo-natreg-HI-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "HI geo in US",
+      "Blurb": "Hawaii NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-IA-v001",
+      "Name": "Iowa",
+      "Sticker": "IA",
+      "Blurb": "U.S. state polity (Iowa).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1846-12-28"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-IA-v001",
+      "Name": "Iowa",
+      "Sticker": "IA",
+      "Blurb": "U.S. state geographic region (Iowa).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1846-12-28"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-IA-e001",
+      "from_vertex_temp_id": "us-geo-pcs-IA-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "IA polity in nation",
+      "Blurb": "Iowa polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-IA-e001",
+      "from_vertex_temp_id": "us-geo-natreg-IA-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "IA geo in US",
+      "Blurb": "Iowa NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-ID-v001",
+      "Name": "Idaho",
+      "Sticker": "ID",
+      "Blurb": "U.S. state polity (Idaho).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1890-07-03"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-ID-v001",
+      "Name": "Idaho",
+      "Sticker": "ID",
+      "Blurb": "U.S. state geographic region (Idaho).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1890-07-03"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-ID-e001",
+      "from_vertex_temp_id": "us-geo-pcs-ID-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "ID polity in nation",
+      "Blurb": "Idaho polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-ID-e001",
+      "from_vertex_temp_id": "us-geo-natreg-ID-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "ID geo in US",
+      "Blurb": "Idaho NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-IL-v001",
+      "Name": "Illinois",
+      "Sticker": "IL",
+      "Blurb": "U.S. state polity (Illinois).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1818-12-03"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-IL-v001",
+      "Name": "Illinois",
+      "Sticker": "IL",
+      "Blurb": "U.S. state geographic region (Illinois).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1818-12-03"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-IL-e001",
+      "from_vertex_temp_id": "us-geo-pcs-IL-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "IL polity in nation",
+      "Blurb": "Illinois polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-IL-e001",
+      "from_vertex_temp_id": "us-geo-natreg-IL-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "IL geo in US",
+      "Blurb": "Illinois NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-IN-v001",
+      "Name": "Indiana",
+      "Sticker": "IN",
+      "Blurb": "U.S. state polity (Indiana).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1816-12-11"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-IN-v001",
+      "Name": "Indiana",
+      "Sticker": "IN",
+      "Blurb": "U.S. state geographic region (Indiana).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1816-12-11"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-IN-e001",
+      "from_vertex_temp_id": "us-geo-pcs-IN-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "IN polity in nation",
+      "Blurb": "Indiana polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-IN-e001",
+      "from_vertex_temp_id": "us-geo-natreg-IN-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "IN geo in US",
+      "Blurb": "Indiana NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-KS-v001",
+      "Name": "Kansas",
+      "Sticker": "KS",
+      "Blurb": "U.S. state polity (Kansas).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1861-01-29"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-KS-v001",
+      "Name": "Kansas",
+      "Sticker": "KS",
+      "Blurb": "U.S. state geographic region (Kansas).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1861-01-29"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-KS-e001",
+      "from_vertex_temp_id": "us-geo-pcs-KS-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "KS polity in nation",
+      "Blurb": "Kansas polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-KS-e001",
+      "from_vertex_temp_id": "us-geo-natreg-KS-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "KS geo in US",
+      "Blurb": "Kansas NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-KY-v001",
+      "Name": "Kentucky",
+      "Sticker": "KY",
+      "Blurb": "U.S. state polity (Kentucky).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1792-06-01"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-KY-v001",
+      "Name": "Kentucky",
+      "Sticker": "KY",
+      "Blurb": "U.S. state geographic region (Kentucky).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1792-06-01"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-KY-e001",
+      "from_vertex_temp_id": "us-geo-pcs-KY-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "KY polity in nation",
+      "Blurb": "Kentucky polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-KY-e001",
+      "from_vertex_temp_id": "us-geo-natreg-KY-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "KY geo in US",
+      "Blurb": "Kentucky NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-LA-v001",
+      "Name": "Louisiana",
+      "Sticker": "LA",
+      "Blurb": "U.S. state polity (Louisiana).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1812-04-30"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-LA-v001",
+      "Name": "Louisiana",
+      "Sticker": "LA",
+      "Blurb": "U.S. state geographic region (Louisiana).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1812-04-30"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-LA-e001",
+      "from_vertex_temp_id": "us-geo-pcs-LA-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "LA polity in nation",
+      "Blurb": "Louisiana polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-LA-e001",
+      "from_vertex_temp_id": "us-geo-natreg-LA-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "LA geo in US",
+      "Blurb": "Louisiana NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-MA-v001",
+      "Name": "Massachusetts",
+      "Sticker": "MA",
+      "Blurb": "U.S. state polity (Massachusetts).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1788-02-06"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-MA-v001",
+      "Name": "Massachusetts",
+      "Sticker": "MA",
+      "Blurb": "U.S. state geographic region (Massachusetts).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1788-02-06"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-MA-e001",
+      "from_vertex_temp_id": "us-geo-pcs-MA-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MA polity in nation",
+      "Blurb": "Massachusetts polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-MA-e001",
+      "from_vertex_temp_id": "us-geo-natreg-MA-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MA geo in US",
+      "Blurb": "Massachusetts NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-MD-v001",
+      "Name": "Maryland",
+      "Sticker": "MD",
+      "Blurb": "U.S. state polity (Maryland).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1788-04-28"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-MD-v001",
+      "Name": "Maryland",
+      "Sticker": "MD",
+      "Blurb": "U.S. state geographic region (Maryland).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1788-04-28"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-MD-e001",
+      "from_vertex_temp_id": "us-geo-pcs-MD-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MD polity in nation",
+      "Blurb": "Maryland polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-MD-e001",
+      "from_vertex_temp_id": "us-geo-natreg-MD-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MD geo in US",
+      "Blurb": "Maryland NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-ME-v001",
+      "Name": "Maine",
+      "Sticker": "ME",
+      "Blurb": "U.S. state polity (Maine).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1820-03-15"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-ME-v001",
+      "Name": "Maine",
+      "Sticker": "ME",
+      "Blurb": "U.S. state geographic region (Maine).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1820-03-15"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-ME-e001",
+      "from_vertex_temp_id": "us-geo-pcs-ME-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "ME polity in nation",
+      "Blurb": "Maine polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-ME-e001",
+      "from_vertex_temp_id": "us-geo-natreg-ME-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "ME geo in US",
+      "Blurb": "Maine NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-MI-v001",
+      "Name": "Michigan",
+      "Sticker": "MI",
+      "Blurb": "U.S. state polity (Michigan).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1837-01-26"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-MI-v001",
+      "Name": "Michigan",
+      "Sticker": "MI",
+      "Blurb": "U.S. state geographic region (Michigan).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1837-01-26"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-MI-e001",
+      "from_vertex_temp_id": "us-geo-pcs-MI-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MI polity in nation",
+      "Blurb": "Michigan polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-MI-e001",
+      "from_vertex_temp_id": "us-geo-natreg-MI-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MI geo in US",
+      "Blurb": "Michigan NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-MN-v001",
+      "Name": "Minnesota",
+      "Sticker": "MN",
+      "Blurb": "U.S. state polity (Minnesota).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1858-05-11"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-MN-v001",
+      "Name": "Minnesota",
+      "Sticker": "MN",
+      "Blurb": "U.S. state geographic region (Minnesota).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1858-05-11"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-MN-e001",
+      "from_vertex_temp_id": "us-geo-pcs-MN-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MN polity in nation",
+      "Blurb": "Minnesota polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-MN-e001",
+      "from_vertex_temp_id": "us-geo-natreg-MN-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MN geo in US",
+      "Blurb": "Minnesota NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-MO-v001",
+      "Name": "Missouri",
+      "Sticker": "MO",
+      "Blurb": "U.S. state polity (Missouri).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1821-08-10"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-MO-v001",
+      "Name": "Missouri",
+      "Sticker": "MO",
+      "Blurb": "U.S. state geographic region (Missouri).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1821-08-10"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-MO-e001",
+      "from_vertex_temp_id": "us-geo-pcs-MO-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MO polity in nation",
+      "Blurb": "Missouri polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-MO-e001",
+      "from_vertex_temp_id": "us-geo-natreg-MO-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MO geo in US",
+      "Blurb": "Missouri NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-MS-v001",
+      "Name": "Mississippi",
+      "Sticker": "MS",
+      "Blurb": "U.S. state polity (Mississippi).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1817-12-10"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-MS-v001",
+      "Name": "Mississippi",
+      "Sticker": "MS",
+      "Blurb": "U.S. state geographic region (Mississippi).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1817-12-10"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-MS-e001",
+      "from_vertex_temp_id": "us-geo-pcs-MS-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MS polity in nation",
+      "Blurb": "Mississippi polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-MS-e001",
+      "from_vertex_temp_id": "us-geo-natreg-MS-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MS geo in US",
+      "Blurb": "Mississippi NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-MT-v001",
+      "Name": "Montana",
+      "Sticker": "MT",
+      "Blurb": "U.S. state polity (Montana).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1889-11-08"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-MT-v001",
+      "Name": "Montana",
+      "Sticker": "MT",
+      "Blurb": "U.S. state geographic region (Montana).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1889-11-08"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-MT-e001",
+      "from_vertex_temp_id": "us-geo-pcs-MT-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MT polity in nation",
+      "Blurb": "Montana polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-MT-e001",
+      "from_vertex_temp_id": "us-geo-natreg-MT-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MT geo in US",
+      "Blurb": "Montana NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-NC-v001",
+      "Name": "North Carolina",
+      "Sticker": "NC",
+      "Blurb": "U.S. state polity (North Carolina).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1789-11-21"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-NC-v001",
+      "Name": "North Carolina",
+      "Sticker": "NC",
+      "Blurb": "U.S. state geographic region (North Carolina).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1789-11-21"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-NC-e001",
+      "from_vertex_temp_id": "us-geo-pcs-NC-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NC polity in nation",
+      "Blurb": "North Carolina polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-NC-e001",
+      "from_vertex_temp_id": "us-geo-natreg-NC-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NC geo in US",
+      "Blurb": "North Carolina NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-ND-v001",
+      "Name": "North Dakota",
+      "Sticker": "ND",
+      "Blurb": "U.S. state polity (North Dakota).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1889-11-02"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-ND-v001",
+      "Name": "North Dakota",
+      "Sticker": "ND",
+      "Blurb": "U.S. state geographic region (North Dakota).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1889-11-02"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-ND-e001",
+      "from_vertex_temp_id": "us-geo-pcs-ND-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "ND polity in nation",
+      "Blurb": "North Dakota polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-ND-e001",
+      "from_vertex_temp_id": "us-geo-natreg-ND-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "ND geo in US",
+      "Blurb": "North Dakota NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-NE-v001",
+      "Name": "Nebraska",
+      "Sticker": "NE",
+      "Blurb": "U.S. state polity (Nebraska).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1867-03-01"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-NE-v001",
+      "Name": "Nebraska",
+      "Sticker": "NE",
+      "Blurb": "U.S. state geographic region (Nebraska).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1867-03-01"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-NE-e001",
+      "from_vertex_temp_id": "us-geo-pcs-NE-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NE polity in nation",
+      "Blurb": "Nebraska polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-NE-e001",
+      "from_vertex_temp_id": "us-geo-natreg-NE-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NE geo in US",
+      "Blurb": "Nebraska NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-NH-v001",
+      "Name": "New Hampshire",
+      "Sticker": "NH",
+      "Blurb": "U.S. state polity (New Hampshire).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1788-06-21"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-NH-v001",
+      "Name": "New Hampshire",
+      "Sticker": "NH",
+      "Blurb": "U.S. state geographic region (New Hampshire).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1788-06-21"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-NH-e001",
+      "from_vertex_temp_id": "us-geo-pcs-NH-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NH polity in nation",
+      "Blurb": "New Hampshire polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-NH-e001",
+      "from_vertex_temp_id": "us-geo-natreg-NH-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NH geo in US",
+      "Blurb": "New Hampshire NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-NJ-v001",
+      "Name": "New Jersey",
+      "Sticker": "NJ",
+      "Blurb": "U.S. state polity (New Jersey).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1787-12-18"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-NJ-v001",
+      "Name": "New Jersey",
+      "Sticker": "NJ",
+      "Blurb": "U.S. state geographic region (New Jersey).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1787-12-18"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-NJ-e001",
+      "from_vertex_temp_id": "us-geo-pcs-NJ-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NJ polity in nation",
+      "Blurb": "New Jersey polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-NJ-e001",
+      "from_vertex_temp_id": "us-geo-natreg-NJ-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NJ geo in US",
+      "Blurb": "New Jersey NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-NM-v001",
+      "Name": "New Mexico",
+      "Sticker": "NM",
+      "Blurb": "U.S. state polity (New Mexico).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1912-01-06"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-NM-v001",
+      "Name": "New Mexico",
+      "Sticker": "NM",
+      "Blurb": "U.S. state geographic region (New Mexico).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1912-01-06"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-NM-e001",
+      "from_vertex_temp_id": "us-geo-pcs-NM-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NM polity in nation",
+      "Blurb": "New Mexico polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-NM-e001",
+      "from_vertex_temp_id": "us-geo-natreg-NM-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NM geo in US",
+      "Blurb": "New Mexico NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-NV-v001",
+      "Name": "Nevada",
+      "Sticker": "NV",
+      "Blurb": "U.S. state polity (Nevada).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1864-10-31"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-NV-v001",
+      "Name": "Nevada",
+      "Sticker": "NV",
+      "Blurb": "U.S. state geographic region (Nevada).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1864-10-31"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-NV-e001",
+      "from_vertex_temp_id": "us-geo-pcs-NV-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NV polity in nation",
+      "Blurb": "Nevada polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-NV-e001",
+      "from_vertex_temp_id": "us-geo-natreg-NV-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NV geo in US",
+      "Blurb": "Nevada NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-NY-v001",
+      "Name": "New York",
+      "Sticker": "NY",
+      "Blurb": "U.S. state polity (New York).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1788-07-26"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-NY-v001",
+      "Name": "New York",
+      "Sticker": "NY",
+      "Blurb": "U.S. state geographic region (New York).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1788-07-26"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-NY-e001",
+      "from_vertex_temp_id": "us-geo-pcs-NY-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NY polity in nation",
+      "Blurb": "New York polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-NY-e001",
+      "from_vertex_temp_id": "us-geo-natreg-NY-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "NY geo in US",
+      "Blurb": "New York NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-OH-v001",
+      "Name": "Ohio",
+      "Sticker": "OH",
+      "Blurb": "U.S. state polity (Ohio).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1803-03-01"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-OH-v001",
+      "Name": "Ohio",
+      "Sticker": "OH",
+      "Blurb": "U.S. state geographic region (Ohio).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1803-03-01"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-OH-e001",
+      "from_vertex_temp_id": "us-geo-pcs-OH-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "OH polity in nation",
+      "Blurb": "Ohio polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-OH-e001",
+      "from_vertex_temp_id": "us-geo-natreg-OH-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "OH geo in US",
+      "Blurb": "Ohio NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-OK-v001",
+      "Name": "Oklahoma",
+      "Sticker": "OK",
+      "Blurb": "U.S. state polity (Oklahoma).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1907-11-16"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-OK-v001",
+      "Name": "Oklahoma",
+      "Sticker": "OK",
+      "Blurb": "U.S. state geographic region (Oklahoma).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1907-11-16"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-OK-e001",
+      "from_vertex_temp_id": "us-geo-pcs-OK-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "OK polity in nation",
+      "Blurb": "Oklahoma polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-OK-e001",
+      "from_vertex_temp_id": "us-geo-natreg-OK-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "OK geo in US",
+      "Blurb": "Oklahoma NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-OR-v001",
+      "Name": "Oregon",
+      "Sticker": "OR",
+      "Blurb": "U.S. state polity (Oregon).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1859-02-14"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-OR-v001",
+      "Name": "Oregon",
+      "Sticker": "OR",
+      "Blurb": "U.S. state geographic region (Oregon).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1859-02-14"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-OR-e001",
+      "from_vertex_temp_id": "us-geo-pcs-OR-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "OR polity in nation",
+      "Blurb": "Oregon polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-OR-e001",
+      "from_vertex_temp_id": "us-geo-natreg-OR-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "OR geo in US",
+      "Blurb": "Oregon NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-PA-v001",
+      "Name": "Pennsylvania",
+      "Sticker": "PA",
+      "Blurb": "U.S. state polity (Pennsylvania).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1787-12-12"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-PA-v001",
+      "Name": "Pennsylvania",
+      "Sticker": "PA",
+      "Blurb": "U.S. state geographic region (Pennsylvania).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1787-12-12"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-PA-e001",
+      "from_vertex_temp_id": "us-geo-pcs-PA-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "PA polity in nation",
+      "Blurb": "Pennsylvania polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-PA-e001",
+      "from_vertex_temp_id": "us-geo-natreg-PA-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "PA geo in US",
+      "Blurb": "Pennsylvania NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-RI-v001",
+      "Name": "Rhode Island",
+      "Sticker": "RI",
+      "Blurb": "U.S. state polity (Rhode Island).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1790-05-29"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-RI-v001",
+      "Name": "Rhode Island",
+      "Sticker": "RI",
+      "Blurb": "U.S. state geographic region (Rhode Island).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1790-05-29"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-RI-e001",
+      "from_vertex_temp_id": "us-geo-pcs-RI-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "RI polity in nation",
+      "Blurb": "Rhode Island polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-RI-e001",
+      "from_vertex_temp_id": "us-geo-natreg-RI-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "RI geo in US",
+      "Blurb": "Rhode Island NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-SC-v001",
+      "Name": "South Carolina",
+      "Sticker": "SC",
+      "Blurb": "U.S. state polity (South Carolina).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1788-05-23"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-SC-v001",
+      "Name": "South Carolina",
+      "Sticker": "SC",
+      "Blurb": "U.S. state geographic region (South Carolina).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1788-05-23"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-SC-e001",
+      "from_vertex_temp_id": "us-geo-pcs-SC-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "SC polity in nation",
+      "Blurb": "South Carolina polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-SC-e001",
+      "from_vertex_temp_id": "us-geo-natreg-SC-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "SC geo in US",
+      "Blurb": "South Carolina NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-SD-v001",
+      "Name": "South Dakota",
+      "Sticker": "SD",
+      "Blurb": "U.S. state polity (South Dakota).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1889-11-02"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-SD-v001",
+      "Name": "South Dakota",
+      "Sticker": "SD",
+      "Blurb": "U.S. state geographic region (South Dakota).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1889-11-02"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-SD-e001",
+      "from_vertex_temp_id": "us-geo-pcs-SD-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "SD polity in nation",
+      "Blurb": "South Dakota polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-SD-e001",
+      "from_vertex_temp_id": "us-geo-natreg-SD-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "SD geo in US",
+      "Blurb": "South Dakota NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-TN-v001",
+      "Name": "Tennessee",
+      "Sticker": "TN",
+      "Blurb": "U.S. state polity (Tennessee).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1796-06-01"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-TN-v001",
+      "Name": "Tennessee",
+      "Sticker": "TN",
+      "Blurb": "U.S. state geographic region (Tennessee).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1796-06-01"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-TN-e001",
+      "from_vertex_temp_id": "us-geo-pcs-TN-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "TN polity in nation",
+      "Blurb": "Tennessee polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-TN-e001",
+      "from_vertex_temp_id": "us-geo-natreg-TN-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "TN geo in US",
+      "Blurb": "Tennessee NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-TX-v001",
+      "Name": "Texas",
+      "Sticker": "TX",
+      "Blurb": "U.S. state polity (Texas).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1845-12-29"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-TX-v001",
+      "Name": "Texas",
+      "Sticker": "TX",
+      "Blurb": "U.S. state geographic region (Texas).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1845-12-29"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-TX-e001",
+      "from_vertex_temp_id": "us-geo-pcs-TX-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "TX polity in nation",
+      "Blurb": "Texas polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-TX-e001",
+      "from_vertex_temp_id": "us-geo-natreg-TX-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "TX geo in US",
+      "Blurb": "Texas NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-UT-v001",
+      "Name": "Utah",
+      "Sticker": "UT",
+      "Blurb": "U.S. state polity (Utah).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1896-01-04"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-UT-v001",
+      "Name": "Utah",
+      "Sticker": "UT",
+      "Blurb": "U.S. state geographic region (Utah).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1896-01-04"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-UT-e001",
+      "from_vertex_temp_id": "us-geo-pcs-UT-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "UT polity in nation",
+      "Blurb": "Utah polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-UT-e001",
+      "from_vertex_temp_id": "us-geo-natreg-UT-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "UT geo in US",
+      "Blurb": "Utah NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-VA-v001",
+      "Name": "Virginia",
+      "Sticker": "VA",
+      "Blurb": "U.S. state polity (Virginia).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1788-06-25"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-VA-v001",
+      "Name": "Virginia",
+      "Sticker": "VA",
+      "Blurb": "U.S. state geographic region (Virginia).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1788-06-25"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-VA-e001",
+      "from_vertex_temp_id": "us-geo-pcs-VA-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "VA polity in nation",
+      "Blurb": "Virginia polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-VA-e001",
+      "from_vertex_temp_id": "us-geo-natreg-VA-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "VA geo in US",
+      "Blurb": "Virginia NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-VT-v001",
+      "Name": "Vermont",
+      "Sticker": "VT",
+      "Blurb": "U.S. state polity (Vermont).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1791-03-04"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-VT-v001",
+      "Name": "Vermont",
+      "Sticker": "VT",
+      "Blurb": "U.S. state geographic region (Vermont).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1791-03-04"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-VT-e001",
+      "from_vertex_temp_id": "us-geo-pcs-VT-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "VT polity in nation",
+      "Blurb": "Vermont polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-VT-e001",
+      "from_vertex_temp_id": "us-geo-natreg-VT-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "VT geo in US",
+      "Blurb": "Vermont NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-WA-v001",
+      "Name": "Washington",
+      "Sticker": "WA",
+      "Blurb": "U.S. state polity (Washington).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1889-11-11"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-WA-v001",
+      "Name": "Washington",
+      "Sticker": "WA",
+      "Blurb": "U.S. state geographic region (Washington).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1889-11-11"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-WA-e001",
+      "from_vertex_temp_id": "us-geo-pcs-WA-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "WA polity in nation",
+      "Blurb": "Washington polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-WA-e001",
+      "from_vertex_temp_id": "us-geo-natreg-WA-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "WA geo in US",
+      "Blurb": "Washington NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-WI-v001",
+      "Name": "Wisconsin",
+      "Sticker": "WI",
+      "Blurb": "U.S. state polity (Wisconsin).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1848-05-29"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-WI-v001",
+      "Name": "Wisconsin",
+      "Sticker": "WI",
+      "Blurb": "U.S. state geographic region (Wisconsin).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1848-05-29"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-WI-e001",
+      "from_vertex_temp_id": "us-geo-pcs-WI-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "WI polity in nation",
+      "Blurb": "Wisconsin polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-WI-e001",
+      "from_vertex_temp_id": "us-geo-natreg-WI-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "WI geo in US",
+      "Blurb": "Wisconsin NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-WV-v001",
+      "Name": "West Virginia",
+      "Sticker": "WV",
+      "Blurb": "U.S. state polity (West Virginia).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1863-06-20"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-WV-v001",
+      "Name": "West Virginia",
+      "Sticker": "WV",
+      "Blurb": "U.S. state geographic region (West Virginia).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1863-06-20"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-WV-e001",
+      "from_vertex_temp_id": "us-geo-pcs-WV-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "WV polity in nation",
+      "Blurb": "West Virginia polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-WV-e001",
+      "from_vertex_temp_id": "us-geo-natreg-WV-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "WV geo in US",
+      "Blurb": "West Virginia NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "PrimaryCountrySubdivision",
+      "submission_temp_id": "us-geo-pcs-WY-v001",
+      "Name": "Wyoming",
+      "Sticker": "WY",
+      "Blurb": "U.S. state polity (Wyoming).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/research/guide-fed-records/groups/state.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "NARA state admission reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "PrimaryCountrySubdivision",
+      "DoB": "1890-07-10"
+    },
+    {
+      "VertexType": "NatRegion",
+      "submission_temp_id": "us-geo-natreg-WY-v001",
+      "Name": "Wyoming",
+      "Sticker": "WY",
+      "Blurb": "U.S. state geographic region (Wyoming).",
+      "Links": [
+        {
+          "URL": "https://www.census.gov/geographies/reference-files.html",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Census geographic reference."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "NatRegion",
+      "DoB": "1890-07-10"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-pcs-WY-e001",
+      "from_vertex_temp_id": "us-geo-pcs-WY-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "WY polity in nation",
+      "Blurb": "Wyoming polity is contained by the United States NationState."
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-natreg-WY-e001",
+      "from_vertex_temp_id": "us-geo-natreg-WY-v001",
+      "to_vertex_temp_id": "us-geo-natregion-us-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "WY geo in US",
+      "Blurb": "Wyoming NatRegion is contained by the United States territorial extent."
+    },
+    {
+      "VertexType": "Territory",
+      "submission_temp_id": "us-geo-territory-PR-v001",
+      "Name": "Puerto Rico",
+      "Sticker": "PR",
+      "Blurb": "U.S. inhabited territory (Puerto Rico).",
+      "Links": [
+        {
+          "URL": "https://www.doi.gov/oia/islands",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "DOI Office of Insular Affairs"
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "Territory",
+      "DoB": "1898-12-10"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-territory-PR-e001",
+      "from_vertex_temp_id": "us-geo-territory-PR-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "PR territory in nation",
+      "Blurb": "Puerto Rico is contained by the United States NationState."
+    },
+    {
+      "VertexType": "Territory",
+      "submission_temp_id": "us-geo-territory-GU-v001",
+      "Name": "Guam",
+      "Sticker": "GU",
+      "Blurb": "U.S. inhabited territory (Guam).",
+      "Links": [
+        {
+          "URL": "https://www.doi.gov/oia/islands",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "DOI Office of Insular Affairs"
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "Territory",
+      "DoB": "1898-12-10"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-territory-GU-e001",
+      "from_vertex_temp_id": "us-geo-territory-GU-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "GU territory in nation",
+      "Blurb": "Guam is contained by the United States NationState."
+    },
+    {
+      "VertexType": "Territory",
+      "submission_temp_id": "us-geo-territory-AS-v001",
+      "Name": "American Samoa",
+      "Sticker": "AS",
+      "Blurb": "U.S. inhabited territory (American Samoa).",
+      "Links": [
+        {
+          "URL": "https://www.doi.gov/oia/islands",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "DOI Office of Insular Affairs"
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "Territory",
+      "DoB": "1900-04-17"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-territory-AS-e001",
+      "from_vertex_temp_id": "us-geo-territory-AS-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "AS territory in nation",
+      "Blurb": "American Samoa is contained by the United States NationState."
+    },
+    {
+      "VertexType": "Territory",
+      "submission_temp_id": "us-geo-territory-MP-v001",
+      "Name": "Northern Mariana Islands",
+      "Sticker": "MP",
+      "Blurb": "U.S. inhabited territory (Northern Mariana Islands).",
+      "Links": [
+        {
+          "URL": "https://www.doi.gov/oia/islands",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "DOI Office of Insular Affairs"
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "Territory",
+      "DoB": "1978-01-09"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-territory-MP-e001",
+      "from_vertex_temp_id": "us-geo-territory-MP-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "MP territory in nation",
+      "Blurb": "Northern Mariana Islands is contained by the United States NationState."
+    },
+    {
+      "VertexType": "Territory",
+      "submission_temp_id": "us-geo-territory-VI-v001",
+      "Name": "U.S. Virgin Islands",
+      "Sticker": "VI",
+      "Blurb": "U.S. inhabited territory (U.S. Virgin Islands).",
+      "Links": [
+        {
+          "URL": "https://www.doi.gov/oia/islands",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "DOI Office of Insular Affairs"
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "Territory",
+      "DoB": "1917-03-31"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-territory-VI-e001",
+      "from_vertex_temp_id": "us-geo-territory-VI-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "VI territory in nation",
+      "Blurb": "U.S. Virgin Islands is contained by the United States NationState."
+    },
+    {
+      "VertexType": "CapitalSpecialDistrict",
+      "submission_temp_id": "us-geo-csd-v001",
+      "Name": "District of Columbia",
+      "Sticker": "DC",
+      "Blurb": "Federal capital district polity (no separate CapitalDistrict geo vertex in v1).",
+      "Links": [
+        {
+          "URL": "https://www.archives.gov/milestone-documents/residence-act",
+          "DateRetrieved": "2026-04-16",
+          "IAFlag": false,
+          "IALink": null,
+          "Blurb": "Residence Act — federal district."
+        }
+      ],
+      "L1": "GeoLocation",
+      "L2": "CapitalSpecialDistrict",
+      "DoB": "1790-07-16"
+    },
+    {
+      "EdgeType": "ContainedBy",
+      "submission_temp_id": "us-geo-csd-e001",
+      "from_vertex_temp_id": "us-geo-csd-v001",
+      "to_vertex_temp_id": "us-geo-nation-v001",
+      "L1": "Vector",
+      "L2": "ContainedBy",
+      "Sticker": "DC polity in nation",
+      "Blurb": "District of Columbia is contained by the United States NationState."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+pack_id: us_gold_historical_structure
+version: "0.1.0"
+requires_atlas_schema_version: "1.2.0"
+description: >
+  Historical U.S. Congress session org scaffolding (1st–118th). Structural only;
+  delegation topology for past congresses is derived from catalog packs + Artemis jobs.
+files:
+  - envelope.json

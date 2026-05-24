@@ -1,0 +1,8 @@
+pack_id: us_geo_bootstrap
+version: "0.1.0"
+requires_atlas_schema_version: "1.2.0"
+description: >
+  U.S. polity and geographic bootstrap (NationState, states, territories, DC, federal apex).
+  Projected to Prospectus after Atlas apply — not interlinked with other packs.
+files:
+  - bootstrap.json

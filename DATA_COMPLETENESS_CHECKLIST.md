@@ -36,3 +36,12 @@ with reproducible CI gates that prevent regressions.
   those in parity report/summary artifacts for CI visibility.
 - [x] Add sync command guard mode (`codex-seeds-sync-from-athena --verify`) that fails if required
   catalog years/pack invariants are lost after copy.
+
+## v0.3.0 Prospectus projection packs (2026-05-21)
+
+- [x] Add **`us_geo_bootstrap`**, **`us_gold_current_structure`**, **`us_gold_historical_structure`** to bundle manifest (nine packs total).
+- [x] Export path from athena-codex (`export_atlas_prospectus_packs.py` / `--export-prospectus-packs`).
+- [x] Parity policy: projection packs in **`required_packs`** but **not** in **`builder_fixture_mappings`** (AS-5 catalog parity only).
+- [x] Publish GitHub Release **`v0.3.0`** and verify athena-codex pin SHA matches release asset (**2026-05-24**).
+- [ ] AS-5: delegation-aware full parity for congress **118** vs gold-detail (retire catalog-only workaround).
+- [ ] Document pack changelog when stable reference edits (e.g. jurisdictional splits) land in seeds repo only.
