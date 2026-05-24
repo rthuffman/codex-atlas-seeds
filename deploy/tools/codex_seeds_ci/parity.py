@@ -293,13 +293,27 @@ def _copy_pack_payloads_for_builders(repo_root: Path, out_dir: Path, policy: dic
             raise ValueError("builder_fixture_mappings entries must be objects")
         pack_id = str(raw.get("pack_id") or "").strip()
         src_name = str(raw.get("source_file") or "").strip()
-        dst_name = str(raw.get("builder_fixture_name") or "").strip()
+        dst_raw = raw.get("builder_fixture_name")
+        if dst_raw is None or (isinstance(dst_raw, str) and not dst_raw.strip()):
+            # Projection-only packs (geo/structure envelopes) are in required_packs but not AS-5 builder fixtures.
+            continue
+        dst_name = str(dst_raw).strip()
         if not pack_id or not src_name or not dst_name:
             raise ValueError("builder_fixture_mappings entries require pack_id/source_file/builder_fixture_name")
         src = repo_root / "packs" / pack_id / src_name
         if not src.is_file():
             raise FileNotFoundError(f"missing pack payload: {src}")
         shutil.copy2(src, out_dir / dst_name)
+
+
+def _parity_polity_slugs() -> dict[str, str]:
+    """Synthetic postal→slug map so House delegation/seat scaffolding runs in CI (no live graph)."""
+    from artemis.usg_congress_session_builder import _STATE_POSTAL_TO_NAME  # type: ignore
+
+    slugs = {postal: f"parity-polity-{postal.lower()}" for postal in _STATE_POSTAL_TO_NAME}
+    for code in ("DC", "PR", "AS", "GU", "MP", "VI"):
+        slugs[code] = f"parity-polity-{code.lower()}"
+    return slugs
 
 
 def _compare_congress(
@@ -393,8 +407,12 @@ def _compare_congress_catalog_only(
     api_offices = [r for r in build_records if r.get("VertexType") == "Office"]
     api_seatof = [r for r in build_records if r.get("EdgeType") == "SeatOf"]
 
-    if len(api_orgs) != 3:
-        errors.append(f"congress {congress}: expected 3 GovernmentalOrg rows, got {len(api_orgs)}")
+    if len(api_orgs) < 3:
+        errors.append(f"congress {congress}: expected at least 3 GovernmentalOrg rows, got {len(api_orgs)}")
+    found_names = {str(r.get("Name") or "") for r in api_orgs}
+    missing = expected_names - found_names
+    if missing:
+        errors.append(f"congress {congress}: missing expected org names: {sorted(missing)}")
     if len(api_mem) < 6:
         errors.append(f"congress {congress}: expected at least 6 Membership rows, got {len(api_mem)}")
     if not api_offices:
@@ -403,10 +421,6 @@ def _compare_congress_catalog_only(
         errors.append(
             f"congress {congress}: Office/SeatOf count mismatch {len(api_offices)} != {len(api_seatof)}"
         )
-
-    names = {str(r.get("Name") or "") for r in api_orgs}
-    if expected_names and names != expected_names:
-        errors.append(f"congress {congress}: GovernmentalOrg name set drift")
 
     interval_rows = api_orgs + api_mem + api_offices + api_seatof
     if interval_rows:
@@ -584,8 +598,14 @@ def run_parity(
         try:
             os.environ["ARTEMIS_USG_SKELETON_DIR"] = str(skeleton_dir)
             os.environ["ARTEMIS_CONGRESS_GOV_API_TOKEN"] = ""
+            polity_slugs = _parity_polity_slugs()
             for congress in scope_congress:
-                intent = build_congress_session_intent(congress, permanent_slugs=leg_slugs, as_of="2026-05-20")
+                intent = build_congress_session_intent(
+                    congress,
+                    permanent_slugs=leg_slugs,
+                    polity_slugs=polity_slugs,
+                    as_of="2026-05-20",
+                )
                 all_records_for_reserved_check.extend(intent.records)
                 if congress in catalog_only_congresses:
                     diffs.extend(

@@ -43,7 +43,7 @@ def test_parity_policy_file_loads() -> None:
     assert 2025 in policy.get("required_catalog_inauguration_years", [])
     assert 1 in policy["scope"]["full"]["congresses"]
     assert 40 in policy.get("catalog_only_congresses", [])
-    assert 100 in policy.get("catalog_only_congresses", [])
+    assert 118 in policy.get("catalog_only_congresses", [])
     assert 1945 in policy.get("catalog_only_administration_years", [])
     legacy = policy.get("legacy_exceptions", [])
     assert isinstance(legacy, list) and legacy

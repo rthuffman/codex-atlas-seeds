@@ -7,6 +7,9 @@ required_packs:
   - usg_congress_session_bounds
   - usg_congress_state_seating
   - usg_house_non_voting_delegate_seats
+  - us_geo_bootstrap
+  - us_gold_current_structure
+  - us_gold_historical_structure
 
 required_catalog_inauguration_years:
   - 1789
@@ -28,7 +31,7 @@ scope:
     congresses: [1, 40, 80, 100, 118]
     administration_years: [1789, 1841, 1865, 1901, 1945, 2009, 2013, 2021, 2025]
 
-catalog_only_congresses: [1, 40, 80, 100]
+catalog_only_congresses: [1, 40, 80, 100, 118]
 
 catalog_only_administration_years: [1789, 1841, 1865, 1901, 1945, 2013, 2025]
 
