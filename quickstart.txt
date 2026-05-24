@@ -1,0 +1,16 @@
+Re-run from codex-atlas-seeds:
+
+python .\scripts\with_athena_venv.py
+You should see 11 passed and the pipeline continue through build/parity.
+
+To publish after green CI:
+
+git add parity_policy.yaml deploy/tools/codex_seeds_ci/parity.py tests/test_parity.py
+git commit -m "Fix parity policy for v0.3.0 projection packs and delegation model"
+git tag v0.3.0
+git push origin main
+git push origin v0.3.0
+Or locally:
+
+$env:GITHUB_TOKEN = "<token>"
+python .\scripts\with_athena_venv.py codex-seeds-release --tag v0.3.0

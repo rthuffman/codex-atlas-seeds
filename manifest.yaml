@@ -1,11 +1,13 @@
 bundle_format_version: 1
-bundle_version: "0.2.0"
-requires_atlas_schema_version: "1.1.0"
+bundle_version: "0.3.0"
+requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
   ADR: athena-codex docs/decisions/2026-05-20-codex-atlas-seeds-reference-packs.md
-  v0.2.0: 1789 USG structure slice (admin catalog 50 rows, apportionment 1st–130th,
-  session bounds, Civil War seating mask, non-voting delegates).
+  v0.2.0: 1789 USG catalog slice (admin, apportionment, session bounds, seating, delegates).
+  v0.3.0: adds Prospectus projection packs — us_geo_bootstrap, us_gold_current_structure,
+  us_gold_historical_structure (Option B: Atlas apply then bootstrap projection to Prospectus).
+  Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
     version: "0.2.0"
@@ -31,3 +33,15 @@ packs:
     version: "0.2.0"
     files:
       - delegates.json
+  - pack_id: us_geo_bootstrap
+    version: "0.1.0"
+    files:
+      - bootstrap.json
+  - pack_id: us_gold_current_structure
+    version: "0.1.0"
+    files:
+      - envelope.json
+  - pack_id: us_gold_historical_structure
+    version: "0.1.0"
+    files:
+      - envelope.json

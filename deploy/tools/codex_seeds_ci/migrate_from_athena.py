@@ -89,8 +89,17 @@ def main() -> int:
         action="store_true",
         help="Validate post-sync invariants (coverage horizon + required inauguration years)",
     )
+    parser.add_argument(
+        "--export-prospectus-packs",
+        action="store_true",
+        help="Run athena export_atlas_prospectus_packs.py into this repo's packs/",
+    )
     args = parser.parse_args()
     athena = athena_codex_root()
+    if args.export_prospectus_packs:
+        from codex_seeds_ci.export_prospectus_packs import export_prospectus_packs
+
+        export_prospectus_packs(athena_root=athena, seeds_root=find_repo_root())
     if args.regenerate_catalog:
         import subprocess
 

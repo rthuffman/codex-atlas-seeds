@@ -37,9 +37,12 @@ d:\repos\athena-codex\.venv\Scripts\python.exe -m pip install -e "./deploy/tools
 python scripts/with_athena_venv.py codex-seeds-validate
 python scripts/with_athena_venv.py codex-seeds-ci --all
 python scripts/with_athena_venv.py codex-seeds-parity --mode full
-python scripts/with_athena_venv.py codex-seeds-sync-from-athena
-python scripts/with_athena_venv.py codex-seeds-release --tag v0.1.0
+python scripts/with_athena_venv.py codex-seeds-sync-from-athena --export-prospectus-packs
 ```
+
+### Stable reference policy (v0.3.0+)
+
+Once geo, gold-current structure, or historical congress scaffolding is **canonical**, edits belong **only in this repo** — not by regenerating primary artifacts in athena-codex. Export tooling (`export_atlas_prospectus_packs.py` / `--export-prospectus-packs`) is for migration and parity only. See athena-codex ADR [`2026-05-21-atlas-seeds-stable-reference-one-way-policy.md`](https://github.com/rthuffman/athena-codex/blob/main/docs/decisions/2026-05-21-atlas-seeds-stable-reference-one-way-policy.md).
 
 ### Layout
 
@@ -64,19 +67,21 @@ Pin consumed bundles in **athena-codex** deploy manifests (`version` + `sha256`)
 
 ## Status
 
-**Bundle `0.2.0`** (six USG packs, synced from `athena/docs/fixtures/usg-structure/`):
+**Bundle `0.3.0`** (nine USG packs):
 
 | Pack | Payload |
 |------|---------|
-| `usg_administration_skeleton` | 50 administrations (1789 → 2025) |
-| `usg_statutory_cabinet_timeline` | Department era map |
-| `usg_house_apportionment_vintages` | Apportionment 1st–130th |
-| `usg_congress_session_bounds` | Congress DoB/DoE hints |
-| `usg_congress_state_seating` | Civil War seating mask (37th–41st) |
-| `usg_house_non_voting_delegate_seats` | Territorial delegates |
+| *(v0.2.0 catalog packs)* | administration, cabinet timeline, apportionment, session bounds, seating, delegates |
+| `us_geo_bootstrap` | NationState, 50 states, territories, DC, federal apex (220 records) |
+| `us_gold_current_structure` | 119th Congress + 47th administration shell (1527 records, no geo) |
+| `us_gold_historical_structure` | 1st–118th Congress session org scaffolding (391 records) |
 
-Refresh from athena-codex: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --verify` (optional `--regenerate-catalog`). Tag release: `codex-seeds-release --tag v0.2.0`.
+Refresh catalog packs: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --verify`.  
+Refresh Prospectus projection packs: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --export-prospectus-packs`.  
+Tag release: `codex-seeds-release --tag v0.3.0`.
 
-Atlas populate / Artemis ilink read paths are follow-ups in athena-codex (bootstrap bundle pin).
+Bootstrap: apply Atlas bundle in talisman-bootstrap, then **Project Atlas seeds → Prospectus** (Option B).
+
+Pin consumed bundles in **athena-codex** (`codex/docs/atlas_seeds_bundle_pin.json`).
 
 Data stability work tracker: [`DATA_COMPLETENESS_CHECKLIST.md`](DATA_COMPLETENESS_CHECKLIST.md).
