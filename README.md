@@ -86,20 +86,20 @@ Runbook: [athena-codex `docs/prospectus-environment-first-setup.md`](https://git
 
 ## Status
 
-**Release [`v0.3.0`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.0)** published **2026-05-24**. Pin in athena-codex: [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json).
+**Release [`v0.3.1`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.1)** prepared **2026-05-24**. Pin in athena-codex: [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json).
 
-**Bundle `0.3.0`** (nine USG packs):
+**Bundle `0.3.1`** (nine USG packs):
 
 | Pack | Payload |
 |------|---------|
 | *(v0.2.0 catalog packs)* | administration, cabinet timeline, apportionment, session bounds, seating, delegates |
-| `us_geo_bootstrap` | NationState, 50 states, territories, DC, federal apex (220 records) |
+| `us_geo_bootstrap` | NationState, 50 states, territories, DC, federal apex (220 records; optional taxonomy fields omitted so Athena derives current schema hierarchy) |
 | `us_gold_current_structure` | 119th Congress + 47th administration shell (1527 records, no geo) |
 | `us_gold_historical_structure` | 1st–118th Congress session org scaffolding (391 records) |
 
 Refresh catalog packs: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --verify`.  
 Refresh Prospectus projection packs: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --export-prospectus-packs`.  
-Tag release: `codex-seeds-release --tag v0.3.0`.
+Tag release: `codex-seeds-release --tag v0.3.1`.
 
 Bootstrap: apply Atlas bundle in talisman-bootstrap, then **Project Atlas seeds → Prospectus** (Option B).
 

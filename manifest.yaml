@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.0"
+bundle_version: "0.3.1"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -7,6 +7,7 @@ notes: >
   v0.2.0: 1789 USG catalog slice (admin, apportionment, session bounds, seating, delegates).
   v0.3.0: adds Prospectus projection packs — us_geo_bootstrap, us_gold_current_structure,
   us_gold_historical_structure (Option B: Atlas apply then bootstrap projection to Prospectus).
+  v0.3.1: removes stale optional L1/L2/L3 from projection packs so Athena derives taxonomy from VertexType/EdgeType.
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -34,7 +35,7 @@ packs:
     files:
       - delegates.json
   - pack_id: us_geo_bootstrap
-    version: "0.1.0"
+    version: "0.1.1"
     files:
       - bootstrap.json
   - pack_id: us_gold_current_structure

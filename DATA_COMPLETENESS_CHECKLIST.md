@@ -43,5 +43,6 @@ with reproducible CI gates that prevent regressions.
 - [x] Export path from athena-codex (`export_atlas_prospectus_packs.py` / `--export-prospectus-packs`).
 - [x] Parity policy: projection packs in **`required_packs`** but **not** in **`builder_fixture_mappings`** (AS-5 catalog parity only).
 - [x] Publish GitHub Release **`v0.3.0`** and verify athena-codex pin SHA matches release asset (**2026-05-24**).
+- [x] Prepare **`v0.3.1`** bundle removing stale optional `L1`/`L2`/`L3` projection fields so Athena derives taxonomy from current schema.
 - [ ] AS-5: delegation-aware full parity for congress **118** vs gold-detail (retire catalog-only workaround).
 - [ ] Document pack changelog when stable reference edits (e.g. jurisdictional splits) land in seeds repo only.

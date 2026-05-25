@@ -27,6 +27,7 @@ def test_build_bundle_deterministic(tmp_path) -> None:
     out2 = tmp_path / "b.tar.gz"
     build_bundle(repo_root=root, output=out1)
     build_bundle(repo_root=root, output=out2)
+    assert out1.read_bytes() == out2.read_bytes()
     assert _member_digest_map(out1) == _member_digest_map(out2)
 
 

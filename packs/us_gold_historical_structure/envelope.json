@@ -34,9 +34,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 80th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -54,9 +52,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -74,9 +70,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -101,9 +95,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 81st Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -121,9 +113,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -141,9 +131,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -168,9 +156,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 82nd Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -188,9 +174,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -208,9 +192,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -235,9 +217,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 83rd Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -255,9 +235,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -275,9 +253,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -302,9 +278,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 84th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -322,9 +296,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -342,9 +314,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -369,9 +339,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 85th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -389,9 +357,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -409,9 +375,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -436,9 +400,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 86th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -456,9 +418,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -476,9 +436,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -503,9 +461,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 87th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -523,9 +479,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -543,9 +497,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -570,9 +522,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 88th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -590,9 +540,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -610,9 +558,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -637,9 +583,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 89th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -657,9 +601,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -677,9 +619,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -704,9 +644,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 90th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -724,9 +662,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -744,9 +680,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -771,9 +705,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 91st Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -791,9 +723,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -811,9 +741,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -838,9 +766,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 92nd Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -858,9 +784,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -878,9 +802,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -905,9 +827,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 93rd Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -925,9 +845,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -945,9 +863,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -972,9 +888,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 94th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -992,9 +906,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1012,9 +924,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1039,9 +949,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 95th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1059,9 +967,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1079,9 +985,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1106,9 +1010,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 96th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1126,9 +1028,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1146,9 +1046,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1173,9 +1071,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 97th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1193,9 +1089,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1213,9 +1107,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1240,9 +1132,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 98th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1260,9 +1150,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1280,9 +1168,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1307,9 +1193,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 99th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1327,9 +1211,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1347,9 +1229,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1374,9 +1254,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 100th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1394,9 +1272,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1414,9 +1290,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1441,9 +1315,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 101st Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1461,9 +1333,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1481,9 +1351,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1508,9 +1376,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 102nd Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1528,9 +1394,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1548,9 +1412,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1575,9 +1437,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 103rd Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1595,9 +1455,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1615,9 +1473,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1642,9 +1498,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 104th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1662,9 +1516,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1682,9 +1534,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1709,9 +1559,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 105th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1729,9 +1577,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1749,9 +1595,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1776,9 +1620,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 106th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1796,9 +1638,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1816,9 +1656,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1843,9 +1681,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 107th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1863,9 +1699,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1883,9 +1717,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1910,9 +1742,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 108th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1930,9 +1760,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1950,9 +1778,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1977,9 +1803,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 109th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -1997,9 +1821,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2017,9 +1839,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2044,9 +1864,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 110th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2064,9 +1882,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2084,9 +1900,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2111,9 +1925,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 111th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2131,9 +1943,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2151,9 +1961,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2178,9 +1986,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 112th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2198,9 +2004,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2218,9 +2022,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2245,9 +2047,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 113th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2265,9 +2065,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2285,9 +2083,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2312,9 +2108,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 114th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2332,9 +2126,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2352,9 +2144,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2379,9 +2169,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 115th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2399,9 +2187,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2419,9 +2205,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2446,9 +2230,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 116th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2466,9 +2248,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2486,9 +2266,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2513,9 +2291,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 117th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2533,9 +2309,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2553,9 +2327,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2580,9 +2352,7 @@
           "IALink": null,
           "Blurb": "Congress.gov — 118th Congress"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2600,9 +2370,7 @@
           "IALink": null,
           "Blurb": "House session org — house.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2620,9 +2388,7 @@
           "IALink": null,
           "Blurb": "Senate session org — senate.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -2638,17 +2404,13 @@
           "IALink": null,
           "Blurb": "U.S. Congress — Congress.gov"
         }
-      ],
-      "L1": "Organization",
-      "L2": "GovernmentalOrg"
+      ]
     },
     {
       "EdgeType": "Membership",
       "submission_temp_id": "usg-gold-leg-cong080-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong080-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong080-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "80th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -2657,8 +2419,6 @@
       "submission_temp_id": "usg-gold-leg-cong080-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong080-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -2667,8 +2427,6 @@
       "submission_temp_id": "usg-gold-leg-cong080-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong080-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong080-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "80th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -2677,8 +2435,6 @@
       "submission_temp_id": "usg-gold-leg-cong080-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong080-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -2687,8 +2443,6 @@
       "submission_temp_id": "usg-gold-leg-cong080-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong080-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -2697,8 +2451,6 @@
       "submission_temp_id": "usg-gold-leg-cong080-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong080-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -2707,8 +2459,6 @@
       "submission_temp_id": "usg-gold-leg-cong080-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong080-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -2717,8 +2467,6 @@
       "submission_temp_id": "usg-gold-leg-cong081-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong081-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong081-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "81st House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -2727,8 +2475,6 @@
       "submission_temp_id": "usg-gold-leg-cong081-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong081-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -2737,8 +2483,6 @@
       "submission_temp_id": "usg-gold-leg-cong081-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong081-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong081-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "81st Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -2747,8 +2491,6 @@
       "submission_temp_id": "usg-gold-leg-cong081-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong081-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -2757,8 +2499,6 @@
       "submission_temp_id": "usg-gold-leg-cong081-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong081-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -2767,8 +2507,6 @@
       "submission_temp_id": "usg-gold-leg-cong081-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong081-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -2777,8 +2515,6 @@
       "submission_temp_id": "usg-gold-leg-cong081-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong081-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -2787,8 +2523,6 @@
       "submission_temp_id": "usg-gold-leg-cong082-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong082-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong082-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "82nd House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -2797,8 +2531,6 @@
       "submission_temp_id": "usg-gold-leg-cong082-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong082-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -2807,8 +2539,6 @@
       "submission_temp_id": "usg-gold-leg-cong082-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong082-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong082-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "82nd Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -2817,8 +2547,6 @@
       "submission_temp_id": "usg-gold-leg-cong082-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong082-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -2827,8 +2555,6 @@
       "submission_temp_id": "usg-gold-leg-cong082-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong082-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -2837,8 +2563,6 @@
       "submission_temp_id": "usg-gold-leg-cong082-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong082-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -2847,8 +2571,6 @@
       "submission_temp_id": "usg-gold-leg-cong082-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong082-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -2857,8 +2579,6 @@
       "submission_temp_id": "usg-gold-leg-cong083-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong083-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong083-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "83rd House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -2867,8 +2587,6 @@
       "submission_temp_id": "usg-gold-leg-cong083-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong083-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -2877,8 +2595,6 @@
       "submission_temp_id": "usg-gold-leg-cong083-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong083-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong083-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "83rd Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -2887,8 +2603,6 @@
       "submission_temp_id": "usg-gold-leg-cong083-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong083-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -2897,8 +2611,6 @@
       "submission_temp_id": "usg-gold-leg-cong083-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong083-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -2907,8 +2619,6 @@
       "submission_temp_id": "usg-gold-leg-cong083-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong083-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -2917,8 +2627,6 @@
       "submission_temp_id": "usg-gold-leg-cong083-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong083-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -2927,8 +2635,6 @@
       "submission_temp_id": "usg-gold-leg-cong084-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong084-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong084-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "84th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -2937,8 +2643,6 @@
       "submission_temp_id": "usg-gold-leg-cong084-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong084-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -2947,8 +2651,6 @@
       "submission_temp_id": "usg-gold-leg-cong084-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong084-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong084-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "84th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -2957,8 +2659,6 @@
       "submission_temp_id": "usg-gold-leg-cong084-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong084-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -2967,8 +2667,6 @@
       "submission_temp_id": "usg-gold-leg-cong084-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong084-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -2977,8 +2675,6 @@
       "submission_temp_id": "usg-gold-leg-cong084-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong084-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -2987,8 +2683,6 @@
       "submission_temp_id": "usg-gold-leg-cong084-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong084-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -2997,8 +2691,6 @@
       "submission_temp_id": "usg-gold-leg-cong085-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong085-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong085-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "85th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3007,8 +2699,6 @@
       "submission_temp_id": "usg-gold-leg-cong085-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong085-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3017,8 +2707,6 @@
       "submission_temp_id": "usg-gold-leg-cong085-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong085-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong085-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "85th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3027,8 +2715,6 @@
       "submission_temp_id": "usg-gold-leg-cong085-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong085-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3037,8 +2723,6 @@
       "submission_temp_id": "usg-gold-leg-cong085-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong085-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3047,8 +2731,6 @@
       "submission_temp_id": "usg-gold-leg-cong085-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong085-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3057,8 +2739,6 @@
       "submission_temp_id": "usg-gold-leg-cong085-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong085-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3067,8 +2747,6 @@
       "submission_temp_id": "usg-gold-leg-cong086-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong086-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong086-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "86th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3077,8 +2755,6 @@
       "submission_temp_id": "usg-gold-leg-cong086-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong086-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3087,8 +2763,6 @@
       "submission_temp_id": "usg-gold-leg-cong086-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong086-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong086-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "86th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3097,8 +2771,6 @@
       "submission_temp_id": "usg-gold-leg-cong086-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong086-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3107,8 +2779,6 @@
       "submission_temp_id": "usg-gold-leg-cong086-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong086-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3117,8 +2787,6 @@
       "submission_temp_id": "usg-gold-leg-cong086-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong086-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3127,8 +2795,6 @@
       "submission_temp_id": "usg-gold-leg-cong086-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong086-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3137,8 +2803,6 @@
       "submission_temp_id": "usg-gold-leg-cong087-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong087-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong087-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "87th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3147,8 +2811,6 @@
       "submission_temp_id": "usg-gold-leg-cong087-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong087-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3157,8 +2819,6 @@
       "submission_temp_id": "usg-gold-leg-cong087-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong087-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong087-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "87th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3167,8 +2827,6 @@
       "submission_temp_id": "usg-gold-leg-cong087-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong087-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3177,8 +2835,6 @@
       "submission_temp_id": "usg-gold-leg-cong087-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong087-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3187,8 +2843,6 @@
       "submission_temp_id": "usg-gold-leg-cong087-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong087-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3197,8 +2851,6 @@
       "submission_temp_id": "usg-gold-leg-cong087-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong087-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3207,8 +2859,6 @@
       "submission_temp_id": "usg-gold-leg-cong088-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong088-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong088-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "88th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3217,8 +2867,6 @@
       "submission_temp_id": "usg-gold-leg-cong088-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong088-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3227,8 +2875,6 @@
       "submission_temp_id": "usg-gold-leg-cong088-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong088-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong088-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "88th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3237,8 +2883,6 @@
       "submission_temp_id": "usg-gold-leg-cong088-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong088-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3247,8 +2891,6 @@
       "submission_temp_id": "usg-gold-leg-cong088-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong088-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3257,8 +2899,6 @@
       "submission_temp_id": "usg-gold-leg-cong088-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong088-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3267,8 +2907,6 @@
       "submission_temp_id": "usg-gold-leg-cong088-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong088-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3277,8 +2915,6 @@
       "submission_temp_id": "usg-gold-leg-cong089-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong089-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong089-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "89th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3287,8 +2923,6 @@
       "submission_temp_id": "usg-gold-leg-cong089-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong089-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3297,8 +2931,6 @@
       "submission_temp_id": "usg-gold-leg-cong089-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong089-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong089-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "89th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3307,8 +2939,6 @@
       "submission_temp_id": "usg-gold-leg-cong089-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong089-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3317,8 +2947,6 @@
       "submission_temp_id": "usg-gold-leg-cong089-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong089-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3327,8 +2955,6 @@
       "submission_temp_id": "usg-gold-leg-cong089-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong089-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3337,8 +2963,6 @@
       "submission_temp_id": "usg-gold-leg-cong089-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong089-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3347,8 +2971,6 @@
       "submission_temp_id": "usg-gold-leg-cong090-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong090-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong090-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "90th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3357,8 +2979,6 @@
       "submission_temp_id": "usg-gold-leg-cong090-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong090-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3367,8 +2987,6 @@
       "submission_temp_id": "usg-gold-leg-cong090-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong090-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong090-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "90th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3377,8 +2995,6 @@
       "submission_temp_id": "usg-gold-leg-cong090-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong090-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3387,8 +3003,6 @@
       "submission_temp_id": "usg-gold-leg-cong090-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong090-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3397,8 +3011,6 @@
       "submission_temp_id": "usg-gold-leg-cong090-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong090-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3407,8 +3019,6 @@
       "submission_temp_id": "usg-gold-leg-cong090-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong090-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3417,8 +3027,6 @@
       "submission_temp_id": "usg-gold-leg-cong091-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong091-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong091-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "91st House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3427,8 +3035,6 @@
       "submission_temp_id": "usg-gold-leg-cong091-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong091-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3437,8 +3043,6 @@
       "submission_temp_id": "usg-gold-leg-cong091-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong091-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong091-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "91st Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3447,8 +3051,6 @@
       "submission_temp_id": "usg-gold-leg-cong091-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong091-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3457,8 +3059,6 @@
       "submission_temp_id": "usg-gold-leg-cong091-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong091-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3467,8 +3067,6 @@
       "submission_temp_id": "usg-gold-leg-cong091-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong091-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3477,8 +3075,6 @@
       "submission_temp_id": "usg-gold-leg-cong091-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong091-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3487,8 +3083,6 @@
       "submission_temp_id": "usg-gold-leg-cong092-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong092-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong092-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "92nd House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3497,8 +3091,6 @@
       "submission_temp_id": "usg-gold-leg-cong092-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong092-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3507,8 +3099,6 @@
       "submission_temp_id": "usg-gold-leg-cong092-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong092-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong092-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "92nd Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3517,8 +3107,6 @@
       "submission_temp_id": "usg-gold-leg-cong092-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong092-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3527,8 +3115,6 @@
       "submission_temp_id": "usg-gold-leg-cong092-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong092-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3537,8 +3123,6 @@
       "submission_temp_id": "usg-gold-leg-cong092-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong092-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3547,8 +3131,6 @@
       "submission_temp_id": "usg-gold-leg-cong092-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong092-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3557,8 +3139,6 @@
       "submission_temp_id": "usg-gold-leg-cong093-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong093-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong093-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "93rd House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3567,8 +3147,6 @@
       "submission_temp_id": "usg-gold-leg-cong093-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong093-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3577,8 +3155,6 @@
       "submission_temp_id": "usg-gold-leg-cong093-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong093-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong093-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "93rd Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3587,8 +3163,6 @@
       "submission_temp_id": "usg-gold-leg-cong093-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong093-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3597,8 +3171,6 @@
       "submission_temp_id": "usg-gold-leg-cong093-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong093-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3607,8 +3179,6 @@
       "submission_temp_id": "usg-gold-leg-cong093-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong093-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3617,8 +3187,6 @@
       "submission_temp_id": "usg-gold-leg-cong093-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong093-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3627,8 +3195,6 @@
       "submission_temp_id": "usg-gold-leg-cong094-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong094-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong094-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "94th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3637,8 +3203,6 @@
       "submission_temp_id": "usg-gold-leg-cong094-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong094-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3647,8 +3211,6 @@
       "submission_temp_id": "usg-gold-leg-cong094-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong094-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong094-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "94th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3657,8 +3219,6 @@
       "submission_temp_id": "usg-gold-leg-cong094-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong094-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3667,8 +3227,6 @@
       "submission_temp_id": "usg-gold-leg-cong094-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong094-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3677,8 +3235,6 @@
       "submission_temp_id": "usg-gold-leg-cong094-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong094-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3687,8 +3243,6 @@
       "submission_temp_id": "usg-gold-leg-cong094-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong094-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3697,8 +3251,6 @@
       "submission_temp_id": "usg-gold-leg-cong095-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong095-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong095-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "95th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3707,8 +3259,6 @@
       "submission_temp_id": "usg-gold-leg-cong095-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong095-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3717,8 +3267,6 @@
       "submission_temp_id": "usg-gold-leg-cong095-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong095-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong095-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "95th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3727,8 +3275,6 @@
       "submission_temp_id": "usg-gold-leg-cong095-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong095-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3737,8 +3283,6 @@
       "submission_temp_id": "usg-gold-leg-cong095-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong095-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3747,8 +3291,6 @@
       "submission_temp_id": "usg-gold-leg-cong095-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong095-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3757,8 +3299,6 @@
       "submission_temp_id": "usg-gold-leg-cong095-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong095-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3767,8 +3307,6 @@
       "submission_temp_id": "usg-gold-leg-cong096-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong096-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong096-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "96th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3777,8 +3315,6 @@
       "submission_temp_id": "usg-gold-leg-cong096-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong096-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3787,8 +3323,6 @@
       "submission_temp_id": "usg-gold-leg-cong096-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong096-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong096-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "96th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3797,8 +3331,6 @@
       "submission_temp_id": "usg-gold-leg-cong096-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong096-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3807,8 +3339,6 @@
       "submission_temp_id": "usg-gold-leg-cong096-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong096-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3817,8 +3347,6 @@
       "submission_temp_id": "usg-gold-leg-cong096-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong096-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3827,8 +3355,6 @@
       "submission_temp_id": "usg-gold-leg-cong096-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong096-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3837,8 +3363,6 @@
       "submission_temp_id": "usg-gold-leg-cong097-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong097-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong097-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "97th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3847,8 +3371,6 @@
       "submission_temp_id": "usg-gold-leg-cong097-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong097-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3857,8 +3379,6 @@
       "submission_temp_id": "usg-gold-leg-cong097-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong097-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong097-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "97th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3867,8 +3387,6 @@
       "submission_temp_id": "usg-gold-leg-cong097-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong097-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3877,8 +3395,6 @@
       "submission_temp_id": "usg-gold-leg-cong097-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong097-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3887,8 +3403,6 @@
       "submission_temp_id": "usg-gold-leg-cong097-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong097-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3897,8 +3411,6 @@
       "submission_temp_id": "usg-gold-leg-cong097-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong097-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3907,8 +3419,6 @@
       "submission_temp_id": "usg-gold-leg-cong098-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong098-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong098-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "98th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3917,8 +3427,6 @@
       "submission_temp_id": "usg-gold-leg-cong098-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong098-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3927,8 +3435,6 @@
       "submission_temp_id": "usg-gold-leg-cong098-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong098-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong098-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "98th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -3937,8 +3443,6 @@
       "submission_temp_id": "usg-gold-leg-cong098-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong098-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -3947,8 +3451,6 @@
       "submission_temp_id": "usg-gold-leg-cong098-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong098-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -3957,8 +3459,6 @@
       "submission_temp_id": "usg-gold-leg-cong098-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong098-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -3967,8 +3467,6 @@
       "submission_temp_id": "usg-gold-leg-cong098-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong098-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -3977,8 +3475,6 @@
       "submission_temp_id": "usg-gold-leg-cong099-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong099-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong099-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "99th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -3987,8 +3483,6 @@
       "submission_temp_id": "usg-gold-leg-cong099-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong099-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -3997,8 +3491,6 @@
       "submission_temp_id": "usg-gold-leg-cong099-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong099-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong099-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "99th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4007,8 +3499,6 @@
       "submission_temp_id": "usg-gold-leg-cong099-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong099-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4017,8 +3507,6 @@
       "submission_temp_id": "usg-gold-leg-cong099-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong099-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4027,8 +3515,6 @@
       "submission_temp_id": "usg-gold-leg-cong099-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong099-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4037,8 +3523,6 @@
       "submission_temp_id": "usg-gold-leg-cong099-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong099-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4047,8 +3531,6 @@
       "submission_temp_id": "usg-gold-leg-cong100-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong100-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong100-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "100th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4057,8 +3539,6 @@
       "submission_temp_id": "usg-gold-leg-cong100-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong100-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4067,8 +3547,6 @@
       "submission_temp_id": "usg-gold-leg-cong100-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong100-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong100-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "100th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4077,8 +3555,6 @@
       "submission_temp_id": "usg-gold-leg-cong100-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong100-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4087,8 +3563,6 @@
       "submission_temp_id": "usg-gold-leg-cong100-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong100-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4097,8 +3571,6 @@
       "submission_temp_id": "usg-gold-leg-cong100-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong100-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4107,8 +3579,6 @@
       "submission_temp_id": "usg-gold-leg-cong100-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong100-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4117,8 +3587,6 @@
       "submission_temp_id": "usg-gold-leg-cong101-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong101-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong101-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "101st House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4127,8 +3595,6 @@
       "submission_temp_id": "usg-gold-leg-cong101-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong101-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4137,8 +3603,6 @@
       "submission_temp_id": "usg-gold-leg-cong101-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong101-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong101-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "101st Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4147,8 +3611,6 @@
       "submission_temp_id": "usg-gold-leg-cong101-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong101-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4157,8 +3619,6 @@
       "submission_temp_id": "usg-gold-leg-cong101-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong101-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4167,8 +3627,6 @@
       "submission_temp_id": "usg-gold-leg-cong101-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong101-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4177,8 +3635,6 @@
       "submission_temp_id": "usg-gold-leg-cong101-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong101-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4187,8 +3643,6 @@
       "submission_temp_id": "usg-gold-leg-cong102-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong102-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong102-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "102nd House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4197,8 +3651,6 @@
       "submission_temp_id": "usg-gold-leg-cong102-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong102-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4207,8 +3659,6 @@
       "submission_temp_id": "usg-gold-leg-cong102-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong102-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong102-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "102nd Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4217,8 +3667,6 @@
       "submission_temp_id": "usg-gold-leg-cong102-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong102-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4227,8 +3675,6 @@
       "submission_temp_id": "usg-gold-leg-cong102-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong102-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4237,8 +3683,6 @@
       "submission_temp_id": "usg-gold-leg-cong102-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong102-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4247,8 +3691,6 @@
       "submission_temp_id": "usg-gold-leg-cong102-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong102-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4257,8 +3699,6 @@
       "submission_temp_id": "usg-gold-leg-cong103-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong103-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong103-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "103rd House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4267,8 +3707,6 @@
       "submission_temp_id": "usg-gold-leg-cong103-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong103-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4277,8 +3715,6 @@
       "submission_temp_id": "usg-gold-leg-cong103-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong103-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong103-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "103rd Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4287,8 +3723,6 @@
       "submission_temp_id": "usg-gold-leg-cong103-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong103-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4297,8 +3731,6 @@
       "submission_temp_id": "usg-gold-leg-cong103-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong103-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4307,8 +3739,6 @@
       "submission_temp_id": "usg-gold-leg-cong103-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong103-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4317,8 +3747,6 @@
       "submission_temp_id": "usg-gold-leg-cong103-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong103-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4327,8 +3755,6 @@
       "submission_temp_id": "usg-gold-leg-cong104-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong104-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong104-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "104th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4337,8 +3763,6 @@
       "submission_temp_id": "usg-gold-leg-cong104-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong104-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4347,8 +3771,6 @@
       "submission_temp_id": "usg-gold-leg-cong104-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong104-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong104-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "104th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4357,8 +3779,6 @@
       "submission_temp_id": "usg-gold-leg-cong104-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong104-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4367,8 +3787,6 @@
       "submission_temp_id": "usg-gold-leg-cong104-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong104-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4377,8 +3795,6 @@
       "submission_temp_id": "usg-gold-leg-cong104-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong104-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4387,8 +3803,6 @@
       "submission_temp_id": "usg-gold-leg-cong104-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong104-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4397,8 +3811,6 @@
       "submission_temp_id": "usg-gold-leg-cong105-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong105-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong105-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "105th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4407,8 +3819,6 @@
       "submission_temp_id": "usg-gold-leg-cong105-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong105-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4417,8 +3827,6 @@
       "submission_temp_id": "usg-gold-leg-cong105-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong105-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong105-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "105th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4427,8 +3835,6 @@
       "submission_temp_id": "usg-gold-leg-cong105-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong105-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4437,8 +3843,6 @@
       "submission_temp_id": "usg-gold-leg-cong105-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong105-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4447,8 +3851,6 @@
       "submission_temp_id": "usg-gold-leg-cong105-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong105-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4457,8 +3859,6 @@
       "submission_temp_id": "usg-gold-leg-cong105-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong105-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4467,8 +3867,6 @@
       "submission_temp_id": "usg-gold-leg-cong106-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong106-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong106-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "106th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4477,8 +3875,6 @@
       "submission_temp_id": "usg-gold-leg-cong106-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong106-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4487,8 +3883,6 @@
       "submission_temp_id": "usg-gold-leg-cong106-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong106-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong106-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "106th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4497,8 +3891,6 @@
       "submission_temp_id": "usg-gold-leg-cong106-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong106-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4507,8 +3899,6 @@
       "submission_temp_id": "usg-gold-leg-cong106-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong106-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4517,8 +3907,6 @@
       "submission_temp_id": "usg-gold-leg-cong106-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong106-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4527,8 +3915,6 @@
       "submission_temp_id": "usg-gold-leg-cong106-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong106-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4537,8 +3923,6 @@
       "submission_temp_id": "usg-gold-leg-cong107-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong107-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong107-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "107th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4547,8 +3931,6 @@
       "submission_temp_id": "usg-gold-leg-cong107-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong107-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4557,8 +3939,6 @@
       "submission_temp_id": "usg-gold-leg-cong107-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong107-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong107-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "107th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4567,8 +3947,6 @@
       "submission_temp_id": "usg-gold-leg-cong107-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong107-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4577,8 +3955,6 @@
       "submission_temp_id": "usg-gold-leg-cong107-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong107-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4587,8 +3963,6 @@
       "submission_temp_id": "usg-gold-leg-cong107-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong107-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4597,8 +3971,6 @@
       "submission_temp_id": "usg-gold-leg-cong107-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong107-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4607,8 +3979,6 @@
       "submission_temp_id": "usg-gold-leg-cong108-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong108-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong108-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "108th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4617,8 +3987,6 @@
       "submission_temp_id": "usg-gold-leg-cong108-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong108-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4627,8 +3995,6 @@
       "submission_temp_id": "usg-gold-leg-cong108-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong108-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong108-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "108th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4637,8 +4003,6 @@
       "submission_temp_id": "usg-gold-leg-cong108-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong108-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4647,8 +4011,6 @@
       "submission_temp_id": "usg-gold-leg-cong108-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong108-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4657,8 +4019,6 @@
       "submission_temp_id": "usg-gold-leg-cong108-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong108-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4667,8 +4027,6 @@
       "submission_temp_id": "usg-gold-leg-cong108-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong108-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4677,8 +4035,6 @@
       "submission_temp_id": "usg-gold-leg-cong109-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong109-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong109-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "109th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4687,8 +4043,6 @@
       "submission_temp_id": "usg-gold-leg-cong109-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong109-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4697,8 +4051,6 @@
       "submission_temp_id": "usg-gold-leg-cong109-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong109-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong109-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "109th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4707,8 +4059,6 @@
       "submission_temp_id": "usg-gold-leg-cong109-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong109-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4717,8 +4067,6 @@
       "submission_temp_id": "usg-gold-leg-cong109-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong109-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4727,8 +4075,6 @@
       "submission_temp_id": "usg-gold-leg-cong109-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong109-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4737,8 +4083,6 @@
       "submission_temp_id": "usg-gold-leg-cong109-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong109-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4747,8 +4091,6 @@
       "submission_temp_id": "usg-gold-leg-cong110-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong110-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong110-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "110th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4757,8 +4099,6 @@
       "submission_temp_id": "usg-gold-leg-cong110-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong110-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4767,8 +4107,6 @@
       "submission_temp_id": "usg-gold-leg-cong110-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong110-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong110-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "110th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4777,8 +4115,6 @@
       "submission_temp_id": "usg-gold-leg-cong110-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong110-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4787,8 +4123,6 @@
       "submission_temp_id": "usg-gold-leg-cong110-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong110-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4797,8 +4131,6 @@
       "submission_temp_id": "usg-gold-leg-cong110-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong110-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4807,8 +4139,6 @@
       "submission_temp_id": "usg-gold-leg-cong110-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong110-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4817,8 +4147,6 @@
       "submission_temp_id": "usg-gold-leg-cong111-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong111-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong111-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "111th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4827,8 +4155,6 @@
       "submission_temp_id": "usg-gold-leg-cong111-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong111-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4837,8 +4163,6 @@
       "submission_temp_id": "usg-gold-leg-cong111-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong111-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong111-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "111th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4847,8 +4171,6 @@
       "submission_temp_id": "usg-gold-leg-cong111-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong111-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4857,8 +4179,6 @@
       "submission_temp_id": "usg-gold-leg-cong111-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong111-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4867,8 +4187,6 @@
       "submission_temp_id": "usg-gold-leg-cong111-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong111-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4877,8 +4195,6 @@
       "submission_temp_id": "usg-gold-leg-cong111-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong111-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4887,8 +4203,6 @@
       "submission_temp_id": "usg-gold-leg-cong112-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong112-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong112-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "112th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4897,8 +4211,6 @@
       "submission_temp_id": "usg-gold-leg-cong112-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong112-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4907,8 +4219,6 @@
       "submission_temp_id": "usg-gold-leg-cong112-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong112-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong112-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "112th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4917,8 +4227,6 @@
       "submission_temp_id": "usg-gold-leg-cong112-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong112-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4927,8 +4235,6 @@
       "submission_temp_id": "usg-gold-leg-cong112-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong112-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -4937,8 +4243,6 @@
       "submission_temp_id": "usg-gold-leg-cong112-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong112-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -4947,8 +4251,6 @@
       "submission_temp_id": "usg-gold-leg-cong112-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong112-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -4957,8 +4259,6 @@
       "submission_temp_id": "usg-gold-leg-cong113-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong113-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong113-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "113th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -4967,8 +4267,6 @@
       "submission_temp_id": "usg-gold-leg-cong113-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong113-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -4977,8 +4275,6 @@
       "submission_temp_id": "usg-gold-leg-cong113-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong113-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong113-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "113th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -4987,8 +4283,6 @@
       "submission_temp_id": "usg-gold-leg-cong113-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong113-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -4997,8 +4291,6 @@
       "submission_temp_id": "usg-gold-leg-cong113-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong113-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -5007,8 +4299,6 @@
       "submission_temp_id": "usg-gold-leg-cong113-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong113-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -5017,8 +4307,6 @@
       "submission_temp_id": "usg-gold-leg-cong113-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong113-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -5027,8 +4315,6 @@
       "submission_temp_id": "usg-gold-leg-cong114-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong114-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong114-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "114th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -5037,8 +4323,6 @@
       "submission_temp_id": "usg-gold-leg-cong114-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong114-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -5047,8 +4331,6 @@
       "submission_temp_id": "usg-gold-leg-cong114-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong114-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong114-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "114th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -5057,8 +4339,6 @@
       "submission_temp_id": "usg-gold-leg-cong114-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong114-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -5067,8 +4347,6 @@
       "submission_temp_id": "usg-gold-leg-cong114-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong114-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -5077,8 +4355,6 @@
       "submission_temp_id": "usg-gold-leg-cong114-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong114-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -5087,8 +4363,6 @@
       "submission_temp_id": "usg-gold-leg-cong114-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong114-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -5097,8 +4371,6 @@
       "submission_temp_id": "usg-gold-leg-cong115-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong115-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong115-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "115th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -5107,8 +4379,6 @@
       "submission_temp_id": "usg-gold-leg-cong115-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong115-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -5117,8 +4387,6 @@
       "submission_temp_id": "usg-gold-leg-cong115-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong115-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong115-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "115th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -5127,8 +4395,6 @@
       "submission_temp_id": "usg-gold-leg-cong115-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong115-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -5137,8 +4403,6 @@
       "submission_temp_id": "usg-gold-leg-cong115-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong115-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -5147,8 +4411,6 @@
       "submission_temp_id": "usg-gold-leg-cong115-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong115-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -5157,8 +4419,6 @@
       "submission_temp_id": "usg-gold-leg-cong115-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong115-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -5167,8 +4427,6 @@
       "submission_temp_id": "usg-gold-leg-cong116-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong116-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong116-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "116th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -5177,8 +4435,6 @@
       "submission_temp_id": "usg-gold-leg-cong116-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong116-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -5187,8 +4443,6 @@
       "submission_temp_id": "usg-gold-leg-cong116-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong116-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong116-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "116th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -5197,8 +4451,6 @@
       "submission_temp_id": "usg-gold-leg-cong116-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong116-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -5207,8 +4459,6 @@
       "submission_temp_id": "usg-gold-leg-cong116-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong116-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -5217,8 +4467,6 @@
       "submission_temp_id": "usg-gold-leg-cong116-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong116-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -5227,8 +4475,6 @@
       "submission_temp_id": "usg-gold-leg-cong116-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong116-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -5237,8 +4483,6 @@
       "submission_temp_id": "usg-gold-leg-cong117-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong117-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong117-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "117th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -5247,8 +4491,6 @@
       "submission_temp_id": "usg-gold-leg-cong117-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong117-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -5257,8 +4499,6 @@
       "submission_temp_id": "usg-gold-leg-cong117-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong117-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong117-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "117th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -5267,8 +4507,6 @@
       "submission_temp_id": "usg-gold-leg-cong117-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong117-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -5277,8 +4515,6 @@
       "submission_temp_id": "usg-gold-leg-cong117-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong117-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -5287,8 +4523,6 @@
       "submission_temp_id": "usg-gold-leg-cong117-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong117-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -5297,8 +4531,6 @@
       "submission_temp_id": "usg-gold-leg-cong117-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong117-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     },
@@ -5307,8 +4539,6 @@
       "submission_temp_id": "usg-gold-leg-cong118-e01",
       "from_vertex_temp_id": "usg-gold-leg-cong118-v02",
       "to_vertex_temp_id": "usg-gold-leg-cong118-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "118th House in Congress",
       "Blurb": "Session House participates in the numbered Congress."
     },
@@ -5317,8 +4547,6 @@
       "submission_temp_id": "usg-gold-leg-cong118-e02",
       "from_vertex_temp_id": "usg-gold-leg-cong118-v02",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "House session to standing",
       "Blurb": "Session-scoped House links to the permanent House chamber."
     },
@@ -5327,8 +4555,6 @@
       "submission_temp_id": "usg-gold-leg-cong118-e03",
       "from_vertex_temp_id": "usg-gold-leg-cong118-v03",
       "to_vertex_temp_id": "usg-gold-leg-cong118-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "118th Senate in Congress",
       "Blurb": "Session Senate participates in the numbered Congress."
     },
@@ -5337,8 +4563,6 @@
       "submission_temp_id": "usg-gold-leg-cong118-e04",
       "from_vertex_temp_id": "usg-gold-leg-cong118-v03",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Senate session to standing",
       "Blurb": "Session-scoped Senate links to the permanent Senate chamber."
     },
@@ -5347,8 +4571,6 @@
       "submission_temp_id": "usg-gold-leg-cong118-e05",
       "from_vertex_temp_id": "usg-gold-leg-cong118-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00003",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes House",
       "Blurb": "The numbered Congress includes the House chamber."
     },
@@ -5357,8 +4579,6 @@
       "submission_temp_id": "usg-gold-leg-cong118-e06",
       "from_vertex_temp_id": "usg-gold-leg-cong118-v01",
       "to_vertex_temp_id": "usg-gold-leg-v00004",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Congress includes Senate",
       "Blurb": "The numbered Congress includes the Senate chamber."
     },
@@ -5367,8 +4587,6 @@
       "submission_temp_id": "usg-gold-leg-cong118-e07",
       "from_vertex_temp_id": "usg-gold-leg-v00001",
       "to_vertex_temp_id": "usg-gold-leg-cong118-v01",
-      "L1": "Vector",
-      "L2": "Membership",
       "Sticker": "Umbrella to numbered Congress",
       "Blurb": "United States Congress encompasses the numbered two-year Congress."
     }

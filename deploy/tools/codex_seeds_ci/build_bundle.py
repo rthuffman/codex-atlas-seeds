@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import gzip
 import io
 import tarfile
 from pathlib import Path
@@ -75,7 +76,12 @@ def build_bundle(*, repo_root: Path | None = None, output: Path | None = None) -
     manifest_bytes = yaml.safe_dump(release_manifest, sort_keys=False, allow_unicode=True).encode("utf-8")
     checksum_lines: list[str] = []
 
-    with tarfile.open(archive, "w:gz", format=tarfile.GNU_FORMAT) as tar:
+    with archive.open("wb") as raw, gzip.GzipFile(
+        fileobj=raw,
+        mode="wb",
+        filename="",
+        mtime=0,
+    ) as gz, tarfile.open(fileobj=gz, mode="w", format=tarfile.GNU_FORMAT) as tar:
         for pack_dir in discover_packs(root):
             pack = load_pack_manifest(pack_dir)
             for rel in pack.get("files") or []:

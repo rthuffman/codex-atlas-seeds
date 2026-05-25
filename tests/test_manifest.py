@@ -47,3 +47,23 @@ def test_administration_catalog_includes_obama_second_inauguration() -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
     years = {int(r["inauguration_year"]) for r in data["administrations"] if "inauguration_year" in r}
     assert 2013 in years
+
+
+def test_projection_packs_do_not_pin_optional_taxonomy_fields() -> None:
+    import json
+
+    root = find_repo_root()
+    payloads = [
+        root / "packs" / "us_geo_bootstrap" / "bootstrap.json",
+        root / "packs" / "us_gold_current_structure" / "envelope.json",
+        root / "packs" / "us_gold_historical_structure" / "envelope.json",
+    ]
+    for path in payloads:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        records = data.get("records") or []
+        assert records
+        assert not [
+            (path.name, idx, sorted({"L1", "L2", "L3"} & set(record)))
+            for idx, record in enumerate(records)
+            if isinstance(record, dict) and {"L1", "L2", "L3"} & set(record)
+        ]
