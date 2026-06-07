@@ -1,0 +1,16 @@
+{
+  "base_url": "https://unitedstates.github.io/congress-legislators",
+  "downloaded_at": "2026-06-07",
+  "files": {
+    "legislators-current.json": {
+      "sha256": "6fb4229e1867b2a09321ecc4c852c90cacfa45012c7eae9c3b143d3f14496c6b",
+      "url": "https://unitedstates.github.io/congress-legislators/legislators-current.json"
+    },
+    "legislators-historical.json": {
+      "sha256": "e23f04610f5625907cb1762976b98a4f6910ac69ee8956060dace9b92e32787d",
+      "url": "https://unitedstates.github.io/congress-legislators/legislators-historical.json"
+    }
+  },
+  "pin": "live-download-2026-06-07",
+  "upstream": "unitedstates/congress-legislators"
+}

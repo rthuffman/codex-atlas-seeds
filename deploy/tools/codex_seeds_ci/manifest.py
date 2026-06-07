@@ -205,6 +205,22 @@ def validate_delegate_seats(data: dict[str, Any], *, path: str) -> list[str]:
     return errors
 
 
+def validate_house_legislators_term_index(data: dict[str, Any], *, path: str) -> list[str]:
+    errors: list[str] = []
+    if int(data.get("format_version") or 0) != 1:
+        errors.append(f"{path}: format_version must be 1")
+    holds = data.get("holds_by_office")
+    if not isinstance(holds, dict) or not holds:
+        errors.append(f"{path}: holds_by_office must be a non-empty object")
+    persons = data.get("persons")
+    if not isinstance(persons, dict):
+        errors.append(f"{path}: persons must be an object")
+    source = data.get("source")
+    if not isinstance(source, dict) or not str(source.get("upstream") or "").strip():
+        errors.append(f"{path}: source.upstream is required")
+    return errors
+
+
 def validate_pack_payloads(repo_root: Path) -> list[str]:
     errors: list[str] = []
     validators: dict[tuple[str, str], Any] = {
@@ -213,6 +229,7 @@ def validate_pack_payloads(repo_root: Path) -> list[str]:
         ("usg_congress_session_bounds", "bounds.json"): validate_congress_bounds,
         ("usg_congress_state_seating", "seating.json"): validate_state_seating,
         ("usg_house_non_voting_delegate_seats", "delegates.json"): validate_delegate_seats,
+        ("us_house_legislators_term_index", "term_index.json"): validate_house_legislators_term_index,
     }
     for pack_dir in discover_packs(repo_root):
         pack = load_pack_manifest(pack_dir)

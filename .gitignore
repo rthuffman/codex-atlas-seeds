@@ -1,4 +1,5 @@
 .venv/
+sources/unitedstates/congress-legislators/legislators-*.json
 dist/
 .build-*
 __pycache__/

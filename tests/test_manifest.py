@@ -11,10 +11,10 @@ def test_validate_repo_clean() -> None:
     assert errors == []
 
 
-def test_bundle_has_nine_usg_packs() -> None:
+def test_bundle_has_ten_usg_packs() -> None:
     manifest = load_bundle_manifest(find_repo_root())
     pack_ids = {p["pack_id"] for p in manifest["packs"]}
-    assert len(manifest["packs"]) == 9
+    assert len(manifest["packs"]) == 10
     assert pack_ids == {
         "usg_administration_skeleton",
         "usg_statutory_cabinet_timeline",
@@ -25,6 +25,7 @@ def test_bundle_has_nine_usg_packs() -> None:
         "us_geo_bootstrap",
         "us_gold_current_structure",
         "us_gold_historical_structure",
+        "us_house_legislators_term_index",
     }
 
 
