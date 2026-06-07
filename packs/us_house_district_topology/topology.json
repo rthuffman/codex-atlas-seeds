@@ -1,0 +1,3351 @@
+{
+  "format_version": 1,
+  "source": {
+    "generator": "base-data/tools/generate_house_district_topology.py",
+    "legislators": "unitedstates/congress-legislators",
+    "apportionment_fixture": "us_house_apportionment_vintages.json",
+    "max_congress": 118
+  },
+  "intervals": [
+    {
+      "postal": "AL",
+      "first_congress": 17,
+      "last_congress": 17,
+      "numbered_count": 1,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AL",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 3,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AL",
+      "first_congress": 27,
+      "last_congress": 27,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AL",
+      "first_congress": 42,
+      "last_congress": 44,
+      "numbered_count": 6,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AL",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AL",
+      "first_congress": 62,
+      "last_congress": 64,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AL",
+      "first_congress": 88,
+      "last_congress": 88,
+      "numbered_count": 0,
+      "at_large_count": 8,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AR",
+      "first_congress": 27,
+      "last_congress": 31,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AR",
+      "first_congress": 32,
+      "last_congress": 32,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AR",
+      "first_congress": 42,
+      "last_congress": 43,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AR",
+      "first_congress": 47,
+      "last_congress": 48,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AR",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AR",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 6,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AZ",
+      "first_congress": 72,
+      "last_congress": 80,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1940; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AZ",
+      "first_congress": 87,
+      "last_congress": 87,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AZ",
+      "first_congress": 92,
+      "last_congress": 92,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1970; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AZ",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AZ",
+      "first_congress": 102,
+      "last_congress": 102,
+      "numbered_count": 5,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AZ",
+      "first_congress": 103,
+      "last_congress": 107,
+      "numbered_count": 6,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 8+0; Inferred from congress-legislators vs apportionment vintage census_2000; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "AZ",
+      "first_congress": 112,
+      "last_congress": 112,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2010; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 32,
+      "last_congress": 36,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 37,
+      "last_congress": 38,
+      "numbered_count": 0,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 47,
+      "last_congress": 48,
+      "numbered_count": 4,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 6,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 8,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 67,
+      "last_congress": 71,
+      "numbered_count": 11,
+      "at_large_count": 9,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 20+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 72,
+      "last_congress": 72,
+      "numbered_count": 11,
+      "at_large_count": 12,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 23+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 73,
+      "last_congress": 76,
+      "numbered_count": 20,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 23+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 77,
+      "last_congress": 77,
+      "numbered_count": 20,
+      "at_large_count": 10,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 30+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 78,
+      "last_congress": 82,
+      "numbered_count": 23,
+      "at_large_count": 7,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 30+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 30+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 87,
+      "last_congress": 87,
+      "numbered_count": 30,
+      "at_large_count": 8,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 38+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 92,
+      "last_congress": 92,
+      "numbered_count": 38,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1970; default would be 43+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 43,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 45+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 102,
+      "last_congress": 102,
+      "numbered_count": 45,
+      "at_large_count": 7,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 52+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CA",
+      "first_congress": 107,
+      "last_congress": 107,
+      "numbered_count": 52,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2000; default would be 53+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CO",
+      "first_congress": 47,
+      "last_congress": 51,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CO",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CO",
+      "first_congress": 57,
+      "last_congress": 61,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CO",
+      "first_congress": 62,
+      "last_congress": 63,
+      "numbered_count": 2,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CO",
+      "first_congress": 87,
+      "last_congress": 91,
+      "numbered_count": 4,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CO",
+      "first_congress": 92,
+      "last_congress": 92,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1970; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CO",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CO",
+      "first_congress": 107,
+      "last_congress": 107,
+      "numbered_count": 6,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2000; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CO",
+      "first_congress": 117,
+      "last_congress": 117,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2020; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CT",
+      "first_congress": 1,
+      "last_congress": 1,
+      "numbered_count": 0,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage constitutional_1789; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CT",
+      "first_congress": 2,
+      "last_congress": 16,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 7+0; Inferred from congress-legislators vs apportionment vintage census_1800; default would be 7+0; Inferred from congress-legislators vs apportionment vintage census_1810; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CT",
+      "first_congress": 17,
+      "last_congress": 24,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1830; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CT",
+      "first_congress": 57,
+      "last_congress": 62,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 5+0; Inferred from congress-legislators vs apportionment vintage census_1910; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "CT",
+      "first_congress": 67,
+      "last_congress": 88,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1930; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1940; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1960; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "DE",
+      "first_congress": 12,
+      "last_congress": 16,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 32,
+      "last_congress": 36,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 40,
+      "last_congress": 41,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 43,
+      "last_congress": 43,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 62,
+      "last_congress": 63,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 67,
+      "last_congress": 71,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 72,
+      "last_congress": 74,
+      "numbered_count": 4,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 75,
+      "last_congress": 76,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 77,
+      "last_congress": 78,
+      "numbered_count": 5,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 79,
+      "last_congress": 82,
+      "numbered_count": 6,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 8+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 87,
+      "last_congress": 87,
+      "numbered_count": 8,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 92,
+      "last_congress": 92,
+      "numbered_count": 12,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1970; default would be 15+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 15,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 19+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 102,
+      "last_congress": 102,
+      "numbered_count": 19,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 23+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 107,
+      "last_congress": 107,
+      "numbered_count": 23,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2000; default would be 25+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 112,
+      "last_congress": 112,
+      "numbered_count": 25,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2010; default would be 27+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "FL",
+      "first_congress": 117,
+      "last_congress": 117,
+      "numbered_count": 27,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2020; default would be 28+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 3,
+      "last_congress": 6,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 7,
+      "last_congress": 11,
+      "numbered_count": 0,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 12,
+      "last_congress": 16,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 17,
+      "last_congress": 19,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 20,
+      "last_congress": 20,
+      "numbered_count": 6,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 21,
+      "last_congress": 21,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 22,
+      "last_congress": 26,
+      "numbered_count": 0,
+      "at_large_count": 9,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 27,
+      "last_congress": 28,
+      "numbered_count": 0,
+      "at_large_count": 8,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 7,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 47,
+      "last_congress": 48,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 11,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 102,
+      "last_congress": 102,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 107,
+      "last_congress": 107,
+      "numbered_count": 11,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2000; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "GA",
+      "first_congress": 112,
+      "last_congress": 112,
+      "numbered_count": 13,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2010; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "HI",
+      "first_congress": 87,
+      "last_congress": 87,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IA",
+      "first_congress": 37,
+      "last_congress": 37,
+      "numbered_count": 2,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IA",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 6,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IA",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 9,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ID",
+      "first_congress": 52,
+      "last_congress": 61,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 0+1; Inferred from congress-legislators vs apportionment vintage census_1900; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ID",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ID",
+      "first_congress": 63,
+      "last_congress": 65,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ID",
+      "first_congress": 79,
+      "last_congress": 79,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 17,
+      "last_congress": 21,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 1,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 27,
+      "last_congress": 27,
+      "numbered_count": 3,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 32,
+      "last_congress": 32,
+      "numbered_count": 7,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 37,
+      "last_congress": 37,
+      "numbered_count": 9,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 38,
+      "last_congress": 41,
+      "numbered_count": 13,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 13,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 19+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 19,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 20+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 52,
+      "last_congress": 53,
+      "numbered_count": 20,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 22+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 22,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 25+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 62,
+      "last_congress": 71,
+      "numbered_count": 25,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 27+0; Inferred from congress-legislators vs apportionment vintage census_1920; default would be 27+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IL",
+      "first_congress": 72,
+      "last_congress": 76,
+      "numbered_count": 25,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 26+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IN",
+      "first_congress": 17,
+      "last_congress": 17,
+      "numbered_count": 1,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IN",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 3,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IN",
+      "first_congress": 23,
+      "last_congress": 23,
+      "numbered_count": 6,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IN",
+      "first_congress": 27,
+      "last_congress": 27,
+      "numbered_count": 7,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IN",
+      "first_congress": 32,
+      "last_congress": 32,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IN",
+      "first_congress": 42,
+      "last_congress": 43,
+      "numbered_count": 11,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IN",
+      "first_congress": 54,
+      "last_congress": 54,
+      "numbered_count": 12,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "IN",
+      "first_congress": 98,
+      "last_congress": 101,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KS",
+      "first_congress": 37,
+      "last_congress": 41,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KS",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 1,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KS",
+      "first_congress": 43,
+      "last_congress": 43,
+      "numbered_count": 0,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KS",
+      "first_congress": 47,
+      "last_congress": 48,
+      "numbered_count": 3,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KS",
+      "first_congress": 52,
+      "last_congress": 59,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 8+0; Inferred from congress-legislators vs apportionment vintage census_1900; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KY",
+      "first_congress": 7,
+      "last_congress": 7,
+      "numbered_count": 2,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KY",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 6,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KY",
+      "first_congress": 17,
+      "last_congress": 17,
+      "numbered_count": 10,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KY",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 12,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KY",
+      "first_congress": 40,
+      "last_congress": 40,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KY",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KY",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "KY",
+      "first_congress": 83,
+      "last_congress": 86,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1950; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "LA",
+      "first_congress": 17,
+      "last_congress": 17,
+      "numbered_count": 1,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "LA",
+      "first_congress": 27,
+      "last_congress": 27,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "LA",
+      "first_congress": 42,
+      "last_congress": 43,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "LA",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 6,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "LA",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 2,
+      "last_congress": 2,
+      "numbered_count": 8,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 3,
+      "last_congress": 3,
+      "numbered_count": 4,
+      "at_large_count": 10,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 7,
+      "last_congress": 7,
+      "numbered_count": 14,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 17+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 17,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 20+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 32,
+      "last_congress": 32,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 11,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 12,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 13,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 14,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 16+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MA",
+      "first_congress": 98,
+      "last_congress": 101,
+      "numbered_count": 11,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MD",
+      "first_congress": 2,
+      "last_congress": 2,
+      "numbered_count": 6,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MD",
+      "first_congress": 7,
+      "last_congress": 21,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 9+0; Inferred from congress-legislators vs apportionment vintage census_1810; default would be 9+0; Inferred from congress-legislators vs apportionment vintage census_1820; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MD",
+      "first_congress": 24,
+      "last_congress": 26,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MD",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MD",
+      "first_congress": 77,
+      "last_congress": 82,
+      "numbered_count": 6,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 8+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MD",
+      "first_congress": 83,
+      "last_congress": 89,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1950; default would be 8+0; Inferred from congress-legislators vs apportionment vintage census_1960; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ME",
+      "first_congress": 22,
+      "last_congress": 23,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ME",
+      "first_congress": 48,
+      "last_congress": 48,
+      "numbered_count": 0,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 27,
+      "last_congress": 27,
+      "numbered_count": 1,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 32,
+      "last_congress": 32,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 37,
+      "last_congress": 37,
+      "numbered_count": 4,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 6,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 9,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 11,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 62,
+      "last_congress": 63,
+      "numbered_count": 12,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 67,
+      "last_congress": 71,
+      "numbered_count": 13,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 17+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 72,
+      "last_congress": 72,
+      "numbered_count": 12,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 17+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 77,
+      "last_congress": 82,
+      "numbered_count": 17,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 19+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 19+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MI",
+      "first_congress": 83,
+      "last_congress": 88,
+      "numbered_count": 18,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1950; default would be 19+0; Inferred from congress-legislators vs apportionment vintage census_1960; default would be 19+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MN",
+      "first_congress": 37,
+      "last_congress": 37,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MN",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MN",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 3,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MN",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 5,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MN",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 7,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MN",
+      "first_congress": 62,
+      "last_congress": 63,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 23,
+      "last_congress": 26,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 27,
+      "last_congress": 29,
+      "numbered_count": 0,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 32,
+      "last_congress": 32,
+      "numbered_count": 5,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 37,
+      "last_congress": 37,
+      "numbered_count": 7,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 9,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 13,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 14,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 15+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 15,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 16+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MO",
+      "first_congress": 90,
+      "last_congress": 90,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MS",
+      "first_congress": 17,
+      "last_congress": 21,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MS",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MS",
+      "first_congress": 23,
+      "last_congress": 26,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MS",
+      "first_congress": 27,
+      "last_congress": 29,
+      "numbered_count": 0,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MS",
+      "first_congress": 32,
+      "last_congress": 33,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MS",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MS",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 6,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MS",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MS",
+      "first_congress": 108,
+      "last_congress": 111,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2000; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MT",
+      "first_congress": 52,
+      "last_congress": 61,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 0+1; Inferred from congress-legislators vs apportionment vintage census_1900; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MT",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MT",
+      "first_congress": 63,
+      "last_congress": 65,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MT",
+      "first_congress": 103,
+      "last_congress": 104,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "MT",
+      "first_congress": 117,
+      "last_congress": 117,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2020; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 2,
+      "last_congress": 2,
+      "numbered_count": 5,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 7,
+      "last_congress": 7,
+      "numbered_count": 10,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 12,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 47,
+      "last_congress": 48,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 67,
+      "last_congress": 71,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 72,
+      "last_congress": 72,
+      "numbered_count": 10,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 73,
+      "last_congress": 77,
+      "numbered_count": 11,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 12+0; Inferred from congress-legislators vs apportionment vintage census_1940; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 102,
+      "last_congress": 102,
+      "numbered_count": 11,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 107,
+      "last_congress": 107,
+      "numbered_count": 12,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2000; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NC",
+      "first_congress": 117,
+      "last_congress": 117,
+      "numbered_count": 13,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2020; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ND",
+      "first_congress": 52,
+      "last_congress": 56,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ND",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ND",
+      "first_congress": 58,
+      "last_congress": 61,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ND",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 0,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ND",
+      "first_congress": 74,
+      "last_congress": 87,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1940; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1960; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "ND",
+      "first_congress": 93,
+      "last_congress": 96,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1970; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NE",
+      "first_congress": 42,
+      "last_congress": 46,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NE",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 1,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NE",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 3,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NH",
+      "first_congress": 1,
+      "last_congress": 1,
+      "numbered_count": 0,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage constitutional_1789; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NH",
+      "first_congress": 2,
+      "last_congress": 6,
+      "numbered_count": 0,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NH",
+      "first_congress": 7,
+      "last_congress": 11,
+      "numbered_count": 0,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NH",
+      "first_congress": 12,
+      "last_congress": 21,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1820; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NH",
+      "first_congress": 22,
+      "last_congress": 26,
+      "numbered_count": 0,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NH",
+      "first_congress": 28,
+      "last_congress": 29,
+      "numbered_count": 0,
+      "at_large_count": 4,
+      "at_large_count_source": "apportionment",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_United_States_representatives_from_New_Hampshire",
+      "source_note": "1843–1847 four seats at-large (columns A–D); peer-reviewed P0",
+      "confidence": "high"
+    },
+    {
+      "postal": "NH",
+      "first_congress": 30,
+      "last_congress": 32,
+      "numbered_count": 4,
+      "at_large_count": 0,
+      "numbered_count_source": "apportionment",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_United_States_representatives_from_New_Hampshire",
+      "source_note": "Numbered districts from 30th Congress (1847-03-04); ends when NH returns to 2-seat apportionment",
+      "confidence": "high"
+    },
+    {
+      "postal": "NH",
+      "first_congress": 83,
+      "last_congress": 83,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1950; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 1,
+      "last_congress": 1,
+      "numbered_count": 0,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage constitutional_1789; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 2,
+      "last_congress": 5,
+      "numbered_count": 0,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 7,
+      "last_congress": 12,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1810; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 13,
+      "last_congress": 13,
+      "numbered_count": 3,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 14,
+      "last_congress": 26,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1820; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1830; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 27,
+      "last_congress": 27,
+      "numbered_count": 0,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 5,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 8,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 10,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 12+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 67,
+      "last_congress": 72,
+      "numbered_count": 12,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 14+0; Inferred from congress-legislators vs apportionment vintage census_1930; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 87,
+      "last_congress": 87,
+      "numbered_count": 14,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 15+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 103,
+      "last_congress": 106,
+      "numbered_count": 13,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NJ",
+      "first_congress": 113,
+      "last_congress": 116,
+      "numbered_count": 12,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2010; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NM",
+      "first_congress": 67,
+      "last_congress": 71,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NM",
+      "first_congress": 72,
+      "last_congress": 76,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NM",
+      "first_congress": 77,
+      "last_congress": 90,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1960; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NM",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NV",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NV",
+      "first_congress": 107,
+      "last_congress": 107,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2000; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NV",
+      "first_congress": 112,
+      "last_congress": 112,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2010; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 2,
+      "last_congress": 2,
+      "numbered_count": 6,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 7,
+      "last_congress": 7,
+      "numbered_count": 10,
+      "at_large_count": 7,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 17+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 11,
+      "last_congress": 11,
+      "numbered_count": 15,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 17+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 15,
+      "at_large_count": 12,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 27+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 13,
+      "last_congress": 16,
+      "numbered_count": 21,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 27+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 17,
+      "last_congress": 17,
+      "numbered_count": 22,
+      "at_large_count": 12,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 34+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 18,
+      "last_congress": 21,
+      "numbered_count": 30,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 34+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 30,
+      "at_large_count": 10,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 40+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 23,
+      "last_congress": 26,
+      "numbered_count": 33,
+      "at_large_count": 7,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 40+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 27,
+      "last_congress": 27,
+      "numbered_count": 33,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 34+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 31,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 33+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 43,
+      "last_congress": 43,
+      "numbered_count": 32,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 33+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 47,
+      "last_congress": 48,
+      "numbered_count": 33,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 34+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 34,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 37+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 37,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 43+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 67,
+      "last_congress": 74,
+      "numbered_count": 43,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 45+0; Inferred from congress-legislators vs apportionment vintage census_1930; default would be 45+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 75,
+      "last_congress": 75,
+      "numbered_count": 42,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 45+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "NY",
+      "first_congress": 76,
+      "last_congress": 76,
+      "numbered_count": 43,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 45+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 1,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 17,
+      "last_congress": 17,
+      "numbered_count": 6,
+      "at_large_count": 8,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 14+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 14,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 19+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 27,
+      "last_congress": 27,
+      "numbered_count": 19,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1840; default would be 21+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 19,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 20+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 20,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 21+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 62,
+      "last_congress": 63,
+      "numbered_count": 21,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 22+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 67,
+      "last_congress": 71,
+      "numbered_count": 22,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 24+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 72,
+      "last_congress": 83,
+      "numbered_count": 22,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 23+0; Inferred from congress-legislators vs apportionment vintage census_1940; default would be 23+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 23+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OH",
+      "first_congress": 87,
+      "last_congress": 89,
+      "numbered_count": 23,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 24+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OK",
+      "first_congress": 62,
+      "last_congress": 63,
+      "numbered_count": 5,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OK",
+      "first_congress": 67,
+      "last_congress": 71,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OR",
+      "first_congress": 37,
+      "last_congress": 51,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 0+1; Inferred from congress-legislators vs apportionment vintage census_1870; default would be 0+1; Inferred from congress-legislators vs apportionment vintage census_1880; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OR",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OR",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OR",
+      "first_congress": 72,
+      "last_congress": 77,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 4+0; Inferred from congress-legislators vs apportionment vintage census_1940; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OR",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "OR",
+      "first_congress": 117,
+      "last_congress": 117,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2020; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 1,
+      "last_congress": 1,
+      "numbered_count": 0,
+      "at_large_count": 8,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage constitutional_1789; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 2,
+      "last_congress": 2,
+      "numbered_count": 8,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 3,
+      "last_congress": 3,
+      "numbered_count": 0,
+      "at_large_count": 13,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 4,
+      "last_congress": 6,
+      "numbered_count": 12,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 7,
+      "last_congress": 7,
+      "numbered_count": 12,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 18+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 8,
+      "last_congress": 11,
+      "numbered_count": 11,
+      "at_large_count": 7,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 18+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 11,
+      "at_large_count": 12,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 23+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 13,
+      "last_congress": 16,
+      "numbered_count": 15,
+      "at_large_count": 8,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 23+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 17,
+      "last_congress": 17,
+      "numbered_count": 15,
+      "at_large_count": 11,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 26+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 18,
+      "last_congress": 21,
+      "numbered_count": 18,
+      "at_large_count": 8,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 26+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 18,
+      "at_large_count": 10,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 28+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 23,
+      "last_congress": 26,
+      "numbered_count": 25,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 28+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 32,
+      "last_congress": 32,
+      "numbered_count": 24,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1850; default would be 25+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 42,
+      "last_congress": 43,
+      "numbered_count": 24,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 27+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 47,
+      "last_congress": 50,
+      "numbered_count": 27,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 28+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 52,
+      "last_congress": 56,
+      "numbered_count": 28,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 30+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 28,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 32+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 62,
+      "last_congress": 66,
+      "numbered_count": 32,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 36+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "PA",
+      "first_congress": 67,
+      "last_congress": 67,
+      "numbered_count": 32,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 34+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "RI",
+      "first_congress": 2,
+      "last_congress": 2,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "RI",
+      "first_congress": 3,
+      "last_congress": 27,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1800; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1810; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1820; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1830; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1840; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "RI",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "SC",
+      "first_congress": 2,
+      "last_congress": 2,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "SC",
+      "first_congress": 7,
+      "last_congress": 7,
+      "numbered_count": 6,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "SC",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "SC",
+      "first_congress": 42,
+      "last_congress": 43,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "SC",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 5,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "SC",
+      "first_congress": 112,
+      "last_congress": 112,
+      "numbered_count": 6,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2010; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "SD",
+      "first_congress": 52,
+      "last_congress": 61,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 2+0; Inferred from congress-legislators vs apportionment vintage census_1900; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "SD",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 0,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "SD",
+      "first_congress": 100,
+      "last_congress": 102,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 0+1; Inferred from congress-legislators vs apportionment vintage census_1990; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 7,
+      "last_congress": 7,
+      "numbered_count": 1,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 8,
+      "last_congress": 8,
+      "numbered_count": 0,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 3,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 17,
+      "last_congress": 17,
+      "numbered_count": 6,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1820; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 22,
+      "last_congress": 22,
+      "numbered_count": 9,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1830; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 8,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 43,
+      "last_congress": 43,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 74,
+      "last_congress": 77,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1930; default would be 10+0; Inferred from congress-legislators vs apportionment vintage census_1940; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 83,
+      "last_congress": 86,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1950; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TN",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 42,
+      "last_congress": 43,
+      "numbered_count": 4,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 6,
+      "at_large_count": 5,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 11,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 13+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 13,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 16+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 62,
+      "last_congress": 65,
+      "numbered_count": 16,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 18+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 67,
+      "last_congress": 73,
+      "numbered_count": 18,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 21+0; Inferred from congress-legislators vs apportionment vintage census_1930; default would be 21+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 77,
+      "last_congress": 85,
+      "numbered_count": 21,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 22+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 22+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 87,
+      "last_congress": 89,
+      "numbered_count": 22,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 23+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 92,
+      "last_congress": 92,
+      "numbered_count": 23,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1970; default would be 24+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 24,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 27+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 102,
+      "last_congress": 102,
+      "numbered_count": 27,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 30+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 107,
+      "last_congress": 107,
+      "numbered_count": 30,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2000; default would be 32+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 112,
+      "last_congress": 112,
+      "numbered_count": 32,
+      "at_large_count": 4,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2010; default would be 36+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "TX",
+      "first_congress": 117,
+      "last_congress": 117,
+      "numbered_count": 36,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2020; default would be 38+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "UT",
+      "first_congress": 57,
+      "last_congress": 61,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 0+1",
+      "confidence": "medium"
+    },
+    {
+      "postal": "UT",
+      "first_congress": 62,
+      "last_congress": 62,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "UT",
+      "first_congress": 63,
+      "last_congress": 63,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "UT",
+      "first_congress": 87,
+      "last_congress": 91,
+      "numbered_count": 2,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1960; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "UT",
+      "first_congress": 92,
+      "last_congress": 97,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1970; default would be 3+0; Inferred from congress-legislators vs apportionment vintage census_1980; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "UT",
+      "first_congress": 112,
+      "last_congress": 112,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2010; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VA",
+      "first_congress": 1,
+      "last_congress": 1,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage constitutional_1789; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VA",
+      "first_congress": 2,
+      "last_congress": 2,
+      "numbered_count": 9,
+      "at_large_count": 10,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1790; default would be 19+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VA",
+      "first_congress": 7,
+      "last_congress": 7,
+      "numbered_count": 19,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 22+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VA",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 22,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 23+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VA",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VA",
+      "first_congress": 47,
+      "last_congress": 48,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VA",
+      "first_congress": 77,
+      "last_congress": 82,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 10+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VA",
+      "first_congress": 92,
+      "last_congress": 102,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1970; default would be 11+0; Inferred from congress-legislators vs apportionment vintage census_1980; default would be 11+0; Inferred from congress-legislators vs apportionment vintage census_1990; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VT",
+      "first_congress": 7,
+      "last_congress": 7,
+      "numbered_count": 2,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1800; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VT",
+      "first_congress": 12,
+      "last_congress": 12,
+      "numbered_count": 4,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "VT",
+      "first_congress": 13,
+      "last_congress": 16,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1810; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WA",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 1,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WA",
+      "first_congress": 53,
+      "last_congress": 56,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 2+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WA",
+      "first_congress": 57,
+      "last_congress": 60,
+      "numbered_count": 0,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 3+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WA",
+      "first_congress": 62,
+      "last_congress": 63,
+      "numbered_count": 3,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WA",
+      "first_congress": 67,
+      "last_congress": 72,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1920; default would be 6+0; Inferred from congress-legislators vs apportionment vintage census_1930; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WA",
+      "first_congress": 77,
+      "last_congress": 82,
+      "numbered_count": 6,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1940; default would be 7+0; Inferred from congress-legislators vs apportionment vintage census_1950; default would be 7+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WA",
+      "first_congress": 97,
+      "last_congress": 97,
+      "numbered_count": 7,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1980; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WA",
+      "first_congress": 102,
+      "last_congress": 102,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1990; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WA",
+      "first_congress": 112,
+      "last_congress": 112,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2010; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WI",
+      "first_congress": 37,
+      "last_congress": 37,
+      "numbered_count": 3,
+      "at_large_count": 3,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1860; default would be 6+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WI",
+      "first_congress": 42,
+      "last_congress": 42,
+      "numbered_count": 6,
+      "at_large_count": 2,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1870; default would be 8+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WI",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WI",
+      "first_congress": 52,
+      "last_congress": 52,
+      "numbered_count": 9,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1890; default would be 10+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WI",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WI",
+      "first_congress": 66,
+      "last_congress": 66,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 11+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WI",
+      "first_congress": 108,
+      "last_congress": 111,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_2000; default would be 9+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WV",
+      "first_congress": 47,
+      "last_congress": 47,
+      "numbered_count": 3,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1880; default would be 4+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WV",
+      "first_congress": 57,
+      "last_congress": 57,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1900; default would be 5+0",
+      "confidence": "medium"
+    },
+    {
+      "postal": "WV",
+      "first_congress": 62,
+      "last_congress": 64,
+      "numbered_count": 5,
+      "at_large_count": 1,
+      "source_note": "Inferred from congress-legislators vs apportionment vintage census_1910; default would be 6+0",
+      "confidence": "medium"
+    }
+  ],
+  "crosswalks": [
+    {
+      "postal": "NH",
+      "congress": 28,
+      "bioguide_to_seat_code": {
+        "N000140": "A",
+        "B001088": "B",
+        "R000106": "C",
+        "H000034": "D"
+      },
+      "source_note": "Wikipedia column order A–D; bioguide sort disagrees"
+    },
+    {
+      "postal": "NH",
+      "congress": 29,
+      "bioguide_to_seat_code": {
+        "N000140": "A",
+        "M001033": "B",
+        "J000132": "C",
+        "H000034": "D"
+      },
+      "source_note": "Wikipedia column order A–D for 29th Congress"
+    }
+  ]
+}

@@ -10,6 +10,8 @@ required_packs:
   - us_geo_bootstrap
   - us_gold_current_structure
   - us_gold_historical_structure
+  - us_house_district_topology
+  - us_house_legislators_term_index
 
 required_catalog_inauguration_years:
   - 1789
@@ -72,3 +74,6 @@ builder_fixture_mappings:
   - pack_id: usg_house_non_voting_delegate_seats
     source_file: delegates.json
     builder_fixture_name: us_house_non_voting_delegate_seats.json
+  - pack_id: us_house_district_topology
+    source_file: topology.json
+    builder_fixture_name: us_house_district_topology.json

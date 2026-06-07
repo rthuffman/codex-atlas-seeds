@@ -102,6 +102,11 @@ def _load_policy(repo_root: Path, policy_path: Path | None) -> dict[str, Any]:
                     "source_file": "delegates.json",
                     "builder_fixture_name": "us_house_non_voting_delegate_seats.json",
                 },
+                {
+                    "pack_id": "us_house_district_topology",
+                    "source_file": "topology.json",
+                    "builder_fixture_name": "us_house_district_topology.json",
+                },
             ],
         }
     return _load_yaml(path)

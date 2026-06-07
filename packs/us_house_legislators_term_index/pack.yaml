@@ -1,8 +1,10 @@
 pack_id: us_house_legislators_term_index
-version: "0.1.0"
+version: "0.2.0"
 requires_atlas_schema_version: "1.2.0"
 description: >
-  Derived House holder lookup by congress-scoped office key (congress|state|district).
-  Source: unitedstates/congress-legislators (pinned in sources/). Not a Prospectus ingest pack.
+  Derived House holder lookup by congress-scoped office key (congress|postal|seat_code).
+  format_version 2 — alphanumeric seat codes (digits = numbered districts; letters = at-large).
+  Requires us_house_district_topology slice. Source: unitedstates/congress-legislators (pinned in sources/).
+  Not a Prospectus ingest pack.
 files:
   - term_index.json

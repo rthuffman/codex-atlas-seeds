@@ -205,10 +205,36 @@ def validate_delegate_seats(data: dict[str, Any], *, path: str) -> list[str]:
     return errors
 
 
-def validate_house_legislators_term_index(data: dict[str, Any], *, path: str) -> list[str]:
+def validate_house_district_topology(data: dict[str, Any], *, path: str) -> list[str]:
     errors: list[str] = []
     if int(data.get("format_version") or 0) != 1:
         errors.append(f"{path}: format_version must be 1")
+    intervals = data.get("intervals")
+    if not isinstance(intervals, list) or not intervals:
+        errors.append(f"{path}: intervals must be a non-empty list")
+    for i, raw in enumerate(intervals or []):
+        if not isinstance(raw, dict):
+            errors.append(f"{path}: intervals[{i}] must be an object")
+            continue
+        try:
+            int(raw["first_congress"])
+            int(raw["numbered_count"])
+            int(raw["at_large_count"])
+        except (KeyError, TypeError, ValueError):
+            errors.append(f"{path}: intervals[{i}] invalid counts or first_congress")
+        if not str(raw.get("postal") or "").strip():
+            errors.append(f"{path}: intervals[{i}] missing postal")
+    crosswalks = data.get("crosswalks")
+    if crosswalks is not None and not isinstance(crosswalks, list):
+        errors.append(f"{path}: crosswalks must be a list when present")
+    return errors
+
+
+def validate_house_legislators_term_index(data: dict[str, Any], *, path: str) -> list[str]:
+    errors: list[str] = []
+    fmt = int(data.get("format_version") or 0)
+    if fmt not in (1, 2):
+        errors.append(f"{path}: format_version must be 1 or 2")
     holds = data.get("holds_by_office")
     if not isinstance(holds, dict) or not holds:
         errors.append(f"{path}: holds_by_office must be a non-empty object")
@@ -229,6 +255,7 @@ def validate_pack_payloads(repo_root: Path) -> list[str]:
         ("usg_congress_session_bounds", "bounds.json"): validate_congress_bounds,
         ("usg_congress_state_seating", "seating.json"): validate_state_seating,
         ("usg_house_non_voting_delegate_seats", "delegates.json"): validate_delegate_seats,
+        ("us_house_district_topology", "topology.json"): validate_house_district_topology,
         ("us_house_legislators_term_index", "term_index.json"): validate_house_legislators_term_index,
     }
     for pack_dir in discover_packs(repo_root):

@@ -48,6 +48,8 @@ def main() -> int:
         str(seeds_root / "sources" / "unitedstates" / "congress-legislators"),
         "--bounds",
         str(athena / "athena" / "docs" / "fixtures" / "usg-structure" / "us_congress_session_bounds.json"),
+        "--topology",
+        str(seeds_root / "packs" / "us_house_district_topology" / "topology.json"),
         "--fixture-out",
         str(athena / "athena" / "docs" / "fixtures" / "usg-structure" / "us_house_legislators_term_index.json"),
     ]
