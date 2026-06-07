@@ -207,26 +207,91 @@ def validate_delegate_seats(data: dict[str, Any], *, path: str) -> list[str]:
 
 def validate_house_district_topology(data: dict[str, Any], *, path: str) -> list[str]:
     errors: list[str] = []
-    if int(data.get("format_version") or 0) != 1:
-        errors.append(f"{path}: format_version must be 1")
+    if int(data.get("format_version") or 0) != 2:
+        errors.append(f"{path}: format_version must be 2")
+    source = data.get("source")
+    if not isinstance(source, dict) or not source:
+        errors.append(f"{path}: source must be a non-empty object")
     intervals = data.get("intervals")
     if not isinstance(intervals, list) or not intervals:
         errors.append(f"{path}: intervals must be a non-empty list")
+    seen_ranges: dict[str, list[tuple[int, int, int]]] = {}
+    valid_kinds = {
+        "single_statewide_at_large",
+        "statewide_general_ticket",
+        "hybrid_at_large",
+        "single_member_districts",
+        "plural_districts",
+        "mixed_plural",
+    }
     for i, raw in enumerate(intervals or []):
         if not isinstance(raw, dict):
             errors.append(f"{path}: intervals[{i}] must be an object")
             continue
+        postal = str(raw.get("postal") or "").strip().upper()
         try:
-            int(raw["first_congress"])
-            int(raw["numbered_count"])
-            int(raw["at_large_count"])
+            first = int(raw["first_congress"])
+            last = int(raw.get("last_congress") or first)
+            numbered = int(raw.get("numbered_single_member_count", raw.get("numbered_count", 0)))
+            at_large = int(raw.get("statewide_at_large_count", raw.get("at_large_count", 0)))
         except (KeyError, TypeError, ValueError):
             errors.append(f"{path}: intervals[{i}] invalid counts or first_congress")
-        if not str(raw.get("postal") or "").strip():
+            continue
+        if not postal:
             errors.append(f"{path}: intervals[{i}] missing postal")
+        if first < 1 or last < first:
+            errors.append(f"{path}: intervals[{i}] invalid congress range")
+        if numbered < 0 or at_large < 0:
+            errors.append(f"{path}: intervals[{i}] counts must be non-negative")
+        kind = str(raw.get("topology_kind") or "").strip()
+        if kind not in valid_kinds:
+            errors.append(f"{path}: intervals[{i}] invalid topology_kind")
+        if not str(raw.get("source_authority") or "").strip():
+            errors.append(f"{path}: intervals[{i}] missing source_authority")
+        if str(raw.get("review_status") or "").strip() != "reviewed":
+            errors.append(f"{path}: intervals[{i}] review_status must be reviewed")
+        if first >= 92 and (at_large or raw.get("plural_districts")):
+            errors.append(f"{path}: intervals[{i}] violates post-92nd single-member district invariant")
+        plural = raw.get("plural_districts") or []
+        if plural and not isinstance(plural, list):
+            errors.append(f"{path}: intervals[{i}] plural_districts must be a list")
+        for j, p_raw in enumerate(plural if isinstance(plural, list) else []):
+            if not isinstance(p_raw, dict):
+                errors.append(f"{path}: intervals[{i}].plural_districts[{j}] must be an object")
+                continue
+            try:
+                district = int(p_raw["district"])
+                seat_count = int(p_raw["seat_count"])
+            except (KeyError, TypeError, ValueError):
+                errors.append(f"{path}: intervals[{i}].plural_districts[{j}] invalid district/seat_count")
+                continue
+            if district < 1 or seat_count < 2:
+                errors.append(f"{path}: intervals[{i}].plural_districts[{j}] seat_count must be >= 2")
+        ranges = seen_ranges.setdefault(postal, [])
+        for prev_first, prev_last, prev_i in ranges:
+            if prev_first <= last and first <= prev_last:
+                errors.append(f"{path}: intervals[{i}] overlaps intervals[{prev_i}] for {postal}")
+                break
+        ranges.append((first, last, i))
     crosswalks = data.get("crosswalks")
     if crosswalks is not None and not isinstance(crosswalks, list):
         errors.append(f"{path}: crosswalks must be a list when present")
+    import re
+
+    seat_re = re.compile(r"^([1-9][0-9]*|[A-Z]+|[1-9][0-9]*-[A-Z]+)$")
+    for i, row in enumerate(crosswalks or []):
+        if not isinstance(row, dict):
+            errors.append(f"{path}: crosswalks[{i}] must be an object")
+            continue
+        mapping = row.get("bioguide_to_seat_code")
+        if not isinstance(mapping, dict) or not mapping:
+            errors.append(f"{path}: crosswalks[{i}] bioguide_to_seat_code must be a non-empty object")
+            continue
+        for bid, code in mapping.items():
+            if not str(bid or "").strip():
+                errors.append(f"{path}: crosswalks[{i}] empty bioguide")
+            if not seat_re.match(str(code or "").strip().upper()):
+                errors.append(f"{path}: crosswalks[{i}] invalid seat_code {code!r}")
     return errors
 
 

@@ -1,10 +1,10 @@
 pack_id: us_house_district_topology
-version: "0.1.0"
+version: "0.2.0"
 requires_atlas_schema_version: "1.2.0"
 description: >
-  House seat topology intervals (numbered vs multi at-large) by state and congress range.
-  Generator: athena-codex base-data/tools/generate_house_district_topology.py with
-  peer-reviewed overrides (NH P0) and congress-legislators inference for P1+ exceptions.
-  Consumed by session builder, term index v2, and vacancy scope (seat_code keys).
+  House seat topology intervals by state and congress range. Schema v2 distinguishes
+  ordinary numbered districts, statewide at-large seats, hybrid at-large seats, and
+  plural numbered districts with seat codes like 1-A. Rows are reviewed/source-backed;
+  v0.3.4 supersedes tainted v0.3.3 inferred topology.
 files:
   - topology.json

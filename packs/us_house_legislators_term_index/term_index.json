@@ -40065,60 +40065,6 @@
         "term_start": "1807-10-26"
       }
     ],
-    "10|CT|B": [
-      {
-        "bioguide": "D000024",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|CT|C": [
-      {
-        "bioguide": "D000075",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|CT|D": [
-      {
-        "bioguide": "M001023",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|CT|E": [
-      {
-        "bioguide": "P000368",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|CT|F": [
-      {
-        "bioguide": "S001048",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|CT|G": [
-      {
-        "bioguide": "T000029",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
     "10|DE|A": [
       {
         "bioguide": "B000888",
@@ -40131,33 +40077,6 @@
     "10|GA|A": [
       {
         "bioguide": "B000434",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|GA|B": [
-      {
-        "bioguide": "C000547",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|GA|C": [
-      {
-        "bioguide": "S000507",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|GA|D": [
-      {
-        "bioguide": "T000382",
         "match": "exact",
         "party": "Republican",
         "term_end": "1809-03-03",
@@ -40599,90 +40518,9 @@
         "term_start": "1807-10-26"
       }
     ],
-    "10|NH|B": [
-      {
-        "bioguide": "D000565",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|NH|C": [
-      {
-        "bioguide": "G000052",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|NH|D": [
-      {
-        "bioguide": "S000562",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|NH|E": [
-      {
-        "bioguide": "S000972",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
     "10|NJ|A": [
       {
         "bioguide": "B000714",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|NJ|B": [
-      {
-        "bioguide": "D000047",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|NJ|C": [
-      {
-        "bioguide": "H000464",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|NJ|D": [
-      {
-        "bioguide": "L000036",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|NJ|E": [
-      {
-        "bioguide": "N000064",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|NJ|F": [
-      {
-        "bioguide": "S000493",
         "match": "exact",
         "party": "Republican",
         "term_end": "1809-03-03",
@@ -41026,15 +40864,6 @@
         "bioguide": "J000025",
         "match": "exact",
         "party": "Federalist",
-        "term_end": "1809-03-03",
-        "term_start": "1807-10-26"
-      }
-    ],
-    "10|RI|B": [
-      {
-        "bioguide": "K000286",
-        "match": "exact",
-        "party": "Republican",
         "term_end": "1809-03-03",
         "term_start": "1807-10-26"
       }
@@ -77751,60 +77580,6 @@
         "term_start": "1809-05-22"
       }
     ],
-    "11|CT|B": [
-      {
-        "bioguide": "D000024",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1810-05-10",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|CT|C": [
-      {
-        "bioguide": "D000075",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|CT|D": [
-      {
-        "bioguide": "H000996",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|CT|E": [
-      {
-        "bioguide": "M001023",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|CT|F": [
-      {
-        "bioguide": "P000368",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|CT|G": [
-      {
-        "bioguide": "S001048",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
     "11|DE|A": [
       {
         "bioguide": "V000037",
@@ -77817,33 +77592,6 @@
     "11|GA|A": [
       {
         "bioguide": "B000434",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|GA|B": [
-      {
-        "bioguide": "C000547",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|GA|C": [
-      {
-        "bioguide": "S000507",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|GA|D": [
-      {
-        "bioguide": "T000382",
         "match": "exact",
         "party": "Republican",
         "term_end": "1811-03-03",
@@ -78311,90 +78059,9 @@
         "term_start": "1809-05-22"
       }
     ],
-    "11|NH|B": [
-      {
-        "bioguide": "C000279",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|NH|C": [
-      {
-        "bioguide": "H000039",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|NH|D": [
-      {
-        "bioguide": "H000354",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|NH|E": [
-      {
-        "bioguide": "W000592",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
     "11|NJ|A": [
       {
         "bioguide": "B000714",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|NJ|B": [
-      {
-        "bioguide": "C000834",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|NJ|C": [
-      {
-        "bioguide": "H000464",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|NJ|D": [
-      {
-        "bioguide": "H000914",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|NJ|E": [
-      {
-        "bioguide": "N000064",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|NJ|F": [
-      {
-        "bioguide": "S000200",
         "match": "exact",
         "party": "Republican",
         "term_end": "1811-03-03",
@@ -78733,15 +78400,6 @@
     "11|RI|A": [
       {
         "bioguide": "J000025",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1811-03-03",
-        "term_start": "1809-05-22"
-      }
-    ],
-    "11|RI|B": [
-      {
-        "bioguide": "P000463",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1811-03-03",
@@ -79111,60 +78769,6 @@
         "term_start": "1811-11-04"
       }
     ],
-    "12|CT|B": [
-      {
-        "bioguide": "D000075",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|CT|C": [
-      {
-        "bioguide": "L000126",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|CT|D": [
-      {
-        "bioguide": "M001023",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|CT|E": [
-      {
-        "bioguide": "P000368",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|CT|F": [
-      {
-        "bioguide": "S001048",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|CT|G": [
-      {
-        "bioguide": "T000029",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
     "12|DE|A": [
       {
         "bioguide": "R000245",
@@ -79177,42 +78781,6 @@
     "12|GA|A": [
       {
         "bioguide": "B000161",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|GA|B": [
-      {
-        "bioguide": "B000434",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|GA|C": [
-      {
-        "bioguide": "C000547",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|GA|D": [
-      {
-        "bioguide": "H000045",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|GA|E": [
-      {
-        "bioguide": "T000382",
         "match": "exact",
         "party": "Republican",
         "term_end": "1813-03-03",
@@ -79681,90 +79249,9 @@
         "term_start": "1811-11-04"
       }
     ],
-    "12|NH|B": [
-      {
-        "bioguide": "D000357",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|NH|C": [
-      {
-        "bioguide": "H000064",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|NH|D": [
-      {
-        "bioguide": "H000223",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|NH|E": [
-      {
-        "bioguide": "S001052",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
     "12|NJ|A": [
       {
         "bioguide": "B000714",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|NJ|B": [
-      {
-        "bioguide": "C000668",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|NJ|C": [
-      {
-        "bioguide": "H000914",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|NJ|D": [
-      {
-        "bioguide": "M000267",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|NJ|E": [
-      {
-        "bioguide": "M000951",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|NJ|F": [
-      {
-        "bioguide": "N000064",
         "match": "exact",
         "party": "Republican",
         "term_end": "1813-03-03",
@@ -80087,15 +79574,6 @@
     "12|RI|A": [
       {
         "bioguide": "J000025",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1813-03-03",
-        "term_start": "1811-11-04"
-      }
-    ],
-    "12|RI|B": [
-      {
-        "bioguide": "P000463",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1813-03-03",
@@ -80451,60 +79929,6 @@
         "term_start": "1813-05-24"
       }
     ],
-    "13|CT|B": [
-      {
-        "bioguide": "D000075",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|CT|C": [
-      {
-        "bioguide": "L000126",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|CT|D": [
-      {
-        "bioguide": "M001023",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|CT|E": [
-      {
-        "bioguide": "P000368",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|CT|F": [
-      {
-        "bioguide": "S001048",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|CT|G": [
-      {
-        "bioguide": "T000029",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
     "13|DE|A": [
       {
         "bioguide": "C000762",
@@ -80514,63 +79938,9 @@
         "term_start": "1813-05-24"
       }
     ],
-    "13|DE|B": [
-      {
-        "bioguide": "R000245",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
     "13|GA|A": [
       {
         "bioguide": "B000161",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|GA|B": [
-      {
-        "bioguide": "B000434",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1813-11-06",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|GA|C": [
-      {
-        "bioguide": "C001023",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|GA|D": [
-      {
-        "bioguide": "F000284",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|GA|E": [
-      {
-        "bioguide": "H000045",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|GA|F": [
-      {
-        "bioguide": "T000115",
         "match": "exact",
         "party": "Republican",
         "term_end": "1815-03-03",
@@ -81114,51 +80484,6 @@
         "term_start": "1813-05-24"
       }
     ],
-    "13|NH|B": [
-      {
-        "bioguide": "H000039",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|NH|C": [
-      {
-        "bioguide": "S000608",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|NH|D": [
-      {
-        "bioguide": "V000120",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|NH|E": [
-      {
-        "bioguide": "W000238",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|NH|F": [
-      {
-        "bioguide": "W000456",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
     "13|NJ|1": [
       {
         "bioguide": "C000668",
@@ -81528,28 +80853,34 @@
         "term_start": "1813-05-24"
       }
     ],
-    "13|PA|1": [
+    "13|PA|1-A": [
       {
         "bioguide": "A000235",
         "match": "exact",
         "party": "Republican",
         "term_end": "1815-03-03",
         "term_start": "1813-05-24"
-      },
+      }
+    ],
+    "13|PA|1-B": [
       {
         "bioguide": "C000667",
         "match": "exact",
         "party": "Republican",
         "term_end": "1815-03-03",
         "term_start": "1813-05-24"
-      },
+      }
+    ],
+    "13|PA|1-C": [
       {
         "bioguide": "I000015",
         "match": "exact",
         "party": "Republican",
         "term_end": "1815-03-03",
         "term_start": "1813-05-24"
-      },
+      }
+    ],
+    "13|PA|1-D": [
       {
         "bioguide": "S000264",
         "match": "exact",
@@ -81759,15 +81090,6 @@
     "13|RI|A": [
       {
         "bioguide": "J000025",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|RI|B": [
-      {
-        "bioguide": "P000463",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1815-03-03",
@@ -82139,108 +81461,9 @@
         "term_start": "1813-05-24"
       }
     ],
-    "13|VT|B": [
-      {
-        "bioguide": "B001176",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|VT|C": [
-      {
-        "bioguide": "F000154",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|VT|D": [
-      {
-        "bioguide": "R000207",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|VT|E": [
-      {
-        "bioguide": "S000469",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
-    "13|VT|F": [
-      {
-        "bioguide": "S001022",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1815-03-03",
-        "term_start": "1813-05-24"
-      }
-    ],
     "14|CT|A": [
       {
         "bioguide": "C000288",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|CT|B": [
-      {
-        "bioguide": "D000075",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|CT|C": [
-      {
-        "bioguide": "L000126",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|CT|D": [
-      {
-        "bioguide": "M001023",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|CT|E": [
-      {
-        "bioguide": "P000368",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|CT|F": [
-      {
-        "bioguide": "S001048",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|CT|G": [
-      {
-        "bioguide": "T000029",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1817-03-03",
@@ -82256,63 +81479,9 @@
         "term_start": "1815-12-04"
       }
     ],
-    "14|DE|B": [
-      {
-        "bioguide": "C000762",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
     "14|GA|A": [
       {
         "bioguide": "C000728",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|GA|B": [
-      {
-        "bioguide": "C001023",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|GA|C": [
-      {
-        "bioguide": "F000284",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|GA|D": [
-      {
-        "bioguide": "H000045",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|GA|E": [
-      {
-        "bioguide": "L000512",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|GA|F": [
-      {
-        "bioguide": "T000115",
         "match": "exact",
         "party": "Republican",
         "term_end": "1817-03-03",
@@ -82902,99 +82071,9 @@
         "term_start": "1815-12-04"
       }
     ],
-    "14|NH|B": [
-      {
-        "bioguide": "C000394",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NH|C": [
-      {
-        "bioguide": "H000039",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NH|D": [
-      {
-        "bioguide": "V000120",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NH|E": [
-      {
-        "bioguide": "W000238",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NH|F": [
-      {
-        "bioguide": "W000456",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
     "14|NJ|A": [
       {
         "bioguide": "B000060",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NJ|B": [
-      {
-        "bioguide": "B000228",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NJ|C": [
-      {
-        "bioguide": "B000368",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NJ|D": [
-      {
-        "bioguide": "C000668",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NJ|E": [
-      {
-        "bioguide": "S000685",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NJ|F": [
-      {
-        "bioguide": "W000141",
         "match": "exact",
         "party": "Republican",
         "term_end": "1817-03-03",
@@ -83258,15 +82337,6 @@
         "bioguide": "F000155",
         "match": "exact",
         "party": "Republican",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|NY|B": [
-      {
-        "bioguide": "S000638",
-        "match": "exact",
-        "party": "Federalist",
         "term_end": "1817-03-03",
         "term_start": "1815-12-04"
       }
@@ -83539,26 +82609,9 @@
         "term_start": "1815-12-04"
       }
     ],
-    "14|PA|B": [
-      {
-        "bioguide": "W000523",
-        "match": "exact",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
     "14|RI|A": [
       {
         "bioguide": "B000650",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|RI|B": [
-      {
-        "bioguide": "M000215",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1817-03-03",
@@ -83955,51 +83008,6 @@
         "term_start": "1815-12-04"
       }
     ],
-    "14|VT|B": [
-      {
-        "bioguide": "J000107",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|VT|C": [
-      {
-        "bioguide": "L000066",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|VT|D": [
-      {
-        "bioguide": "L000539",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|VT|E": [
-      {
-        "bioguide": "M000146",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
-    "14|VT|F": [
-      {
-        "bioguide": "N000164",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1817-03-03",
-        "term_start": "1815-12-04"
-      }
-    ],
     "15|AL|A": [
       {
         "bioguide": "C000942",
@@ -84017,60 +83025,6 @@
         "term_start": "1817-12-01"
       }
     ],
-    "15|CT|B": [
-      {
-        "bioguide": "H000743",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|CT|C": [
-      {
-        "bioguide": "H000996",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|CT|D": [
-      {
-        "bioguide": "M001023",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|CT|E": [
-      {
-        "bioguide": "P000368",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|CT|F": [
-      {
-        "bioguide": "S000357",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|CT|G": [
-      {
-        "bioguide": "T000135",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
     "15|DE|A": [
       {
         "bioguide": "H000076",
@@ -84080,63 +83034,9 @@
         "term_start": "1817-12-01"
       }
     ],
-    "15|DE|B": [
-      {
-        "bioguide": "M000535",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
     "15|GA|A": [
       {
         "bioguide": "A000003",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|GA|B": [
-      {
-        "bioguide": "C000553",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|GA|C": [
-      {
-        "bioguide": "C000728",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|GA|D": [
-      {
-        "bioguide": "C000891",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|GA|E": [
-      {
-        "bioguide": "F000284",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1818-11-23",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|GA|F": [
-      {
-        "bioguide": "R000151",
         "match": "exact",
         "party": "Republican",
         "term_end": "1819-03-03",
@@ -84698,99 +83598,9 @@
         "term_start": "1817-12-01"
       }
     ],
-    "15|NH|B": [
-      {
-        "bioguide": "C000399",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|NH|C": [
-      {
-        "bioguide": "H000038",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|NH|D": [
-      {
-        "bioguide": "L000362",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|NH|E": [
-      {
-        "bioguide": "P000084",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|NH|F": [
-      {
-        "bioguide": "U000024",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
     "15|NJ|A": [
       {
         "bioguide": "B000228",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|NJ|B": [
-      {
-        "bioguide": "B000368",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|NJ|C": [
-      {
-        "bioguide": "B000566",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|NJ|D": [
-      {
-        "bioguide": "K000227",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|NJ|E": [
-      {
-        "bioguide": "L000337",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|NJ|F": [
-      {
-        "bioguide": "S000685",
         "match": "exact",
         "party": "Republican",
         "term_end": "1819-03-03",
@@ -85303,15 +84113,6 @@
         "term_start": "1817-12-01"
       }
     ],
-    "15|RI|B": [
-      {
-        "bioguide": "M000215",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
     "15|SC|1": [
       {
         "bioguide": "M000699",
@@ -85679,51 +84480,6 @@
         "term_start": "1817-12-01"
       }
     ],
-    "15|VT|B": [
-      {
-        "bioguide": "C000851",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|VT|C": [
-      {
-        "bioguide": "H000990",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|VT|D": [
-      {
-        "bioguide": "M000657",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|VT|E": [
-      {
-        "bioguide": "R000207",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
-    "15|VT|F": [
-      {
-        "bioguide": "R000217",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1819-03-03",
-        "term_start": "1817-12-01"
-      }
-    ],
     "16|AL|1": [
       {
         "bioguide": "C000942",
@@ -85750,60 +84506,6 @@
         "term_start": "1819-12-06"
       }
     ],
-    "16|CT|B": [
-      {
-        "bioguide": "F000247",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|CT|C": [
-      {
-        "bioguide": "M001023",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|CT|D": [
-      {
-        "bioguide": "P000294",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|CT|E": [
-      {
-        "bioguide": "R000519",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|CT|F": [
-      {
-        "bioguide": "S000882",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|CT|G": [
-      {
-        "bioguide": "T000300",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
     "16|DE|A": [
       {
         "bioguide": "H000076",
@@ -85813,63 +84515,9 @@
         "term_start": "1819-12-06"
       }
     ],
-    "16|DE|B": [
-      {
-        "bioguide": "M000535",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
     "16|GA|A": [
       {
         "bioguide": "A000003",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|GA|B": [
-      {
-        "bioguide": "C000553",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|GA|C": [
-      {
-        "bioguide": "C000891",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|GA|D": [
-      {
-        "bioguide": "C001024",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|GA|E": [
-      {
-        "bioguide": "R000151",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|GA|F": [
-      {
-        "bioguide": "T000132",
         "match": "exact",
         "party": "Republican",
         "term_end": "1821-03-03",
@@ -86444,99 +85092,9 @@
         "term_start": "1819-12-06"
       }
     ],
-    "16|NH|B": [
-      {
-        "bioguide": "B001181",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|NH|C": [
-      {
-        "bioguide": "C000399",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|NH|D": [
-      {
-        "bioguide": "L000362",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|NH|E": [
-      {
-        "bioguide": "P000394",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|NH|F": [
-      {
-        "bioguide": "U000024",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
     "16|NJ|A": [
       {
         "bioguide": "B000228",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|NJ|B": [
-      {
-        "bioguide": "B000566",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|NJ|C": [
-      {
-        "bioguide": "C000671",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|NJ|D": [
-      {
-        "bioguide": "K000227",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|NJ|E": [
-      {
-        "bioguide": "L000337",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|NJ|F": [
-      {
-        "bioguide": "S000518",
         "match": "exact",
         "party": "Republican",
         "term_end": "1821-03-03",
@@ -87051,15 +85609,6 @@
         "term_start": "1819-12-06"
       }
     ],
-    "16|RI|B": [
-      {
-        "bioguide": "H000415",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
     "16|SC|1": [
       {
         "bioguide": "P000354",
@@ -87441,51 +85990,6 @@
         "term_start": "1819-12-06"
       }
     ],
-    "16|VT|B": [
-      {
-        "bioguide": "M000079",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|VT|C": [
-      {
-        "bioguide": "M000625",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|VT|D": [
-      {
-        "bioguide": "M000657",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|VT|E": [
-      {
-        "bioguide": "R000207",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
-    "16|VT|F": [
-      {
-        "bioguide": "R000217",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1821-03-03",
-        "term_start": "1819-12-06"
-      }
-    ],
     "17|AL|1": [
       {
         "bioguide": "M000898",
@@ -87512,51 +86016,6 @@
         "term_start": "1821-12-03"
       }
     ],
-    "17|CT|B": [
-      {
-        "bioguide": "B001140",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|CT|C": [
-      {
-        "bioguide": "E000070",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|CT|D": [
-      {
-        "bioguide": "R000519",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|CT|E": [
-      {
-        "bioguide": "S000868",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|CT|F": [
-      {
-        "bioguide": "S000943",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
     "17|DE|A": [
       {
         "bioguide": "M000535",
@@ -87577,51 +86036,6 @@
     "17|GA|A": [
       {
         "bioguide": "A000003",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|GA|B": [
-      {
-        "bioguide": "C001023",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|GA|C": [
-      {
-        "bioguide": "G000216",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|GA|D": [
-      {
-        "bioguide": "R000151",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|GA|E": [
-      {
-        "bioguide": "T000051",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|GA|F": [
-      {
-        "bioguide": "T000222",
         "match": "exact",
         "party": "Republican",
         "term_end": "1823-03-03",
@@ -87746,15 +86160,6 @@
     "17|KY|A": [
       {
         "bioguide": "B001054",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|KY|B": [
-      {
-        "bioguide": "R000322",
         "match": "exact",
         "party": "Republican",
         "term_end": "1823-03-03",
@@ -88195,99 +86600,9 @@
         "term_start": "1821-12-03"
       }
     ],
-    "17|NH|B": [
-      {
-        "bioguide": "H000309",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NH|C": [
-      {
-        "bioguide": "M000247",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NH|D": [
-      {
-        "bioguide": "P000394",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NH|E": [
-      {
-        "bioguide": "U000024",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NH|F": [
-      {
-        "bioguide": "W000345",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
     "17|NJ|A": [
       {
         "bioguide": "B000228",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NJ|B": [
-      {
-        "bioguide": "C000234",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NJ|C": [
-      {
-        "bioguide": "C000668",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NJ|D": [
-      {
-        "bioguide": "H000711",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NJ|E": [
-      {
-        "bioguide": "M000245",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NJ|F": [
-      {
-        "bioguide": "S001088",
         "match": "exact",
         "party": "Republican",
         "term_end": "1823-03-03",
@@ -88537,14 +86852,6 @@
     "17|NY|A": [
       {
         "bioguide": "S000297",
-        "match": "exact",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|NY|B": [
-      {
-        "bioguide": "T000438",
         "match": "exact",
         "term_end": "1823-03-03",
         "term_start": "1821-12-03"
@@ -88839,26 +87146,9 @@
         "term_start": "1821-12-03"
       }
     ],
-    "17|PA|B": [
-      {
-        "bioguide": "E000137",
-        "match": "exact",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
     "17|RI|A": [
       {
         "bioguide": "D000568",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1823-03-03",
-        "term_start": "1821-12-03"
-      }
-    ],
-    "17|RI|B": [
-      {
-        "bioguide": "E000040",
         "match": "exact",
         "party": "Republican",
         "term_end": "1823-03-03",
@@ -89329,47 +87619,6 @@
         "term_start": "1823-12-01"
       }
     ],
-    "18|CT|B": [
-      {
-        "bioguide": "F000247",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|CT|C": [
-      {
-        "bioguide": "S000868",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|CT|D": [
-      {
-        "bioguide": "S000943",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|CT|E": [
-      {
-        "bioguide": "T000300",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|CT|F": [
-      {
-        "bioguide": "W000422",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
     "18|DE|A": [
       {
         "bioguide": "M000535",
@@ -89390,59 +87639,6 @@
     "18|GA|A": [
       {
         "bioguide": "A000003",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|GA|B": [
-      {
-        "bioguide": "C000212",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|GA|C": [
-      {
-        "bioguide": "C001023",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|GA|D": [
-      {
-        "bioguide": "F000284",
-        "match": "exact",
-        "party": "Democratic Republican",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|GA|E": [
-      {
-        "bioguide": "T000051",
-        "match": "exact",
-        "party": "Crawford Republican",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|GA|F": [
-      {
-        "bioguide": "T000222",
-        "match": "exact",
-        "party": "Jacksonian",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|GA|G": [
-      {
-        "bioguide": "W000460",
         "match": "exact",
         "party": "Republican",
         "term_end": "1825-03-03",
@@ -90006,91 +88202,9 @@
         "term_start": "1823-12-01"
       }
     ],
-    "18|NH|B": [
-      {
-        "bioguide": "H000309",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|NH|C": [
-      {
-        "bioguide": "L000362",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|NH|D": [
-      {
-        "bioguide": "M000247",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|NH|E": [
-      {
-        "bioguide": "P000394",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|NH|F": [
-      {
-        "bioguide": "W000345",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
     "18|NJ|A": [
       {
         "bioguide": "C000234",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|NJ|B": [
-      {
-        "bioguide": "C000668",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|NJ|C": [
-      {
-        "bioguide": "G000083",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|NJ|D": [
-      {
-        "bioguide": "H000711",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|NJ|E": [
-      {
-        "bioguide": "M000245",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
-    "18|NJ|F": [
-      {
-        "bioguide": "S001088",
         "match": "exact",
         "term_end": "1825-03-03",
         "term_start": "1823-12-01"
@@ -90727,14 +88841,6 @@
         "term_start": "1823-12-01"
       }
     ],
-    "18|RI|B": [
-      {
-        "bioguide": "E000040",
-        "match": "exact",
-        "term_end": "1825-03-03",
-        "term_start": "1823-12-01"
-      }
-    ],
     "18|SC|1": [
       {
         "bioguide": "P000404",
@@ -91181,51 +89287,6 @@
         "term_start": "1825-12-05"
       }
     ],
-    "19|CT|B": [
-      {
-        "bioguide": "B000125",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|CT|C": [
-      {
-        "bioguide": "I000020",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|CT|D": [
-      {
-        "bioguide": "M000665",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|CT|E": [
-      {
-        "bioguide": "P000294",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|CT|F": [
-      {
-        "bioguide": "T000300",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
     "19|DE|A": [
       {
         "bioguide": "M000535",
@@ -91246,60 +89307,6 @@
     "19|GA|A": [
       {
         "bioguide": "C000212",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|GA|B": [
-      {
-        "bioguide": "C001023",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|GA|C": [
-      {
-        "bioguide": "F000284",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|GA|D": [
-      {
-        "bioguide": "H000399",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|GA|E": [
-      {
-        "bioguide": "M000651",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|GA|F": [
-      {
-        "bioguide": "T000051",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|GA|G": [
-      {
-        "bioguide": "T000222",
         "match": "exact",
         "party": "Jackson",
         "term_end": "1827-03-03",
@@ -91939,101 +89946,11 @@
         "term_start": "1825-12-05"
       }
     ],
-    "19|NH|B": [
-      {
-        "bioguide": "B000945",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|NH|C": [
-      {
-        "bioguide": "E000021",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|NH|D": [
-      {
-        "bioguide": "H000308",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|NH|E": [
-      {
-        "bioguide": "H000425",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|NH|F": [
-      {
-        "bioguide": "W000345",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
     "19|NJ|A": [
       {
         "bioguide": "C000234",
         "match": "exact",
         "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|NJ|B": [
-      {
-        "bioguide": "C000668",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|NJ|C": [
-      {
-        "bioguide": "G000083",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|NJ|D": [
-      {
-        "bioguide": "H000711",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|NJ|E": [
-      {
-        "bioguide": "S001088",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
-    "19|NJ|F": [
-      {
-        "bioguide": "T000396",
-        "match": "exact",
-        "party": "Adams",
         "term_end": "1827-03-03",
         "term_start": "1825-12-05"
       }
@@ -92739,15 +90656,6 @@
         "term_start": "1825-12-05"
       }
     ],
-    "19|RI|B": [
-      {
-        "bioguide": "P000160",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1827-03-03",
-        "term_start": "1825-12-05"
-      }
-    ],
     "19|SC|1": [
       {
         "bioguide": "D000490",
@@ -93177,40 +91085,6 @@
         "term_start": "1789-03-04"
       }
     ],
-    "1|CT|B": [
-      {
-        "bioguide": "S000349",
-        "match": "exact",
-        "party": "Pro-Administration",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|CT|C": [
-      {
-        "bioguide": "S001047",
-        "match": "exact",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|CT|D": [
-      {
-        "bioguide": "T000389",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|CT|E": [
-      {
-        "bioguide": "W000013",
-        "match": "exact",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
     "1|DE|A": [
       {
         "bioguide": "V000104",
@@ -93414,54 +91288,10 @@
         "term_start": "1789-03-04"
       }
     ],
-    "1|NH|B": [
-      {
-        "bioguide": "G000215",
-        "match": "exact",
-        "party": "Democratic Republican",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|NH|C": [
-      {
-        "bioguide": "L000364",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
     "1|NJ|A": [
       {
         "bioguide": "B000661",
         "match": "exact",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|NJ|B": [
-      {
-        "bioguide": "C000012",
-        "match": "exact",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|NJ|C": [
-      {
-        "bioguide": "S000150",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|NJ|D": [
-      {
-        "bioguide": "S000448",
-        "match": "exact",
-        "party": "Federalist",
         "term_end": "1791-03-03",
         "term_start": "1789-03-04"
       }
@@ -93519,65 +91349,6 @@
     "1|PA|A": [
       {
         "bioguide": "C000538",
-        "match": "exact",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|PA|B": [
-      {
-        "bioguide": "F000178",
-        "match": "exact",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|PA|C": [
-      {
-        "bioguide": "H000299",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|PA|D": [
-      {
-        "bioguide": "H000570",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|PA|E": [
-      {
-        "bioguide": "M001063",
-        "match": "exact",
-        "party": "Pro-administration",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|PA|F": [
-      {
-        "bioguide": "M001066",
-        "match": "exact",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|PA|G": [
-      {
-        "bioguide": "S000186",
-        "match": "exact",
-        "term_end": "1791-03-03",
-        "term_start": "1789-03-04"
-      }
-    ],
-    "1|PA|H": [
-      {
-        "bioguide": "W000783",
         "match": "exact",
         "term_end": "1791-03-03",
         "term_start": "1789-03-04"
@@ -93763,51 +91534,6 @@
     "20|CT|A": [
       {
         "bioguide": "B000090",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|CT|B": [
-      {
-        "bioguide": "B000125",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|CT|C": [
-      {
-        "bioguide": "I000020",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|CT|D": [
-      {
-        "bioguide": "M000665",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|CT|E": [
-      {
-        "bioguide": "P000294",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|CT|F": [
-      {
-        "bioguide": "P000375",
         "match": "exact",
         "party": "Adams",
         "term_end": "1829-03-03",
@@ -94513,99 +92239,9 @@
         "term_start": "1827-12-03"
       }
     ],
-    "20|NH|B": [
-      {
-        "bioguide": "B000205",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|NH|C": [
-      {
-        "bioguide": "B000945",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|NH|D": [
-      {
-        "bioguide": "H000308",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|NH|E": [
-      {
-        "bioguide": "H000425",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|NH|F": [
-      {
-        "bioguide": "W000345",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
     "20|NJ|A": [
       {
         "bioguide": "C000668",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|NJ|B": [
-      {
-        "bioguide": "H000711",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|NJ|C": [
-      {
-        "bioguide": "P000341",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|NJ|D": [
-      {
-        "bioguide": "R000044",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|NJ|E": [
-      {
-        "bioguide": "S000449",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
-    "20|NJ|F": [
-      {
-        "bioguide": "S001088",
         "match": "exact",
         "party": "Adams",
         "term_end": "1829-03-03",
@@ -95293,15 +92929,6 @@
         "term_start": "1827-12-03"
       }
     ],
-    "20|RI|B": [
-      {
-        "bioguide": "P000160",
-        "match": "exact",
-        "party": "Adams",
-        "term_end": "1829-03-03",
-        "term_start": "1827-12-03"
-      }
-    ],
     "20|SC|1": [
       {
         "bioguide": "D000490",
@@ -95751,48 +93378,6 @@
         "term_start": "1829-12-07"
       }
     ],
-    "21|CT|B": [
-      {
-        "bioguide": "E000150",
-        "match": "exact",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|CT|C": [
-      {
-        "bioguide": "H000997",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|CT|D": [
-      {
-        "bioguide": "I000020",
-        "match": "exact",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|CT|E": [
-      {
-        "bioguide": "S000977",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|CT|F": [
-      {
-        "bioguide": "Y000034",
-        "match": "exact",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
     "21|DE|A": [
       {
         "bioguide": "J000112",
@@ -95812,60 +93397,6 @@
     "21|GA|A": [
       {
         "bioguide": "F000314",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|GA|B": [
-      {
-        "bioguide": "H000399",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|GA|C": [
-      {
-        "bioguide": "L000027",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|GA|D": [
-      {
-        "bioguide": "L000512",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|GA|E": [
-      {
-        "bioguide": "T000222",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|GA|F": [
-      {
-        "bioguide": "W000218",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|GA|G": [
-      {
-        "bioguide": "W000460",
         "match": "exact",
         "party": "Jackson",
         "term_end": "1831-03-03",
@@ -96454,96 +93985,11 @@
         "term_start": "1829-12-07"
       }
     ],
-    "21|NH|B": [
-      {
-        "bioguide": "C000294",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|NH|C": [
-      {
-        "bioguide": "H000137",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|NH|D": [
-      {
-        "bioguide": "H000308",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|NH|E": [
-      {
-        "bioguide": "H000883",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|NH|F": [
-      {
-        "bioguide": "W000245",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
     "21|NJ|A": [
       {
         "bioguide": "C000668",
         "match": "exact",
         "party": "Republican",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|NJ|B": [
-      {
-        "bioguide": "C000760",
-        "match": "exact",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|NJ|C": [
-      {
-        "bioguide": "H000928",
-        "match": "exact",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|NJ|D": [
-      {
-        "bioguide": "P000341",
-        "match": "exact",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|NJ|E": [
-      {
-        "bioguide": "R000044",
-        "match": "exact",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|NJ|F": [
-      {
-        "bioguide": "S001088",
-        "match": "exact",
         "term_end": "1831-03-03",
         "term_start": "1829-12-07"
       }
@@ -97217,29 +94663,11 @@
         "term_start": "1829-12-07"
       }
     ],
-    "21|PA|B": [
-      {
-        "bioguide": "W000475",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
     "21|RI|A": [
       {
         "bioguide": "B001082",
         "match": "exact",
         "party": "Anti Jacksonian",
-        "term_end": "1831-03-03",
-        "term_start": "1829-12-07"
-      }
-    ],
-    "21|RI|B": [
-      {
-        "bioguide": "P000160",
-        "match": "exact",
-        "party": "Anti Mason",
         "term_end": "1831-03-03",
         "term_start": "1829-12-07"
       }
@@ -97719,48 +95147,6 @@
         "term_start": "1831-12-05"
       }
     ],
-    "22|CT|B": [
-      {
-        "bioguide": "E000150",
-        "match": "exact",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|CT|C": [
-      {
-        "bioguide": "H000997",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|CT|D": [
-      {
-        "bioguide": "I000020",
-        "match": "exact",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|CT|E": [
-      {
-        "bioguide": "S000977",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|CT|F": [
-      {
-        "bioguide": "Y000034",
-        "match": "exact",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
     "22|DE|A": [
       {
         "bioguide": "M000767",
@@ -97781,69 +95167,6 @@
     "22|GA|A": [
       {
         "bioguide": "C000491",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|GA|B": [
-      {
-        "bioguide": "F000314",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|GA|C": [
-      {
-        "bioguide": "L000027",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|GA|D": [
-      {
-        "bioguide": "L000512",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|GA|E": [
-      {
-        "bioguide": "N000071",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|GA|F": [
-      {
-        "bioguide": "T000222",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|GA|G": [
-      {
-        "bioguide": "W000218",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|GA|H": [
-      {
-        "bioguide": "W000460",
         "match": "exact",
         "party": "Jackson",
         "term_end": "1833-03-03",
@@ -98443,89 +95766,11 @@
         "term_start": "1831-12-05"
       }
     ],
-    "22|NH|B": [
-      {
-        "bioguide": "C000294",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|NH|C": [
-      {
-        "bioguide": "H000137",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|NH|D": [
-      {
-        "bioguide": "H000224",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|NH|E": [
-      {
-        "bioguide": "H000883",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
     "22|NJ|A": [
       {
         "bioguide": "C000668",
         "match": "exact",
         "party": "Republican",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|NJ|B": [
-      {
-        "bioguide": "C000672",
-        "match": "exact",
-        "party": "Anti Jacksonian",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|NJ|C": [
-      {
-        "bioguide": "C000760",
-        "match": "exact",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|NJ|D": [
-      {
-        "bioguide": "H000928",
-        "match": "exact",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|NJ|E": [
-      {
-        "bioguide": "R000044",
-        "match": "exact",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
-    "22|NJ|F": [
-      {
-        "bioguide": "S000686",
-        "match": "exact",
-        "party": "Anti Jacksonian",
         "term_end": "1833-03-03",
         "term_start": "1831-12-05"
       }
@@ -99198,15 +96443,6 @@
         "term_start": "1831-12-05"
       }
     ],
-    "22|RI|B": [
-      {
-        "bioguide": "P000160",
-        "match": "exact",
-        "party": "Anti Mason",
-        "term_end": "1833-03-03",
-        "term_start": "1831-12-05"
-      }
-    ],
     "22|SC|1": [
       {
         "bioguide": "D000490",
@@ -99698,48 +96934,6 @@
         "term_start": "1833-12-02"
       }
     ],
-    "23|CT|B": [
-      {
-        "bioguide": "E000150",
-        "match": "exact",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|CT|C": [
-      {
-        "bioguide": "F000247",
-        "match": "exact",
-        "party": "Anti-Jacksonian",
-        "term_end": "1834-05-09",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|CT|D": [
-      {
-        "bioguide": "H000997",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|CT|E": [
-      {
-        "bioguide": "J000009",
-        "match": "exact",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|CT|F": [
-      {
-        "bioguide": "M000793",
-        "match": "exact",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
     "23|DE|A": [
       {
         "bioguide": "M000767",
@@ -99760,78 +96954,6 @@
     "23|GA|A": [
       {
         "bioguide": "C000491",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|GA|B": [
-      {
-        "bioguide": "C000583",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|GA|C": [
-      {
-        "bioguide": "C001023",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|GA|D": [
-      {
-        "bioguide": "F000314",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|GA|E": [
-      {
-        "bioguide": "G000033",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|GA|F": [
-      {
-        "bioguide": "G000216",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|GA|G": [
-      {
-        "bioguide": "J000252",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|GA|H": [
-      {
-        "bioguide": "S000130",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|GA|I": [
-      {
-        "bioguide": "W000218",
         "match": "exact",
         "party": "Jackson",
         "term_end": "1835-03-03",
@@ -100529,90 +97651,9 @@
         "term_start": "1833-12-02"
       }
     ],
-    "23|NH|B": [
-      {
-        "bioguide": "B001129",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|NH|C": [
-      {
-        "bioguide": "H000224",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|NH|D": [
-      {
-        "bioguide": "H000883",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|NH|E": [
-      {
-        "bioguide": "P000333",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
     "23|NJ|A": [
       {
         "bioguide": "D000309",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|NJ|B": [
-      {
-        "bioguide": "F000327",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|NJ|C": [
-      {
-        "bioguide": "L000205",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|NJ|D": [
-      {
-        "bioguide": "P000061",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|NJ|E": [
-      {
-        "bioguide": "S000116",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
-    "23|NJ|F": [
-      {
-        "bioguide": "S000365",
         "match": "exact",
         "party": "Jackson",
         "term_end": "1835-03-03",
@@ -101411,15 +98452,6 @@
         "term_start": "1833-12-02"
       }
     ],
-    "23|RI|B": [
-      {
-        "bioguide": "P000160",
-        "match": "exact",
-        "party": "Anti Masonic",
-        "term_end": "1835-03-03",
-        "term_start": "1833-12-02"
-      }
-    ],
     "23|SC|1": [
       {
         "bioguide": "P000355",
@@ -101976,51 +99008,6 @@
         "term_start": "1835-12-07"
       }
     ],
-    "24|CT|B": [
-      {
-        "bioguide": "H000748",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|CT|C": [
-      {
-        "bioguide": "I000021",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|CT|D": [
-      {
-        "bioguide": "J000279",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|CT|E": [
-      {
-        "bioguide": "P000297",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|CT|F": [
-      {
-        "bioguide": "T000319",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
     "24|DE|A": [
       {
         "bioguide": "M000767",
@@ -102043,78 +99030,6 @@
         "bioguide": "A000104",
         "match": "exact",
         "party": "Whig",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|GA|B": [
-      {
-        "bioguide": "C000513",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|GA|C": [
-      {
-        "bioguide": "C000583",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|GA|D": [
-      {
-        "bioguide": "D000156",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|GA|E": [
-      {
-        "bioguide": "G000230",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|GA|F": [
-      {
-        "bioguide": "G000385",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|GA|G": [
-      {
-        "bioguide": "H000399",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|GA|H": [
-      {
-        "bioguide": "H000744",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|GA|I": [
-      {
-        "bioguide": "J000015",
-        "match": "exact",
-        "party": "Jackson",
         "term_end": "1837-03-03",
         "term_start": "1835-12-07"
       }
@@ -102790,92 +99705,11 @@
         "term_start": "1835-12-07"
       }
     ],
-    "24|NH|B": [
-      {
-        "bioguide": "B001129",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|NH|C": [
-      {
-        "bioguide": "C001021",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|NH|D": [
-      {
-        "bioguide": "P000333",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|NH|E": [
-      {
-        "bioguide": "W000247",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
     "24|NJ|A": [
       {
         "bioguide": "C000349",
         "match": "exact",
         "party": "Whig",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|NJ|B": [
-      {
-        "bioguide": "D000309",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|NJ|C": [
-      {
-        "bioguide": "F000327",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|NJ|D": [
-      {
-        "bioguide": "L000205",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|NJ|E": [
-      {
-        "bioguide": "P000061",
-        "match": "exact",
-        "party": "Jackson",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
-    "24|NJ|F": [
-      {
-        "bioguide": "S000116",
-        "match": "exact",
-        "party": "Jackson",
         "term_end": "1837-03-03",
         "term_start": "1835-12-07"
       }
@@ -103689,15 +100523,6 @@
         "term_start": "1835-12-07"
       }
     ],
-    "24|RI|B": [
-      {
-        "bioguide": "S000746",
-        "match": "exact",
-        "party": "Anti Masonic",
-        "term_end": "1837-03-03",
-        "term_start": "1835-12-07"
-      }
-    ],
     "24|SC|1": [
       {
         "bioguide": "P000355",
@@ -104288,78 +101113,6 @@
     "25|GA|A": [
       {
         "bioguide": "C000513",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|GA|B": [
-      {
-        "bioguide": "D000156",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|GA|C": [
-      {
-        "bioguide": "G000230",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|GA|D": [
-      {
-        "bioguide": "G000385",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|GA|E": [
-      {
-        "bioguide": "H000399",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|GA|F": [
-      {
-        "bioguide": "H000744",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|GA|G": [
-      {
-        "bioguide": "J000015",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|GA|H": [
-      {
-        "bioguide": "O000157",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|GA|I": [
-      {
-        "bioguide": "T000327",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1839-03-03",
@@ -105058,90 +101811,9 @@
         "term_start": "1837-09-04"
       }
     ],
-    "25|NH|B": [
-      {
-        "bioguide": "C001021",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|NH|C": [
-      {
-        "bioguide": "F000033",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|NH|D": [
-      {
-        "bioguide": "W000247",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|NH|E": [
-      {
-        "bioguide": "W000511",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
     "25|NJ|A": [
       {
         "bioguide": "A000350",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|NJ|B": [
-      {
-        "bioguide": "H000092",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|NJ|C": [
-      {
-        "bioguide": "M000268",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|NJ|D": [
-      {
-        "bioguide": "R000048",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|NJ|E": [
-      {
-        "bioguide": "S000993",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
-    "25|NJ|F": [
-      {
-        "bioguide": "Y000023",
         "match": "exact",
         "party": "Whig",
         "term_end": "1839-03-03",
@@ -105969,15 +102641,6 @@
         "term_start": "1837-09-04"
       }
     ],
-    "25|RI|B": [
-      {
-        "bioguide": "T000272",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1839-03-03",
-        "term_start": "1837-09-04"
-      }
-    ],
     "25|SC|1": [
       {
         "bioguide": "L000220",
@@ -106568,78 +103231,6 @@
     "26|GA|A": [
       {
         "bioguide": "A000104",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|GA|B": [
-      {
-        "bioguide": "B000494",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|GA|C": [
-      {
-        "bioguide": "C000648",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|GA|D": [
-      {
-        "bioguide": "C000759",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|GA|E": [
-      {
-        "bioguide": "D000156",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|GA|F": [
-      {
-        "bioguide": "H000003",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|GA|G": [
-      {
-        "bioguide": "H000745",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|GA|H": [
-      {
-        "bioguide": "K000215",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|GA|I": [
-      {
-        "bioguide": "N000111",
         "match": "exact",
         "party": "Whig",
         "term_end": "1841-03-03",
@@ -107354,92 +103945,11 @@
         "term_start": "1839-12-02"
       }
     ],
-    "26|NH|B": [
-      {
-        "bioguide": "B001088",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|NH|C": [
-      {
-        "bioguide": "E000020",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|NH|D": [
-      {
-        "bioguide": "S000311",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|NH|E": [
-      {
-        "bioguide": "W000511",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
     "26|NJ|A": [
       {
         "bioguide": "A000350",
         "match": "exact",
         "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|NJ|B": [
-      {
-        "bioguide": "C000766",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|NJ|C": [
-      {
-        "bioguide": "D000309",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|NJ|D": [
-      {
-        "bioguide": "K000178",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|NJ|E": [
-      {
-        "bioguide": "R000048",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
-    "26|NJ|F": [
-      {
-        "bioguide": "R000554",
-        "match": "exact",
-        "party": "Democrat",
         "term_end": "1841-03-03",
         "term_start": "1839-12-02"
       }
@@ -108251,15 +104761,6 @@
         "term_start": "1839-12-02"
       }
     ],
-    "26|RI|B": [
-      {
-        "bioguide": "T000272",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1841-03-03",
-        "term_start": "1839-12-02"
-      }
-    ],
     "26|SC|1": [
       {
         "bioguide": "H000738",
@@ -108724,42 +105225,6 @@
         "term_start": "1841-05-31"
       }
     ],
-    "27|AL|B": [
-      {
-        "bioguide": "H000822",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1843-03-03",
-        "term_start": "1841-05-31"
-      }
-    ],
-    "27|AL|C": [
-      {
-        "bioguide": "L000278",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1843-03-03",
-        "term_start": "1841-05-31"
-      }
-    ],
-    "27|AL|D": [
-      {
-        "bioguide": "P000154",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1843-03-03",
-        "term_start": "1841-05-31"
-      }
-    ],
-    "27|AL|E": [
-      {
-        "bioguide": "S000359",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1843-03-03",
-        "term_start": "1841-05-31"
-      }
-    ],
     "27|AR|1": [
       {
         "bioguide": "C000930",
@@ -108907,6 +105372,15 @@
     "27|GA|H": [
       {
         "bioguide": "G000033",
+        "match": "exact",
+        "party": "Whig",
+        "term_end": "1843-03-03",
+        "term_start": "1841-05-31"
+      }
+    ],
+    "27|GA|I": [
+      {
+        "bioguide": "H000003",
         "match": "exact",
         "party": "Whig",
         "term_end": "1843-03-03",
@@ -109608,42 +106082,6 @@
     "27|NJ|A": [
       {
         "bioguide": "A000350",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1843-03-03",
-        "term_start": "1841-05-31"
-      }
-    ],
-    "27|NJ|B": [
-      {
-        "bioguide": "H000092",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1843-03-03",
-        "term_start": "1841-05-31"
-      }
-    ],
-    "27|NJ|C": [
-      {
-        "bioguide": "M000268",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1843-03-03",
-        "term_start": "1841-05-31"
-      }
-    ],
-    "27|NJ|D": [
-      {
-        "bioguide": "R000048",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1843-03-03",
-        "term_start": "1841-05-31"
-      }
-    ],
-    "27|NJ|E": [
-      {
-        "bioguide": "S000993",
         "match": "exact",
         "party": "Whig",
         "term_end": "1843-03-03",
@@ -110465,15 +106903,6 @@
     "27|RI|A": [
       {
         "bioguide": "C000879",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1843-03-03",
-        "term_start": "1841-05-31"
-      }
-    ],
-    "27|RI|B": [
-      {
-        "bioguide": "T000272",
         "match": "exact",
         "party": "Whig",
         "term_end": "1843-03-03",
@@ -115174,39 +111603,6 @@
         "term_start": "1791-10-24"
       }
     ],
-    "2|CT|B": [
-      {
-        "bioguide": "L000178",
-        "match": "exact",
-        "term_end": "1793-03-03",
-        "term_start": "1791-10-24"
-      }
-    ],
-    "2|CT|C": [
-      {
-        "bioguide": "S001047",
-        "match": "exact",
-        "term_end": "1793-03-03",
-        "term_start": "1791-10-24"
-      }
-    ],
-    "2|CT|D": [
-      {
-        "bioguide": "T000389",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1793-03-03",
-        "term_start": "1791-10-24"
-      }
-    ],
-    "2|CT|E": [
-      {
-        "bioguide": "W000013",
-        "match": "exact",
-        "term_end": "1793-03-03",
-        "term_start": "1791-10-24"
-      }
-    ],
     "2|DE|A": [
       {
         "bioguide": "V000104",
@@ -115449,54 +111845,10 @@
         "term_start": "1791-10-24"
       }
     ],
-    "2|NH|B": [
-      {
-        "bioguide": "L000364",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1793-03-03",
-        "term_start": "1791-10-24"
-      }
-    ],
-    "2|NH|C": [
-      {
-        "bioguide": "S000563",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1793-03-03",
-        "term_start": "1791-10-24"
-      }
-    ],
     "2|NJ|A": [
       {
         "bioguide": "B000661",
         "match": "exact",
-        "term_end": "1793-03-03",
-        "term_start": "1791-10-24"
-      }
-    ],
-    "2|NJ|B": [
-      {
-        "bioguide": "C000418",
-        "match": "exact",
-        "term_end": "1793-03-03",
-        "term_start": "1791-10-24"
-      }
-    ],
-    "2|NJ|C": [
-      {
-        "bioguide": "D000165",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1793-03-03",
-        "term_start": "1791-10-24"
-      }
-    ],
-    "2|NJ|D": [
-      {
-        "bioguide": "K000246",
-        "match": "exact",
-        "party": "Democratic Republican",
         "term_end": "1793-03-03",
         "term_start": "1791-10-24"
       }
@@ -120144,15 +116496,6 @@
         "term_start": "1851-12-01"
       }
     ],
-    "32|CA|B": [
-      {
-        "bioguide": "M000362",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1853-03-03",
-        "term_start": "1851-12-01"
-      }
-    ],
     "32|CT|1": [
       {
         "bioguide": "C000310",
@@ -122321,15 +118664,6 @@
     "33|CA|A": [
       {
         "bioguide": "L000110",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1855-03-03",
-        "term_start": "1853-12-05"
-      }
-    ],
-    "33|CA|B": [
-      {
-        "bioguide": "M000416",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1855-03-03",
@@ -124561,15 +120895,6 @@
         "term_start": "1855-12-03"
       }
     ],
-    "34|CA|B": [
-      {
-        "bioguide": "H000526",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1857-03-03",
-        "term_start": "1855-12-03"
-      }
-    ],
     "34|CT|1": [
       {
         "bioguide": "C000429",
@@ -126752,15 +123077,6 @@
     "35|CA|A": [
       {
         "bioguide": "M000514",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1859-03-03",
-        "term_start": "1857-12-07"
-      }
-    ],
-    "35|CA|B": [
-      {
-        "bioguide": "S000167",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1859-03-03",
@@ -129016,15 +125332,6 @@
         "term_start": "1859-12-05"
       }
     ],
-    "36|CA|B": [
-      {
-        "bioguide": "S000167",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1861-03-03",
-        "term_start": "1859-12-05"
-      }
-    ],
     "36|CT|1": [
       {
         "bioguide": "L000438",
@@ -131170,24 +127477,6 @@
         "term_start": "1861-07-04"
       }
     ],
-    "37|CA|B": [
-      {
-        "bioguide": "P000300",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      }
-    ],
-    "37|CA|C": [
-      {
-        "bioguide": "S000065",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      }
-    ],
     "37|CO|A": [
       {
         "bioguide": "B000369",
@@ -131875,15 +128164,6 @@
     "37|MN|A": [
       {
         "bioguide": "A000081",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      }
-    ],
-    "37|MN|B": [
-      {
-        "bioguide": "W000629",
         "match": "exact",
         "party": "Republican",
         "term_end": "1863-03-03",
@@ -133032,24 +129312,6 @@
     "38|CA|A": [
       {
         "bioguide": "C000607",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
-      }
-    ],
-    "38|CA|B": [
-      {
-        "bioguide": "H000576",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
-      }
-    ],
-    "38|CA|C": [
-      {
-        "bioguide": "S000290",
         "match": "exact",
         "party": "Republican",
         "term_end": "1865-03-03",
@@ -136708,57 +132970,6 @@
         "term_start": "1793-12-02"
       }
     ],
-    "3|CT|B": [
-      {
-        "bioguide": "H000618",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|CT|C": [
-      {
-        "bioguide": "L000178",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|CT|D": [
-      {
-        "bioguide": "S001119",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|CT|E": [
-      {
-        "bioguide": "T000348",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|CT|F": [
-      {
-        "bioguide": "T000389",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|CT|G": [
-      {
-        "bioguide": "W000013",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
     "3|DE|A": [
       {
         "bioguide": "L000115",
@@ -136773,14 +132984,6 @@
         "bioguide": "B000084",
         "match": "exact",
         "party": "Democratic Republican",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|GA|B": [
-      {
-        "bioguide": "C000163",
-        "match": "exact",
         "term_end": "1795-03-03",
         "term_start": "1793-12-02"
       }
@@ -137085,69 +133288,10 @@
         "term_start": "1793-12-02"
       }
     ],
-    "3|NH|B": [
-      {
-        "bioguide": "S000339",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|NH|C": [
-      {
-        "bioguide": "S000563",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|NH|D": [
-      {
-        "bioguide": "W000633",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
     "3|NJ|A": [
       {
         "bioguide": "B000282",
         "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|NJ|B": [
-      {
-        "bioguide": "B000661",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|NJ|C": [
-      {
-        "bioguide": "C000012",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|NJ|D": [
-      {
-        "bioguide": "C000418",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|NJ|E": [
-      {
-        "bioguide": "D000165",
-        "match": "exact",
-        "party": "Federalist",
         "term_end": "1795-03-03",
         "term_start": "1793-12-02"
       }
@@ -137244,121 +133388,9 @@
         "term_start": "1793-12-02"
       }
     ],
-    "3|PA|B": [
-      {
-        "bioguide": "F000124",
-        "match": "exact",
-        "party": "Anti-Administration",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|C": [
-      {
-        "bioguide": "F000178",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|D": [
-      {
-        "bioguide": "G000442",
-        "match": "exact",
-        "party": "Democratic Republican",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|E": [
-      {
-        "bioguide": "H000299",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|F": [
-      {
-        "bioguide": "H000570",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|G": [
-      {
-        "bioguide": "I000035",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|H": [
-      {
-        "bioguide": "K000253",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|I": [
-      {
-        "bioguide": "M000873",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|J": [
-      {
-        "bioguide": "M001063",
-        "match": "exact",
-        "party": "Anti-administration",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|K": [
-      {
-        "bioguide": "M001066",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|L": [
-      {
-        "bioguide": "S000186",
-        "match": "exact",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|PA|M": [
-      {
-        "bioguide": "S000508",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
     "3|RI|A": [
       {
         "bioguide": "B000669",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1795-03-03",
-        "term_start": "1793-12-02"
-      }
-    ],
-    "3|RI|B": [
-      {
-        "bioguide": "M000076",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1795-03-03",
@@ -144615,15 +140647,6 @@
         "term_start": "1873-12-01"
       }
     ],
-    "43|AL|B": [
-      {
-        "bioguide": "W000353",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1875-03-03",
-        "term_start": "1873-12-01"
-      }
-    ],
     "43|AR|1": [
       {
         "bioguide": "H000671",
@@ -144787,15 +140810,6 @@
     "43|FL|A": [
       {
         "bioguide": "P000572",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1875-03-03",
-        "term_start": "1873-12-01"
-      }
-    ],
-    "43|FL|B": [
-      {
-        "bioguide": "W000093",
         "match": "exact",
         "party": "Republican",
         "term_end": "1875-03-03",
@@ -145266,36 +141280,9 @@
         "term_start": "1873-12-01"
       }
     ],
-    "43|IN|B": [
-      {
-        "bioguide": "W000545",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1875-03-03",
-        "term_start": "1873-12-01"
-      }
-    ],
     "43|KS|A": [
       {
         "bioguide": "C000551",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1875-03-03",
-        "term_start": "1873-12-01"
-      }
-    ],
-    "43|KS|B": [
-      {
-        "bioguide": "L000473",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1875-03-03",
-        "term_start": "1873-12-01"
-      }
-    ],
-    "43|KS|C": [
-      {
-        "bioguide": "P000315",
         "match": "exact",
         "party": "Republican",
         "term_end": "1875-03-03",
@@ -146902,24 +142889,6 @@
         "term_start": "1873-12-01"
       }
     ],
-    "43|PA|B": [
-      {
-        "bioguide": "S000164",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1875-03-03",
-        "term_start": "1873-12-01"
-      }
-    ],
-    "43|PA|C": [
-      {
-        "bioguide": "T000293",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1875-03-03",
-        "term_start": "1873-12-01"
-      }
-    ],
     "43|RI|1": [
       {
         "bioguide": "E000005",
@@ -147119,15 +143088,6 @@
     "43|TX|A": [
       {
         "bioguide": "M000777",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1875-03-03",
-        "term_start": "1873-12-01"
-      }
-    ],
-    "43|TX|B": [
-      {
-        "bioguide": "W000555",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1875-03-03",
@@ -147432,15 +143392,6 @@
     "44|AL|A": [
       {
         "bioguide": "F000280",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1877-03-03",
-        "term_start": "1875-12-06"
-      }
-    ],
-    "44|AL|B": [
-      {
-        "bioguide": "L000272",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1877-03-03",
@@ -158777,15 +154728,6 @@
         "term_start": "1883-12-03"
       }
     ],
-    "48|CA|B": [
-      {
-        "bioguide": "S001069",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1885-03-03",
-        "term_start": "1883-12-03"
-      }
-    ],
     "48|CO|1": [
       {
         "bioguide": "B000326",
@@ -159440,33 +155382,6 @@
         "term_start": "1883-12-03"
       }
     ],
-    "48|KS|B": [
-      {
-        "bioguide": "M000968",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1885-03-03",
-        "term_start": "1883-12-03"
-      }
-    ],
-    "48|KS|C": [
-      {
-        "bioguide": "P000228",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1885-03-03",
-        "term_start": "1883-12-03"
-      }
-    ],
-    "48|KS|D": [
-      {
-        "bioguide": "P000256",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1885-03-03",
-        "term_start": "1883-12-03"
-      }
-    ],
     "48|KY|1": [
       {
         "bioguide": "T000425",
@@ -159792,33 +155707,6 @@
     "48|ME|A": [
       {
         "bioguide": "B000673",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1885-03-03",
-        "term_start": "1883-12-03"
-      }
-    ],
-    "48|ME|B": [
-      {
-        "bioguide": "D000356",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1885-03-03",
-        "term_start": "1883-12-03"
-      }
-    ],
-    "48|ME|C": [
-      {
-        "bioguide": "M000769",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1885-03-03",
-        "term_start": "1883-12-03"
-      }
-    ],
-    "48|ME|D": [
-      {
-        "bioguide": "R000128",
         "match": "exact",
         "party": "Republican",
         "term_end": "1885-03-03",
@@ -164793,60 +160681,6 @@
         "term_start": "1795-12-07"
       }
     ],
-    "4|CT|B": [
-      {
-        "bioguide": "D000073",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|CT|C": [
-      {
-        "bioguide": "G000293",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|CT|D": [
-      {
-        "bioguide": "G000488",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|CT|E": [
-      {
-        "bioguide": "H000618",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1796-05-18",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|CT|F": [
-      {
-        "bioguide": "S000595",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|CT|G": [
-      {
-        "bioguide": "S001119",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
     "4|DE|A": [
       {
         "bioguide": "P000108",
@@ -164859,15 +160693,6 @@
     "4|GA|A": [
       {
         "bioguide": "B000084",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|GA|B": [
-      {
-        "bioguide": "M000712",
         "match": "exact",
         "party": "Republican",
         "term_end": "1797-03-03",
@@ -165217,72 +161042,9 @@
         "term_start": "1795-12-07"
       }
     ],
-    "4|NH|B": [
-      {
-        "bioguide": "G000215",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|NH|C": [
-      {
-        "bioguide": "S000339",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|NH|D": [
-      {
-        "bioguide": "S000563",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
     "4|NJ|A": [
       {
         "bioguide": "D000165",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|NJ|B": [
-      {
-        "bioguide": "H000488",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|NJ|C": [
-      {
-        "bioguide": "K000246",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|NJ|D": [
-      {
-        "bioguide": "S000555",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|NJ|E": [
-      {
-        "bioguide": "T000232",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1797-03-03",
@@ -165504,15 +161266,6 @@
     "4|RI|A": [
       {
         "bioguide": "B000669",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1797-03-03",
-        "term_start": "1795-12-07"
-      }
-    ],
-    "4|RI|B": [
-      {
-        "bioguide": "M000076",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1797-03-03",
@@ -174674,15 +170427,6 @@
         "term_start": "1891-12-07"
       }
     ],
-    "52|SD|B": [
-      {
-        "bioguide": "J000203",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1893-03-03",
-        "term_start": "1891-12-07"
-      }
-    ],
     "52|TN|1": [
       {
         "bioguide": "T000064",
@@ -175844,15 +171588,6 @@
     "53|IL|A": [
       {
         "bioguide": "B000504",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1895-03-03",
-        "term_start": "1893-08-07"
-      }
-    ],
-    "53|IL|B": [
-      {
-        "bioguide": "H000980",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1895-03-03",
@@ -177919,15 +173654,6 @@
         "term_start": "1893-08-07"
       }
     ],
-    "53|PA|B": [
-      {
-        "bioguide": "L000312",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1895-03-03",
-        "term_start": "1893-08-07"
-      }
-    ],
     "53|RI|1": [
       {
         "bioguide": "L000093",
@@ -178019,15 +173745,6 @@
     "53|SD|A": [
       {
         "bioguide": "L000495",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1895-03-03",
-        "term_start": "1893-08-07"
-      }
-    ],
-    "53|SD|B": [
-      {
-        "bioguide": "P000329",
         "match": "exact",
         "party": "Republican",
         "term_end": "1895-03-03",
@@ -178368,15 +174085,6 @@
     "53|WA|A": [
       {
         "bioguide": "D000430",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1895-03-03",
-        "term_start": "1893-08-07"
-      }
-    ],
-    "53|WA|B": [
-      {
-        "bioguide": "W000602",
         "match": "exact",
         "party": "Republican",
         "term_end": "1895-03-03",
@@ -181273,15 +176981,6 @@
         "term_start": "1895-12-02"
       }
     ],
-    "54|PA|B": [
-      {
-        "bioguide": "H000911",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1897-03-03",
-        "term_start": "1895-12-02"
-      }
-    ],
     "54|RI|1": [
       {
         "bioguide": "B001048",
@@ -181373,15 +177072,6 @@
     "54|SD|A": [
       {
         "bioguide": "G000032",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1897-03-03",
-        "term_start": "1895-12-02"
-      }
-    ],
-    "54|SD|B": [
-      {
-        "bioguide": "P000329",
         "match": "exact",
         "party": "Republican",
         "term_end": "1897-03-03",
@@ -181738,15 +177428,6 @@
     "54|WA|A": [
       {
         "bioguide": "D000430",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1897-03-03",
-        "term_start": "1895-12-02"
-      }
-    ],
-    "54|WA|B": [
-      {
-        "bioguide": "H001024",
         "match": "exact",
         "party": "Republican",
         "term_end": "1897-03-03",
@@ -184620,15 +180301,6 @@
         "term_start": "1897-03-15"
       }
     ],
-    "55|PA|B": [
-      {
-        "bioguide": "G000507",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1899-03-03",
-        "term_start": "1897-03-15"
-      }
-    ],
     "55|RI|1": [
       {
         "bioguide": "B001048",
@@ -184713,15 +180385,6 @@
     "55|SD|A": [
       {
         "bioguide": "K000060",
-        "match": "exact",
-        "party": "Populist",
-        "term_end": "1899-03-03",
-        "term_start": "1897-03-15"
-      }
-    ],
-    "55|SD|B": [
-      {
-        "bioguide": "K000293",
         "match": "exact",
         "party": "Populist",
         "term_end": "1899-03-03",
@@ -185071,15 +180734,6 @@
         "bioguide": "J000260",
         "match": "exact",
         "party": "Silver Republican",
-        "term_end": "1899-03-03",
-        "term_start": "1897-03-15"
-      }
-    ],
-    "55|WA|B": [
-      {
-        "bioguide": "L000284",
-        "match": "exact",
-        "party": "Democrat",
         "term_end": "1899-03-03",
         "term_start": "1897-03-15"
       }
@@ -188019,15 +183673,6 @@
         "term_start": "1899-12-04"
       }
     ],
-    "56|PA|B": [
-      {
-        "bioguide": "G000507",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1901-03-03",
-        "term_start": "1899-12-04"
-      }
-    ],
     "56|RI|1": [
       {
         "bioguide": "B001048",
@@ -188112,15 +183757,6 @@
     "56|SD|A": [
       {
         "bioguide": "B001087",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1901-03-03",
-        "term_start": "1899-12-04"
-      }
-    ],
-    "56|SD|B": [
-      {
-        "bioguide": "G000032",
         "match": "exact",
         "party": "Republican",
         "term_end": "1901-03-03",
@@ -188468,15 +184104,6 @@
     "56|WA|A": [
       {
         "bioguide": "C001018",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1901-03-03",
-        "term_start": "1899-12-04"
-      }
-    ],
-    "56|WA|B": [
-      {
-        "bioguide": "J000257",
         "match": "exact",
         "party": "Republican",
         "term_end": "1901-03-03",
@@ -191376,15 +187003,6 @@
         "term_start": "1901-12-02"
       }
     ],
-    "57|PA|B": [
-      {
-        "bioguide": "G000507",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1903-03-03",
-        "term_start": "1901-12-02"
-      }
-    ],
     "57|PR|A": [
       {
         "bioguide": "D000196",
@@ -191485,15 +187103,6 @@
     "57|SD|A": [
       {
         "bioguide": "B001087",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1903-03-03",
-        "term_start": "1901-12-02"
-      }
-    ],
-    "57|SD|B": [
-      {
-        "bioguide": "M000176",
         "match": "exact",
         "party": "Republican",
         "term_end": "1903-03-03",
@@ -191848,15 +187457,6 @@
     "57|WA|A": [
       {
         "bioguide": "C001018",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1903-03-03",
-        "term_start": "1901-12-02"
-      }
-    ],
-    "57|WA|B": [
-      {
-        "bioguide": "J000257",
         "match": "exact",
         "party": "Republican",
         "term_end": "1903-03-03",
@@ -193880,15 +189480,6 @@
         "term_start": "1903-11-09"
       }
     ],
-    "58|ND|B": [
-      {
-        "bioguide": "S000695",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1905-03-03",
-        "term_start": "1903-11-09"
-      }
-    ],
     "58|NE|1": [
       {
         "bioguide": "B001103",
@@ -195077,15 +190668,6 @@
         "term_start": "1903-11-09"
       }
     ],
-    "58|SD|B": [
-      {
-        "bioguide": "M000176",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1905-03-03",
-        "term_start": "1903-11-09"
-      }
-    ],
     "58|TN|1": [
       {
         "bioguide": "B000962",
@@ -195447,24 +191029,6 @@
     "58|WA|A": [
       {
         "bioguide": "C001018",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1905-03-03",
-        "term_start": "1903-11-09"
-      }
-    ],
-    "58|WA|B": [
-      {
-        "bioguide": "H000958",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1905-03-03",
-        "term_start": "1903-11-09"
-      }
-    ],
-    "58|WA|C": [
-      {
-        "bioguide": "J000257",
         "match": "exact",
         "party": "Republican",
         "term_end": "1905-03-03",
@@ -197543,15 +193107,6 @@
         "term_start": "1905-12-04"
       }
     ],
-    "59|ND|B": [
-      {
-        "bioguide": "M000163",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1907-03-03",
-        "term_start": "1905-12-04"
-      }
-    ],
     "59|NE|1": [
       {
         "bioguide": "P000413",
@@ -198696,15 +194251,6 @@
         "term_start": "1905-12-04"
       }
     ],
-    "59|SD|B": [
-      {
-        "bioguide": "M000176",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1907-03-03",
-        "term_start": "1905-12-04"
-      }
-    ],
     "59|TN|1": [
       {
         "bioguide": "B000962",
@@ -199079,24 +194625,6 @@
         "term_start": "1905-12-04"
       }
     ],
-    "59|WA|B": [
-      {
-        "bioguide": "H000958",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1907-03-03",
-        "term_start": "1905-12-04"
-      }
-    ],
-    "59|WA|C": [
-      {
-        "bioguide": "J000257",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1907-03-03",
-        "term_start": "1905-12-04"
-      }
-    ],
     "59|WI|1": [
       {
         "bioguide": "C000752",
@@ -199273,60 +194801,6 @@
         "term_start": "1797-05-15"
       }
     ],
-    "5|CT|B": [
-      {
-        "bioguide": "B000731",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|CT|C": [
-      {
-        "bioguide": "C000600",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|CT|D": [
-      {
-        "bioguide": "D000024",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|CT|E": [
-      {
-        "bioguide": "D000073",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|CT|F": [
-      {
-        "bioguide": "E000052",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|CT|G": [
-      {
-        "bioguide": "G000293",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
     "5|DE|A": [
       {
         "bioguide": "B000249",
@@ -199339,15 +194813,6 @@
     "5|GA|A": [
       {
         "bioguide": "B000084",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|GA|B": [
-      {
-        "bioguide": "M000712",
         "match": "exact",
         "party": "Republican",
         "term_end": "1799-03-03",
@@ -199683,72 +195148,9 @@
         "term_start": "1797-05-15"
       }
     ],
-    "5|NH|B": [
-      {
-        "bioguide": "F000364",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|NH|C": [
-      {
-        "bioguide": "G000318",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|NH|D": [
-      {
-        "bioguide": "S000563",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
     "5|NJ|A": [
       {
         "bioguide": "D000165",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|NJ|B": [
-      {
-        "bioguide": "I000011",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|NJ|C": [
-      {
-        "bioguide": "S000150",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|NJ|D": [
-      {
-        "bioguide": "S000448",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|NJ|E": [
-      {
-        "bioguide": "T000232",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1799-03-03",
@@ -199984,15 +195386,6 @@
     "5|RI|A": [
       {
         "bioguide": "C000289",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1799-03-03",
-        "term_start": "1797-05-15"
-      }
-    ],
-    "5|RI|B": [
-      {
-        "bioguide": "P000463",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1799-03-03",
@@ -202170,15 +197563,6 @@
         "term_start": "1907-12-02"
       }
     ],
-    "60|ND|B": [
-      {
-        "bioguide": "M000163",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1909-03-03",
-        "term_start": "1907-12-02"
-      }
-    ],
     "60|NE|1": [
       {
         "bioguide": "P000413",
@@ -203353,15 +198737,6 @@
         "term_start": "1907-12-02"
       }
     ],
-    "60|SD|B": [
-      {
-        "bioguide": "M000176",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1909-03-03",
-        "term_start": "1907-12-02"
-      }
-    ],
     "60|TN|1": [
       {
         "bioguide": "B000962",
@@ -203732,24 +199107,6 @@
     "60|WA|A": [
       {
         "bioguide": "C001018",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1909-03-03",
-        "term_start": "1907-12-02"
-      }
-    ],
-    "60|WA|B": [
-      {
-        "bioguide": "H000958",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1909-03-03",
-        "term_start": "1907-12-02"
-      }
-    ],
-    "60|WA|C": [
-      {
-        "bioguide": "J000257",
         "match": "exact",
         "party": "Republican",
         "term_end": "1909-03-03",
@@ -205807,15 +201164,6 @@
         "term_start": "1909-03-15"
       }
     ],
-    "61|ND|B": [
-      {
-        "bioguide": "H000162",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1911-03-03",
-        "term_start": "1909-03-15"
-      }
-    ],
     "61|NE|1": [
       {
         "bioguide": "M000060",
@@ -206977,15 +202325,6 @@
     "61|SD|A": [
       {
         "bioguide": "B001087",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1911-03-03",
-        "term_start": "1909-03-15"
-      }
-    ],
-    "61|SD|B": [
-      {
-        "bioguide": "M000176",
         "match": "exact",
         "party": "Republican",
         "term_end": "1911-03-03",
@@ -209463,15 +204802,6 @@
         "term_start": "1911-04-04"
       }
     ],
-    "62|ND|B": [
-      {
-        "bioguide": "H000459",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1913-03-03",
-        "term_start": "1911-04-04"
-      }
-    ],
     "62|NE|1": [
       {
         "bioguide": "M000060",
@@ -210674,15 +206004,6 @@
         "term_start": "1911-04-04"
       }
     ],
-    "62|SD|B": [
-      {
-        "bioguide": "M000176",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1913-03-03",
-        "term_start": "1911-04-04"
-      }
-    ],
     "62|TN|1": [
       {
         "bioguide": "S000235",
@@ -211539,15 +206860,6 @@
         "term_start": "1913-04-07"
       }
     ],
-    "63|CO|B": [
-      {
-        "bioguide": "T000072",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
     "63|CT|1": [
       {
         "bioguide": "L000409",
@@ -211877,15 +207189,6 @@
         "term_start": "1913-04-07"
       }
     ],
-    "63|ID|B": [
-      {
-        "bioguide": "S000511",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
     "63|IL|1": [
       {
         "bioguide": "M000038",
@@ -212114,15 +207417,6 @@
     "63|IL|A": [
       {
         "bioguide": "S001005",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
-    "63|IL|B": [
-      {
-        "bioguide": "W000548",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1915-03-03",
@@ -213204,15 +208498,6 @@
         "term_start": "1913-04-07"
       }
     ],
-    "63|MT|B": [
-      {
-        "bioguide": "S000982",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
     "63|NC|1": [
       {
         "bioguide": "S000500",
@@ -214195,24 +209480,6 @@
         "term_start": "1913-04-07"
       }
     ],
-    "63|OK|B": [
-      {
-        "bioguide": "T000210",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
-    "63|OK|C": [
-      {
-        "bioguide": "W000224",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
     "63|OR|1": [
       {
         "bioguide": "H000379",
@@ -214531,33 +209798,6 @@
     "63|PA|A": [
       {
         "bioguide": "L000283",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
-    "63|PA|B": [
-      {
-        "bioguide": "M000961",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
-    "63|PA|C": [
-      {
-        "bioguide": "R000511",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
-    "63|PA|D": [
-      {
-        "bioguide": "W000109",
         "match": "exact",
         "party": "Republican",
         "term_end": "1915-03-03",
@@ -214957,27 +210197,9 @@
         "term_start": "1913-04-07"
       }
     ],
-    "63|TX|B": [
-      {
-        "bioguide": "S001072",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
     "63|UT|A": [
       {
         "bioguide": "H000866",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
-    "63|UT|B": [
-      {
-        "bioguide": "J000141",
         "match": "exact",
         "party": "Republican",
         "term_end": "1915-03-03",
@@ -215122,15 +210344,6 @@
     "63|WA|A": [
       {
         "bioguide": "B000987",
-        "match": "exact",
-        "party": "Progressive",
-        "term_end": "1915-03-03",
-        "term_start": "1913-04-07"
-      }
-    ],
-    "63|WA|B": [
-      {
-        "bioguide": "F000009",
         "match": "exact",
         "party": "Progressive",
         "term_end": "1915-03-03",
@@ -215941,15 +211154,6 @@
         "term_start": "1915-12-06"
       }
     ],
-    "64|ID|B": [
-      {
-        "bioguide": "S000511",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1917-03-03",
-        "term_start": "1915-12-06"
-      }
-    ],
     "64|IL|1": [
       {
         "bioguide": "M000038",
@@ -216180,15 +211384,6 @@
         "bioguide": "C000364",
         "match": "exact",
         "party": "Republican",
-        "term_end": "1917-03-03",
-        "term_start": "1915-12-06"
-      }
-    ],
-    "64|IL|B": [
-      {
-        "bioguide": "W000548",
-        "match": "exact",
-        "party": "Democrat",
         "term_end": "1917-03-03",
         "term_start": "1915-12-06"
       }
@@ -217220,15 +212415,6 @@
     "64|MT|A": [
       {
         "bioguide": "E000247",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1917-03-03",
-        "term_start": "1915-12-06"
-      }
-    ],
-    "64|MT|B": [
-      {
-        "bioguide": "S000982",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1917-03-03",
@@ -218538,33 +213724,6 @@
         "term_start": "1915-12-06"
       }
     ],
-    "64|PA|B": [
-      {
-        "bioguide": "G000068",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1917-03-03",
-        "term_start": "1915-12-06"
-      }
-    ],
-    "64|PA|C": [
-      {
-        "bioguide": "L000014",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1917-03-03",
-        "term_start": "1915-12-06"
-      }
-    ],
-    "64|PA|D": [
-      {
-        "bioguide": "S000180",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1917-03-03",
-        "term_start": "1915-12-06"
-      }
-    ],
     "64|PI|A": [
       {
         "bioguide": "E000015",
@@ -218950,15 +214109,6 @@
     "64|TX|A": [
       {
         "bioguide": "D000110",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1917-03-03",
-        "term_start": "1915-12-06"
-      }
-    ],
-    "64|TX|B": [
-      {
-        "bioguide": "M000554",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1917-03-03",
@@ -219953,15 +215103,6 @@
         "term_start": "1917-04-02"
       }
     ],
-    "65|ID|B": [
-      {
-        "bioguide": "S000511",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1919-03-03",
-        "term_start": "1917-04-02"
-      }
-    ],
     "65|IL|1": [
       {
         "bioguide": "M000038",
@@ -220197,15 +215338,6 @@
     "65|IL|A": [
       {
         "bioguide": "M000228",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1919-03-03",
-        "term_start": "1917-04-02"
-      }
-    ],
-    "65|IL|B": [
-      {
-        "bioguide": "M000369",
         "match": "exact",
         "party": "Republican",
         "term_end": "1919-03-03",
@@ -221269,15 +216401,6 @@
         "bioguide": "E000247",
         "match": "exact",
         "party": "Democrat",
-        "term_end": "1919-03-03",
-        "term_start": "1917-04-02"
-      }
-    ],
-    "65|MT|B": [
-      {
-        "bioguide": "R000055",
-        "match": "exact",
-        "party": "Republican",
         "term_end": "1919-03-03",
         "term_start": "1917-04-02"
       }
@@ -222657,33 +217780,6 @@
         "term_start": "1917-04-02"
       }
     ],
-    "65|PA|B": [
-      {
-        "bioguide": "G000068",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1919-03-03",
-        "term_start": "1917-04-02"
-      }
-    ],
-    "65|PA|C": [
-      {
-        "bioguide": "M000540",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1919-03-03",
-        "term_start": "1917-04-02"
-      }
-    ],
-    "65|PA|D": [
-      {
-        "bioguide": "S000180",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1919-03-03",
-        "term_start": "1917-04-02"
-      }
-    ],
     "65|PI|A": [
       {
         "bioguide": "D000276",
@@ -223064,15 +218160,6 @@
     "65|TX|A": [
       {
         "bioguide": "G000081",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1919-03-03",
-        "term_start": "1917-04-02"
-      }
-    ],
-    "65|TX|B": [
-      {
-        "bioguide": "M000554",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1919-03-03",
@@ -224311,15 +219398,6 @@
     "66|IL|A": [
       {
         "bioguide": "M000228",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1921-03-03",
-        "term_start": "1919-05-19"
-      }
-    ],
-    "66|IL|B": [
-      {
-        "bioguide": "Y000011",
         "match": "exact",
         "party": "Republican",
         "term_end": "1921-03-03",
@@ -226764,33 +221842,6 @@
         "term_start": "1919-05-19"
       }
     ],
-    "66|PA|B": [
-      {
-        "bioguide": "C000853",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1921-03-03",
-        "term_start": "1919-05-19"
-      }
-    ],
-    "66|PA|C": [
-      {
-        "bioguide": "G000068",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1921-03-03",
-        "term_start": "1919-05-19"
-      }
-    ],
-    "66|PA|D": [
-      {
-        "bioguide": "W000109",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1921-03-03",
-        "term_start": "1919-05-19"
-      }
-    ],
     "66|PI|A": [
       {
         "bioguide": "D000276",
@@ -228449,15 +223500,6 @@
     "67|IL|A": [
       {
         "bioguide": "H000900",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1923-03-03",
-        "term_start": "1921-04-11"
-      }
-    ],
-    "67|IL|B": [
-      {
-        "bioguide": "M000228",
         "match": "exact",
         "party": "Republican",
         "term_end": "1923-03-03",
@@ -230851,15 +225893,6 @@
         "term_start": "1921-04-11"
       }
     ],
-    "67|PA|B": [
-      {
-        "bioguide": "C000853",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1923-03-03",
-        "term_start": "1921-04-11"
-      }
-    ],
     "67|PI|A": [
       {
         "bioguide": "D000276",
@@ -232509,15 +227542,6 @@
     "68|IL|A": [
       {
         "bioguide": "R000068",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1925-03-03",
-        "term_start": "1923-12-03"
-      }
-    ],
-    "68|IL|B": [
-      {
-        "bioguide": "Y000011",
         "match": "exact",
         "party": "Republican",
         "term_end": "1925-03-03",
@@ -236586,15 +231610,6 @@
         "term_start": "1925-12-07"
       }
     ],
-    "69|IL|B": [
-      {
-        "bioguide": "Y000011",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1927-03-04",
-        "term_start": "1925-12-07"
-      }
-    ],
     "69|IN|1": [
       {
         "bioguide": "R000474",
@@ -239732,60 +234747,6 @@
         "term_start": "1799-12-02"
       }
     ],
-    "6|CT|B": [
-      {
-        "bioguide": "D000024",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
-    "6|CT|C": [
-      {
-        "bioguide": "D000075",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
-    "6|CT|D": [
-      {
-        "bioguide": "E000052",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
-    "6|CT|E": [
-      {
-        "bioguide": "G000293",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
-    "6|CT|F": [
-      {
-        "bioguide": "G000294",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
-    "6|CT|G": [
-      {
-        "bioguide": "G000488",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
     "6|DE|A": [
       {
         "bioguide": "B000249",
@@ -239798,15 +234759,6 @@
     "6|GA|A": [
       {
         "bioguide": "J000227",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
-    "6|GA|B": [
-      {
-        "bioguide": "T000025",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1801-03-03",
@@ -240142,33 +235094,6 @@
         "term_start": "1799-12-02"
       }
     ],
-    "6|NH|B": [
-      {
-        "bioguide": "F000364",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
-    "6|NH|C": [
-      {
-        "bioguide": "G000318",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
-    "6|NH|D": [
-      {
-        "bioguide": "S000312",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
     "6|NJ|1": [
       {
         "bioguide": "C000671",
@@ -240444,15 +235369,6 @@
     "6|RI|A": [
       {
         "bioguide": "B000927",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1801-03-03",
-        "term_start": "1799-12-02"
-      }
-    ],
-    "6|RI|B": [
-      {
-        "bioguide": "C000289",
         "match": "exact",
         "party": "Federalist",
         "term_end": "1801-03-03",
@@ -241606,15 +236522,6 @@
     "70|IL|A": [
       {
         "bioguide": "R000068",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1929-03-03",
-        "term_start": "1927-12-05"
-      }
-    ],
-    "70|IL|B": [
-      {
-        "bioguide": "Y000011",
         "match": "exact",
         "party": "Republican",
         "term_end": "1929-03-03",
@@ -245671,15 +240578,6 @@
     "71|IL|A": [
       {
         "bioguide": "M000372",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1931-03-03",
-        "term_start": "1929-04-15"
-      }
-    ],
-    "71|IL|B": [
-      {
-        "bioguide": "Y000011",
         "match": "exact",
         "party": "Republican",
         "term_end": "1931-03-03",
@@ -253307,15 +248205,6 @@
         "term_start": "1931-12-07"
       }
     ],
-    "73|AZ|B": [
-      {
-        "bioguide": "G000435",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1935-01-03",
-        "term_start": "1933-03-09"
-      }
-    ],
     "73|CA|1": [
       {
         "bioguide": "L000163",
@@ -257567,15 +252456,6 @@
         "term_start": "1933-03-09"
       }
     ],
-    "73|NY|B": [
-      {
-        "bioguide": "S001041",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1935-01-03",
-        "term_start": "1933-03-09"
-      }
-    ],
     "73|OH|1": [
       {
         "bioguide": "H000728",
@@ -259415,24 +254295,6 @@
     "73|TX|A": [
       {
         "bioguide": "B000045",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1935-01-03",
-        "term_start": "1933-03-09"
-      }
-    ],
-    "73|TX|B": [
-      {
-        "bioguide": "G000074",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1935-01-03",
-        "term_start": "1933-03-09"
-      }
-    ],
-    "73|TX|C": [
-      {
-        "bioguide": "S001019",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1935-01-03",
@@ -262009,15 +256871,6 @@
         "term_start": "1935-01-03"
       }
     ],
-    "74|ND|B": [
-      {
-        "bioguide": "L000238",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1937-01-03",
-        "term_start": "1935-01-03"
-      }
-    ],
     "74|NE|1": [
       {
         "bioguide": "L000499",
@@ -262629,15 +257482,6 @@
     "74|NY|A": [
       {
         "bioguide": "M000661",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1937-01-03",
-        "term_start": "1935-01-03"
-      }
-    ],
-    "74|NY|B": [
-      {
-        "bioguide": "O000033",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1937-01-03",
@@ -266011,15 +260855,6 @@
         "term_start": "1937-01-05"
       }
     ],
-    "75|ND|B": [
-      {
-        "bioguide": "L000238",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1939-01-03",
-        "term_start": "1937-01-05"
-      }
-    ],
     "75|NE|1": [
       {
         "bioguide": "L000499",
@@ -266636,15 +261471,6 @@
     "75|NY|A": [
       {
         "bioguide": "M000661",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1939-01-03",
-        "term_start": "1937-01-05"
-      }
-    ],
-    "75|NY|B": [
-      {
-        "bioguide": "O000033",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1939-01-03",
@@ -270074,15 +264900,6 @@
         "term_start": "1939-01-03"
       }
     ],
-    "76|ND|B": [
-      {
-        "bioguide": "L000238",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1941-01-03",
-        "term_start": "1939-01-03"
-      }
-    ],
     "76|NE|1": [
       {
         "bioguide": "H000454",
@@ -270715,15 +265532,6 @@
     "76|NY|A": [
       {
         "bioguide": "M000661",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1941-01-03",
-        "term_start": "1939-01-03"
-      }
-    ],
-    "76|NY|B": [
-      {
-        "bioguide": "O000033",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1941-01-03",
@@ -274153,15 +268961,6 @@
         "term_start": "1941-01-03"
       }
     ],
-    "77|ND|B": [
-      {
-        "bioguide": "R000319",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1943-01-03",
-        "term_start": "1941-01-03"
-      }
-    ],
     "77|NE|1": [
       {
         "bioguide": "C000768",
@@ -276308,15 +271107,6 @@
         "term_start": "1943-01-06"
       }
     ],
-    "78|AZ|B": [
-      {
-        "bioguide": "M001081",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1945-01-03",
-        "term_start": "1943-01-06"
-      }
-    ],
     "78|CA|1": [
       {
         "bioguide": "L000163",
@@ -278197,15 +272987,6 @@
         "term_start": "1943-01-06"
       }
     ],
-    "78|ND|B": [
-      {
-        "bioguide": "L000238",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1945-01-03",
-        "term_start": "1943-01-06"
-      }
-    ],
     "78|NE|1": [
       {
         "bioguide": "C001006",
@@ -278389,15 +273170,6 @@
     "78|NM|A": [
       {
         "bioguide": "A000186",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1945-01-03",
-        "term_start": "1943-01-06"
-      }
-    ],
-    "78|NM|B": [
-      {
-        "bioguide": "F000085",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1945-01-03",
@@ -280354,15 +275126,6 @@
         "term_start": "1945-01-03"
       }
     ],
-    "79|AZ|B": [
-      {
-        "bioguide": "M001081",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1947-01-03",
-        "term_start": "1945-01-03"
-      }
-    ],
     "79|CA|1": [
       {
         "bioguide": "L000163",
@@ -282234,15 +276997,6 @@
         "term_start": "1945-01-03"
       }
     ],
-    "79|ND|B": [
-      {
-        "bioguide": "R000319",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1947-01-03",
-        "term_start": "1945-01-03"
-      }
-    ],
     "79|NE|1": [
       {
         "bioguide": "C001006",
@@ -282436,15 +277190,6 @@
         "match": "exact",
         "party": "Democrat",
         "term_end": "1945-06-30",
-        "term_start": "1945-01-03"
-      }
-    ],
-    "79|NM|B": [
-      {
-        "bioguide": "F000085",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1947-01-03",
         "term_start": "1945-01-03"
       }
     ],
@@ -284254,60 +278999,6 @@
         "term_start": "1801-12-07"
       }
     ],
-    "7|CT|B": [
-      {
-        "bioguide": "D000075",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|CT|C": [
-      {
-        "bioguide": "G000248",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|CT|D": [
-      {
-        "bioguide": "G000488",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|CT|E": [
-      {
-        "bioguide": "P000231",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|CT|F": [
-      {
-        "bioguide": "S000570",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|CT|G": [
-      {
-        "bioguide": "T000029",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
     "7|DE|A": [
       {
         "bioguide": "B000249",
@@ -284320,33 +279011,6 @@
     "7|GA|A": [
       {
         "bioguide": "E000014",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|GA|B": [
-      {
-        "bioguide": "M000649",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|GA|C": [
-      {
-        "bioguide": "M000712",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|GA|D": [
-      {
-        "bioguide": "T000025",
         "match": "exact",
         "party": "Republican",
         "term_end": "1803-03-03",
@@ -284704,81 +279368,9 @@
         "term_start": "1801-12-07"
       }
     ],
-    "7|NH|B": [
-      {
-        "bioguide": "H000976",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|NH|C": [
-      {
-        "bioguide": "P000190",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|NH|D": [
-      {
-        "bioguide": "T000127",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|NH|E": [
-      {
-        "bioguide": "U000022",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
     "7|NJ|A": [
       {
         "bioguide": "C000671",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|NJ|B": [
-      {
-        "bioguide": "E000154",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|NJ|C": [
-      {
-        "bioguide": "H000464",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|NJ|D": [
-      {
-        "bioguide": "M001039",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|NJ|E": [
-      {
-        "bioguide": "S000685",
         "match": "exact",
         "party": "Republican",
         "term_end": "1803-03-03",
@@ -285011,15 +279603,6 @@
     "7|RI|A": [
       {
         "bioguide": "S000805",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1803-03-03",
-        "term_start": "1801-12-07"
-      }
-    ],
-    "7|RI|B": [
-      {
-        "bioguide": "T000273",
         "match": "exact",
         "party": "Republican",
         "term_end": "1803-03-03",
@@ -285441,15 +280024,6 @@
     "80|AZ|A": [
       {
         "bioguide": "H000212",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1949-01-03",
-        "term_start": "1947-01-03"
-      }
-    ],
-    "80|AZ|B": [
-      {
-        "bioguide": "M001081",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1949-01-03",
@@ -287350,15 +281924,6 @@
         "term_start": "1947-01-03"
       }
     ],
-    "80|ND|B": [
-      {
-        "bioguide": "R000319",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1949-01-03",
-        "term_start": "1947-01-03"
-      }
-    ],
     "80|NE|1": [
       {
         "bioguide": "C001006",
@@ -287542,15 +282107,6 @@
     "80|NM|A": [
       {
         "bioguide": "F000085",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1949-01-03",
-        "term_start": "1947-01-03"
-      }
-    ],
-    "80|NM|B": [
-      {
-        "bioguide": "L000519",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1949-01-03",
@@ -291390,15 +285946,6 @@
         "term_start": "1949-01-03"
       }
     ],
-    "81|ND|B": [
-      {
-        "bioguide": "L000238",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1951-01-03",
-        "term_start": "1949-01-03"
-      }
-    ],
     "81|NE|1": [
       {
         "bioguide": "C001006",
@@ -291589,15 +286136,6 @@
     "81|NM|A": [
       {
         "bioguide": "F000085",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1951-01-03",
-        "term_start": "1949-01-03"
-      }
-    ],
-    "81|NM|B": [
-      {
-        "bioguide": "M000705",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1951-01-03",
@@ -295402,15 +289940,6 @@
         "term_start": "1951-01-03"
       }
     ],
-    "82|ND|B": [
-      {
-        "bioguide": "B001079",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1953-01-03",
-        "term_start": "1951-01-03"
-      }
-    ],
     "82|NE|1": [
       {
         "bioguide": "C001006",
@@ -295608,15 +290137,6 @@
     "82|NM|A": [
       {
         "bioguide": "D000228",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1953-01-03",
-        "term_start": "1951-01-03"
-      }
-    ],
-    "82|NM|B": [
-      {
-        "bioguide": "F000085",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1953-01-03",
@@ -299487,15 +294007,6 @@
         "term_start": "1953-01-03"
       }
     ],
-    "83|ND|B": [
-      {
-        "bioguide": "K000332",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1955-01-03",
-        "term_start": "1953-01-03"
-      }
-    ],
     "83|NE|1": [
       {
         "bioguide": "C001006",
@@ -299677,15 +294188,6 @@
     "83|NM|A": [
       {
         "bioguide": "D000228",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1955-01-03",
-        "term_start": "1953-01-03"
-      }
-    ],
-    "83|NM|B": [
-      {
-        "bioguide": "F000085",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1955-01-03",
@@ -303446,15 +297948,6 @@
         "term_start": "1955-01-05"
       }
     ],
-    "84|ND|B": [
-      {
-        "bioguide": "K000332",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1957-01-03",
-        "term_start": "1955-01-05"
-      }
-    ],
     "84|NE|1": [
       {
         "bioguide": "W000228",
@@ -303641,15 +298134,6 @@
         "match": "exact",
         "party": "Democrat",
         "term_end": "1957-01-03",
-        "term_start": "1955-01-05"
-      }
-    ],
-    "84|NM|B": [
-      {
-        "bioguide": "F000085",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1956-11-07",
         "term_start": "1955-01-05"
       }
     ],
@@ -307430,15 +301914,6 @@
         "term_start": "1957-01-03"
       }
     ],
-    "85|ND|B": [
-      {
-        "bioguide": "K000332",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1959-01-03",
-        "term_start": "1957-01-03"
-      }
-    ],
     "85|NE|1": [
       {
         "bioguide": "W000228",
@@ -307622,15 +302097,6 @@
     "85|NM|A": [
       {
         "bioguide": "D000228",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1959-01-03",
-        "term_start": "1957-01-03"
-      }
-    ],
-    "85|NM|B": [
-      {
-        "bioguide": "M000876",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1959-01-03",
@@ -311428,15 +305894,6 @@
         "term_start": "1959-01-07"
       }
     ],
-    "86|ND|B": [
-      {
-        "bioguide": "S000378",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1961-01-03",
-        "term_start": "1959-01-07"
-      }
-    ],
     "86|NE|1": [
       {
         "bioguide": "W000228",
@@ -311620,15 +306077,6 @@
     "86|NM|A": [
       {
         "bioguide": "M000876",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1961-01-03",
-        "term_start": "1959-01-07"
-      }
-    ],
-    "86|NM|B": [
-      {
-        "bioguide": "M000990",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1961-01-03",
@@ -315454,15 +309902,6 @@
         "term_start": "1961-01-03"
       }
     ],
-    "87|ND|B": [
-      {
-        "bioguide": "S000378",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1963-01-03",
-        "term_start": "1961-01-03"
-      }
-    ],
     "87|NE|1": [
       {
         "bioguide": "W000228",
@@ -315646,15 +310085,6 @@
     "87|NM|A": [
       {
         "bioguide": "M000876",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1963-01-03",
-        "term_start": "1961-01-03"
-      }
-    ],
-    "87|NM|B": [
-      {
-        "bioguide": "M000990",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1963-01-03",
@@ -319689,15 +314119,6 @@
         "term_start": "1963-01-09"
       }
     ],
-    "88|NM|B": [
-      {
-        "bioguide": "M000990",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1965-01-03",
-        "term_start": "1963-01-09"
-      }
-    ],
     "88|NV|A": [
       {
         "bioguide": "B000141",
@@ -323704,15 +318125,6 @@
         "term_start": "1965-01-04"
       }
     ],
-    "89|NM|B": [
-      {
-        "bioguide": "W000049",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1967-01-03",
-        "term_start": "1965-01-04"
-      }
-    ],
     "89|NV|A": [
       {
         "bioguide": "B000141",
@@ -325381,60 +319793,6 @@
         "term_start": "1803-10-17"
       }
     ],
-    "8|CT|B": [
-      {
-        "bioguide": "D000024",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|CT|C": [
-      {
-        "bioguide": "D000075",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|CT|D": [
-      {
-        "bioguide": "G000248",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|CT|E": [
-      {
-        "bioguide": "G000488",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|CT|F": [
-      {
-        "bioguide": "S000570",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|CT|G": [
-      {
-        "bioguide": "T000029",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
     "8|DE|A": [
       {
         "bioguide": "R000377",
@@ -325447,33 +319805,6 @@
     "8|GA|A": [
       {
         "bioguide": "B000989",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|GA|B": [
-      {
-        "bioguide": "E000014",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|GA|C": [
-      {
-        "bioguide": "H000133",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|GA|D": [
-      {
-        "bioguide": "M000649",
         "match": "exact",
         "party": "Republican",
         "term_end": "1805-03-03",
@@ -325905,90 +320236,9 @@
         "term_start": "1803-10-17"
       }
     ],
-    "8|NH|B": [
-      {
-        "bioguide": "C000399",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|NH|C": [
-      {
-        "bioguide": "H000811",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|NH|D": [
-      {
-        "bioguide": "H000976",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|NH|E": [
-      {
-        "bioguide": "T000127",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
     "8|NJ|A": [
       {
         "bioguide": "B000714",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|NJ|B": [
-      {
-        "bioguide": "E000154",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|NJ|C": [
-      {
-        "bioguide": "H000464",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|NJ|D": [
-      {
-        "bioguide": "M001039",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|NJ|E": [
-      {
-        "bioguide": "S000493",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|NJ|F": [
-      {
-        "bioguide": "S000685",
         "match": "exact",
         "party": "Republican",
         "term_end": "1805-03-03",
@@ -326328,15 +320578,6 @@
         "term_start": "1803-10-17"
       }
     ],
-    "8|RI|B": [
-      {
-        "bioguide": "S000805",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
     "8|SC|1": [
       {
         "bioguide": "L000482",
@@ -326412,24 +320653,6 @@
     "8|TN|A": [
       {
         "bioguide": "C000083",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|TN|B": [
-      {
-        "bioguide": "D000333",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1805-03-03",
-        "term_start": "1803-10-17"
-      }
-    ],
-    "8|TN|C": [
-      {
-        "bioguide": "R000181",
         "match": "exact",
         "party": "Republican",
         "term_end": "1805-03-03",
@@ -328960,15 +323183,6 @@
     "90|NM|A": [
       {
         "bioguide": "M000990",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1969-01-03",
-        "term_start": "1967-01-10"
-      }
-    ],
-    "90|NM|B": [
-      {
-        "bioguide": "W000049",
         "match": "exact",
         "party": "Democrat",
         "term_end": "1969-01-03",
@@ -366663,60 +360877,6 @@
         "term_start": "1805-12-02"
       }
     ],
-    "9|CT|B": [
-      {
-        "bioguide": "D000075",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|CT|C": [
-      {
-        "bioguide": "D000582",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|CT|D": [
-      {
-        "bioguide": "G000248",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|CT|E": [
-      {
-        "bioguide": "G000488",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|CT|F": [
-      {
-        "bioguide": "M001023",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|CT|G": [
-      {
-        "bioguide": "P000368",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
     "9|DE|A": [
       {
         "bioguide": "B000888",
@@ -366729,33 +360889,6 @@
     "9|GA|A": [
       {
         "bioguide": "B000989",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|GA|B": [
-      {
-        "bioguide": "E000014",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|GA|C": [
-      {
-        "bioguide": "M000614",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|GA|D": [
-      {
-        "bioguide": "M000649",
         "match": "exact",
         "party": "Republican",
         "term_end": "1807-03-03",
@@ -367188,90 +361321,9 @@
         "term_start": "1805-12-02"
       }
     ],
-    "9|NH|B": [
-      {
-        "bioguide": "E000130",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|NH|C": [
-      {
-        "bioguide": "H000811",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|NH|D": [
-      {
-        "bioguide": "T000127",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|NH|E": [
-      {
-        "bioguide": "T000220",
-        "match": "exact",
-        "party": "Federalist",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
     "9|NJ|A": [
       {
         "bioguide": "D000047",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|NJ|B": [
-      {
-        "bioguide": "E000154",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|NJ|C": [
-      {
-        "bioguide": "H000464",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|NJ|D": [
-      {
-        "bioguide": "L000036",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|NJ|E": [
-      {
-        "bioguide": "S000493",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|NJ|F": [
-      {
-        "bioguide": "S000685",
         "match": "exact",
         "party": "Republican",
         "term_end": "1807-03-03",
@@ -367612,27 +361664,9 @@
         "term_start": "1805-12-02"
       }
     ],
-    "9|PA|B": [
-      {
-        "bioguide": "L000492",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
     "9|RI|A": [
       {
         "bioguide": "K000286",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1807-03-03",
-        "term_start": "1805-12-02"
-      }
-    ],
-    "9|RI|B": [
-      {
-        "bioguide": "S000805",
         "match": "exact",
         "party": "Republican",
         "term_end": "1807-03-03",

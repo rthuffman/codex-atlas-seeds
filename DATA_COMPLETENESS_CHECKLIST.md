@@ -47,17 +47,18 @@ with reproducible CI gates that prevent regressions.
 - [ ] AS-5: delegation-aware full parity for congress **118** vs gold-detail (retire catalog-only workaround).
 - [ ] Document pack changelog when stable reference edits (e.g. jurisdictional splits) land in seeds repo only.
 
-## v0.3.3 House district topology + term index v2 (2026-06-07)
+## v0.3.3/v0.3.4 House district topology + term index v2 (2026-06-07)
 
 **Seeds authoring repo (local clone):** `D:\repos\codex-atlas-seeds`
 
 **Ordering:** complete P1+ topology research **before** publishing the bundle so the release artifact is complete; then commit → push → tag → GitHub release; **then** bump athena-codex pin and run cluster rebuild.
 
-- [x] P1+ topology generator (`athena-codex/base-data/tools/generate_house_district_topology.py`) — 368 interval rows from congress-legislators + apportionment; NH P0 overrides in `base-data/sources/usg/house_district_topology_overrides.json`.
+- [x] **v0.3.3 superseded/tainted:** inferred 368-row topology blurred plural districts and statewide at-large seats.
+- [x] **v0.3.4 corrective source audit:** schema v2 reviewed rows only; explicit plural district seats (e.g. `1-A`) and source metadata in `base-data/sources/usg/house_district_topology_overrides.json`.
 - [x] athena-codex Phase C — topology module, session builder, term index format_version 2, vacancy `seat_code` (ADR 2026-06-07).
 - [x] Add `packs/us_house_district_topology/` (`pack.yaml`, `topology.json`, `sources/state_intervals_research.json`).
 - [x] Regenerate `packs/us_house_legislators_term_index/term_index.json` with topology slice (format_version 2).
-- [x] Bump `manifest.yaml` to **v0.3.3** (11 packs); `codex-seeds-ci --validate --test --build --parity`.
+- [x] Bump `manifest.yaml` to **v0.3.4** (11 packs); schema-v2 validator rejects v1/unsafe topology.
 - [x] Release: commit, push, tag **v0.3.3**, `codex-seeds-release --tag v0.3.3` — https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.3
 - [x] athena-codex: update `codex/docs/atlas_seeds_bundle_pin.json` SHA + `deploy/kubernetes/deploy-local-dev.env` (local workspace; athena-codex commit pending).
 - [ ] Cluster: re-apply Atlas seeds (11 slices); Prospectus wipe + structural backfill; vacancy spot-checks.

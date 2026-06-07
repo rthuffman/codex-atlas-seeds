@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.3"
+bundle_version: "0.3.4"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -9,8 +9,9 @@ notes: >
   us_gold_historical_structure (Option B: Atlas apply then bootstrap projection to Prospectus).
   v0.3.1: removes stale optional L1/L2/L3 from projection packs so Athena derives taxonomy from VertexType/EdgeType.
   v0.3.2: adds us_house_legislators_term_index — derived House holder lookup from congress-legislators (catalog pack).
-  v0.3.3: adds us_house_district_topology (368 interval rows + NH crosswalks); term_index format_version 2
-  with alphanumeric office keys (congress|postal|seat_code).
+  v0.3.3: tainted/superseded — inferred topology rows blurred plural districts and at-large seats.
+  v0.3.4: corrective topology schema v2 with reviewed rows only, plural district seat codes,
+  and term_index format_version 2.
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -50,7 +51,7 @@ packs:
     files:
       - envelope.json
   - pack_id: us_house_district_topology
-    version: "0.1.0"
+    version: "0.2.0"
     files:
       - topology.json
   - pack_id: us_house_legislators_term_index

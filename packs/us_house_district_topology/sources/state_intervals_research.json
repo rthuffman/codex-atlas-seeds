@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "notes": "Per-congress inferred exceptions (generator output); peer-review against Wikipedia state lists.",
+  "notes": "Diagnostic inferred exceptions only; not emitted into release topology without review.",
   "rows": [
     {
       "postal": "CT",
