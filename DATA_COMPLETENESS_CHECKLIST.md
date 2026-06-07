@@ -55,9 +55,9 @@ with reproducible CI gates that prevent regressions.
 
 - [x] P1+ topology generator (`athena-codex/base-data/tools/generate_house_district_topology.py`) — 368 interval rows from congress-legislators + apportionment; NH P0 overrides in `base-data/sources/usg/house_district_topology_overrides.json`.
 - [x] athena-codex Phase C — topology module, session builder, term index format_version 2, vacancy `seat_code` (ADR 2026-06-07).
-- [ ] Add `packs/us_house_district_topology/` (`pack.yaml`, `topology.json`, `sources/state_intervals_research.json`).
-- [ ] Regenerate `packs/us_house_legislators_term_index/term_index.json` with topology slice (format_version 2).
-- [ ] Bump `manifest.yaml` to **v0.3.3** (11 packs); `codex-seeds-ci --validate --test --build --parity`.
-- [ ] Release: commit, push, tag **v0.3.3**, `codex-seeds-release --tag v0.3.3` (see `deploy/tools/README.md`).
-- [ ] athena-codex: update `codex/docs/atlas_seeds_bundle_pin.json` SHA + `deploy/kubernetes/deploy-local-dev.env`.
+- [x] Add `packs/us_house_district_topology/` (`pack.yaml`, `topology.json`, `sources/state_intervals_research.json`).
+- [x] Regenerate `packs/us_house_legislators_term_index/term_index.json` with topology slice (format_version 2).
+- [x] Bump `manifest.yaml` to **v0.3.3** (11 packs); `codex-seeds-ci --validate --test --build --parity`.
+- [x] Release: commit, push, tag **v0.3.3**, `codex-seeds-release --tag v0.3.3` — https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.3
+- [x] athena-codex: update `codex/docs/atlas_seeds_bundle_pin.json` SHA + `deploy/kubernetes/deploy-local-dev.env` (local workspace; athena-codex commit pending).
 - [ ] Cluster: re-apply Atlas seeds (11 slices); Prospectus wipe + structural backfill; vacancy spot-checks.
