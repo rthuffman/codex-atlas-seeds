@@ -1,0 +1,8 @@
+pack_id: usg_congress_session_readiness
+version: "0.1.0"
+requires_atlas_schema_version: "1.2.0"
+description: >
+  Operator-certified next-session readiness entries (Gate C). One row per forward Congress
+  mint; bundle bump proves deliberate certification (ADR 2026-06-08).
+files:
+  - readiness.json

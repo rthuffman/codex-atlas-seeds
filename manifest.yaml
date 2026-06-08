@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.5"
+bundle_version: "0.3.6"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -19,6 +19,8 @@ notes: >
   every census now maps to the Congress where it took effect, so boundary-Congress seat counts and
   the general-ticket at-large counts are historically accurate (e.g. CT had 5 seats for the 2nd
   Congress, 7 from the 3rd).
+  v0.3.6: adds usg_congress_session_readiness — Gate C operator certification catalog for
+  next-session structure mint (ADR 2026-06-08); trims 2020 apportionment vintage to 118–122.
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -65,3 +67,7 @@ packs:
     version: "0.2.1"
     files:
       - term_index.json
+  - pack_id: usg_congress_session_readiness
+    version: "0.1.0"
+    files:
+      - readiness.json

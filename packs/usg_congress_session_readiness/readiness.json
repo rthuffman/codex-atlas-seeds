@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "notes": "Gate C session readiness catalog (ADR 2026-06-08). Operators ship a new bundle entry per next Congress even when topology is unchanged.",
+  "sessions": [
+    {
+      "congress": 120,
+      "min_bundle_version": "0.3.6",
+      "required_slices": [
+        "usg_congress_session_bounds/bounds.json",
+        "us_house_district_topology/topology.json",
+        "usg_house_apportionment_vintages/vintages.json"
+      ],
+      "topology_scope": "full",
+      "released_at": "2026-11-06",
+      "notes": "Stub readiness entry for post-2026 general election certification workflow."
+    }
+  ]
+}
