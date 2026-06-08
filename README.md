@@ -63,7 +63,26 @@ dist/                      # build output (gitignored)
 
 **Tag push** (`v*`) re-runs validate + build + parity and then **`codex-seeds-release`** to attach `dist/*.tar.gz` to GitHub Releases. You can also run release upload locally with `GITHUB_TOKEN` set.
 
-Pin consumed bundles in **athena-codex** deploy manifests (`version` + `sha256`) — not in application Docker images.
+### Deploy pin (AS-1) — after you release a new bundle
+
+Clusters do **not** read `manifest.yaml` from this repo at runtime. **athena-codex** pins the tarball that bootstrap downloads. That pin is **two places**; update **both** on every bundle bump:
+
+| Layer | Location | Fields |
+|-------|----------|--------|
+| **Committed contract** | [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json) | Default `bundle_version`, `bundle_sha256`, `bundle_url`, plus **`pack_count`**, **`expected_slice_count`**, `requires_atlas_schema_version`, release notes. Copied into Talisman/Athena images as `/app/ddl/atlas_seeds_bundle_pin.json`. Used by CI materialize/parity when deploy env is unset. |
+| **Environment override** | Deploy env → Kubernetes Secret `talisman-db-credentials` | **`CODEX_ATLAS_SEEDS_VERSION`**, **`CODEX_ATLAS_SEEDS_SHA256`**, **`CODEX_ATLAS_SEEDS_URL`** only. At runtime these **override** the three download fields from the JSON; slice counts and schema version always come from the committed JSON. |
+
+**Where to edit env overrides (by environment):**
+
+| Environment | Typical file |
+|-------------|----------------|
+| **local-dev** | `athena-codex/deploy/kubernetes/deploy-local-dev.env` (and keep `deploy-local-dev.env-example` in sync — CI asserts example matches the JSON) |
+| **dev (encrypted)** | `athena-codex/deploy/kubernetes/sops/deploy-dev.env` (re-encrypt after edit) |
+| **prod / other** | Matching `deploy-*.env`, `deploy-*.env-example`, or your operator’s SOPS/plaintext deploy env — see [`deploy/kubernetes/README.md`](https://github.com/rthuffman/athena-codex/blob/main/deploy/kubernetes/README.md) |
+
+**Bump checklist:** (1) tag + GitHub Release in **this repo**; (2) update `atlas_seeds_bundle_pin.json` (version, sha256, url, **`pack_count`** when packs change); (3) update deploy env vars above for each cluster you run; (4) redeploy so `talisman-db-credentials` picks up the new values; (5) Talisman bootstrap **Apply Atlas reference packs**.
+
+Policy: [`2026-05-20-codex-atlas-seeds-reference-packs`](https://github.com/rthuffman/athena-codex/blob/main/docs/decisions/2026-05-20-codex-atlas-seeds-reference-packs.md) (**AS-1**). Example env comments: `deploy/kubernetes/deploy-local-dev.env-example` § Atlas reference packs.
 
 ## Consumption in athena-codex
 
@@ -86,23 +105,23 @@ Runbook: [athena-codex `docs/prospectus-environment-first-setup.md`](https://git
 
 ## Status
 
-**Release [`v0.3.1`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.1)** prepared **2026-05-24**. Pin in athena-codex: [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json).
+**Current release:** [`v0.3.6`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.6) — adds `usg_congress_session_readiness` (Gate C); trims 2020 apportionment vintage to Congress 118–122 (**12** packs).
 
-**Bundle `0.3.1`** (nine USG packs):
+**Deploy pin (both layers):** update [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json) **and** `CODEX_ATLAS_SEEDS_*` in the target cluster’s deploy dotenv / SOPS env (see **Deploy pin (AS-1)** above).
 
-| Pack | Payload |
-|------|---------|
-| *(v0.2.0 catalog packs)* | administration, cabinet timeline, apportionment, session bounds, seating, delegates |
-| `us_geo_bootstrap` | NationState, 50 states, territories, DC, federal apex (220 records; optional taxonomy fields omitted so Athena derives current schema hierarchy) |
-| `us_gold_current_structure` | 119th Congress + 47th administration shell (1527 records, no geo) |
-| `us_gold_historical_structure` | 1st–118th Congress session org scaffolding (391 records) |
+**Bundle `0.3.6`** (twelve packs) — highlights since `0.3.1`:
+
+| Pack | Notes |
+|------|--------|
+| `us_house_district_topology` | Schema v2 reviewed rows (v0.3.4+) |
+| `us_house_legislators_term_index` | format_version 2 + topology-aware seat codes (v0.3.2+) |
+| `usg_congress_session_readiness` | Gate C operator certification catalog (v0.3.6) |
+| *(earlier v0.3.x)* | `us_geo_bootstrap`, `us_gold_current_structure`, `us_gold_historical_structure`, six USG catalog packs |
 
 Refresh catalog packs: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --verify`.  
 Refresh Prospectus projection packs: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --export-prospectus-packs`.  
-Tag release: `codex-seeds-release --tag v0.3.1`.
+Tag release: `codex-seeds-release --tag v0.3.6`.
 
 Bootstrap: apply Atlas bundle in talisman-bootstrap, then **Project Atlas seeds → Prospectus** (Option B).
-
-Pin consumed bundles in **athena-codex** (`codex/docs/atlas_seeds_bundle_pin.json`).
 
 Data stability work tracker: [`DATA_COMPLETENESS_CHECKLIST.md`](DATA_COMPLETENESS_CHECKLIST.md).

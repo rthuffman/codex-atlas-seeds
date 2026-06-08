@@ -51,7 +51,7 @@ with reproducible CI gates that prevent regressions.
 
 **Seeds authoring repo (local clone):** `D:\repos\codex-atlas-seeds`
 
-**Ordering:** complete P1+ topology research **before** publishing the bundle so the release artifact is complete; then commit → push → tag → GitHub release; **then** bump athena-codex pin and run cluster rebuild.
+**Ordering:** complete P1+ topology research **before** publishing the bundle so the release artifact is complete; then commit → push → tag → GitHub release; **then** bump athena-codex deploy pin (`atlas_seeds_bundle_pin.json` + `CODEX_ATLAS_SEEDS_*` in deploy dotenv/SOPS) and run cluster rebuild.
 
 - [x] **v0.3.3 superseded/tainted:** inferred 368-row topology blurred plural districts and statewide at-large seats.
 - [x] **v0.3.4 corrective source audit:** schema v2 reviewed rows only; explicit plural district seats (e.g. `1-A`) and source metadata in `base-data/sources/usg/house_district_topology_overrides.json`.
@@ -60,5 +60,5 @@ with reproducible CI gates that prevent regressions.
 - [x] Regenerate `packs/us_house_legislators_term_index/term_index.json` with topology slice (format_version 2).
 - [x] Bump `manifest.yaml` to **v0.3.4** (11 packs); schema-v2 validator rejects v1/unsafe topology.
 - [x] Release: commit, push, tag **v0.3.3**, `codex-seeds-release --tag v0.3.3` — https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.3
-- [x] athena-codex: update `codex/docs/atlas_seeds_bundle_pin.json` SHA + `deploy/kubernetes/deploy-local-dev.env` (local workspace; athena-codex commit pending).
+- [x] athena-codex: update `codex/docs/atlas_seeds_bundle_pin.json` (version, sha256, url, `pack_count`) **and** matching `CODEX_ATLAS_SEEDS_VERSION` / `SHA256` / `URL` in deploy env (`deploy-local-dev.env`, `deploy-local-dev.env-example`, or SOPS `deploy-dev.env` for dev clusters).
 - [ ] Cluster: re-apply Atlas seeds (11 slices); Prospectus wipe + structural backfill; vacancy spot-checks.
