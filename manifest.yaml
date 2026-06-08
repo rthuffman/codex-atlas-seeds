@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.4"
+bundle_version: "0.3.5"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -12,6 +12,13 @@ notes: >
   v0.3.3: tainted/superseded — inferred topology rows blurred plural districts and at-large seats.
   v0.3.4: corrective topology schema v2 with reviewed rows only, plural district seat codes,
   and term_index format_version 2.
+  v0.3.5: Phase AT general-ticket promotion — reviewed statewide_general_ticket rows for the
+  early at-large era (CT, NH, NJ, RI, DE, GA, VT) + CT 8th-Congress seat crosswalk; term_index
+  regenerated so multi-member at-large delegations resolve to A..N seat codes (fixes CT-2/8th miss).
+  Also corrects the structural apportionment off-by-one (usg_house_apportionment_vintages 0.2.1):
+  every census now maps to the Congress where it took effect, so boundary-Congress seat counts and
+  the general-ticket at-large counts are historically accurate (e.g. CT had 5 seats for the 2nd
+  Congress, 7 from the 3rd).
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -23,7 +30,7 @@ packs:
     files:
       - timeline.json
   - pack_id: usg_house_apportionment_vintages
-    version: "0.2.0"
+    version: "0.2.1"
     files:
       - vintages.json
   - pack_id: usg_congress_session_bounds
@@ -51,10 +58,10 @@ packs:
     files:
       - envelope.json
   - pack_id: us_house_district_topology
-    version: "0.2.0"
+    version: "0.2.1"
     files:
       - topology.json
   - pack_id: us_house_legislators_term_index
-    version: "0.2.0"
+    version: "0.2.1"
     files:
       - term_index.json

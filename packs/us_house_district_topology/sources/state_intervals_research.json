@@ -55,112 +55,42 @@
     {
       "postal": "CT",
       "congress": 2,
-      "apportioned_count": 7,
+      "apportioned_count": 5,
       "numbered_count": 0,
-      "at_large_count": 7,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1790"
-    },
-    {
-      "postal": "MA",
-      "congress": 2,
-      "apportioned_count": 14,
-      "numbered_count": 8,
-      "at_large_count": 6,
-      "default_numbered": 14,
-      "default_at_large": 0,
-      "vintage_id": "census_1790"
-    },
-    {
-      "postal": "MD",
-      "congress": 2,
-      "apportioned_count": 8,
-      "numbered_count": 6,
-      "at_large_count": 2,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1790"
-    },
-    {
-      "postal": "NC",
-      "congress": 2,
-      "apportioned_count": 10,
-      "numbered_count": 5,
       "at_large_count": 5,
-      "default_numbered": 10,
+      "default_numbered": 5,
       "default_at_large": 0,
-      "vintage_id": "census_1790"
+      "vintage_id": "constitutional_1789"
     },
     {
       "postal": "NH",
+      "congress": 2,
+      "apportioned_count": 3,
+      "numbered_count": 0,
+      "at_large_count": 3,
+      "default_numbered": 3,
+      "default_at_large": 0,
+      "vintage_id": "constitutional_1789"
+    },
+    {
+      "postal": "NJ",
       "congress": 2,
       "apportioned_count": 4,
       "numbered_count": 0,
       "at_large_count": 4,
       "default_numbered": 4,
       "default_at_large": 0,
-      "vintage_id": "census_1790"
-    },
-    {
-      "postal": "NJ",
-      "congress": 2,
-      "apportioned_count": 5,
-      "numbered_count": 0,
-      "at_large_count": 5,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1790"
-    },
-    {
-      "postal": "NY",
-      "congress": 2,
-      "apportioned_count": 10,
-      "numbered_count": 6,
-      "at_large_count": 4,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1790"
-    },
-    {
-      "postal": "PA",
-      "congress": 2,
-      "apportioned_count": 13,
-      "numbered_count": 8,
-      "at_large_count": 5,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_1790"
-    },
-    {
-      "postal": "RI",
-      "congress": 2,
-      "apportioned_count": 2,
-      "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1790"
-    },
-    {
-      "postal": "SC",
-      "congress": 2,
-      "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1790"
+      "vintage_id": "constitutional_1789"
     },
     {
       "postal": "VA",
       "congress": 2,
-      "apportioned_count": 19,
+      "apportioned_count": 10,
       "numbered_count": 9,
-      "at_large_count": 10,
-      "default_numbered": 19,
+      "at_large_count": 1,
+      "default_numbered": 10,
       "default_at_large": 0,
-      "vintage_id": "census_1790"
+      "vintage_id": "constitutional_1789"
     },
     {
       "postal": "CT",
@@ -410,97 +340,47 @@
       "at_large_count": 7,
       "default_numbered": 7,
       "default_at_large": 0,
-      "vintage_id": "census_1800"
+      "vintage_id": "census_1790"
     },
     {
       "postal": "GA",
+      "congress": 7,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1790"
+    },
+    {
+      "postal": "NH",
       "congress": 7,
       "apportioned_count": 4,
       "numbered_count": 0,
       "at_large_count": 4,
       "default_numbered": 4,
       "default_at_large": 0,
-      "vintage_id": "census_1800"
+      "vintage_id": "census_1790"
     },
     {
-      "postal": "KY",
-      "congress": 7,
-      "apportioned_count": 6,
-      "numbered_count": 2,
-      "at_large_count": 4,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "MA",
-      "congress": 7,
-      "apportioned_count": 17,
-      "numbered_count": 14,
-      "at_large_count": 3,
-      "default_numbered": 17,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "MD",
-      "congress": 7,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "NC",
-      "congress": 7,
-      "apportioned_count": 12,
-      "numbered_count": 10,
-      "at_large_count": 2,
-      "default_numbered": 12,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "NH",
+      "postal": "NJ",
       "congress": 7,
       "apportioned_count": 5,
       "numbered_count": 0,
       "at_large_count": 5,
       "default_numbered": 5,
       "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "NJ",
-      "congress": 7,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "NY",
-      "congress": 7,
-      "apportioned_count": 17,
-      "numbered_count": 10,
-      "at_large_count": 7,
-      "default_numbered": 17,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
+      "vintage_id": "census_1790"
     },
     {
       "postal": "PA",
       "congress": 7,
-      "apportioned_count": 18,
+      "apportioned_count": 13,
       "numbered_count": 12,
-      "at_large_count": 6,
-      "default_numbered": 18,
+      "at_large_count": 1,
+      "default_numbered": 13,
       "default_at_large": 0,
-      "vintage_id": "census_1800"
+      "vintage_id": "census_1790"
     },
     {
       "postal": "RI",
@@ -510,96 +390,66 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1800"
+      "vintage_id": "census_1790"
     },
     {
-      "postal": "SC",
-      "congress": 7,
-      "apportioned_count": 8,
-      "numbered_count": 6,
-      "at_large_count": 2,
-      "default_numbered": 8,
+      "postal": "CT",
+      "congress": 8,
+      "apportioned_count": 7,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "default_numbered": 7,
       "default_at_large": 0,
       "vintage_id": "census_1800"
     },
     {
-      "postal": "TN",
-      "congress": 7,
-      "apportioned_count": 3,
+      "postal": "GA",
+      "congress": 8,
+      "apportioned_count": 4,
+      "numbered_count": 0,
+      "at_large_count": 4,
+      "default_numbered": 4,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "MD",
+      "congress": 8,
+      "apportioned_count": 9,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "default_numbered": 9,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "NH",
+      "congress": 8,
+      "apportioned_count": 5,
+      "numbered_count": 0,
+      "at_large_count": 5,
+      "default_numbered": 5,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "NJ",
+      "congress": 8,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "OH",
+      "congress": 8,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 2,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "VA",
-      "congress": 7,
-      "apportioned_count": 22,
-      "numbered_count": 19,
-      "at_large_count": 3,
-      "default_numbered": 22,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "VT",
-      "congress": 7,
-      "apportioned_count": 4,
-      "numbered_count": 2,
-      "at_large_count": 2,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "CT",
-      "congress": 8,
-      "apportioned_count": 7,
-      "numbered_count": 0,
-      "at_large_count": 7,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "GA",
-      "congress": 8,
-      "apportioned_count": 4,
-      "numbered_count": 0,
-      "at_large_count": 4,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "MD",
-      "congress": 8,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "NH",
-      "congress": 8,
-      "apportioned_count": 5,
-      "numbered_count": 0,
-      "at_large_count": 5,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1800"
-    },
-    {
-      "postal": "NJ",
-      "congress": 8,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
       "vintage_id": "census_1800"
     },
     {
@@ -683,6 +533,16 @@
       "vintage_id": "census_1800"
     },
     {
+      "postal": "OH",
+      "congress": 9,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1800"
+    },
+    {
       "postal": "PA",
       "congress": 9,
       "apportioned_count": 18,
@@ -750,6 +610,16 @@
       "at_large_count": 6,
       "default_numbered": 6,
       "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "OH",
+      "congress": 10,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
       "vintage_id": "census_1800"
     },
     {
@@ -833,6 +703,16 @@
       "vintage_id": "census_1800"
     },
     {
+      "postal": "OH",
+      "congress": 11,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1800"
+    },
+    {
       "postal": "PA",
       "congress": 11,
       "apportioned_count": 18,
@@ -860,11 +740,101 @@
       "at_large_count": 7,
       "default_numbered": 7,
       "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "GA",
+      "congress": 12,
+      "apportioned_count": 4,
+      "numbered_count": 0,
+      "at_large_count": 4,
+      "default_numbered": 4,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "MD",
+      "congress": 12,
+      "apportioned_count": 9,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "default_numbered": 9,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "NH",
+      "congress": 12,
+      "apportioned_count": 5,
+      "numbered_count": 0,
+      "at_large_count": 5,
+      "default_numbered": 5,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "NJ",
+      "congress": 12,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "NY",
+      "congress": 12,
+      "apportioned_count": 17,
+      "numbered_count": 15,
+      "at_large_count": 2,
+      "default_numbered": 17,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "OH",
+      "congress": 12,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "PA",
+      "congress": 12,
+      "apportioned_count": 18,
+      "numbered_count": 11,
+      "at_large_count": 7,
+      "default_numbered": 18,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "RI",
+      "congress": 12,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1800"
+    },
+    {
+      "postal": "CT",
+      "congress": 13,
+      "apportioned_count": 7,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "default_numbered": 7,
+      "default_at_large": 0,
       "vintage_id": "census_1810"
     },
     {
       "postal": "DE",
-      "congress": 12,
+      "congress": 13,
       "apportioned_count": 2,
       "numbered_count": 0,
       "at_large_count": 2,
@@ -874,7 +844,7 @@
     },
     {
       "postal": "GA",
-      "congress": 12,
+      "congress": 13,
       "apportioned_count": 6,
       "numbered_count": 0,
       "at_large_count": 6,
@@ -883,28 +853,468 @@
       "vintage_id": "census_1810"
     },
     {
-      "postal": "KY",
-      "congress": 12,
-      "apportioned_count": 10,
-      "numbered_count": 6,
-      "at_large_count": 4,
-      "default_numbered": 10,
+      "postal": "LA",
+      "congress": 13,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "MD",
+      "congress": 13,
+      "apportioned_count": 9,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "default_numbered": 9,
       "default_at_large": 0,
       "vintage_id": "census_1810"
     },
     {
-      "postal": "MA",
-      "congress": 12,
-      "apportioned_count": 20,
-      "numbered_count": 17,
+      "postal": "NH",
+      "congress": 13,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NJ",
+      "congress": 13,
+      "apportioned_count": 6,
+      "numbered_count": 3,
       "at_large_count": 3,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NY",
+      "congress": 13,
+      "apportioned_count": 27,
+      "numbered_count": 21,
+      "at_large_count": 6,
+      "default_numbered": 27,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "PA",
+      "congress": 13,
+      "apportioned_count": 23,
+      "numbered_count": 15,
+      "at_large_count": 8,
+      "default_numbered": 23,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "RI",
+      "congress": 13,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "VT",
+      "congress": 13,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "CT",
+      "congress": 14,
+      "apportioned_count": 7,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "default_numbered": 7,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "DE",
+      "congress": 14,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "GA",
+      "congress": 14,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "LA",
+      "congress": 14,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "MD",
+      "congress": 14,
+      "apportioned_count": 9,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "default_numbered": 9,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NH",
+      "congress": 14,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NJ",
+      "congress": 14,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NY",
+      "congress": 14,
+      "apportioned_count": 27,
+      "numbered_count": 21,
+      "at_large_count": 6,
+      "default_numbered": 27,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "PA",
+      "congress": 14,
+      "apportioned_count": 23,
+      "numbered_count": 15,
+      "at_large_count": 8,
+      "default_numbered": 23,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "RI",
+      "congress": 14,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "VT",
+      "congress": 14,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "CT",
+      "congress": 15,
+      "apportioned_count": 7,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "default_numbered": 7,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "DE",
+      "congress": 15,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "GA",
+      "congress": 15,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "LA",
+      "congress": 15,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "MD",
+      "congress": 15,
+      "apportioned_count": 9,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "default_numbered": 9,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NH",
+      "congress": 15,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NJ",
+      "congress": 15,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NY",
+      "congress": 15,
+      "apportioned_count": 27,
+      "numbered_count": 21,
+      "at_large_count": 6,
+      "default_numbered": 27,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "PA",
+      "congress": 15,
+      "apportioned_count": 23,
+      "numbered_count": 15,
+      "at_large_count": 8,
+      "default_numbered": 23,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "RI",
+      "congress": 15,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "VT",
+      "congress": 15,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "CT",
+      "congress": 16,
+      "apportioned_count": 7,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "default_numbered": 7,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "DE",
+      "congress": 16,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "GA",
+      "congress": 16,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "LA",
+      "congress": 16,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "MD",
+      "congress": 16,
+      "apportioned_count": 9,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "default_numbered": 9,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NH",
+      "congress": 16,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NJ",
+      "congress": 16,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "NY",
+      "congress": 16,
+      "apportioned_count": 27,
+      "numbered_count": 21,
+      "at_large_count": 6,
+      "default_numbered": 27,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "PA",
+      "congress": 16,
+      "apportioned_count": 23,
+      "numbered_count": 15,
+      "at_large_count": 8,
+      "default_numbered": 23,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "RI",
+      "congress": 16,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "VT",
+      "congress": 16,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "CT",
+      "congress": 17,
+      "apportioned_count": 7,
+      "numbered_count": 0,
+      "at_large_count": 7,
+      "default_numbered": 7,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "DE",
+      "congress": 17,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "GA",
+      "congress": 17,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "LA",
+      "congress": 17,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1810"
+    },
+    {
+      "postal": "MA",
+      "congress": 17,
+      "apportioned_count": 20,
+      "numbered_count": 13,
+      "at_large_count": 7,
       "default_numbered": 20,
       "default_at_large": 0,
       "vintage_id": "census_1810"
     },
     {
       "postal": "MD",
-      "congress": 12,
+      "congress": 17,
       "apportioned_count": 9,
       "numbered_count": 8,
       "at_large_count": 1,
@@ -913,18 +1323,8 @@
       "vintage_id": "census_1810"
     },
     {
-      "postal": "NC",
-      "congress": 12,
-      "apportioned_count": 13,
-      "numbered_count": 12,
-      "at_large_count": 1,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
       "postal": "NH",
-      "congress": 12,
+      "congress": 17,
       "apportioned_count": 6,
       "numbered_count": 0,
       "at_large_count": 6,
@@ -934,7 +1334,7 @@
     },
     {
       "postal": "NJ",
-      "congress": 12,
+      "congress": 17,
       "apportioned_count": 6,
       "numbered_count": 0,
       "at_large_count": 6,
@@ -944,157 +1344,17 @@
     },
     {
       "postal": "NY",
-      "congress": 12,
+      "congress": 17,
       "apportioned_count": 27,
-      "numbered_count": 15,
-      "at_large_count": 12,
-      "default_numbered": 27,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "OH",
-      "congress": 12,
-      "apportioned_count": 6,
-      "numbered_count": 1,
+      "numbered_count": 22,
       "at_large_count": 5,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "PA",
-      "congress": 12,
-      "apportioned_count": 23,
-      "numbered_count": 11,
-      "at_large_count": 12,
-      "default_numbered": 23,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "RI",
-      "congress": 12,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "SC",
-      "congress": 12,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "TN",
-      "congress": 12,
-      "apportioned_count": 6,
-      "numbered_count": 3,
-      "at_large_count": 3,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "VA",
-      "congress": 12,
-      "apportioned_count": 23,
-      "numbered_count": 22,
-      "at_large_count": 1,
-      "default_numbered": 23,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "VT",
-      "congress": 12,
-      "apportioned_count": 6,
-      "numbered_count": 4,
-      "at_large_count": 2,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "CT",
-      "congress": 13,
-      "apportioned_count": 7,
-      "numbered_count": 0,
-      "at_large_count": 7,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "DE",
-      "congress": 13,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "GA",
-      "congress": 13,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "MD",
-      "congress": 13,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NH",
-      "congress": 13,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NJ",
-      "congress": 13,
-      "apportioned_count": 6,
-      "numbered_count": 3,
-      "at_large_count": 3,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NY",
-      "congress": 13,
-      "apportioned_count": 27,
-      "numbered_count": 21,
-      "at_large_count": 6,
       "default_numbered": 27,
       "default_at_large": 0,
       "vintage_id": "census_1810"
     },
     {
       "postal": "PA",
-      "congress": 13,
+      "congress": 17,
       "apportioned_count": 23,
       "numbered_count": 15,
       "at_large_count": 8,
@@ -1104,483 +1364,13 @@
     },
     {
       "postal": "RI",
-      "congress": 13,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "VT",
-      "congress": 13,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "CT",
-      "congress": 14,
-      "apportioned_count": 7,
-      "numbered_count": 0,
-      "at_large_count": 7,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "DE",
-      "congress": 14,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "GA",
-      "congress": 14,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "MD",
-      "congress": 14,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NH",
-      "congress": 14,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NJ",
-      "congress": 14,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NY",
-      "congress": 14,
-      "apportioned_count": 27,
-      "numbered_count": 21,
-      "at_large_count": 6,
-      "default_numbered": 27,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "PA",
-      "congress": 14,
-      "apportioned_count": 23,
-      "numbered_count": 15,
-      "at_large_count": 8,
-      "default_numbered": 23,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "RI",
-      "congress": 14,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "VT",
-      "congress": 14,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "CT",
-      "congress": 15,
-      "apportioned_count": 7,
-      "numbered_count": 0,
-      "at_large_count": 7,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "DE",
-      "congress": 15,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "GA",
-      "congress": 15,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "MD",
-      "congress": 15,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NH",
-      "congress": 15,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NJ",
-      "congress": 15,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NY",
-      "congress": 15,
-      "apportioned_count": 27,
-      "numbered_count": 21,
-      "at_large_count": 6,
-      "default_numbered": 27,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "PA",
-      "congress": 15,
-      "apportioned_count": 23,
-      "numbered_count": 15,
-      "at_large_count": 8,
-      "default_numbered": 23,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "RI",
-      "congress": 15,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "VT",
-      "congress": 15,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "CT",
-      "congress": 16,
-      "apportioned_count": 7,
-      "numbered_count": 0,
-      "at_large_count": 7,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "DE",
-      "congress": 16,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "GA",
-      "congress": 16,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "MD",
-      "congress": 16,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NH",
-      "congress": 16,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NJ",
-      "congress": 16,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "NY",
-      "congress": 16,
-      "apportioned_count": 27,
-      "numbered_count": 21,
-      "at_large_count": 6,
-      "default_numbered": 27,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "PA",
-      "congress": 16,
-      "apportioned_count": 23,
-      "numbered_count": 15,
-      "at_large_count": 8,
-      "default_numbered": 23,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "RI",
-      "congress": 16,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "VT",
-      "congress": 16,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1810"
-    },
-    {
-      "postal": "AL",
-      "congress": 17,
-      "apportioned_count": 3,
-      "numbered_count": 1,
-      "at_large_count": 2,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "CT",
-      "congress": 17,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "GA",
-      "congress": 17,
-      "apportioned_count": 7,
-      "numbered_count": 0,
-      "at_large_count": 7,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "IL",
-      "congress": 17,
-      "apportioned_count": 1,
-      "numbered_count": 1,
-      "at_large_count": 0,
-      "default_numbered": 0,
-      "default_at_large": 1,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "IN",
-      "congress": 17,
-      "apportioned_count": 3,
-      "numbered_count": 1,
-      "at_large_count": 2,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "KY",
-      "congress": 17,
-      "apportioned_count": 12,
-      "numbered_count": 10,
-      "at_large_count": 2,
-      "default_numbered": 12,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "LA",
-      "congress": 17,
-      "apportioned_count": 3,
-      "numbered_count": 1,
-      "at_large_count": 2,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "MD",
-      "congress": 17,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "MS",
-      "congress": 17,
-      "apportioned_count": 1,
-      "numbered_count": 1,
-      "at_large_count": 0,
-      "default_numbered": 0,
-      "default_at_large": 1,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "NH",
-      "congress": 17,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "NJ",
-      "congress": 17,
-      "apportioned_count": 6,
-      "numbered_count": 0,
-      "at_large_count": 6,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "NY",
-      "congress": 17,
-      "apportioned_count": 34,
-      "numbered_count": 22,
-      "at_large_count": 12,
-      "default_numbered": 34,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "OH",
-      "congress": 17,
-      "apportioned_count": 14,
-      "numbered_count": 6,
-      "at_large_count": 8,
-      "default_numbered": 14,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "PA",
-      "congress": 17,
-      "apportioned_count": 26,
-      "numbered_count": 15,
-      "at_large_count": 11,
-      "default_numbered": 26,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "RI",
       "congress": 17,
       "apportioned_count": 2,
       "numbered_count": 0,
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1820"
-    },
-    {
-      "postal": "TN",
-      "congress": 17,
-      "apportioned_count": 9,
-      "numbered_count": 6,
-      "at_large_count": 3,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1820"
+      "vintage_id": "census_1810"
     },
     {
       "postal": "CT",
@@ -1620,6 +1410,16 @@
       "at_large_count": 1,
       "default_numbered": 9,
       "default_at_large": 0,
+      "vintage_id": "census_1820"
+    },
+    {
+      "postal": "MO",
+      "congress": 18,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
       "vintage_id": "census_1820"
     },
     {
@@ -1720,6 +1520,16 @@
       "at_large_count": 1,
       "default_numbered": 9,
       "default_at_large": 0,
+      "vintage_id": "census_1820"
+    },
+    {
+      "postal": "MO",
+      "congress": 19,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
       "vintage_id": "census_1820"
     },
     {
@@ -1823,6 +1633,16 @@
       "vintage_id": "census_1820"
     },
     {
+      "postal": "MO",
+      "congress": 20,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1820"
+    },
+    {
       "postal": "MS",
       "congress": 20,
       "apportioned_count": 1,
@@ -1923,6 +1743,16 @@
       "vintage_id": "census_1820"
     },
     {
+      "postal": "MO",
+      "congress": 21,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1820"
+    },
+    {
       "postal": "MS",
       "congress": 21,
       "apportioned_count": 1,
@@ -1983,16 +1813,6 @@
       "vintage_id": "census_1820"
     },
     {
-      "postal": "AL",
-      "congress": 22,
-      "apportioned_count": 5,
-      "numbered_count": 3,
-      "at_large_count": 2,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1830"
-    },
-    {
       "postal": "CT",
       "congress": 22,
       "apportioned_count": 6,
@@ -2000,87 +1820,67 @@
       "at_large_count": 6,
       "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "vintage_id": "census_1820"
     },
     {
       "postal": "GA",
       "congress": 22,
-      "apportioned_count": 9,
+      "apportioned_count": 7,
       "numbered_count": 0,
-      "at_large_count": 9,
-      "default_numbered": 9,
+      "at_large_count": 7,
+      "default_numbered": 7,
       "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "vintage_id": "census_1820"
     },
     {
       "postal": "IL",
       "congress": 22,
-      "apportioned_count": 3,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 2,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1820"
     },
     {
-      "postal": "IN",
+      "postal": "MD",
       "congress": 22,
-      "apportioned_count": 7,
-      "numbered_count": 3,
-      "at_large_count": 4,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1830"
-    },
-    {
-      "postal": "KY",
-      "congress": 22,
-      "apportioned_count": 13,
-      "numbered_count": 12,
+      "apportioned_count": 9,
+      "numbered_count": 8,
       "at_large_count": 1,
-      "default_numbered": 13,
+      "default_numbered": 9,
       "default_at_large": 0,
-      "vintage_id": "census_1830"
-    },
-    {
-      "postal": "ME",
-      "congress": 22,
-      "apportioned_count": 8,
-      "numbered_count": 7,
-      "at_large_count": 1,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "vintage_id": "census_1820"
     },
     {
       "postal": "MO",
       "congress": 22,
-      "apportioned_count": 2,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1820"
     },
     {
       "postal": "MS",
       "congress": 22,
-      "apportioned_count": 2,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1820"
     },
     {
       "postal": "NH",
       "congress": 22,
-      "apportioned_count": 5,
+      "apportioned_count": 6,
       "numbered_count": 0,
-      "at_large_count": 5,
-      "default_numbered": 5,
+      "at_large_count": 6,
+      "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "vintage_id": "census_1820"
     },
     {
       "postal": "NJ",
@@ -2090,37 +1890,27 @@
       "at_large_count": 6,
       "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "vintage_id": "census_1820"
     },
     {
       "postal": "NY",
       "congress": 22,
-      "apportioned_count": 40,
+      "apportioned_count": 34,
       "numbered_count": 30,
-      "at_large_count": 10,
-      "default_numbered": 40,
+      "at_large_count": 4,
+      "default_numbered": 34,
       "default_at_large": 0,
-      "vintage_id": "census_1830"
-    },
-    {
-      "postal": "OH",
-      "congress": 22,
-      "apportioned_count": 19,
-      "numbered_count": 14,
-      "at_large_count": 5,
-      "default_numbered": 19,
-      "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "vintage_id": "census_1820"
     },
     {
       "postal": "PA",
       "congress": 22,
-      "apportioned_count": 28,
+      "apportioned_count": 26,
       "numbered_count": 18,
-      "at_large_count": 10,
-      "default_numbered": 28,
+      "at_large_count": 8,
+      "default_numbered": 26,
       "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "vintage_id": "census_1820"
     },
     {
       "postal": "RI",
@@ -2130,17 +1920,7 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1830"
-    },
-    {
-      "postal": "TN",
-      "congress": 22,
-      "apportioned_count": 13,
-      "numbered_count": 9,
-      "at_large_count": 4,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_1830"
+      "vintage_id": "census_1820"
     },
     {
       "postal": "CT",
@@ -2535,132 +2315,92 @@
     {
       "postal": "AL",
       "congress": 27,
-      "apportioned_count": 7,
+      "apportioned_count": 5,
       "numbered_count": 0,
-      "at_large_count": 7,
-      "default_numbered": 7,
+      "at_large_count": 5,
+      "default_numbered": 5,
       "default_at_large": 0,
-      "vintage_id": "census_1840"
-    },
-    {
-      "postal": "AR",
-      "congress": 27,
-      "apportioned_count": 1,
-      "numbered_count": 1,
-      "at_large_count": 0,
-      "default_numbered": 0,
-      "default_at_large": 1,
-      "vintage_id": "census_1840"
+      "vintage_id": "census_1830"
     },
     {
       "postal": "GA",
       "congress": 27,
-      "apportioned_count": 8,
+      "apportioned_count": 9,
       "numbered_count": 0,
-      "at_large_count": 8,
+      "at_large_count": 9,
+      "default_numbered": 9,
+      "default_at_large": 0,
+      "vintage_id": "census_1830"
+    },
+    {
+      "postal": "MD",
+      "congress": 27,
+      "apportioned_count": 8,
+      "numbered_count": 7,
+      "at_large_count": 1,
       "default_numbered": 8,
       "default_at_large": 0,
-      "vintage_id": "census_1840"
-    },
-    {
-      "postal": "IL",
-      "congress": 27,
-      "apportioned_count": 7,
-      "numbered_count": 3,
-      "at_large_count": 4,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1840"
-    },
-    {
-      "postal": "IN",
-      "congress": 27,
-      "apportioned_count": 10,
-      "numbered_count": 7,
-      "at_large_count": 3,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1840"
-    },
-    {
-      "postal": "LA",
-      "congress": 27,
-      "apportioned_count": 4,
-      "numbered_count": 3,
-      "at_large_count": 1,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1840"
-    },
-    {
-      "postal": "MI",
-      "congress": 27,
-      "apportioned_count": 3,
-      "numbered_count": 1,
-      "at_large_count": 2,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1840"
+      "vintage_id": "census_1830"
     },
     {
       "postal": "MO",
       "congress": 27,
-      "apportioned_count": 5,
+      "apportioned_count": 2,
       "numbered_count": 0,
-      "at_large_count": 5,
-      "default_numbered": 5,
+      "at_large_count": 2,
+      "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1840"
+      "vintage_id": "census_1830"
     },
     {
       "postal": "MS",
       "congress": 27,
-      "apportioned_count": 4,
+      "apportioned_count": 2,
       "numbered_count": 0,
-      "at_large_count": 4,
-      "default_numbered": 4,
+      "at_large_count": 2,
+      "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1840"
+      "vintage_id": "census_1830"
     },
     {
       "postal": "NH",
-      "congress": 27,
-      "apportioned_count": 4,
-      "numbered_count": 0,
-      "at_large_count": 4,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1840"
-    },
-    {
-      "postal": "NJ",
       "congress": 27,
       "apportioned_count": 5,
       "numbered_count": 0,
       "at_large_count": 5,
       "default_numbered": 5,
       "default_at_large": 0,
-      "vintage_id": "census_1840"
+      "vintage_id": "census_1830"
+    },
+    {
+      "postal": "NJ",
+      "congress": 27,
+      "apportioned_count": 6,
+      "numbered_count": 0,
+      "at_large_count": 6,
+      "default_numbered": 6,
+      "default_at_large": 0,
+      "vintage_id": "census_1830"
     },
     {
       "postal": "NY",
       "congress": 27,
-      "apportioned_count": 34,
+      "apportioned_count": 40,
       "numbered_count": 33,
-      "at_large_count": 1,
-      "default_numbered": 34,
+      "at_large_count": 7,
+      "default_numbered": 40,
       "default_at_large": 0,
-      "vintage_id": "census_1840"
+      "vintage_id": "census_1830"
     },
     {
-      "postal": "OH",
+      "postal": "PA",
       "congress": 27,
-      "apportioned_count": 21,
-      "numbered_count": 19,
-      "at_large_count": 2,
-      "default_numbered": 21,
+      "apportioned_count": 28,
+      "numbered_count": 25,
+      "at_large_count": 3,
+      "default_numbered": 28,
       "default_at_large": 0,
-      "vintage_id": "census_1840"
+      "vintage_id": "census_1830"
     },
     {
       "postal": "RI",
@@ -2670,7 +2410,7 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1840"
+      "vintage_id": "census_1830"
     },
     {
       "postal": "AR",
@@ -2785,102 +2525,12 @@
     {
       "postal": "AR",
       "congress": 32,
-      "apportioned_count": 2,
-      "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1850"
-    },
-    {
-      "postal": "CA",
-      "congress": 32,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1850"
-    },
-    {
-      "postal": "FL",
-      "congress": 32,
       "apportioned_count": 1,
       "numbered_count": 1,
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1850"
-    },
-    {
-      "postal": "IL",
-      "congress": 32,
-      "apportioned_count": 9,
-      "numbered_count": 7,
-      "at_large_count": 2,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1850"
-    },
-    {
-      "postal": "IN",
-      "congress": 32,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1850"
-    },
-    {
-      "postal": "MA",
-      "congress": 32,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1850"
-    },
-    {
-      "postal": "MI",
-      "congress": 32,
-      "apportioned_count": 4,
-      "numbered_count": 3,
-      "at_large_count": 1,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1850"
-    },
-    {
-      "postal": "MO",
-      "congress": 32,
-      "apportioned_count": 7,
-      "numbered_count": 5,
-      "at_large_count": 2,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1850"
-    },
-    {
-      "postal": "MS",
-      "congress": 32,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1850"
-    },
-    {
-      "postal": "PA",
-      "congress": 32,
-      "apportioned_count": 25,
-      "numbered_count": 24,
-      "at_large_count": 1,
-      "default_numbered": 25,
-      "default_at_large": 0,
-      "vintage_id": "census_1850"
+      "vintage_id": "census_1840"
     },
     {
       "postal": "CA",
@@ -2975,92 +2625,12 @@
     {
       "postal": "CA",
       "congress": 37,
-      "apportioned_count": 3,
-      "numbered_count": 0,
-      "at_large_count": 3,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1860"
-    },
-    {
-      "postal": "IA",
-      "congress": 37,
-      "apportioned_count": 6,
-      "numbered_count": 2,
-      "at_large_count": 4,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1860"
-    },
-    {
-      "postal": "IL",
-      "congress": 37,
-      "apportioned_count": 14,
-      "numbered_count": 9,
-      "at_large_count": 5,
-      "default_numbered": 14,
-      "default_at_large": 0,
-      "vintage_id": "census_1860"
-    },
-    {
-      "postal": "KS",
-      "congress": 37,
-      "apportioned_count": 1,
-      "numbered_count": 1,
-      "at_large_count": 0,
-      "default_numbered": 0,
-      "default_at_large": 1,
-      "vintage_id": "census_1860"
-    },
-    {
-      "postal": "MI",
-      "congress": 37,
-      "apportioned_count": 6,
-      "numbered_count": 4,
-      "at_large_count": 2,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1860"
-    },
-    {
-      "postal": "MN",
-      "congress": 37,
       "apportioned_count": 2,
       "numbered_count": 0,
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1860"
-    },
-    {
-      "postal": "MO",
-      "congress": 37,
-      "apportioned_count": 9,
-      "numbered_count": 7,
-      "at_large_count": 2,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1860"
-    },
-    {
-      "postal": "OR",
-      "congress": 37,
-      "apportioned_count": 1,
-      "numbered_count": 1,
-      "at_large_count": 0,
-      "default_numbered": 0,
-      "default_at_large": 1,
-      "vintage_id": "census_1860"
-    },
-    {
-      "postal": "WI",
-      "congress": 37,
-      "apportioned_count": 6,
-      "numbered_count": 3,
-      "at_large_count": 3,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1860"
+      "vintage_id": "census_1850"
     },
     {
       "postal": "CA",
@@ -3223,224 +2793,34 @@
       "vintage_id": "census_1860"
     },
     {
-      "postal": "AL",
-      "congress": 42,
-      "apportioned_count": 8,
-      "numbered_count": 6,
-      "at_large_count": 2,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "AR",
-      "congress": 42,
-      "apportioned_count": 4,
-      "numbered_count": 3,
-      "at_large_count": 1,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "CA",
-      "congress": 42,
-      "apportioned_count": 4,
-      "numbered_count": 3,
-      "at_large_count": 1,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
       "postal": "FL",
-      "congress": 42,
-      "apportioned_count": 2,
-      "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "GA",
-      "congress": 42,
-      "apportioned_count": 9,
-      "numbered_count": 7,
-      "at_large_count": 2,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "IA",
-      "congress": 42,
-      "apportioned_count": 9,
-      "numbered_count": 6,
-      "at_large_count": 3,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "IL",
-      "congress": 42,
-      "apportioned_count": 19,
-      "numbered_count": 13,
-      "at_large_count": 6,
-      "default_numbered": 19,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "IN",
-      "congress": 42,
-      "apportioned_count": 13,
-      "numbered_count": 11,
-      "at_large_count": 2,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "KS",
-      "congress": 42,
-      "apportioned_count": 3,
-      "numbered_count": 1,
-      "at_large_count": 2,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "KY",
-      "congress": 42,
-      "apportioned_count": 10,
-      "numbered_count": 9,
-      "at_large_count": 1,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "LA",
-      "congress": 42,
-      "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "MA",
-      "congress": 42,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "MD",
-      "congress": 42,
-      "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "MI",
-      "congress": 42,
-      "apportioned_count": 9,
-      "numbered_count": 6,
-      "at_large_count": 3,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "MN",
-      "congress": 42,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "MO",
-      "congress": 42,
-      "apportioned_count": 13,
-      "numbered_count": 9,
-      "at_large_count": 4,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "MS",
-      "congress": 42,
-      "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "NC",
-      "congress": 42,
-      "apportioned_count": 8,
-      "numbered_count": 7,
-      "at_large_count": 1,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "NE",
       "congress": 42,
       "apportioned_count": 1,
       "numbered_count": 1,
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1870"
+      "vintage_id": "census_1860"
     },
     {
-      "postal": "NJ",
+      "postal": "IL",
       "congress": 42,
-      "apportioned_count": 7,
-      "numbered_count": 5,
-      "at_large_count": 2,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "NY",
-      "congress": 42,
-      "apportioned_count": 33,
-      "numbered_count": 31,
-      "at_large_count": 2,
-      "default_numbered": 33,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "OH",
-      "congress": 42,
-      "apportioned_count": 20,
-      "numbered_count": 19,
+      "apportioned_count": 14,
+      "numbered_count": 13,
       "at_large_count": 1,
-      "default_numbered": 20,
+      "default_numbered": 14,
       "default_at_large": 0,
-      "vintage_id": "census_1870"
+      "vintage_id": "census_1860"
+    },
+    {
+      "postal": "KS",
+      "congress": 42,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1860"
     },
     {
       "postal": "OR",
@@ -3450,67 +2830,17 @@
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "PA",
-      "congress": 42,
-      "apportioned_count": 27,
-      "numbered_count": 24,
-      "at_large_count": 3,
-      "default_numbered": 27,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "SC",
-      "congress": 42,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "TN",
-      "congress": 42,
-      "apportioned_count": 10,
-      "numbered_count": 8,
-      "at_large_count": 2,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "TX",
-      "congress": 42,
-      "apportioned_count": 6,
-      "numbered_count": 4,
-      "at_large_count": 2,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
+      "vintage_id": "census_1860"
     },
     {
       "postal": "VA",
       "congress": 42,
-      "apportioned_count": 9,
+      "apportioned_count": 11,
       "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
+      "at_large_count": 3,
+      "default_numbered": 11,
       "default_at_large": 0,
-      "vintage_id": "census_1870"
-    },
-    {
-      "postal": "WI",
-      "congress": 42,
-      "apportioned_count": 8,
-      "numbered_count": 6,
-      "at_large_count": 2,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1870"
+      "vintage_id": "census_1860"
     },
     {
       "postal": "AL",
@@ -3713,174 +3043,14 @@
       "vintage_id": "census_1870"
     },
     {
-      "postal": "AR",
-      "congress": 47,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "CA",
-      "congress": 47,
-      "apportioned_count": 6,
-      "numbered_count": 4,
-      "at_large_count": 2,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "CO",
+      "postal": "NE",
       "congress": 47,
       "apportioned_count": 1,
       "numbered_count": 1,
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "GA",
-      "congress": 47,
-      "apportioned_count": 10,
-      "numbered_count": 9,
-      "at_large_count": 1,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "IA",
-      "congress": 47,
-      "apportioned_count": 11,
-      "numbered_count": 9,
-      "at_large_count": 2,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "IL",
-      "congress": 47,
-      "apportioned_count": 20,
-      "numbered_count": 19,
-      "at_large_count": 1,
-      "default_numbered": 20,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "KS",
-      "congress": 47,
-      "apportioned_count": 7,
-      "numbered_count": 3,
-      "at_large_count": 4,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "KY",
-      "congress": 47,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "MA",
-      "congress": 47,
-      "apportioned_count": 12,
-      "numbered_count": 11,
-      "at_large_count": 1,
-      "default_numbered": 12,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "MI",
-      "congress": 47,
-      "apportioned_count": 11,
-      "numbered_count": 9,
-      "at_large_count": 2,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "MN",
-      "congress": 47,
-      "apportioned_count": 5,
-      "numbered_count": 3,
-      "at_large_count": 2,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "MO",
-      "congress": 47,
-      "apportioned_count": 14,
-      "numbered_count": 13,
-      "at_large_count": 1,
-      "default_numbered": 14,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "MS",
-      "congress": 47,
-      "apportioned_count": 7,
-      "numbered_count": 6,
-      "at_large_count": 1,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "NC",
-      "congress": 47,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "NE",
-      "congress": 47,
-      "apportioned_count": 3,
-      "numbered_count": 1,
-      "at_large_count": 2,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "NY",
-      "congress": 47,
-      "apportioned_count": 34,
-      "numbered_count": 33,
-      "at_large_count": 1,
-      "default_numbered": 34,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "OH",
-      "congress": 47,
-      "apportioned_count": 21,
-      "numbered_count": 20,
-      "at_large_count": 1,
-      "default_numbered": 21,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
+      "vintage_id": "census_1870"
     },
     {
       "postal": "OR",
@@ -3890,67 +3060,7 @@
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "PA",
-      "congress": 47,
-      "apportioned_count": 28,
-      "numbered_count": 27,
-      "at_large_count": 1,
-      "default_numbered": 28,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "SC",
-      "congress": 47,
-      "apportioned_count": 7,
-      "numbered_count": 5,
-      "at_large_count": 2,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "TX",
-      "congress": 47,
-      "apportioned_count": 11,
-      "numbered_count": 6,
-      "at_large_count": 5,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "VA",
-      "congress": 47,
-      "apportioned_count": 10,
-      "numbered_count": 9,
-      "at_large_count": 1,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "WI",
-      "congress": 47,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
-    },
-    {
-      "postal": "WV",
-      "congress": 47,
-      "apportioned_count": 4,
-      "numbered_count": 3,
-      "at_large_count": 1,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1880"
+      "vintage_id": "census_1870"
     },
     {
       "postal": "AR",
@@ -4143,224 +3253,24 @@
       "vintage_id": "census_1880"
     },
     {
-      "postal": "AL",
-      "congress": 52,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "AR",
-      "congress": 52,
-      "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "CA",
-      "congress": 52,
-      "apportioned_count": 7,
-      "numbered_count": 6,
-      "at_large_count": 1,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
       "postal": "CO",
       "congress": 52,
-      "apportioned_count": 2,
-      "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "GA",
-      "congress": 52,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "ID",
-      "congress": 52,
       "apportioned_count": 1,
       "numbered_count": 1,
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "IL",
-      "congress": 52,
-      "apportioned_count": 22,
-      "numbered_count": 20,
-      "at_large_count": 2,
-      "default_numbered": 22,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "KS",
-      "congress": 52,
-      "apportioned_count": 8,
-      "numbered_count": 7,
-      "at_large_count": 1,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "MA",
-      "congress": 52,
-      "apportioned_count": 13,
-      "numbered_count": 12,
-      "at_large_count": 1,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "MI",
-      "congress": 52,
-      "apportioned_count": 12,
-      "numbered_count": 11,
-      "at_large_count": 1,
-      "default_numbered": 12,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "MN",
-      "congress": 52,
-      "apportioned_count": 7,
-      "numbered_count": 5,
-      "at_large_count": 2,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "MO",
-      "congress": 52,
-      "apportioned_count": 15,
-      "numbered_count": 14,
-      "at_large_count": 1,
-      "default_numbered": 15,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "MT",
-      "congress": 52,
-      "apportioned_count": 1,
-      "numbered_count": 1,
-      "at_large_count": 0,
-      "default_numbered": 0,
-      "default_at_large": 1,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "ND",
-      "congress": 52,
-      "apportioned_count": 1,
-      "numbered_count": 1,
-      "at_large_count": 0,
-      "default_numbered": 0,
-      "default_at_large": 1,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "NE",
-      "congress": 52,
-      "apportioned_count": 6,
-      "numbered_count": 3,
-      "at_large_count": 3,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "NJ",
-      "congress": 52,
-      "apportioned_count": 8,
-      "numbered_count": 7,
-      "at_large_count": 1,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
+      "vintage_id": "census_1880"
     },
     {
       "postal": "OR",
       "congress": 52,
-      "apportioned_count": 2,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "PA",
-      "congress": 52,
-      "apportioned_count": 30,
-      "numbered_count": 28,
-      "at_large_count": 2,
-      "default_numbered": 30,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "SD",
-      "congress": 52,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "TX",
-      "congress": 52,
-      "apportioned_count": 13,
-      "numbered_count": 11,
-      "at_large_count": 2,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "WA",
-      "congress": 52,
-      "apportioned_count": 2,
-      "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
-    },
-    {
-      "postal": "WI",
-      "congress": 52,
-      "apportioned_count": 10,
-      "numbered_count": 9,
-      "at_large_count": 1,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1890"
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1880"
     },
     {
       "postal": "ID",
@@ -4663,56 +3573,6 @@
       "vintage_id": "census_1890"
     },
     {
-      "postal": "AR",
-      "congress": 57,
-      "apportioned_count": 7,
-      "numbered_count": 6,
-      "at_large_count": 1,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "CA",
-      "congress": 57,
-      "apportioned_count": 8,
-      "numbered_count": 7,
-      "at_large_count": 1,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "CO",
-      "congress": 57,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "CT",
-      "congress": 57,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "FL",
-      "congress": 57,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
       "postal": "ID",
       "congress": 57,
       "apportioned_count": 1,
@@ -4720,17 +3580,7 @@
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "IL",
-      "congress": 57,
-      "apportioned_count": 25,
-      "numbered_count": 22,
-      "at_large_count": 3,
-      "default_numbered": 25,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
+      "vintage_id": "census_1890"
     },
     {
       "postal": "KS",
@@ -4740,57 +3590,7 @@
       "at_large_count": 1,
       "default_numbered": 8,
       "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "LA",
-      "congress": 57,
-      "apportioned_count": 7,
-      "numbered_count": 6,
-      "at_large_count": 1,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "MA",
-      "congress": 57,
-      "apportioned_count": 14,
-      "numbered_count": 13,
-      "at_large_count": 1,
-      "default_numbered": 14,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "MN",
-      "congress": 57,
-      "apportioned_count": 9,
-      "numbered_count": 7,
-      "at_large_count": 2,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "MO",
-      "congress": 57,
-      "apportioned_count": 16,
-      "numbered_count": 15,
-      "at_large_count": 1,
-      "default_numbered": 16,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "MS",
-      "congress": 57,
-      "apportioned_count": 8,
-      "numbered_count": 7,
-      "at_large_count": 1,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
+      "vintage_id": "census_1890"
     },
     {
       "postal": "MT",
@@ -4800,57 +3600,27 @@
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "NC",
-      "congress": 57,
-      "apportioned_count": 10,
-      "numbered_count": 9,
-      "at_large_count": 1,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
+      "vintage_id": "census_1890"
     },
     {
       "postal": "ND",
       "congress": 57,
-      "apportioned_count": 2,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "NJ",
-      "congress": 57,
-      "apportioned_count": 10,
-      "numbered_count": 8,
-      "at_large_count": 2,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "NY",
-      "congress": 57,
-      "apportioned_count": 37,
-      "numbered_count": 34,
-      "at_large_count": 3,
-      "default_numbered": 37,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1890"
     },
     {
       "postal": "PA",
       "congress": 57,
-      "apportioned_count": 32,
+      "apportioned_count": 30,
       "numbered_count": 28,
-      "at_large_count": 4,
-      "default_numbered": 32,
+      "at_large_count": 2,
+      "default_numbered": 30,
       "default_at_large": 0,
-      "vintage_id": "census_1900"
+      "vintage_id": "census_1890"
     },
     {
       "postal": "SD",
@@ -4860,57 +3630,17 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "TX",
-      "congress": 57,
-      "apportioned_count": 16,
-      "numbered_count": 13,
-      "at_large_count": 3,
-      "default_numbered": 16,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "UT",
-      "congress": 57,
-      "apportioned_count": 1,
-      "numbered_count": 1,
-      "at_large_count": 0,
-      "default_numbered": 0,
-      "default_at_large": 1,
-      "vintage_id": "census_1900"
+      "vintage_id": "census_1890"
     },
     {
       "postal": "WA",
       "congress": 57,
-      "apportioned_count": 3,
+      "apportioned_count": 2,
       "numbered_count": 0,
-      "at_large_count": 3,
-      "default_numbered": 3,
+      "at_large_count": 2,
+      "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "WI",
-      "congress": 57,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
-    },
-    {
-      "postal": "WV",
-      "congress": 57,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1900"
+      "vintage_id": "census_1890"
     },
     {
       "postal": "CO",
@@ -5243,34 +3973,14 @@
       "vintage_id": "census_1900"
     },
     {
-      "postal": "AL",
-      "congress": 62,
-      "apportioned_count": 10,
-      "numbered_count": 9,
-      "at_large_count": 1,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "CA",
-      "congress": 62,
-      "apportioned_count": 11,
-      "numbered_count": 8,
-      "at_large_count": 3,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
       "postal": "CO",
       "congress": 62,
-      "apportioned_count": 4,
+      "apportioned_count": 3,
       "numbered_count": 2,
-      "at_large_count": 2,
-      "default_numbered": 4,
+      "at_large_count": 1,
+      "default_numbered": 3,
       "default_at_large": 0,
-      "vintage_id": "census_1910"
+      "vintage_id": "census_1900"
     },
     {
       "postal": "CT",
@@ -5280,227 +3990,57 @@
       "at_large_count": 1,
       "default_numbered": 5,
       "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "FL",
-      "congress": 62,
-      "apportioned_count": 4,
-      "numbered_count": 3,
-      "at_large_count": 1,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "GA",
-      "congress": 62,
-      "apportioned_count": 12,
-      "numbered_count": 11,
-      "at_large_count": 1,
-      "default_numbered": 12,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
+      "vintage_id": "census_1900"
     },
     {
       "postal": "ID",
       "congress": 62,
-      "apportioned_count": 2,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "IL",
-      "congress": 62,
-      "apportioned_count": 27,
-      "numbered_count": 25,
-      "at_large_count": 2,
-      "default_numbered": 27,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "LA",
-      "congress": 62,
-      "apportioned_count": 8,
-      "numbered_count": 7,
-      "at_large_count": 1,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "MA",
-      "congress": 62,
-      "apportioned_count": 16,
-      "numbered_count": 14,
-      "at_large_count": 2,
-      "default_numbered": 16,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "MI",
-      "congress": 62,
-      "apportioned_count": 13,
-      "numbered_count": 12,
-      "at_large_count": 1,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "MN",
-      "congress": 62,
-      "apportioned_count": 10,
-      "numbered_count": 9,
-      "at_large_count": 1,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1900"
     },
     {
       "postal": "MT",
       "congress": 62,
-      "apportioned_count": 2,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1900"
     },
     {
       "postal": "ND",
       "congress": 62,
-      "apportioned_count": 3,
+      "apportioned_count": 2,
       "numbered_count": 0,
-      "at_large_count": 3,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "NJ",
-      "congress": 62,
-      "apportioned_count": 12,
-      "numbered_count": 10,
       "at_large_count": 2,
-      "default_numbered": 12,
+      "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "NY",
-      "congress": 62,
-      "apportioned_count": 43,
-      "numbered_count": 37,
-      "at_large_count": 6,
-      "default_numbered": 43,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "OH",
-      "congress": 62,
-      "apportioned_count": 22,
-      "numbered_count": 21,
-      "at_large_count": 1,
-      "default_numbered": 22,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "OK",
-      "congress": 62,
-      "apportioned_count": 8,
-      "numbered_count": 5,
-      "at_large_count": 3,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "OR",
-      "congress": 62,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "PA",
-      "congress": 62,
-      "apportioned_count": 36,
-      "numbered_count": 32,
-      "at_large_count": 4,
-      "default_numbered": 36,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "RI",
-      "congress": 62,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
+      "vintage_id": "census_1900"
     },
     {
       "postal": "SD",
       "congress": 62,
-      "apportioned_count": 3,
+      "apportioned_count": 2,
       "numbered_count": 0,
-      "at_large_count": 3,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "TX",
-      "congress": 62,
-      "apportioned_count": 18,
-      "numbered_count": 16,
       "at_large_count": 2,
-      "default_numbered": 18,
+      "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1910"
+      "vintage_id": "census_1900"
     },
     {
       "postal": "UT",
       "congress": 62,
-      "apportioned_count": 2,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "WA",
-      "congress": 62,
-      "apportioned_count": 5,
-      "numbered_count": 3,
-      "at_large_count": 2,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
-    },
-    {
-      "postal": "WV",
-      "congress": 62,
-      "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1910"
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1900"
     },
     {
       "postal": "AL",
@@ -5583,6 +4123,16 @@
       "vintage_id": "census_1910"
     },
     {
+      "postal": "NM",
+      "congress": 63,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1910"
+    },
+    {
       "postal": "OH",
       "congress": 63,
       "apportioned_count": 22,
@@ -5693,6 +4243,16 @@
       "vintage_id": "census_1910"
     },
     {
+      "postal": "NM",
+      "congress": 64,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1910"
+    },
+    {
       "postal": "PA",
       "congress": 64,
       "apportioned_count": 36,
@@ -5750,6 +4310,16 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
+      "vintage_id": "census_1910"
+    },
+    {
+      "postal": "NM",
+      "congress": 65,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
       "vintage_id": "census_1910"
     },
     {
@@ -5780,6 +4350,16 @@
       "at_large_count": 2,
       "default_numbered": 27,
       "default_at_large": 0,
+      "vintage_id": "census_1910"
+    },
+    {
+      "postal": "NM",
+      "congress": 66,
+      "apportioned_count": 1,
+      "numbered_count": 1,
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
       "vintage_id": "census_1910"
     },
     {
@@ -5803,36 +4383,6 @@
       "vintage_id": "census_1910"
     },
     {
-      "postal": "CA",
-      "congress": 67,
-      "apportioned_count": 20,
-      "numbered_count": 11,
-      "at_large_count": 9,
-      "default_numbered": 20,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "CT",
-      "congress": 67,
-      "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "FL",
-      "congress": 67,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
       "postal": "IL",
       "congress": 67,
       "apportioned_count": 27,
@@ -5840,37 +4390,7 @@
       "at_large_count": 2,
       "default_numbered": 27,
       "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "MI",
-      "congress": 67,
-      "apportioned_count": 17,
-      "numbered_count": 13,
-      "at_large_count": 4,
-      "default_numbered": 17,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "NC",
-      "congress": 67,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "NJ",
-      "congress": 67,
-      "apportioned_count": 14,
-      "numbered_count": 12,
-      "at_large_count": 2,
-      "default_numbered": 14,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
+      "vintage_id": "census_1910"
     },
     {
       "postal": "NM",
@@ -5880,67 +4400,17 @@
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "NY",
-      "congress": 67,
-      "apportioned_count": 45,
-      "numbered_count": 43,
-      "at_large_count": 2,
-      "default_numbered": 45,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "OH",
-      "congress": 67,
-      "apportioned_count": 24,
-      "numbered_count": 22,
-      "at_large_count": 2,
-      "default_numbered": 24,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "OK",
-      "congress": 67,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
+      "vintage_id": "census_1910"
     },
     {
       "postal": "PA",
       "congress": 67,
-      "apportioned_count": 34,
+      "apportioned_count": 36,
       "numbered_count": 32,
-      "at_large_count": 2,
-      "default_numbered": 34,
+      "at_large_count": 4,
+      "default_numbered": 36,
       "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "TX",
-      "congress": 67,
-      "apportioned_count": 21,
-      "numbered_count": 18,
-      "at_large_count": 3,
-      "default_numbered": 21,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
-    },
-    {
-      "postal": "WA",
-      "congress": 67,
-      "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1920"
+      "vintage_id": "census_1910"
     },
     {
       "postal": "CA",
@@ -6463,24 +4933,14 @@
       "vintage_id": "census_1920"
     },
     {
-      "postal": "AZ",
-      "congress": 72,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1930"
-    },
-    {
       "postal": "CA",
       "congress": 72,
-      "apportioned_count": 23,
+      "apportioned_count": 20,
       "numbered_count": 11,
-      "at_large_count": 12,
-      "default_numbered": 23,
+      "at_large_count": 9,
+      "default_numbered": 20,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "CT",
@@ -6490,27 +4950,27 @@
       "at_large_count": 1,
       "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "FL",
       "congress": 72,
-      "apportioned_count": 6,
+      "apportioned_count": 5,
       "numbered_count": 4,
-      "at_large_count": 2,
-      "default_numbered": 6,
+      "at_large_count": 1,
+      "default_numbered": 5,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "IL",
       "congress": 72,
-      "apportioned_count": 26,
+      "apportioned_count": 27,
       "numbered_count": 25,
-      "at_large_count": 1,
-      "default_numbered": 26,
+      "at_large_count": 2,
+      "default_numbered": 27,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "MI",
@@ -6520,17 +4980,17 @@
       "at_large_count": 5,
       "default_numbered": 17,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "NC",
       "congress": 72,
-      "apportioned_count": 12,
+      "apportioned_count": 11,
       "numbered_count": 10,
-      "at_large_count": 2,
-      "default_numbered": 12,
+      "at_large_count": 1,
+      "default_numbered": 11,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "NJ",
@@ -6540,17 +5000,17 @@
       "at_large_count": 2,
       "default_numbered": 14,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "NM",
       "congress": 72,
-      "apportioned_count": 2,
+      "apportioned_count": 1,
       "numbered_count": 1,
-      "at_large_count": 1,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "at_large_count": 0,
+      "default_numbered": 0,
+      "default_at_large": 1,
+      "vintage_id": "census_1920"
     },
     {
       "postal": "NY",
@@ -6560,27 +5020,27 @@
       "at_large_count": 2,
       "default_numbered": 45,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "OH",
       "congress": 72,
-      "apportioned_count": 23,
+      "apportioned_count": 24,
       "numbered_count": 22,
-      "at_large_count": 1,
-      "default_numbered": 23,
+      "at_large_count": 2,
+      "default_numbered": 24,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
-      "postal": "OR",
+      "postal": "OK",
       "congress": 72,
-      "apportioned_count": 4,
-      "numbered_count": 3,
+      "apportioned_count": 9,
+      "numbered_count": 8,
       "at_large_count": 1,
-      "default_numbered": 4,
+      "default_numbered": 9,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "TX",
@@ -6590,7 +5050,7 @@
       "at_large_count": 3,
       "default_numbered": 21,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "WA",
@@ -6600,7 +5060,7 @@
       "at_large_count": 1,
       "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1930"
+      "vintage_id": "census_1920"
     },
     {
       "postal": "AZ",
@@ -7080,17 +5540,17 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
       "postal": "CA",
       "congress": 77,
-      "apportioned_count": 30,
+      "apportioned_count": 23,
       "numbered_count": 20,
-      "at_large_count": 10,
-      "default_numbered": 30,
+      "at_large_count": 3,
+      "default_numbered": 23,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
       "postal": "CT",
@@ -7100,37 +5560,27 @@
       "at_large_count": 1,
       "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
       "postal": "FL",
       "congress": 77,
-      "apportioned_count": 8,
+      "apportioned_count": 6,
       "numbered_count": 5,
-      "at_large_count": 3,
-      "default_numbered": 8,
+      "at_large_count": 1,
+      "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
-      "postal": "MD",
+      "postal": "IL",
       "congress": 77,
-      "apportioned_count": 8,
-      "numbered_count": 6,
-      "at_large_count": 2,
-      "default_numbered": 8,
+      "apportioned_count": 26,
+      "numbered_count": 25,
+      "at_large_count": 1,
+      "default_numbered": 26,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
-    },
-    {
-      "postal": "MI",
-      "congress": 77,
-      "apportioned_count": 19,
-      "numbered_count": 17,
-      "at_large_count": 2,
-      "default_numbered": 19,
-      "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
       "postal": "NC",
@@ -7140,7 +5590,7 @@
       "at_large_count": 1,
       "default_numbered": 12,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
       "postal": "ND",
@@ -7150,7 +5600,7 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
       "postal": "NM",
@@ -7160,7 +5610,17 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
+    },
+    {
+      "postal": "NY",
+      "congress": 77,
+      "apportioned_count": 45,
+      "numbered_count": 43,
+      "at_large_count": 2,
+      "default_numbered": 45,
+      "default_at_large": 0,
+      "vintage_id": "census_1930"
     },
     {
       "postal": "OH",
@@ -7170,7 +5630,7 @@
       "at_large_count": 1,
       "default_numbered": 23,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
       "postal": "OR",
@@ -7180,7 +5640,7 @@
       "at_large_count": 1,
       "default_numbered": 4,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
       "postal": "TN",
@@ -7190,37 +5650,7 @@
       "at_large_count": 1,
       "default_numbered": 10,
       "default_at_large": 0,
-      "vintage_id": "census_1940"
-    },
-    {
-      "postal": "TX",
-      "congress": 77,
-      "apportioned_count": 22,
-      "numbered_count": 21,
-      "at_large_count": 1,
-      "default_numbered": 22,
-      "default_at_large": 0,
-      "vintage_id": "census_1940"
-    },
-    {
-      "postal": "VA",
-      "congress": 77,
-      "apportioned_count": 10,
-      "numbered_count": 9,
-      "at_large_count": 1,
-      "default_numbered": 10,
-      "default_at_large": 0,
-      "vintage_id": "census_1940"
-    },
-    {
-      "postal": "WA",
-      "congress": 77,
-      "apportioned_count": 7,
-      "numbered_count": 6,
-      "at_large_count": 1,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_1940"
+      "vintage_id": "census_1930"
     },
     {
       "postal": "AZ",
@@ -7710,7 +6140,7 @@
       "at_large_count": 7,
       "default_numbered": 30,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "CT",
@@ -7720,7 +6150,7 @@
       "at_large_count": 1,
       "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "FL",
@@ -7730,7 +6160,7 @@
       "at_large_count": 2,
       "default_numbered": 8,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "MD",
@@ -7740,7 +6170,7 @@
       "at_large_count": 2,
       "default_numbered": 8,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "MI",
@@ -7750,7 +6180,7 @@
       "at_large_count": 2,
       "default_numbered": 19,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "ND",
@@ -7760,7 +6190,7 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "NM",
@@ -7770,7 +6200,7 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "OH",
@@ -7780,7 +6210,7 @@
       "at_large_count": 1,
       "default_numbered": 23,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "TX",
@@ -7790,7 +6220,7 @@
       "at_large_count": 1,
       "default_numbered": 22,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "VA",
@@ -7800,7 +6230,7 @@
       "at_large_count": 1,
       "default_numbered": 10,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "WA",
@@ -7810,7 +6240,7 @@
       "at_large_count": 1,
       "default_numbered": 7,
       "default_at_large": 0,
-      "vintage_id": "census_1950"
+      "vintage_id": "census_1940"
     },
     {
       "postal": "CT",
@@ -8143,36 +6573,6 @@
       "vintage_id": "census_1950"
     },
     {
-      "postal": "AZ",
-      "congress": 87,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1960"
-    },
-    {
-      "postal": "CA",
-      "congress": 87,
-      "apportioned_count": 38,
-      "numbered_count": 30,
-      "at_large_count": 8,
-      "default_numbered": 38,
-      "default_at_large": 0,
-      "vintage_id": "census_1960"
-    },
-    {
-      "postal": "CO",
-      "congress": 87,
-      "apportioned_count": 6,
-      "numbered_count": 4,
-      "at_large_count": 2,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_1960"
-    },
-    {
       "postal": "CT",
       "congress": 87,
       "apportioned_count": 6,
@@ -8180,27 +6580,17 @@
       "at_large_count": 1,
       "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1960"
+      "vintage_id": "census_1950"
     },
     {
-      "postal": "FL",
+      "postal": "KY",
       "congress": 87,
-      "apportioned_count": 12,
+      "apportioned_count": 9,
       "numbered_count": 8,
-      "at_large_count": 4,
-      "default_numbered": 12,
+      "at_large_count": 1,
+      "default_numbered": 9,
       "default_at_large": 0,
-      "vintage_id": "census_1960"
-    },
-    {
-      "postal": "HI",
-      "congress": 87,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1960"
+      "vintage_id": "census_1950"
     },
     {
       "postal": "MD",
@@ -8210,7 +6600,7 @@
       "at_large_count": 1,
       "default_numbered": 8,
       "default_at_large": 0,
-      "vintage_id": "census_1960"
+      "vintage_id": "census_1950"
     },
     {
       "postal": "MI",
@@ -8220,7 +6610,7 @@
       "at_large_count": 1,
       "default_numbered": 19,
       "default_at_large": 0,
-      "vintage_id": "census_1960"
+      "vintage_id": "census_1950"
     },
     {
       "postal": "ND",
@@ -8230,17 +6620,7 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1960"
-    },
-    {
-      "postal": "NJ",
-      "congress": 87,
-      "apportioned_count": 15,
-      "numbered_count": 14,
-      "at_large_count": 1,
-      "default_numbered": 15,
-      "default_at_large": 0,
-      "vintage_id": "census_1960"
+      "vintage_id": "census_1950"
     },
     {
       "postal": "NM",
@@ -8250,37 +6630,17 @@
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1960"
+      "vintage_id": "census_1950"
     },
     {
-      "postal": "OH",
+      "postal": "TN",
       "congress": 87,
-      "apportioned_count": 24,
-      "numbered_count": 23,
+      "apportioned_count": 10,
+      "numbered_count": 9,
       "at_large_count": 1,
-      "default_numbered": 24,
+      "default_numbered": 10,
       "default_at_large": 0,
-      "vintage_id": "census_1960"
-    },
-    {
-      "postal": "TX",
-      "congress": 87,
-      "apportioned_count": 23,
-      "numbered_count": 22,
-      "at_large_count": 1,
-      "default_numbered": 23,
-      "default_at_large": 0,
-      "vintage_id": "census_1960"
-    },
-    {
-      "postal": "UT",
-      "congress": 87,
-      "apportioned_count": 4,
-      "numbered_count": 2,
-      "at_large_count": 2,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1960"
+      "vintage_id": "census_1950"
     },
     {
       "postal": "AL",
@@ -8493,284 +6853,154 @@
       "vintage_id": "census_1960"
     },
     {
-      "postal": "AZ",
-      "congress": 92,
-      "apportioned_count": 4,
-      "numbered_count": 3,
-      "at_large_count": 1,
-      "default_numbered": 4,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "CA",
-      "congress": 92,
-      "apportioned_count": 43,
-      "numbered_count": 38,
-      "at_large_count": 5,
-      "default_numbered": 43,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
       "postal": "CO",
       "congress": 92,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "FL",
-      "congress": 92,
-      "apportioned_count": 15,
-      "numbered_count": 12,
-      "at_large_count": 3,
-      "default_numbered": 15,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "TX",
-      "congress": 92,
-      "apportioned_count": 24,
-      "numbered_count": 23,
-      "at_large_count": 1,
-      "default_numbered": 24,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "UT",
-      "congress": 92,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "VA",
-      "congress": 92,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "ND",
-      "congress": 93,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "UT",
-      "congress": 93,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "VA",
-      "congress": 93,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "ND",
-      "congress": 94,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "UT",
-      "congress": 94,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "VA",
-      "congress": 94,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "ND",
-      "congress": 95,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "UT",
-      "congress": 95,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "VA",
-      "congress": 95,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "ND",
-      "congress": 96,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "UT",
-      "congress": 96,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "VA",
-      "congress": 96,
-      "apportioned_count": 11,
-      "numbered_count": 10,
-      "at_large_count": 1,
-      "default_numbered": 11,
-      "default_at_large": 0,
-      "vintage_id": "census_1970"
-    },
-    {
-      "postal": "AZ",
-      "congress": 97,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1980"
-    },
-    {
-      "postal": "CA",
-      "congress": 97,
-      "apportioned_count": 45,
-      "numbered_count": 43,
-      "at_large_count": 2,
-      "default_numbered": 45,
-      "default_at_large": 0,
-      "vintage_id": "census_1980"
-    },
-    {
-      "postal": "CO",
-      "congress": 97,
       "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
+      "numbered_count": 4,
+      "at_large_count": 2,
       "default_numbered": 6,
       "default_at_large": 0,
-      "vintage_id": "census_1980"
+      "vintage_id": "census_1960"
     },
     {
-      "postal": "FL",
-      "congress": 97,
-      "apportioned_count": 19,
-      "numbered_count": 15,
-      "at_large_count": 4,
-      "default_numbered": 19,
+      "postal": "UT",
+      "congress": 92,
+      "apportioned_count": 4,
+      "numbered_count": 2,
+      "at_large_count": 2,
+      "default_numbered": 4,
       "default_at_large": 0,
-      "vintage_id": "census_1980"
+      "vintage_id": "census_1960"
     },
     {
-      "postal": "NM",
-      "congress": 97,
+      "postal": "ND",
+      "congress": 93,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "UT",
+      "congress": 93,
       "apportioned_count": 3,
       "numbered_count": 2,
       "at_large_count": 1,
       "default_numbered": 3,
       "default_at_large": 0,
-      "vintage_id": "census_1980"
+      "vintage_id": "census_1970"
     },
     {
-      "postal": "NV",
+      "postal": "VA",
+      "congress": 93,
+      "apportioned_count": 11,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "default_numbered": 11,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "ND",
+      "congress": 94,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "UT",
+      "congress": 94,
+      "apportioned_count": 3,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "default_numbered": 3,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "VA",
+      "congress": 94,
+      "apportioned_count": 11,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "default_numbered": 11,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "ND",
+      "congress": 95,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "UT",
+      "congress": 95,
+      "apportioned_count": 3,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "default_numbered": 3,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "VA",
+      "congress": 95,
+      "apportioned_count": 11,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "default_numbered": 11,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "ND",
+      "congress": 96,
+      "apportioned_count": 2,
+      "numbered_count": 0,
+      "at_large_count": 2,
+      "default_numbered": 2,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "UT",
+      "congress": 96,
+      "apportioned_count": 3,
+      "numbered_count": 2,
+      "at_large_count": 1,
+      "default_numbered": 3,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "VA",
+      "congress": 96,
+      "apportioned_count": 11,
+      "numbered_count": 10,
+      "at_large_count": 1,
+      "default_numbered": 11,
+      "default_at_large": 0,
+      "vintage_id": "census_1970"
+    },
+    {
+      "postal": "ND",
       "congress": 97,
       "apportioned_count": 2,
       "numbered_count": 0,
       "at_large_count": 2,
       "default_numbered": 2,
       "default_at_large": 0,
-      "vintage_id": "census_1980"
-    },
-    {
-      "postal": "OR",
-      "congress": 97,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_1980"
-    },
-    {
-      "postal": "TN",
-      "congress": 97,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1980"
-    },
-    {
-      "postal": "TX",
-      "congress": 97,
-      "apportioned_count": 27,
-      "numbered_count": 24,
-      "at_large_count": 3,
-      "default_numbered": 27,
-      "default_at_large": 0,
-      "vintage_id": "census_1980"
+      "vintage_id": "census_1970"
     },
     {
       "postal": "UT",
@@ -8780,7 +7010,7 @@
       "at_large_count": 1,
       "default_numbered": 3,
       "default_at_large": 0,
-      "vintage_id": "census_1980"
+      "vintage_id": "census_1970"
     },
     {
       "postal": "VA",
@@ -8790,17 +7020,7 @@
       "at_large_count": 1,
       "default_numbered": 11,
       "default_at_large": 0,
-      "vintage_id": "census_1980"
-    },
-    {
-      "postal": "WA",
-      "congress": 97,
-      "apportioned_count": 8,
-      "numbered_count": 7,
-      "at_large_count": 1,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1980"
+      "vintage_id": "census_1970"
     },
     {
       "postal": "IN",
@@ -8943,54 +7163,24 @@
       "vintage_id": "census_1980"
     },
     {
-      "postal": "AZ",
-      "congress": 102,
-      "apportioned_count": 8,
-      "numbered_count": 5,
-      "at_large_count": 3,
-      "default_numbered": 8,
-      "default_at_large": 0,
-      "vintage_id": "census_1990"
-    },
-    {
-      "postal": "CA",
-      "congress": 102,
-      "apportioned_count": 52,
-      "numbered_count": 45,
-      "at_large_count": 7,
-      "default_numbered": 52,
-      "default_at_large": 0,
-      "vintage_id": "census_1990"
-    },
-    {
-      "postal": "FL",
-      "congress": 102,
-      "apportioned_count": 23,
-      "numbered_count": 19,
-      "at_large_count": 4,
-      "default_numbered": 23,
-      "default_at_large": 0,
-      "vintage_id": "census_1990"
-    },
-    {
-      "postal": "GA",
+      "postal": "IN",
       "congress": 102,
       "apportioned_count": 11,
       "numbered_count": 10,
       "at_large_count": 1,
       "default_numbered": 11,
       "default_at_large": 0,
-      "vintage_id": "census_1990"
+      "vintage_id": "census_1980"
     },
     {
-      "postal": "NC",
+      "postal": "MA",
       "congress": 102,
       "apportioned_count": 12,
       "numbered_count": 11,
       "at_large_count": 1,
       "default_numbered": 12,
       "default_at_large": 0,
-      "vintage_id": "census_1990"
+      "vintage_id": "census_1980"
     },
     {
       "postal": "SD",
@@ -9000,17 +7190,7 @@
       "at_large_count": 0,
       "default_numbered": 0,
       "default_at_large": 1,
-      "vintage_id": "census_1990"
-    },
-    {
-      "postal": "TX",
-      "congress": 102,
-      "apportioned_count": 30,
-      "numbered_count": 27,
-      "at_large_count": 3,
-      "default_numbered": 30,
-      "default_at_large": 0,
-      "vintage_id": "census_1990"
+      "vintage_id": "census_1980"
     },
     {
       "postal": "VA",
@@ -9020,17 +7200,7 @@
       "at_large_count": 1,
       "default_numbered": 11,
       "default_at_large": 0,
-      "vintage_id": "census_1990"
-    },
-    {
-      "postal": "WA",
-      "congress": 102,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_1990"
+      "vintage_id": "census_1980"
     },
     {
       "postal": "AZ",
@@ -9140,237 +7310,117 @@
       "at_large_count": 2,
       "default_numbered": 8,
       "default_at_large": 0,
-      "vintage_id": "census_2000"
+      "vintage_id": "census_1990"
     },
     {
-      "postal": "CA",
+      "postal": "NJ",
       "congress": 107,
-      "apportioned_count": 53,
-      "numbered_count": 52,
-      "at_large_count": 1,
-      "default_numbered": 53,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "CO",
-      "congress": 107,
-      "apportioned_count": 7,
-      "numbered_count": 6,
-      "at_large_count": 1,
-      "default_numbered": 7,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "FL",
-      "congress": 107,
-      "apportioned_count": 25,
-      "numbered_count": 23,
-      "at_large_count": 2,
-      "default_numbered": 25,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "GA",
-      "congress": 107,
-      "apportioned_count": 13,
-      "numbered_count": 11,
-      "at_large_count": 2,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "NC",
-      "congress": 107,
-      "apportioned_count": 13,
-      "numbered_count": 12,
-      "at_large_count": 1,
-      "default_numbered": 13,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "NV",
-      "congress": 107,
-      "apportioned_count": 3,
-      "numbered_count": 2,
-      "at_large_count": 1,
-      "default_numbered": 3,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "TX",
-      "congress": 107,
-      "apportioned_count": 32,
-      "numbered_count": 30,
-      "at_large_count": 2,
-      "default_numbered": 32,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "MS",
-      "congress": 108,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "WI",
-      "congress": 108,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "MS",
-      "congress": 109,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "WI",
-      "congress": 109,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "MS",
-      "congress": 110,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "WI",
-      "congress": 110,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "MS",
-      "congress": 111,
-      "apportioned_count": 5,
-      "numbered_count": 4,
-      "at_large_count": 1,
-      "default_numbered": 5,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "WI",
-      "congress": 111,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_2000"
-    },
-    {
-      "postal": "AZ",
-      "congress": 112,
-      "apportioned_count": 9,
-      "numbered_count": 8,
-      "at_large_count": 1,
-      "default_numbered": 9,
-      "default_at_large": 0,
-      "vintage_id": "census_2010"
-    },
-    {
-      "postal": "FL",
-      "congress": 112,
-      "apportioned_count": 27,
-      "numbered_count": 25,
-      "at_large_count": 2,
-      "default_numbered": 27,
-      "default_at_large": 0,
-      "vintage_id": "census_2010"
-    },
-    {
-      "postal": "GA",
-      "congress": 112,
       "apportioned_count": 14,
       "numbered_count": 13,
       "at_large_count": 1,
       "default_numbered": 14,
       "default_at_large": 0,
-      "vintage_id": "census_2010"
+      "vintage_id": "census_1990"
     },
     {
-      "postal": "NV",
-      "congress": 112,
-      "apportioned_count": 4,
-      "numbered_count": 3,
+      "postal": "MS",
+      "congress": 108,
+      "apportioned_count": 5,
+      "numbered_count": 4,
       "at_large_count": 1,
-      "default_numbered": 4,
+      "default_numbered": 5,
       "default_at_large": 0,
-      "vintage_id": "census_2010"
+      "vintage_id": "census_2000"
     },
     {
-      "postal": "SC",
-      "congress": 112,
-      "apportioned_count": 7,
-      "numbered_count": 6,
+      "postal": "WI",
+      "congress": 108,
+      "apportioned_count": 9,
+      "numbered_count": 8,
       "at_large_count": 1,
-      "default_numbered": 7,
+      "default_numbered": 9,
       "default_at_large": 0,
-      "vintage_id": "census_2010"
+      "vintage_id": "census_2000"
     },
     {
-      "postal": "TX",
-      "congress": 112,
-      "apportioned_count": 36,
-      "numbered_count": 32,
-      "at_large_count": 4,
-      "default_numbered": 36,
-      "default_at_large": 0,
-      "vintage_id": "census_2010"
-    },
-    {
-      "postal": "UT",
-      "congress": 112,
-      "apportioned_count": 4,
-      "numbered_count": 3,
+      "postal": "MS",
+      "congress": 109,
+      "apportioned_count": 5,
+      "numbered_count": 4,
       "at_large_count": 1,
-      "default_numbered": 4,
+      "default_numbered": 5,
       "default_at_large": 0,
-      "vintage_id": "census_2010"
+      "vintage_id": "census_2000"
     },
     {
-      "postal": "WA",
-      "congress": 112,
-      "apportioned_count": 10,
-      "numbered_count": 9,
+      "postal": "WI",
+      "congress": 109,
+      "apportioned_count": 9,
+      "numbered_count": 8,
       "at_large_count": 1,
-      "default_numbered": 10,
+      "default_numbered": 9,
       "default_at_large": 0,
-      "vintage_id": "census_2010"
+      "vintage_id": "census_2000"
+    },
+    {
+      "postal": "MS",
+      "congress": 110,
+      "apportioned_count": 5,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "default_numbered": 5,
+      "default_at_large": 0,
+      "vintage_id": "census_2000"
+    },
+    {
+      "postal": "WI",
+      "congress": 110,
+      "apportioned_count": 9,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "default_numbered": 9,
+      "default_at_large": 0,
+      "vintage_id": "census_2000"
+    },
+    {
+      "postal": "MS",
+      "congress": 111,
+      "apportioned_count": 5,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "default_numbered": 5,
+      "default_at_large": 0,
+      "vintage_id": "census_2000"
+    },
+    {
+      "postal": "WI",
+      "congress": 111,
+      "apportioned_count": 9,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "default_numbered": 9,
+      "default_at_large": 0,
+      "vintage_id": "census_2000"
+    },
+    {
+      "postal": "MS",
+      "congress": 112,
+      "apportioned_count": 5,
+      "numbered_count": 4,
+      "at_large_count": 1,
+      "default_numbered": 5,
+      "default_at_large": 0,
+      "vintage_id": "census_2000"
+    },
+    {
+      "postal": "WI",
+      "congress": 112,
+      "apportioned_count": 9,
+      "numbered_count": 8,
+      "at_large_count": 1,
+      "default_numbered": 9,
+      "default_at_large": 0,
+      "vintage_id": "census_2000"
     },
     {
       "postal": "NJ",
@@ -9413,64 +7463,14 @@
       "vintage_id": "census_2010"
     },
     {
-      "postal": "CO",
+      "postal": "NJ",
       "congress": 117,
-      "apportioned_count": 8,
-      "numbered_count": 7,
+      "apportioned_count": 13,
+      "numbered_count": 12,
       "at_large_count": 1,
-      "default_numbered": 8,
+      "default_numbered": 13,
       "default_at_large": 0,
-      "vintage_id": "census_2020"
-    },
-    {
-      "postal": "FL",
-      "congress": 117,
-      "apportioned_count": 28,
-      "numbered_count": 27,
-      "at_large_count": 1,
-      "default_numbered": 28,
-      "default_at_large": 0,
-      "vintage_id": "census_2020"
-    },
-    {
-      "postal": "MT",
-      "congress": 117,
-      "apportioned_count": 2,
-      "numbered_count": 0,
-      "at_large_count": 2,
-      "default_numbered": 2,
-      "default_at_large": 0,
-      "vintage_id": "census_2020"
-    },
-    {
-      "postal": "NC",
-      "congress": 117,
-      "apportioned_count": 14,
-      "numbered_count": 13,
-      "at_large_count": 1,
-      "default_numbered": 14,
-      "default_at_large": 0,
-      "vintage_id": "census_2020"
-    },
-    {
-      "postal": "OR",
-      "congress": 117,
-      "apportioned_count": 6,
-      "numbered_count": 5,
-      "at_large_count": 1,
-      "default_numbered": 6,
-      "default_at_large": 0,
-      "vintage_id": "census_2020"
-    },
-    {
-      "postal": "TX",
-      "congress": 117,
-      "apportioned_count": 38,
-      "numbered_count": 36,
-      "at_large_count": 2,
-      "default_numbered": 38,
-      "default_at_large": 0,
-      "vintage_id": "census_2020"
+      "vintage_id": "census_2010"
     }
   ]
 }

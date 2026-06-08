@@ -1,6 +1,10 @@
 pack_id: usg_house_apportionment_vintages
-version: "0.2.0"
+version: "0.2.1"
 requires_atlas_schema_version: "1.1.0"
-description: House apportionment vintages (1st–130th Congress); iter-fill vintage union enumerator.
+description: >
+  House apportionment vintages (1st–131st Congress); iter-fill vintage union enumerator.
+  v0.2.1 corrects a structural off-by-one: each census now governs the Congress where its
+  apportionment actually took effect (1790 census → 3rd Congress; 2020 census → 118th), and
+  the constitutional apportionment covers the 1st–2nd Congresses.
 files:
   - vintages.json

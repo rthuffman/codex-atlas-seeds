@@ -1,10 +1,12 @@
 pack_id: us_house_district_topology
-version: "0.2.0"
+version: "0.2.1"
 requires_atlas_schema_version: "1.2.0"
 description: >
   House seat topology intervals by state and congress range. Schema v2 distinguishes
   ordinary numbered districts, statewide at-large seats, hybrid at-large seats, and
   plural numbered districts with seat codes like 1-A. Rows are reviewed/source-backed;
-  v0.3.4 supersedes tainted v0.3.3 inferred topology.
+  v0.3.4 supersedes tainted v0.3.3 inferred topology. v0.3.5 promotes reviewed general-ticket
+  era rows (CT, NH, NJ, RI, DE, GA, VT) so early multi-member at-large delegations resolve to
+  statewide at-large seats rather than default numbered districts.
 files:
   - topology.json

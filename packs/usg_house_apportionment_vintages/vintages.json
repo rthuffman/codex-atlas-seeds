@@ -1,11 +1,11 @@
 {
   "format_version": 1,
-  "notes": "Skeleton House apportionment vintages (Athena-shipped). Iter-fill enumerates the union of [first_congress, last_congress] across vintages (1st\u2013130th). Pre-1940 decades are built from base-data/artemis/data/apportionment_wikipedia_lines.txt with state-admission filtering; 1940+ use Census Table 1 snapshots. Runtime builders prefer live Census / Congress.gov when available. Not derived from phase1-ingest-gold-detail.json.",
+  "notes": "Skeleton House apportionment vintages (Athena-shipped). Iter-fill enumerates the union of [first_congress, last_congress] across vintages (1st\u2013131st). Pre-1940 decades are built from base-data/artemis/data/apportionment_wikipedia_lines.txt with state-admission filtering; 1940+ use Census Table 1 snapshots. Runtime builders prefer live Census / Congress.gov when available. Not derived from phase1-ingest-gold-detail.json.",
   "vintages": [
     {
       "id": "constitutional_1789",
       "first_congress": 1,
-      "last_congress": 1,
+      "last_congress": 2,
       "source_url": "https://en.wikipedia.org/wiki/United_States_congressional_apportionment",
       "seats_by_postal": {
         "CT": 5,
@@ -23,13 +23,14 @@
     },
     {
       "id": "census_1790",
-      "first_congress": 2,
-      "last_congress": 6,
+      "first_congress": 3,
+      "last_congress": 7,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1790/data/apportionment/apportionment-1790-table01.pdf",
       "seats_by_postal": {
         "CT": 7,
         "DE": 1,
         "GA": 2,
+        "KY": 2,
         "MA": 14,
         "MD": 8,
         "NC": 10,
@@ -46,8 +47,8 @@
     },
     {
       "id": "census_1800",
-      "first_congress": 7,
-      "last_congress": 11,
+      "first_congress": 8,
+      "last_congress": 12,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1800/data/apportionment/apportionment-1800-table01.pdf",
       "seats_by_postal": {
         "CT": 7,
@@ -60,6 +61,7 @@
         "NH": 5,
         "NJ": 6,
         "NY": 17,
+        "OH": 1,
         "PA": 18,
         "RI": 2,
         "SC": 8,
@@ -71,14 +73,15 @@
     },
     {
       "id": "census_1810",
-      "first_congress": 12,
-      "last_congress": 16,
+      "first_congress": 13,
+      "last_congress": 17,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1810/data/apportionment/apportionment-1810-table01.pdf",
       "seats_by_postal": {
         "CT": 7,
         "DE": 2,
         "GA": 6,
         "KY": 10,
+        "LA": 1,
         "MA": 20,
         "MD": 9,
         "NC": 13,
@@ -97,8 +100,8 @@
     },
     {
       "id": "census_1820",
-      "first_congress": 17,
-      "last_congress": 21,
+      "first_congress": 18,
+      "last_congress": 22,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1820/data/apportionment/apportionment-1820-table01.pdf",
       "seats_by_postal": {
         "AL": 3,
@@ -112,6 +115,7 @@
         "MA": 13,
         "MD": 9,
         "ME": 7,
+        "MO": 1,
         "MS": 1,
         "NC": 13,
         "NH": 6,
@@ -129,8 +133,8 @@
     },
     {
       "id": "census_1830",
-      "first_congress": 22,
-      "last_congress": 26,
+      "first_congress": 23,
+      "last_congress": 27,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1830/data/apportionment/apportionment-1830-table01.pdf",
       "seats_by_postal": {
         "AL": 5,
@@ -162,8 +166,8 @@
     },
     {
       "id": "census_1840",
-      "first_congress": 27,
-      "last_congress": 31,
+      "first_congress": 28,
+      "last_congress": 32,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1840/data/apportionment/apportionment-1840-table01.pdf",
       "seats_by_postal": {
         "AL": 7,
@@ -197,8 +201,8 @@
     },
     {
       "id": "census_1850",
-      "first_congress": 32,
-      "last_congress": 36,
+      "first_congress": 33,
+      "last_congress": 37,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1850/data/apportionment/apportionment-1850-table01.pdf",
       "seats_by_postal": {
         "AL": 7,
@@ -237,8 +241,8 @@
     },
     {
       "id": "census_1860",
-      "first_congress": 37,
-      "last_congress": 41,
+      "first_congress": 38,
+      "last_congress": 42,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1860/data/apportionment/apportionment-1860-table01.pdf",
       "seats_by_postal": {
         "AL": 6,
@@ -280,8 +284,8 @@
     },
     {
       "id": "census_1870",
-      "first_congress": 42,
-      "last_congress": 46,
+      "first_congress": 43,
+      "last_congress": 47,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1870/data/apportionment/apportionment-1870-table01.pdf",
       "seats_by_postal": {
         "AL": 8,
@@ -326,8 +330,8 @@
     },
     {
       "id": "census_1880",
-      "first_congress": 47,
-      "last_congress": 51,
+      "first_congress": 48,
+      "last_congress": 52,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1880/data/apportionment/apportionment-1880-table01.pdf",
       "seats_by_postal": {
         "AL": 8,
@@ -373,8 +377,8 @@
     },
     {
       "id": "census_1890",
-      "first_congress": 52,
-      "last_congress": 56,
+      "first_congress": 53,
+      "last_congress": 57,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1890/data/apportionment/apportionment-1890-table01.pdf",
       "seats_by_postal": {
         "AL": 9,
@@ -426,8 +430,8 @@
     },
     {
       "id": "census_1900",
-      "first_congress": 57,
-      "last_congress": 61,
+      "first_congress": 58,
+      "last_congress": 62,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1900/data/apportionment/apportionment-1900-table01.pdf",
       "seats_by_postal": {
         "AL": 9,
@@ -480,12 +484,13 @@
     },
     {
       "id": "census_1910",
-      "first_congress": 62,
-      "last_congress": 66,
+      "first_congress": 63,
+      "last_congress": 67,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1910/data/apportionment/apportionment-1910-table01.pdf",
       "seats_by_postal": {
         "AL": 10,
         "AR": 7,
+        "AZ": 1,
         "CA": 11,
         "CO": 4,
         "CT": 5,
@@ -512,6 +517,7 @@
         "NE": 6,
         "NH": 2,
         "NJ": 12,
+        "NM": 1,
         "NV": 1,
         "NY": 43,
         "OH": 22,
@@ -535,8 +541,8 @@
     },
     {
       "id": "census_1920",
-      "first_congress": 67,
-      "last_congress": 71,
+      "first_congress": 68,
+      "last_congress": 72,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1920/data/apportionment/apportionment-1920-table01.pdf",
       "seats_by_postal": {
         "AL": 9,
@@ -592,8 +598,8 @@
     },
     {
       "id": "census_1930",
-      "first_congress": 72,
-      "last_congress": 76,
+      "first_congress": 73,
+      "last_congress": 77,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1930/data/apportionment/apportionment-1930-table01.pdf",
       "seats_by_postal": {
         "AL": 9,
@@ -649,8 +655,8 @@
     },
     {
       "id": "census_2020",
-      "first_congress": 117,
-      "last_congress": 130,
+      "first_congress": 118,
+      "last_congress": 131,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/2020/data/apportionment/apportionment-2020-table01.pdf",
       "seats_by_postal": {
         "AL": 7,
@@ -708,8 +714,8 @@
     },
     {
       "id": "census_2010",
-      "first_congress": 112,
-      "last_congress": 116,
+      "first_congress": 113,
+      "last_congress": 117,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/2010/data/apportionment/apportionment-2010-table01.pdf",
       "seats_by_postal": {
         "AL": 7,
@@ -767,8 +773,8 @@
     },
     {
       "id": "census_2000",
-      "first_congress": 107,
-      "last_congress": 111,
+      "first_congress": 108,
+      "last_congress": 112,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/2000/data/apportionment/apportionment-2000-table01.pdf",
       "seats_by_postal": {
         "AL": 7,
@@ -826,8 +832,8 @@
     },
     {
       "id": "census_1990",
-      "first_congress": 102,
-      "last_congress": 106,
+      "first_congress": 103,
+      "last_congress": 107,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1990/data/apportionment/apportionment-1990-table01.pdf",
       "seats_by_postal": {
         "AL": 7,
@@ -885,8 +891,8 @@
     },
     {
       "id": "census_1980",
-      "first_congress": 97,
-      "last_congress": 101,
+      "first_congress": 98,
+      "last_congress": 102,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1980/data/apportionment/apportionment-1980-table01.pdf",
       "seats_by_postal": {
         "AL": 7,
@@ -944,8 +950,8 @@
     },
     {
       "id": "census_1970",
-      "first_congress": 92,
-      "last_congress": 96,
+      "first_congress": 93,
+      "last_congress": 97,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1970/data/apportionment/apportionment-1970-table01.pdf",
       "seats_by_postal": {
         "AL": 7,
@@ -1003,8 +1009,8 @@
     },
     {
       "id": "census_1960",
-      "first_congress": 87,
-      "last_congress": 91,
+      "first_congress": 88,
+      "last_congress": 92,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1960/data/apportionment/apportionment-1960-table01.pdf",
       "seats_by_postal": {
         "AL": 8,
@@ -1062,8 +1068,8 @@
     },
     {
       "id": "census_1950",
-      "first_congress": 82,
-      "last_congress": 86,
+      "first_congress": 83,
+      "last_congress": 87,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1950/data/apportionment/apportionment-1950-table01.pdf",
       "seats_by_postal": {
         "AL": 9,
@@ -1121,8 +1127,8 @@
     },
     {
       "id": "census_1940",
-      "first_congress": 77,
-      "last_congress": 81,
+      "first_congress": 78,
+      "last_congress": 82,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1940/data/apportionment/apportionment-1940-table01.pdf",
       "seats_by_postal": {
         "AL": 9,
