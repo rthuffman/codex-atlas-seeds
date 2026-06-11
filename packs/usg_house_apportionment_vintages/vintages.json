@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "notes": "Skeleton historical apportionment vintages (Athena-shipped). The union of [first_congress, last_congress] across vintages uses strict census boundaries (2020 census vintage through the 122nd Congress). Historical backfill catalog \u2014 not a forward session-mint horizon. Historical iter-fill intersects with seated Congress; next-session mint uses Gates A\u2013C (ADR 2026-06-08). Pre-1940 decades are built from base-data/artemis/data/apportionment_wikipedia_lines.txt with state-admission filtering; 1940+ use Census Table 1 snapshots. Runtime builders prefer live Census / Congress.gov when available. Not derived from phase1-ingest-gold-detail.json.",
+  "notes": "Skeleton historical apportionment vintages (Athena-shipped). The union of [first_congress, last_congress] across vintages uses strict census boundaries (2020 census vintage through the 122nd Congress). Historical backfill catalog — not a forward session-mint horizon. Historical iter-fill intersects with seated Congress; next-session mint uses Gates A–C (ADR 2026-06-08). Pre-1940 decades are built from base-data/artemis/data/apportionment_wikipedia_lines.txt with state-admission filtering; 1940+ use Census Table 1 snapshots. Runtime builders prefer live Census / Congress.gov when available. Not derived from phase1-ingest-gold-detail.json. Phase 1d patch 2026-06-11: census_1930 through 78th; census_1940 from 79th; CA 23 in 1940 vintage; congress-17 MA/ME split vintage.",
   "vintages": [
     {
       "id": "constitutional_1789",
@@ -74,7 +74,7 @@
     {
       "id": "census_1810",
       "first_congress": 13,
-      "last_congress": 17,
+      "last_congress": 16,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1810/data/apportionment/apportionment-1810-table01.pdf",
       "seats_by_postal": {
         "CT": 7,
@@ -97,6 +97,34 @@
         "VT": 6
       },
       "census_year": 1810
+    },
+    {
+      "id": "maine_statehood_congress_17",
+      "first_congress": 17,
+      "last_congress": 17,
+      "source_url": "https://history.house.gov/Institution/Apportionment/Apportionment/",
+      "source_note": "17th Congress seated after Maine statehood (March 1820): MA 13 + ME 7 replace census_1810 pre-split MA 20.",
+      "seats_by_postal": {
+        "CT": 7,
+        "DE": 2,
+        "GA": 6,
+        "KY": 10,
+        "LA": 1,
+        "MD": 9,
+        "NC": 13,
+        "NH": 6,
+        "NJ": 6,
+        "NY": 27,
+        "OH": 6,
+        "PA": 23,
+        "RI": 2,
+        "SC": 9,
+        "TN": 6,
+        "VA": 23,
+        "VT": 6,
+        "MA": 13,
+        "ME": 7
+      }
     },
     {
       "id": "census_1820",
@@ -599,7 +627,7 @@
     {
       "id": "census_1930",
       "first_congress": 73,
-      "last_congress": 77,
+      "last_congress": 78,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1930/data/apportionment/apportionment-1930-table01.pdf",
       "seats_by_postal": {
         "AL": 9,
@@ -1127,14 +1155,14 @@
     },
     {
       "id": "census_1940",
-      "first_congress": 78,
+      "first_congress": 79,
       "last_congress": 82,
       "source_url": "https://www2.census.gov/programs-surveys/decennial/1940/data/apportionment/apportionment-1940-table01.pdf",
       "seats_by_postal": {
         "AL": 9,
         "AZ": 2,
         "AR": 6,
-        "CA": 30,
+        "CA": 23,
         "CO": 4,
         "CT": 6,
         "DE": 1,

@@ -21,6 +21,8 @@ notes: >
   Congress, 7 from the 3rd).
   v0.3.6: adds usg_congress_session_readiness — Gate C operator certification catalog for
   next-session structure mint (ADR 2026-06-08); trims 2020 apportionment vintage to 118–122.
+  WIP on main (2026-06-11): Phase 1d House topology + apportionment corrections committed
+  without a new bundle_version — use local build + SHA256 override for cluster apply until v0.3.7.
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton

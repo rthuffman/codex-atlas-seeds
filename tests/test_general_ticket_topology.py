@@ -69,10 +69,13 @@ def test_general_ticket_interval_counts(postal: str, congress: int, expected_al:
 
 
 def test_new_jersey_district_and_plural_gaps_excluded() -> None:
-    """NJ used single-member districts (6th) and plural districts (13th); neither is general ticket."""
+    """NJ used single-member districts (6th); 13th is plural districts (Phase 1d operator review)."""
     intervals = _load_intervals()
     assert _interval_for(intervals, "NJ", 6) is None  # default single-member
-    assert _interval_for(intervals, "NJ", 13) is None  # plural districts (deferred)
+    row13 = _interval_for(intervals, "NJ", 13)
+    assert row13 is not None
+    assert row13.get("topology_kind") == "plural_districts"
+    assert int(row13.get("numbered_single_member_count") or 0) == 3
 
 
 def test_ct8_crosswalk_pins_seven_seats() -> None:
