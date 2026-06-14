@@ -73,6 +73,21 @@ def _pip_install_editable(py: Path) -> None:
     )
 
 
+def _codex_seeds_ci_importable(py: Path) -> bool:
+    result = subprocess.run(
+        [str(py), "-c", "import codex_seeds_ci"],
+        cwd=SEEDS_ROOT,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    return result.returncode == 0
+
+
+def _ensure_tools_installed(py: Path, *, reinstall: bool) -> None:
+    if reinstall or not _codex_seeds_ci_importable(py):
+        _pip_install_editable(py)
+
+
 def _console_script_path(py: Path, name: str) -> Path | None:
     scripts = py.parent
     if sys.platform == "win32":
@@ -83,20 +98,25 @@ def _console_script_path(py: Path, name: str) -> Path | None:
 
 
 def _run_command(py: Path, command: str, args: list[str]) -> int:
+    module = _CLI_MODULES.get(command)
+    if module is not None:
+        return subprocess.run([str(py), "-m", module, *args], cwd=SEEDS_ROOT).returncode
     shim = _console_script_path(py, command)
     if shim is not None:
         return subprocess.run([str(shim), *args], cwd=SEEDS_ROOT).returncode
-    module = _CLI_MODULES.get(command)
-    if module is None:
-        print(f"unknown command: {command}", file=sys.stderr)
-        print(f"known: {', '.join(sorted(_CLI_MODULES))}", file=sys.stderr)
-        return 2
-    return subprocess.run([str(py), "-m", module, *args], cwd=SEEDS_ROOT).returncode
+    print(f"unknown command: {command}", file=sys.stderr)
+    print(f"known: {', '.join(sorted(_CLI_MODULES))}", file=sys.stderr)
+    return 2
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Run codex-seeds-ci via athena-codex .venv (installs editable deploy/tools first)."
+        description="Run codex-seeds-ci via athena-codex .venv."
+    )
+    parser.add_argument(
+        "--reinstall-tools",
+        action="store_true",
+        help="Force editable reinstall of deploy/tools before running the command.",
     )
     parser.add_argument(
         "command",
@@ -111,7 +131,7 @@ def main(argv: list[str] | None = None) -> int:
         cli_args = cli_args[1:]
     athena = _athena_codex_root()
     py = _ensure_venv(athena)
-    _pip_install_editable(py)
+    _ensure_tools_installed(py, reinstall=parsed.reinstall_tools)
     if parsed.command == "codex-seeds-ci" and not cli_args:
         cli_args = ["--all"]
     return _run_command(py, parsed.command, cli_args)
