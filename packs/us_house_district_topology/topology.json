@@ -3,7 +3,7 @@
   "source": {
     "generator": "base-data/tools/generate_house_district_topology.py",
     "policy": "reviewed_rows_only",
-    "notes": "Schema v2 corrective payload; v0.3.3 inferred rows were superseded. 2026-06 Phase AT: promoted reviewed general-ticket era rows for CT/NH/NJ/RI/DE/GA/VT against corrected apportionment vintages (historical seat counts) (see athena/docs/usg-delegation-vacancy-fix-checklist.html). 2026-06 Phase 1d: merged operator-reviewed delegation intervals from hold-scopes research."
+    "notes": "Schema v2 corrective payload; v0.3.3 inferred rows were superseded. 2026-06 Phase AT: promoted reviewed general-ticket era rows for CT/NH/NJ/RI/DE/GA/VT against corrected apportionment vintages (historical seat counts) (see athena/docs/usg-delegation-vacancy-fix-checklist.html). 2026-06 Phase 1d: merged operator-reviewed delegation intervals from hold-scopes research. 2026-06 v0.3.7: applied Civil War operator-gold topology corrections for KS/MN/OR admissions, MO-37 numbered districts, IL at-large, KY-40 numbered-only, VA/WV split."
   },
   "intervals": [
     {
@@ -724,14 +724,14 @@
       "postal": "IL",
       "first_congress": 38,
       "last_congress": 42,
-      "topology_kind": "single_member_districts",
+      "topology_kind": "hybrid_at_large",
       "numbered_single_member_count": 13,
-      "statewide_at_large_count": 0,
+      "statewide_at_large_count": 1,
       "plural_districts": [],
-      "source_authority": "operator_hold_review",
+      "source_authority": "operator_civil_war_gold",
       "source_url": "https://en.wikipedia.org/wiki/38th_United_States_Congress",
-      "source_note": "Structure: 13 numbered districts and one at-large",
-      "confidence": "medium",
+      "source_note": "Civil War gold: Illinois mints districts 1-13 plus statewide at-large A for congresses 38-41; 42 remains compatible with the same topology.",
+      "confidence": "high",
       "review_status": "reviewed"
     },
     {
@@ -848,6 +848,20 @@
     },
     {
       "postal": "KS",
+      "first_congress": 36,
+      "last_congress": 37,
+      "topology_kind": "statewide_general_ticket",
+      "numbered_single_member_count": 0,
+      "statewide_at_large_count": 1,
+      "plural_districts": [],
+      "source_authority": "operator_civil_war_gold",
+      "source_url": "https://en.wikipedia.org/wiki/36th_United_States_Congress",
+      "source_note": "Kansas admission during the 36th Congress; operator gold mints one at-large House seat for 36-37.",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "postal": "KS",
       "first_congress": 43,
       "last_congress": 43,
       "topology_kind": "statewide_general_ticket",
@@ -906,14 +920,14 @@
       "postal": "KY",
       "first_congress": 40,
       "last_congress": 40,
-      "topology_kind": "hybrid_at_large",
+      "topology_kind": "single_member_districts",
       "numbered_single_member_count": 9,
-      "statewide_at_large_count": 1,
+      "statewide_at_large_count": 0,
       "plural_districts": [],
-      "source_authority": "operator_hold_review",
-      "source_url": "https://en.wikipedia.org/wiki/United_States_House_of_Representatives",
-      "source_note": "documented_permanent_vacancy: mint office; never filled; blurb note",
-      "confidence": "medium",
+      "source_authority": "operator_civil_war_gold",
+      "source_url": "https://en.wikipedia.org/wiki/40th_United_States_Congress",
+      "source_note": "Civil War gold and apportionment support nine numbered districts; drop erroneous at-large A and keep KY-2 as vacant structure.",
+      "confidence": "high",
       "review_status": "reviewed"
     },
     {
@@ -1161,6 +1175,20 @@
     },
     {
       "postal": "MN",
+      "first_congress": 36,
+      "last_congress": 37,
+      "topology_kind": "statewide_general_ticket",
+      "numbered_single_member_count": 0,
+      "statewide_at_large_count": 2,
+      "plural_districts": [],
+      "source_authority": "operator_civil_war_gold",
+      "source_url": "https://en.wikipedia.org/wiki/36th_United_States_Congress",
+      "source_note": "Minnesota admission seats; operator gold mints two at-large House seats A-B for 36-37.",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "postal": "MN",
       "first_congress": 52,
       "last_congress": 52,
       "topology_kind": "single_member_districts",
@@ -1247,14 +1275,14 @@
       "postal": "MO",
       "first_congress": 37,
       "last_congress": 37,
-      "topology_kind": "statewide_general_ticket",
-      "numbered_single_member_count": 0,
-      "statewide_at_large_count": 3,
+      "topology_kind": "single_member_districts",
+      "numbered_single_member_count": 7,
+      "statewide_at_large_count": 0,
       "plural_districts": [],
-      "source_authority": "operator_hold_review",
+      "source_authority": "operator_civil_war_gold",
       "source_url": "https://en.wikipedia.org/wiki/37th_United_States_Congress",
-      "source_note": "Structure: CA apportionment should be 3 at-large districts",
-      "confidence": "medium",
+      "source_note": "Civil War gold: Missouri 37th uses numbered districts 1-7, not statewide at-large A-C.",
+      "confidence": "high",
       "review_status": "reviewed"
     },
     {
@@ -2129,6 +2157,20 @@
     },
     {
       "postal": "OR",
+      "first_congress": 36,
+      "last_congress": 37,
+      "topology_kind": "statewide_general_ticket",
+      "numbered_single_member_count": 0,
+      "statewide_at_large_count": 1,
+      "plural_districts": [],
+      "source_authority": "operator_civil_war_gold",
+      "source_url": "https://en.wikipedia.org/wiki/36th_United_States_Congress",
+      "source_note": "Oregon admission seat; operator gold mints one at-large House seat for 36-37.",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "postal": "OR",
       "first_congress": 51,
       "last_congress": 51,
       "topology_kind": "statewide_general_ticket",
@@ -2704,6 +2746,20 @@
     },
     {
       "postal": "VA",
+      "first_congress": 39,
+      "last_congress": 41,
+      "topology_kind": "single_member_districts",
+      "numbered_single_member_count": 8,
+      "statewide_at_large_count": 0,
+      "plural_districts": [],
+      "source_authority": "operator_civil_war_gold",
+      "source_url": "https://en.wikipedia.org/wiki/39th_United_States_Congress",
+      "source_note": "After West Virginia split, operator gold keeps Virginia districts 1-8 only for 39-41; districts 9-11 ended in the 38th.",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "postal": "VA",
       "first_congress": 42,
       "last_congress": 42,
       "topology_kind": "single_member_districts",
@@ -2896,6 +2952,20 @@
       "source_url": "https://en.wikipedia.org/wiki/United_States_House_of_Representatives",
       "source_note": "documented_permanent_vacancy: valid; vacant after 1919-11-10 through 66th",
       "confidence": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "postal": "WV",
+      "first_congress": 38,
+      "last_congress": 42,
+      "topology_kind": "single_member_districts",
+      "numbered_single_member_count": 3,
+      "statewide_at_large_count": 0,
+      "plural_districts": [],
+      "source_authority": "operator_civil_war_gold",
+      "source_url": "https://en.wikipedia.org/wiki/38th_United_States_Congress",
+      "source_note": "West Virginia admission/split seats; operator gold mints numbered districts 1-3 beginning in the 38th Congress.",
+      "confidence": "high",
       "review_status": "reviewed"
     },
     {

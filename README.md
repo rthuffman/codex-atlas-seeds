@@ -105,22 +105,22 @@ Runbook: [athena-codex `docs/prospectus-environment-first-setup.md`](https://git
 
 ## Status
 
-**Current release:** [`v0.3.6`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.6) — adds `usg_congress_session_readiness` (Gate C); trims 2020 apportionment vintage to Congress 118–122 (**12** packs).
+**Current release:** [`v0.3.7`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.7) — Civil War House structural corrections for admission/split apportionment, 36-41 topology, and regenerated term index (**12** packs).
 
 **Deploy pin (both layers):** update [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json) **and** `CODEX_ATLAS_SEEDS_*` in the target cluster’s deploy dotenv / SOPS env (see **Deploy pin (AS-1)** above).
 
-**Bundle `0.3.6`** (twelve packs) — highlights since `0.3.1`:
+**Bundle `0.3.7`** (twelve packs) — highlights since `0.3.1`:
 
 | Pack | Notes |
 |------|--------|
-| `us_house_district_topology` | Schema v2 reviewed rows (v0.3.4+) |
-| `us_house_legislators_term_index` | format_version 2 + topology-aware seat codes (v0.3.2+) |
+| `us_house_district_topology` | Schema v2 reviewed rows (v0.3.4+); Civil War 36-41 operator-gold corrections (v0.3.7) |
+| `us_house_legislators_term_index` | format_version 2 + topology-aware seat codes (v0.3.2+); regenerated after Civil War topology patch (v0.3.7) |
 | `usg_congress_session_readiness` | Gate C operator certification catalog (v0.3.6) |
 | *(earlier v0.3.x)* | `us_geo_bootstrap`, `us_gold_current_structure`, `us_gold_historical_structure`, six USG catalog packs |
 
 Refresh catalog packs: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --verify`.  
 Refresh Prospectus projection packs: `python scripts/with_athena_venv.py codex-seeds-sync-from-athena --export-prospectus-packs`.  
-Tag release: `codex-seeds-release --tag v0.3.6`.
+Tag release: `codex-seeds-release --tag v0.3.7`.
 
 Bootstrap: apply Atlas bundle in talisman-bootstrap, then **Project Atlas seeds → Prospectus** (Option B).
 

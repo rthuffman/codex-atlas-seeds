@@ -129777,6 +129777,15 @@
         "term_start": "1859-12-05"
       }
     ],
+    "36|MN|B": [
+      {
+        "bioguide": "W000629",
+        "match": "exact",
+        "party": "Republican",
+        "term_end": "1861-03-03",
+        "term_start": "1859-12-05"
+      }
+    ],
     "36|MO|1": [
       {
         "bioguide": "B000175",
@@ -131893,6 +131902,15 @@
     "37|MN|A": [
       {
         "bioguide": "A000081",
+        "match": "exact",
+        "party": "Republican",
+        "term_end": "1863-03-03",
+        "term_start": "1861-07-04"
+      }
+    ],
+    "37|MN|B": [
+      {
+        "bioguide": "W000629",
         "match": "exact",
         "party": "Republican",
         "term_end": "1863-03-03",
@@ -435593,7 +435611,7 @@
       "legislators-current.json": "6fb4229e1867b2a09321ecc4c852c90cacfa45012c7eae9c3b143d3f14496c6b",
       "legislators-historical.json": "e23f04610f5625907cb1762976b98a4f6910ac69ee8956060dace9b92e32787d"
     },
-    "generated_at": "2026-06-11",
+    "generated_at": "2026-06-13",
     "generator": "base-data/tools/generate_house_legislators_term_index.py",
     "pin": "live-download",
     "topology_fixture": "D:\\repos\\codex-atlas-seeds\\packs\\us_house_district_topology\\topology.json",

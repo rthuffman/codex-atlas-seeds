@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.6"
+bundle_version: "0.3.7"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -21,8 +21,8 @@ notes: >
   Congress, 7 from the 3rd).
   v0.3.6: adds usg_congress_session_readiness — Gate C operator certification catalog for
   next-session structure mint (ADR 2026-06-08); trims 2020 apportionment vintage to 118–122.
-  WIP on main (2026-06-11): Phase 1d House topology + apportionment corrections committed
-  without a new bundle_version — use local build + SHA256 override for cluster apply until v0.3.7.
+  v0.3.7: Civil War House structural corrections — admission/split apportionment overrides,
+  operator-gold topology for congresses 36-41, and regenerated topology-aware term index.
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -34,7 +34,7 @@ packs:
     files:
       - timeline.json
   - pack_id: usg_house_apportionment_vintages
-    version: "0.2.1"
+    version: "0.2.2"
     files:
       - vintages.json
   - pack_id: usg_congress_session_bounds
@@ -62,11 +62,11 @@ packs:
     files:
       - envelope.json
   - pack_id: us_house_district_topology
-    version: "0.2.1"
+    version: "0.2.2"
     files:
       - topology.json
   - pack_id: us_house_legislators_term_index
-    version: "0.2.1"
+    version: "0.2.2"
     files:
       - term_index.json
   - pack_id: usg_congress_session_readiness
