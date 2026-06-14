@@ -1,0 +1,28 @@
+---
+description: Codex suite guardrails for Atlas seeds, Artemis, ilink, Garland, and sibling repos
+alwaysApply: true
+---
+
+# Codex suite operating guardrails
+
+Canonical reference: `D:\repos\athena-codex\docs\codex-suite-agent-guardrails.html`.
+Canonical skill: `D:\repos\athena-codex\.cursor\skills\codex-suite-operations\SKILL.md`.
+
+## This repo
+
+`codex-atlas-seeds` is the public source of structural Atlas seeds: geo, office inventory,
+topology, and historical structure blueprints. Stable structure edits belong here first, then
+a release updates the `athena-codex` bundle pin.
+
+## Sibling repo roles
+
+- `D:\repos\athena-codex`: private main application, policy, schema pins, deployment config.
+- `D:\repos\codex-atlas-reference`: public certified historical reference packs after operator validation.
+- `D:\repos\codex-workbench`: private large working artifacts, graphify cache, export staging, scratch.
+
+## Agent guardrails
+
+- Do not copy private workbench output or workstation auth material into this public repo.
+- If a task needs Artemis, ilink, Garland, Cerberus, or Talisman context, read the canonical reference before acting.
+- Ask before expanding tooling. Do not add one-off scripts that bypass route catalog, lane policy, auth, audit, or least-necessary permissions.
+- Use `cindex` / `docs/run_graphify.py` from `athena-codex` for suite Graphify workflow when available.
