@@ -129104,15 +129104,6 @@
         "holder_name": "William G. Whiteley"
       }
     ],
-    "36|FL|1": [
-      {
-        "bioguide": "H000369",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1861-03-03",
-        "term_start": "1859-12-05"
-      }
-    ],
     "36|GA|1": [
       {
         "match": "gold",
@@ -129408,15 +129399,6 @@
         "bioguide": "C000626",
         "party": "Republican",
         "holder_name": "Schuyler Colfax"
-      }
-    ],
-    "36|KS|1": [
-      {
-        "bioguide": "C000713",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1861-03-03",
-        "term_start": "1859-12-05"
       }
     ],
     "36|KS|A": [
@@ -130090,15 +130072,6 @@
         "holder_name": "Zebulon Vance"
       }
     ],
-    "36|NE|A": [
-      {
-        "bioguide": "D000006",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1861-03-03",
-        "term_start": "1859-12-05"
-      }
-    ],
     "36|NH|1": [
       {
         "match": "gold",
@@ -130177,14 +130150,6 @@
         "bioguide": "P000214",
         "party": "Republican",
         "holder_name": "William Pennington"
-      }
-    ],
-    "36|NM|A": [
-      {
-        "bioguide": "O000125",
-        "match": "exact",
-        "term_end": "1861-03-03",
-        "term_start": "1859-12-05"
       }
     ],
     "36|NY|1": [
@@ -130586,7 +130551,7 @@
         "match": "gold",
         "term_start": "1859-10-11",
         "term_end": "1861-03-04",
-        "bioguide": "B000531",
+        "bioguide": "S000735",
         "party": "Republican",
         "holder_name": "Harrison G. O. Blake"
       }
@@ -130737,15 +130702,6 @@
         "bioguide": "C000144",
         "party": "Republican",
         "holder_name": "John Carey"
-      }
-    ],
-    "36|OR|1": [
-      {
-        "bioguide": "S000981",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1861-03-03",
-        "term_start": "1859-12-05"
       }
     ],
     "36|PA|1": [
@@ -130990,8 +130946,8 @@
         "match": "gold",
         "term_start": "1860-12-03",
         "term_end": "1861-03-04",
-        "bioguide": "M000503",
-        "party": "Democrat",
+        "bioguide": "S000158",
+        "party": "Anti-Lecompton Democrat",
         "holder_name": "Jacob K. McKenty"
       }
     ],
@@ -131003,15 +130959,6 @@
         "bioguide": "S000887",
         "party": "Republican",
         "holder_name": "Thaddeus Stevens"
-      }
-    ],
-    "36|PA|A": [
-      {
-        "bioguide": "D000303",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1861-03-03",
-        "term_start": "1859-12-05"
       }
     ],
     "36|RI|1": [
@@ -131214,15 +131161,6 @@
         "holder_name": "Andrew J. Hamilton"
       }
     ],
-    "36|UT|A": [
-      {
-        "bioguide": "H000767",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1861-03-03",
-        "term_start": "1859-12-05"
-      }
-    ],
     "36|VA|1": [
       {
         "match": "gold",
@@ -131390,15 +131328,6 @@
         "holder_name": "Homer E. Royce"
       }
     ],
-    "36|WA|A": [
-      {
-        "bioguide": "S000881",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1861-03-03",
-        "term_start": "1859-12-05"
-      }
-    ],
     "36|WI|1": [
       {
         "match": "gold",
@@ -131459,15 +131388,6 @@
         "holder_name": "Aaron A. Sargent"
       }
     ],
-    "37|CO|A": [
-      {
-        "bioguide": "B000369",
-        "match": "exact",
-        "party": "Conservative Republican",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      }
-    ],
     "37|CT|1": [
       {
         "match": "gold",
@@ -131516,15 +131436,6 @@
         "bioguide": "F000147",
         "party": "Unionist",
         "holder_name": "George P. Fisher"
-      }
-    ],
-    "37|DK|A": [
-      {
-        "bioguide": "T000292",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
       }
     ],
     "37|IA|1": [
@@ -131768,15 +131679,6 @@
         "bioguide": "C000626",
         "party": "Republican",
         "holder_name": "Schuyler Colfax"
-      }
-    ],
-    "37|KS|1": [
-      {
-        "bioguide": "C000713",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
       }
     ],
     "37|KY|1": [
@@ -132323,15 +132225,6 @@
         "holder_name": "John W. Noell"
       }
     ],
-    "37|NE|A": [
-      {
-        "bioguide": "D000006",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      }
-    ],
     "37|NH|1": [
       {
         "match": "gold",
@@ -132410,23 +132303,6 @@
         "bioguide": "P000244",
         "party": "Democrat",
         "holder_name": "Nehemiah Perry"
-      }
-    ],
-    "37|NM|A": [
-      {
-        "bioguide": "W000213",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      }
-    ],
-    "37|NV|A": [
-      {
-        "bioguide": "C000850",
-        "match": "exact",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
       }
     ],
     "37|NY|1": [
@@ -132811,8 +132687,7 @@
         "match": "gold",
         "term_start": "1861-07-04",
         "term_end": "1863-03-04",
-        "bioguide": "W000741",
-        "party": "Republican",
+        "bioguide": "S000346",
         "holder_name": "Samuel T. Worcester"
       }
     ],
@@ -132981,22 +132856,6 @@
         "bioguide": "N000119",
         "party": "Democrat",
         "holder_name": "Warren P. Noble"
-      }
-    ],
-    "37|OR|1": [
-      {
-        "bioguide": "S000358",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      },
-      {
-        "bioguide": "T000144",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
       }
     ],
     "37|PA|1": [
@@ -133321,23 +133180,6 @@
         "holder_name": "Andrew J. Clements"
       }
     ],
-    "37|TN|A": [
-      {
-        "bioguide": "N000042",
-        "match": "exact",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      }
-    ],
-    "37|UT|A": [
-      {
-        "bioguide": "B000412",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      }
-    ],
     "37|VA|1": [
       {
         "match": "gold",
@@ -133404,15 +133246,6 @@
         "holder_name": "Lewis McKenzie"
       }
     ],
-    "37|VA|A": [
-      {
-        "bioguide": "D000202",
-        "match": "exact",
-        "party": "Independent Democrat",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
-      }
-    ],
     "37|VT|1": [
       {
         "match": "gold",
@@ -133441,15 +133274,6 @@
         "bioguide": "B000246",
         "party": "Republican",
         "holder_name": "Portus Baxter"
-      }
-    ],
-    "37|WA|A": [
-      {
-        "bioguide": "W000086",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1863-03-03",
-        "term_start": "1861-07-04"
       }
     ],
     "37|WI|1": [
@@ -133490,15 +133314,6 @@
         "holder_name": "A. Scott Sloan"
       }
     ],
-    "38|AZ|A": [
-      {
-        "bioguide": "P000458",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
-      }
-    ],
     "38|CA|A": [
       {
         "match": "gold",
@@ -133527,15 +133342,6 @@
         "bioguide": "S000290",
         "party": "Republican",
         "holder_name": "Thomas B. Shannon"
-      }
-    ],
-    "38|CO|A": [
-      {
-        "bioguide": "B000369",
-        "match": "exact",
-        "party": "Conservative Republican",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
       }
     ],
     "38|CT|1": [
@@ -133590,17 +133396,8 @@
         "match": "gold",
         "term_start": "1863-12-07",
         "term_end": "1865-03-04",
-        "bioguide": "S000642",
-        "party": "Unconditional Unionist",
+        "bioguide": "T000120",
         "holder_name": "Nathaniel B. Smithers"
-      }
-    ],
-    "38|DK|A": [
-      {
-        "bioguide": "J000066",
-        "match": "exact",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
       }
     ],
     "38|IA|1": [
@@ -133661,15 +133458,6 @@
         "bioguide": "H000877",
         "party": "Republican",
         "holder_name": "Asahel W. Hubbard"
-      }
-    ],
-    "38|ID|A": [
-      {
-        "bioguide": "W000086",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
       }
     ],
     "38|IL|1": [
@@ -133765,7 +133553,7 @@
         "match": "gold",
         "term_start": "1864-05-20",
         "term_end": "1865-03-04",
-        "bioguide": "I000017",
+        "bioguide": "L000462",
         "party": "Republican",
         "holder_name": "Ebon C. Ingersoll"
       }
@@ -133928,15 +133716,6 @@
         "bioguide": "C000626",
         "party": "Republican",
         "holder_name": "Schuyler Colfax"
-      }
-    ],
-    "38|KS|1": [
-      {
-        "bioguide": "W000461",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
       }
     ],
     "38|KY|1": [
@@ -134415,24 +134194,6 @@
         "holder_name": "James S. Rollins"
       }
     ],
-    "38|MT|A": [
-      {
-        "bioguide": "M000551",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
-      }
-    ],
-    "38|NE|A": [
-      {
-        "bioguide": "D000006",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
-      }
-    ],
     "38|NH|1": [
       {
         "match": "gold",
@@ -134511,15 +134272,6 @@
         "bioguide": "P000244",
         "party": "Democrat",
         "holder_name": "Nehemiah Perry"
-      }
-    ],
-    "38|NM|A": [
-      {
-        "bioguide": "P000224",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
       }
     ],
     "38|NV|A": [
@@ -135047,15 +134799,6 @@
         "holder_name": "Warren P. Noble"
       }
     ],
-    "38|OR|1": [
-      {
-        "bioguide": "M000301",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
-      }
-    ],
     "38|PA|1": [
       {
         "match": "gold",
@@ -135314,24 +135057,6 @@
         "holder_name": "Nathan F. Dixon Jr"
       }
     ],
-    "38|UT|A": [
-      {
-        "bioguide": "K000225",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
-      }
-    ],
-    "38|VA|A": [
-      {
-        "bioguide": "B000948",
-        "match": "exact",
-        "party": "Unconditional Unionist",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
-      }
-    ],
     "38|VT|1": [
       {
         "match": "gold",
@@ -135360,15 +135085,6 @@
         "bioguide": "B000246",
         "party": "Republican",
         "holder_name": "Portus Baxter"
-      }
-    ],
-    "38|WA|A": [
-      {
-        "bioguide": "C000609",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1865-03-03",
-        "term_start": "1863-12-07"
       }
     ],
     "38|WI|1": [
@@ -135451,15 +135167,6 @@
         "holder_name": "Kellian Whaley"
       }
     ],
-    "39|AZ|A": [
-      {
-        "bioguide": "G000301",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
-      }
-    ],
     "39|CA|1": [
       {
         "match": "gold",
@@ -135488,15 +135195,6 @@
         "bioguide": "B000447",
         "party": "Republican",
         "holder_name": "John Bidwell"
-      }
-    ],
-    "39|CO|A": [
-      {
-        "bioguide": "B000737",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
       }
     ],
     "39|CT|1": [
@@ -135547,15 +135245,6 @@
         "bioguide": "N000099",
         "party": "Democrat",
         "holder_name": "John A. Nicholson"
-      }
-    ],
-    "39|DK|A": [
-      {
-        "bioguide": "B001108",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
       }
     ],
     "39|IA|1": [
@@ -135616,15 +135305,6 @@
         "bioguide": "H000877",
         "party": "Republican",
         "holder_name": "Asahel W. Hubbard"
-      }
-    ],
-    "39|ID|A": [
-      {
-        "bioguide": "H000710",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
       }
     ],
     "39|IL|1": [
@@ -135885,24 +135565,6 @@
         "holder_name": "Schuyler Colfax"
       }
     ],
-    "39|IN|A": [
-      {
-        "bioguide": "H000732",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
-      }
-    ],
-    "39|KS|1": [
-      {
-        "bioguide": "C000470",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
-      }
-    ],
     "39|KY|1": [
       {
         "match": "gold",
@@ -136015,15 +135677,6 @@
         "bioguide": "M000497",
         "party": "Unconditional Unionist",
         "holder_name": "Samuel McKee"
-      }
-    ],
-    "39|LA|A": [
-      {
-        "bioguide": "S000768",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
       }
     ],
     "39|MA|1": [
@@ -136411,33 +136064,6 @@
         "holder_name": "George W. Anderson"
       }
     ],
-    "39|MT|A": [
-      {
-        "bioguide": "M000551",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
-      }
-    ],
-    "39|NC|A": [
-      {
-        "bioguide": "J000208",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
-      }
-    ],
-    "39|NE|1": [
-      {
-        "bioguide": "M000140",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
-      }
-    ],
     "39|NE|A": [
       {
         "match": "gold",
@@ -136526,15 +136152,6 @@
         "bioguide": "W000758",
         "party": "Democrat",
         "holder_name": "Edwin R. V. Wright"
-      }
-    ],
-    "39|NM|A": [
-      {
-        "bioguide": "C000337",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
       }
     ],
     "39|NV|A": [
@@ -136630,7 +136247,7 @@
         "match": "gold",
         "term_start": "1865-12-03",
         "term_end": "1867-03-04",
-        "bioguide": "H000037",
+        "bioguide": "K000066",
         "party": "Republican",
         "holder_name": "Robert S. Hale"
       }
@@ -136787,8 +136404,7 @@
         "match": "gold",
         "term_start": "1866-12-04",
         "term_end": "1867-03-04",
-        "bioguide": "H000954",
-        "party": "Republican",
+        "bioguide": "H000955",
         "holder_name": "John W. Hunter"
       }
     ],
@@ -137067,15 +136683,6 @@
         "bioguide": "B001022",
         "party": "Republican",
         "holder_name": "Ralph P. Buckland"
-      }
-    ],
-    "39|OR|1": [
-      {
-        "bioguide": "H000480",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
       }
     ],
     "39|PA|1": [
@@ -137425,15 +137032,6 @@
         "holder_name": "John W. Leftwich"
       }
     ],
-    "39|UT|A": [
-      {
-        "bioguide": "H000767",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
-      }
-    ],
     "39|VT|1": [
       {
         "match": "gold",
@@ -137462,15 +137060,6 @@
         "bioguide": "B000246",
         "party": "Republican",
         "holder_name": "Portus Baxter"
-      }
-    ],
-    "39|WA|A": [
-      {
-        "bioguide": "D000247",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1867-03-03",
-        "term_start": "1865-12-04"
       }
     ],
     "39|WI|1": [
@@ -138575,15 +138164,6 @@
         "holder_name": "Thomas Boles"
       }
     ],
-    "40|AZ|A": [
-      {
-        "bioguide": "B000219",
-        "match": "exact",
-        "party": "Independent",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
-      }
-    ],
     "40|CA|1": [
       {
         "match": "gold",
@@ -138612,15 +138192,6 @@
         "bioguide": "J000145",
         "party": "Democrat",
         "holder_name": "James A. Johnson"
-      }
-    ],
-    "40|CO|A": [
-      {
-        "bioguide": "C000352",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
       }
     ],
     "40|CT|1": [
@@ -138671,24 +138242,6 @@
         "bioguide": "N000099",
         "party": "Democrat",
         "holder_name": "John A. Nicholson"
-      }
-    ],
-    "40|DK|A": [
-      {
-        "bioguide": "B001108",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
-      }
-    ],
-    "40|FL|1": [
-      {
-        "bioguide": "H000105",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
       }
     ],
     "40|GA|1": [
@@ -138809,15 +138362,6 @@
         "bioguide": "H000877",
         "party": "Republican",
         "holder_name": "Asahel W. Hubbard"
-      }
-    ],
-    "40|ID|A": [
-      {
-        "bioguide": "H000710",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
       }
     ],
     "40|IL|1": [
@@ -139069,15 +138613,6 @@
         "holder_name": "Schuyler Colfax"
       }
     ],
-    "40|KS|1": [
-      {
-        "bioguide": "C000470",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
-      }
-    ],
     "40|KY|1": [
       {
         "match": "gold",
@@ -139164,15 +138699,6 @@
         "bioguide": "M000497",
         "party": "Republican",
         "holder_name": "Samuel McKee"
-      }
-    ],
-    "40|KY|A": [
-      {
-        "bioguide": "B000933",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
       }
     ],
     "40|LA|1": [
@@ -139609,24 +139135,6 @@
         "holder_name": "George W. Anderson"
       }
     ],
-    "40|MS|A": [
-      {
-        "bioguide": "M000494",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
-      }
-    ],
-    "40|MT|A": [
-      {
-        "bioguide": "C000260",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
-      }
-    ],
     "40|NC|1": [
       {
         "match": "gold",
@@ -139695,15 +139203,6 @@
         "bioguide": "J000208",
         "party": "Republican",
         "holder_name": "Alexander H. Jones"
-      }
-    ],
-    "40|NE|1": [
-      {
-        "bioguide": "T000006",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
       }
     ],
     "40|NE|A": [
@@ -139791,15 +139290,6 @@
         "bioguide": "H000087",
         "party": "Republican",
         "holder_name": "George A. Halsey"
-      }
-    ],
-    "40|NM|A": [
-      {
-        "bioguide": "C000337",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
       }
     ],
     "40|NV|A": [
@@ -139954,8 +139444,7 @@
         "match": "gold",
         "term_start": "1867-11-30",
         "term_end": "1869-03-04",
-        "bioguide": "B000034",
-        "party": "Republican",
+        "bioguide": "C000681",
         "holder_name": "Alexander H. Bailey"
       }
     ],
@@ -140342,15 +139831,6 @@
         "holder_name": "Ralph P. Buckland"
       }
     ],
-    "40|OR|1": [
-      {
-        "bioguide": "M000083",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
-      }
-    ],
     "40|PA|1": [
       {
         "match": "gold",
@@ -140609,7 +140089,7 @@
         "match": "gold",
         "term_start": "1868-12-07",
         "term_end": "1869-03-04",
-        "bioguide": "D000315",
+        "bioguide": "S000887",
         "party": "Republican",
         "holder_name": "Oliver J. Dickey"
       }
@@ -140754,24 +140234,6 @@
         "holder_name": "David A. Nunn"
       }
     ],
-    "40|UT|A": [
-      {
-        "bioguide": "H000767",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
-      }
-    ],
-    "40|VA|A": [
-      {
-        "bioguide": "R000248",
-        "match": "exact",
-        "party": "Whig",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
-      }
-    ],
     "40|VT|1": [
       {
         "match": "gold",
@@ -140800,15 +140262,6 @@
         "bioguide": "S000641",
         "party": "Republican",
         "holder_name": "Worthington C. Smith"
-      }
-    ],
-    "40|WA|A": [
-      {
-        "bioguide": "F000188",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1869-03-03",
-        "term_start": "1867-03-04"
       }
     ],
     "40|WI|1": [
@@ -140991,15 +140444,6 @@
         "holder_name": "Thomas Boles"
       }
     ],
-    "41|AZ|A": [
-      {
-        "bioguide": "M000371",
-        "match": "exact",
-        "party": "Unionist",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
-      }
-    ],
     "41|CA|1": [
       {
         "match": "gold",
@@ -141028,15 +140472,6 @@
         "bioguide": "J000145",
         "party": "Democrat",
         "holder_name": "James A. Johnson"
-      }
-    ],
-    "41|CO|A": [
-      {
-        "bioguide": "B000737",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
       }
     ],
     "41|CT|1": [
@@ -141087,24 +140522,6 @@
         "bioguide": "B000457",
         "party": "Democrat",
         "holder_name": "Benjamin T. Biggs"
-      }
-    ],
-    "41|DK|A": [
-      {
-        "bioguide": "S000736",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
-      }
-    ],
-    "41|FL|1": [
-      {
-        "bioguide": "H000105",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
       }
     ],
     "41|GA|1": [
@@ -141177,15 +140594,6 @@
         "holder_name": "Pierce M. B. Young"
       }
     ],
-    "41|GA|A": [
-      {
-        "bioguide": "E000085",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
-      }
-    ],
     "41|IA|1": [
       {
         "match": "gold",
@@ -141252,15 +140660,6 @@
         "bioguide": "P000421",
         "party": "Republican",
         "holder_name": "Charles Pomeroy"
-      }
-    ],
-    "41|ID|A": [
-      {
-        "bioguide": "S000276",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
       }
     ],
     "41|IL|1": [
@@ -141520,15 +140919,6 @@
         "holder_name": "John P. C. Shanks"
       }
     ],
-    "41|KS|1": [
-      {
-        "bioguide": "C000470",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
-      }
-    ],
     "41|KY|1": [
       {
         "match": "gold",
@@ -141675,15 +141065,6 @@
         "bioguide": "M000942",
         "party": "Republican",
         "holder_name": "Frank Morey"
-      }
-    ],
-    "41|LA|A": [
-      {
-        "bioguide": "S000768",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
       }
     ],
     "41|MA|1": [
@@ -142113,15 +141494,6 @@
         "holder_name": "Legrand W. Perce"
       }
     ],
-    "41|MT|A": [
-      {
-        "bioguide": "C000260",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
-      }
-    ],
     "41|NC|1": [
       {
         "match": "gold",
@@ -142207,15 +141579,6 @@
         "holder_name": "Alexander H. Jones"
       }
     ],
-    "41|NE|1": [
-      {
-        "bioguide": "T000006",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
-      }
-    ],
     "41|NH|1": [
       {
         "match": "gold",
@@ -142292,15 +141655,6 @@
         "bioguide": "C000514",
         "party": "Democrat",
         "holder_name": "Orestes Cleveland"
-      }
-    ],
-    "41|NM|A": [
-      {
-        "bioguide": "C000337",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
       }
     ],
     "41|NV|A": [
@@ -142835,15 +142189,6 @@
         "holder_name": "Edward F. Dickinson"
       }
     ],
-    "41|OR|1": [
-      {
-        "bioguide": "S000581",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
-      }
-    ],
     "41|PA|1": [
       {
         "match": "gold",
@@ -143288,15 +142633,6 @@
         "holder_name": "Edward Degener"
       }
     ],
-    "41|UT|A": [
-      {
-        "bioguide": "H000767",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
-      }
-    ],
     "41|VA|1": [
       {
         "match": "gold",
@@ -143350,7 +142686,7 @@
         "match": "gold",
         "term_start": "1870-11-08",
         "term_end": "1871-03-04",
-        "bioguide": "D000521",
+        "bioguide": "R000248",
         "party": "Conservative",
         "holder_name": "Richard T. W. Duke"
       }
@@ -143413,15 +142749,6 @@
         "bioguide": "S000641",
         "party": "Republican",
         "holder_name": "Worthington C. Smith"
-      }
-    ],
-    "41|WA|A": [
-      {
-        "bioguide": "G000064",
-        "match": "exact",
-        "party": "Republican",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
       }
     ],
     "41|WI|1": [
@@ -143520,15 +142847,6 @@
         "bioguide": "W000656",
         "party": "Republican",
         "holder_name": "John Witcher"
-      }
-    ],
-    "41|WY|A": [
-      {
-        "bioguide": "N000166",
-        "match": "exact",
-        "party": "Democrat",
-        "term_end": "1871-03-03",
-        "term_start": "1869-03-04"
       }
     ],
     "42|AL|1": [
@@ -437236,7 +436554,7 @@
       "legislators-current.json": "6fb4229e1867b2a09321ecc4c852c90cacfa45012c7eae9c3b143d3f14496c6b",
       "legislators-historical.json": "e23f04610f5625907cb1762976b98a4f6910ac69ee8956060dace9b92e32787d"
     },
-    "generated_at": "2026-06-15",
+    "generated_at": "2026-06-16",
     "generator": "base-data/tools/apply_civil_war_gold_term_index_overlay.py",
     "pin": "live-download",
     "topology_fixture": "D:\\repos\\codex-atlas-seeds\\packs\\us_house_district_topology\\topology.json",

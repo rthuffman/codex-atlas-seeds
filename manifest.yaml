@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.8"
+bundle_version: "0.3.9"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -26,6 +26,8 @@ notes: >
   v0.3.8: Civil War operator-gold term index overlay for congresses 36-41 — holder spans,
   vacant office keys, and bioguide pins (e.g. KS Conway) from certified gold YAML; removes
   topology-extra term-index keys (MO-37 A/B/C, KY-40 A, VA 9-11 post-split).
+  v0.3.9: Prune all non-gold term-index office_key residue in congresses 36-41 (75 legacy
+  congress-legislators keys with wrong seat codes, e.g. 36|KS|1 vs gold 36|KS|A).
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -69,7 +71,7 @@ packs:
     files:
       - topology.json
   - pack_id: us_house_legislators_term_index
-    version: "0.2.3"
+    version: "0.2.4"
     files:
       - term_index.json
   - pack_id: usg_congress_session_readiness

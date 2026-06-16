@@ -1,5 +1,5 @@
 pack_id: us_house_legislators_term_index
-version: "0.2.3"
+version: "0.2.4"
 requires_atlas_schema_version: "1.2.0"
 description: >
   Derived House holder lookup by congress-scoped office key (congress|postal|seat_code).
