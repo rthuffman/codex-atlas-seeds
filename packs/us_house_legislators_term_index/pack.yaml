@@ -1,9 +1,10 @@
 pack_id: us_house_legislators_term_index
-version: "0.2.2"
+version: "0.2.3"
 requires_atlas_schema_version: "1.2.0"
 description: >
   Derived House holder lookup by congress-scoped office key (congress|postal|seat_code).
   format_version 2 — alphanumeric seat codes (digits = numbered districts; letters = at-large).
+  Congresses 36-41 holder spans overlaid from operator Civil War gold YAML (v0.3.8).
   Requires us_house_district_topology slice. Source: unitedstates/congress-legislators (pinned in sources/).
   Not a Prospectus ingest pack.
 files:

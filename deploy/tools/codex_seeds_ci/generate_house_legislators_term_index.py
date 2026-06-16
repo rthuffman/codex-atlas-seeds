@@ -55,7 +55,20 @@ def main() -> int:
     ]
     if args.download:
         cmd.append("--download")
-    return subprocess.run(cmd, cwd=athena).returncode
+    rc = subprocess.run(cmd, cwd=athena).returncode
+    if rc != 0:
+        return rc
+    overlay = [
+        str(py),
+        str(athena / "base-data" / "tools" / "apply_civil_war_gold_term_index_overlay.py"),
+        "--term-index",
+        str(out),
+        "--fixture-out",
+        str(athena / "athena" / "docs" / "fixtures" / "usg-structure" / "us_house_legislators_term_index.json"),
+        "--seeds-root",
+        str(seeds_root),
+    ]
+    return subprocess.run(overlay, cwd=athena).returncode
 
 
 if __name__ == "__main__":

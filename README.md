@@ -105,7 +105,7 @@ Runbook: [athena-codex `docs/prospectus-environment-first-setup.md`](https://git
 
 ## Status
 
-**Current release:** [`v0.3.7`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.7) — Civil War House structural corrections for admission/split apportionment, 36-41 topology, and regenerated term index (**12** packs).
+**Current release:** [`v0.3.8`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.8) — Civil War operator-gold term index overlay for congresses 36–41 on top of v0.3.7 topology/apportionment (**12** packs).
 
 **Deploy pin (both layers):** update [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json) **and** `CODEX_ATLAS_SEEDS_*` in the target cluster’s deploy dotenv / SOPS env (see **Deploy pin (AS-1)** above).
 
