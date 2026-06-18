@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.9"
+bundle_version: "0.3.11"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -28,6 +28,14 @@ notes: >
   topology-extra term-index keys (MO-37 A/B/C, KY-40 A, VA 9-11 post-split).
   v0.3.9: Prune all non-gold term-index office_key residue in congresses 36-41 (75 legacy
   congress-legislators keys with wrong seat codes, e.g. 36|KS|1 vs gold 36|KS|A).
+  v0.3.10: Post-reconstruction operator gold (congresses 42-79) — topology intervals from
+  certified YAML, admission apportionment overrides (CO, western states, UT, OK, AZ, NM),
+  and gold-authoritative term index overlay.
+  v0.3.11: Pre-Civil War operator gold (congresses 1-35) — topology intervals with
+  plural-district suffix seat codes (N-A, N-B, …), admission apportionment overrides,
+  and gold-authoritative term index overlay from certified pre-civil war congress.yaml.
+  Topology-extra vs gold (plain digitization labels collapsed by House records) is
+  expected where seeds retain legacy plain district codes alongside gold suffix codes.
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -39,7 +47,7 @@ packs:
     files:
       - timeline.json
   - pack_id: usg_house_apportionment_vintages
-    version: "0.2.2"
+    version: "0.2.4"
     files:
       - vintages.json
   - pack_id: usg_congress_session_bounds
@@ -67,11 +75,11 @@ packs:
     files:
       - envelope.json
   - pack_id: us_house_district_topology
-    version: "0.2.2"
+    version: "0.2.4"
     files:
       - topology.json
   - pack_id: us_house_legislators_term_index
-    version: "0.2.4"
+    version: "0.2.6"
     files:
       - term_index.json
   - pack_id: usg_congress_session_readiness

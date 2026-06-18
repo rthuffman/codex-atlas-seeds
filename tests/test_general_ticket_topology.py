@@ -75,7 +75,7 @@ def test_new_jersey_district_and_plural_gaps_excluded() -> None:
     row13 = _interval_for(intervals, "NJ", 13)
     assert row13 is not None
     assert row13.get("topology_kind") == "plural_districts"
-    assert int(row13.get("numbered_single_member_count") or 0) == 3
+    assert int(row13.get("numbered_single_member_count") or 0) == 0
 
 
 def test_ct8_crosswalk_pins_seven_seats() -> None:
