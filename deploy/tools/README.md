@@ -51,6 +51,8 @@ python -m codex_seeds_ci.pipeline --all
 | `--parity` | Run AS-5 gold-detail parity checks and write `dist/parity-report.json` + `dist/parity-summary.json` |
 | `--release TAG` | Build (unless assets exist) and upload to GitHub Releases |
 
+**Suite pin sync:** `codex-seeds-release` updates **athena-codex** `codex/docs/atlas_bundles.yaml` and regenerated pin JSON automatically after upload. Opt out with `--no-sync-suite-pin` or `CODEX_SEEDS_SKIP_SUITE_PIN_SYNC=1`. Local builds can pass `--sync-suite-pin` (add `--dry-run-suite-pin` to validate only). Standalone: `codex-suite-pin-sync` from athena-codex `deploy/tools`.
+
 **Note:** Parity compares the **six catalog packs** to Artemis builders via `builder_fixture_mappings`. **Projection packs** (`us_geo_bootstrap`, `us_gold_current_structure`, `us_gold_historical_structure`) are in `required_packs` for bundle validation but are **not** AS-5 builder fixtures — they are consumed at Prospectus projection time in athena-codex.
 
 Default (no flags): `--validate`, `--test`, `--build`, `--parity`.

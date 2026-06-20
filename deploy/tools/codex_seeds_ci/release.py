@@ -12,9 +12,10 @@ from typing import Any
 
 import requests
 
-from codex_seeds_ci.build_bundle import build_bundle
-from codex_seeds_ci.manifest import file_sha256
+from codex_seeds_ci.build_bundle import build_bundle, bundle_sidecar_path
+from codex_seeds_ci.manifest import file_sha256, load_bundle_manifest
 from codex_seeds_ci.repo import find_repo_root
+from codex_seeds_ci.suite_pin_sync import sync_suite_pin as _sync_suite_pin
 
 
 def _github_repo() -> str:
@@ -114,11 +115,13 @@ def release_bundle(
     draft: bool = False,
     skip_build: bool = False,
     archive: Path | None = None,
+    sync_suite_pin: bool = True,
+    dry_run_suite_pin: bool = False,
 ) -> tuple[Path, Path]:
     root = repo_root or find_repo_root()
     if skip_build and archive is not None:
         arch = archive
-        sidecar = arch.with_suffix(".tar.gz.sha256")
+        sidecar = bundle_sidecar_path(arch)
     else:
         arch, sidecar = build_bundle(repo_root=root, output=archive)
     repo = _github_repo()
@@ -126,6 +129,19 @@ def release_bundle(
         upload_with_gh(tag=tag, archive=arch, sidecar=sidecar, repo=repo, draft=draft)
     else:
         upload_with_api(tag=tag, archive=arch, sidecar=sidecar, repo=repo, draft=draft)
+    if sync_suite_pin and os.environ.get("CODEX_SEEDS_SKIP_SUITE_PIN_SYNC") != "1":
+        version = str(load_bundle_manifest(root).get("bundle_version") or "").strip()
+        if not version:
+            raise RuntimeError("manifest.yaml bundle_version is required for suite pin sync")
+        _sync_suite_pin(
+            "seeds",
+            archive=arch,
+            sidecar=sidecar,
+            bundle_version=version,
+            tag=tag,
+            dry_run=dry_run_suite_pin,
+            repo_root=root,
+        )
     manifest = {
         "tag": tag,
         "repository": repo,
@@ -145,9 +161,26 @@ def main() -> int:
     parser.add_argument("--draft", action="store_true", help="Create draft release")
     parser.add_argument("--skip-build", action="store_true", help="Upload existing dist archive")
     parser.add_argument("--archive", type=Path, default=None, help="Archive path when --skip-build")
+    parser.add_argument(
+        "--no-sync-suite-pin",
+        action="store_true",
+        help="Do not update athena-codex codex/docs/atlas_bundles.yaml and generated pins",
+    )
+    parser.add_argument(
+        "--dry-run-suite-pin",
+        action="store_true",
+        help="Validate suite pin sync without writing athena-codex files",
+    )
     args = parser.parse_args()
     try:
-        release_bundle(tag=args.tag, draft=args.draft, skip_build=args.skip_build, archive=args.archive)
+        release_bundle(
+            tag=args.tag,
+            draft=args.draft,
+            skip_build=args.skip_build,
+            archive=args.archive,
+            sync_suite_pin=not args.no_sync_suite_pin,
+            dry_run_suite_pin=args.dry_run_suite_pin,
+        )
     except (RuntimeError, subprocess.CalledProcessError, requests.HTTPError) as exc:
         print(f"release failed: {exc}", file=sys.stderr)
         return 1

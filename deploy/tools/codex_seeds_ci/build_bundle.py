@@ -19,6 +19,11 @@ from codex_seeds_ci.manifest import (
     load_pack_manifest,
 )
 from codex_seeds_ci.repo import find_repo_root
+from codex_seeds_ci.suite_pin_sync import sync_suite_pin as _sync_suite_pin
+
+
+def bundle_sidecar_path(archive: Path) -> Path:
+    return archive.with_name(f"{archive.name}.sha256")
 
 
 def _tar_add_bytes(tar: tarfile.TarFile, arcname: str, data: bytes) -> str:
@@ -104,7 +109,7 @@ def build_bundle(*, repo_root: Path | None = None, output: Path | None = None) -
         digest = _tar_add_bytes(tar, "SHA256SUMS", sums_text)
         checksum_lines.append(f"{digest}  SHA256SUMS")
 
-    sidecar = archive.with_suffix(".tar.gz.sha256")
+    sidecar = bundle_sidecar_path(archive)
     sidecar.write_text(file_sha256(archive) + "\n", encoding="utf-8")
     return archive, sidecar
 
@@ -117,10 +122,33 @@ def main() -> int:
         default=None,
         help="Output archive path (default: dist/codex-atlas-seeds-<bundle_version>.tar.gz)",
     )
+    parser.add_argument(
+        "--sync-suite-pin",
+        action="store_true",
+        help="Update athena-codex atlas_bundles.yaml and generated pin JSON from this build",
+    )
+    parser.add_argument(
+        "--dry-run-suite-pin",
+        action="store_true",
+        help="Validate suite pin sync without writing athena-codex files",
+    )
     args = parser.parse_args()
     archive, sidecar = build_bundle(output=args.output)
     print(f"Wrote {archive}")
     print(f"Wrote {sidecar} ({sidecar.read_text(encoding='utf-8').strip()})")
+    if args.sync_suite_pin:
+        root = find_repo_root()
+        version = str(load_bundle_manifest(root).get("bundle_version") or "").strip()
+        if not version:
+            raise SystemExit("manifest.yaml bundle_version is required for suite pin sync")
+        _sync_suite_pin(
+            "seeds",
+            archive=archive,
+            sidecar=sidecar,
+            bundle_version=version,
+            dry_run=args.dry_run_suite_pin,
+            repo_root=root,
+        )
     return 0
 
 

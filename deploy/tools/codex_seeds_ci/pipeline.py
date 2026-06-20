@@ -39,6 +39,16 @@ def main() -> int:
     parser.add_argument("--release", metavar="TAG", default=None, help="Upload GitHub release for TAG")
     parser.add_argument("--draft-release", action="store_true", help="Draft GitHub release")
     parser.add_argument(
+        "--sync-suite-pin",
+        action="store_true",
+        help="After build, update athena-codex atlas_bundles.yaml and generated pin JSON",
+    )
+    parser.add_argument(
+        "--dry-run-suite-pin",
+        action="store_true",
+        help="Validate suite pin sync without writing athena-codex files",
+    )
+    parser.add_argument(
         "--all",
         action="store_true",
         help="validate + test + build (default when no flags)",
@@ -68,6 +78,22 @@ def main() -> int:
     if do_build:
         archive, sidecar = build_bundle(repo_root=repo_root)
         print(f"build: {archive.name} sha256={sidecar.read_text(encoding='utf-8').strip()}")
+        if args.sync_suite_pin:
+            from codex_seeds_ci.manifest import load_bundle_manifest
+            from codex_seeds_ci.suite_pin_sync import sync_suite_pin as _sync_suite_pin
+
+            version = str(load_bundle_manifest(repo_root).get("bundle_version") or "").strip()
+            if not version:
+                print("error: manifest.yaml bundle_version is required for suite pin sync", file=sys.stderr)
+                return 1
+            _sync_suite_pin(
+                "seeds",
+                archive=archive,
+                sidecar=sidecar,
+                bundle_version=version,
+                dry_run=args.dry_run_suite_pin,
+                repo_root=repo_root,
+            )
 
     if do_parity:
         policy = _load_policy(repo_root, None)
@@ -108,7 +134,12 @@ def main() -> int:
             )
 
     if args.release:
-        release_bundle(tag=args.release, repo_root=repo_root, draft=args.draft_release)
+        release_bundle(
+            tag=args.release,
+            repo_root=repo_root,
+            draft=args.draft_release,
+            dry_run_suite_pin=args.dry_run_suite_pin,
+        )
 
     return 0
 
