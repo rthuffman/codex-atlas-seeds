@@ -1,5 +1,5 @@
 pack_id: usg_house_apportionment_vintages
-version: "0.2.4"
+version: "0.2.5"
 requires_atlas_schema_version: "1.1.0"
 description: >
   House historical apportionment vintages (census seat-count catalog; skeleton fixtures

@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.11"
+bundle_version: "0.3.12"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -36,6 +36,9 @@ notes: >
   and gold-authoritative term index overlay from certified pre-civil war congress.yaml.
   Topology-extra vs gold (plain digitization labels collapsed by House records) is
   expected where seeds retain legacy plain district codes alongside gold suffix codes.
+  v0.3.12: Mesh-band topology corrections — ND loses 2nd seat after 92nd Congress (census_1970
+  apportionment ND=1); ND 93rd–95th numbered seat 1, 96th+ at-large A through 119th; CA 118th–119th
+  merged to 52 numbered districts (fixes erroneous 12-seat 119th interval).
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -47,7 +50,7 @@ packs:
     files:
       - timeline.json
   - pack_id: usg_house_apportionment_vintages
-    version: "0.2.4"
+    version: "0.2.5"
     files:
       - vintages.json
   - pack_id: usg_congress_session_bounds
@@ -75,7 +78,7 @@ packs:
     files:
       - envelope.json
   - pack_id: us_house_district_topology
-    version: "0.2.4"
+    version: "0.2.5"
     files:
       - topology.json
   - pack_id: us_house_legislators_term_index
