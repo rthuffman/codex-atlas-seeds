@@ -1,0 +1,9 @@
+pack_id: us_person_nickname_lookup
+version: "0.1.0"
+requires_atlas_schema_version: "1.2.0"
+description: >
+  US given-name nickname and diminutive lookup (carltonnorthern/nickname-and-diminutive-names-lookup).
+  Used by Artemis executive nomination matching and reference name compatibility. Source pinned in sources/.
+  Not a Prospectus ingest pack.
+files:
+  - names.csv

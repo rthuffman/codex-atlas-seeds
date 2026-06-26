@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.12"
+bundle_version: "0.3.13"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -39,6 +39,8 @@ notes: >
   v0.3.12: Mesh-band topology corrections — ND loses 2nd seat after 92nd Congress (census_1970
   apportionment ND=1); ND 93rd–95th numbered seat 1, 96th+ at-large A through 119th; CA 118th–119th
   merged to 52 numbered districts (fixes erroneous 12-seat 119th interval).
+  v0.3.13: adds us_person_nickname_lookup — carltonnorthern nickname/diminutive CSV for
+  Artemis person-name compatibility (executive nomination matching, reference search).
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -89,3 +91,7 @@ packs:
     version: "0.1.0"
     files:
       - readiness.json
+  - pack_id: us_person_nickname_lookup
+    version: "0.1.0"
+    files:
+      - names.csv

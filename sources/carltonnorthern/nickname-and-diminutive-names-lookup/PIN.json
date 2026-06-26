@@ -1,0 +1,12 @@
+{
+  "upstream": "carltonnorthern/nickname-and-diminutive-names-lookup",
+  "base_url": "https://github.com/carltonnorthern/nickname-and-diminutive-names-lookup",
+  "pin": "live-download",
+  "downloaded_at": "2026-06-26",
+  "files": {
+    "names.csv": {
+      "url": "https://raw.githubusercontent.com/carltonnorthern/nickname-and-diminutive-names-lookup/master/names.csv",
+      "sha256": "f370c99f12a564f4f074192ba690f242b7857d53a4ea60257366e365cc63a276"
+    }
+  }
+}
