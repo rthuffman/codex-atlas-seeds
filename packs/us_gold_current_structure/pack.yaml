@@ -1,8 +1,10 @@
 pack_id: us_gold_current_structure
-version: "0.1.0"
+version: "0.2.0"
 requires_atlas_schema_version: "1.2.0"
 description: >
   Gold-current U.S. government structure (119th Congress + 47th administration shell).
   Prospectus ingest envelope without geo records; pairs with us_geo_bootstrap at projection.
+  v0.2.0: 119th House offices/delegations use office_key and delegation_key temp ids
+  (shared with session extend) for reference preflight PID alignment.
 files:
   - envelope.json

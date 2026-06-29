@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.16"
+bundle_version: "0.3.17"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -45,6 +45,10 @@ notes: >
   to Federal Government apex; FHFA + Fannie/Freddie GSE shells). ADR 2026-06-27.
   v0.3.16: adds usg_structure_assigned_attachments — operator-certified 293-row assigned org
   placement inventory from workbench triad (nominee org structure skeleton).
+  v0.3.17: us_gold_current_structure 0.2.0 — 119th House session slice uses shared
+  build_congress_session_intent (office_key + delegation_key stable temp ids, e.g. 119|CA|12
+  / House CA-12) so gold-current Prospectus projection matches reference holder office_key
+  resolution and session-extend topology. Replaces legacy usg-gold-house-* temp ids for 119.
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -76,7 +80,7 @@ packs:
     files:
       - bootstrap.json
   - pack_id: us_gold_current_structure
-    version: "0.1.0"
+    version: "0.2.0"
     files:
       - envelope.json
   - pack_id: us_gold_historical_structure
