@@ -158,6 +158,17 @@ def _validate_policy(policy: dict[str, Any]) -> None:
             raise ValueError(
                 f"legacy_exceptions[{i}] token {token!r} not present in allowed_gold_membership_extra"
             )
+        if applies_to == "administration_membership_gold_subset_years":
+            subset_years = {
+                str(x).strip()
+                for x in (policy.get("administration_membership_gold_subset_years") or [])
+                if str(x).strip()
+            }
+            tokens = {t.strip() for t in token.split(",") if t.strip()}
+            if not tokens.issubset(subset_years):
+                raise ValueError(
+                    f"legacy_exceptions[{i}] token years {sorted(tokens)} not in administration_membership_gold_subset_years"
+                )
         target_date = str(item.get("target_date") or "").strip()
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", target_date):
             raise ValueError(f"legacy_exceptions[{i}] target_date must be YYYY-MM-DD")
@@ -444,6 +455,7 @@ def _compare_admin(
     gold_records: list[dict[str, Any]],
     build_records: list[dict[str, Any]],
     admin_suffix: str,
+    gold_membership_subset: bool = False,
 ) -> list[str]:
     errors: list[str] = []
     n = admin_suffix
@@ -462,7 +474,12 @@ def _compare_admin(
 
     if len(api_orgs) != len(gold_orgs):
         errors.append(f"administration {inauguration_year}: GovernmentalOrg count {len(api_orgs)} != {len(gold_orgs)}")
-    if len(api_mem) != len(gold_mem):
+    if gold_membership_subset:
+        if len(api_mem) < len(gold_mem):
+            errors.append(
+                f"administration {inauguration_year}: Membership count {len(api_mem)} < gold {len(gold_mem)}"
+            )
+    elif len(api_mem) != len(gold_mem):
         errors.append(f"administration {inauguration_year}: Membership count {len(api_mem)} != {len(gold_mem)}")
     if {str(r.get("Name") or "") for r in api_orgs} != {str(r.get("Name") or "") for r in gold_orgs}:
         errors.append(f"administration {inauguration_year}: GovernmentalOrg name set drift")
@@ -474,7 +491,10 @@ def _compare_admin(
         (str(r.get("submission_temp_id") or ""), str(r.get("DoB") or ""), str(r.get("DoE") or "")) for r in gold_mem
     }
     if api_edge_interval != gold_edge_interval:
-        errors.append(f"administration {inauguration_year}: Membership interval drift")
+        if gold_membership_subset and gold_edge_interval.issubset(api_edge_interval):
+            pass
+        else:
+            errors.append(f"administration {inauguration_year}: Membership interval drift")
     return errors
 
 
@@ -595,6 +615,11 @@ def run_parity(
         catalog_only_admin_years = {
             int(x) for x in (policy.get("catalog_only_administration_years") or []) if str(x).strip()
         }
+        admin_membership_gold_subset_years = {
+            int(x)
+            for x in (policy.get("administration_membership_gold_subset_years") or [])
+            if str(x).strip()
+        }
 
         all_records_for_reserved_check: list[dict[str, Any]] = []
         diffs: list[str] = []
@@ -661,6 +686,7 @@ def run_parity(
                             gold_records=gold_records,
                             build_records=intent.records,
                             admin_suffix=suffix,
+                            gold_membership_subset=year in admin_membership_gold_subset_years,
                         )
                     )
                 except ValueError:

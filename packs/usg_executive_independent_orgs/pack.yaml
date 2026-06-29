@@ -1,0 +1,12 @@
+pack_id: usg_executive_independent_orgs
+
+version: "0.2.0"
+
+requires_atlas_schema_version: "1.2.0"
+
+description: Independent, quasi-governmental, and GSE org shells with federal_attachment_class placement (ADR 2026-06-27).
+
+files:
+
+  - catalog.json
+

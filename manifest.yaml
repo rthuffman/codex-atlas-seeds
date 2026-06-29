@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.13"
+bundle_version: "0.3.15"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -39,8 +39,10 @@ notes: >
   v0.3.12: Mesh-band topology corrections — ND loses 2nd seat after 92nd Congress (census_1970
   apportionment ND=1); ND 93rd–95th numbered seat 1, 96th+ at-large A through 119th; CA 118th–119th
   merged to 52 numbered districts (fixes erroneous 12-seat 119th interval).
-  v0.3.13: adds us_person_nickname_lookup — carltonnorthern nickname/diminutive CSV for
-  Artemis person-name compatibility (executive nomination matching, reference search).
+  v0.3.14: adds usg_federal_judiciary_orgs and usg_executive_independent_orgs — nominee org
+  skeleton catalogs (13 circuits, 94 districts, 48 independent executive org shells).
+  v0.3.15: usg_executive_independent_orgs 0.2.0 — federal_attachment_class placement (Fed/USPS/TVA
+  to Federal Government apex; FHFA + Fannie/Freddie GSE shells). ADR 2026-06-27.
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -48,7 +50,7 @@ packs:
     files:
       - catalog.json
   - pack_id: usg_statutory_cabinet_timeline
-    version: "0.1.0"
+    version: "0.3.0"
     files:
       - timeline.json
   - pack_id: usg_house_apportionment_vintages
@@ -95,3 +97,11 @@ packs:
     version: "0.1.0"
     files:
       - names.csv
+  - pack_id: usg_federal_judiciary_orgs
+    version: "0.1.0"
+    files:
+      - catalog.json
+  - pack_id: usg_executive_independent_orgs
+    version: "0.2.0"
+    files:
+      - catalog.json

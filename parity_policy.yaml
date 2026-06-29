@@ -37,6 +37,9 @@ catalog_only_congresses: [1, 40, 80, 100, 118]
 
 catalog_only_administration_years: [1789, 1841, 1865, 1901, 1945, 2013, 2025]
 
+# Timeline v3 cabinet_level rows may exceed gold-detail until athena-codex refreshes phase1-ingest-gold-detail.
+administration_membership_gold_subset_years: [2009, 2021]
+
 allowed_gold_membership_extra:
   - Umbrella to numbered Congress
 
@@ -51,6 +54,18 @@ legacy_exceptions:
     retirement_criteria: |
       Remove this allowance after gold-detail parity source is normalized (or retired)
       so congress membership comparison is fully deterministic without umbrella-only extras.
+    target_date: "2026-09-30"
+  - id: timeline-v3-cabinet-level-membership
+    applies_to: administration_membership_gold_subset_years
+    token: "2009,2021"
+    rationale: |
+      Statutory cabinet timeline format_version 3 adds cabinet_level principal offices
+      (EPA, OMB, USTR, DNI, etc.) with era gates. Gold-detail still reflects format_version 1
+      statutory departments only until the operator refreshes phase1-ingest-gold-detail.
+    owner: artemis-structure
+    retirement_criteria: |
+      Remove administration_membership_gold_subset_years after gold-detail includes
+      cabinet_level Membership edges for affected inauguration years.
     target_date: "2026-09-30"
 
 reserved_prospectus_id_prefix: "72a4cd2a-fa72-774a-a73c-72587"
@@ -77,3 +92,9 @@ builder_fixture_mappings:
   - pack_id: us_house_district_topology
     source_file: topology.json
     builder_fixture_name: us_house_district_topology.json
+  - pack_id: usg_federal_judiciary_orgs
+    source_file: catalog.json
+    builder_fixture_name: usg_federal_judiciary_orgs.json
+  - pack_id: usg_executive_independent_orgs
+    source_file: catalog.json
+    builder_fixture_name: usg_executive_independent_orgs.json

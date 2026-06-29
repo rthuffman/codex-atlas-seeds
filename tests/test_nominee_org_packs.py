@@ -1,0 +1,38 @@
+"""Nominee org skeleton catalog packs (judiciary + independent executive orgs)."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from codex_seeds_ci.repo import find_repo_root
+
+
+def test_judiciary_catalog_counts() -> None:
+    path = find_repo_root() / "packs" / "usg_federal_judiciary_orgs" / "catalog.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert data["circuit_count"] == 13
+    assert data["district_count"] == 94
+    assert len(data["circuits"]) == 13
+    assert len(data["districts"]) == 94
+
+
+def test_independent_orgs_catalog_counts() -> None:
+    path = find_repo_root() / "packs" / "usg_executive_independent_orgs" / "catalog.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert data["org_count"] == 51
+    assert len(data["orgs"]) == 51
+    slugs = {str(row["slug"]) for row in data["orgs"]}
+    assert "usg-org-fed-system" in slugs
+    assert "usg-ent-fannie-mae" in slugs
+
+
+def test_statutory_cabinet_timeline_v3() -> None:
+    path = find_repo_root() / "packs" / "usg_statutory_cabinet_timeline" / "timeline.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert data["format_version"] == 3
+    departments = data["departments"]
+    assert len(departments) >= 15
+    cabinet_level = [row for row in departments if row.get("role_kind") == "cabinet_level"]
+    assert len(cabinet_level) >= 5
+    assert all(str(row.get("org_slug") or "").startswith(("usg-org-", "usg-gold-")) for row in cabinet_level)

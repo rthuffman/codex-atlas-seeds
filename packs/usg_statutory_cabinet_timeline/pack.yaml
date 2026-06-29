@@ -1,6 +1,6 @@
 pack_id: usg_statutory_cabinet_timeline
-version: "0.1.0"
-requires_atlas_schema_version: "1.1.0"
-description: Era-correct statutory cabinet department participation by inauguration year.
+version: "0.3.0"
+requires_atlas_schema_version: "1.2.0"
+description: Statutory departments and cabinet-level principal offices with era gates (format_version 3).
 files:
   - timeline.json

@@ -250,7 +250,9 @@ def validate_house_district_topology(data: dict[str, Any], *, path: str) -> list
             errors.append(f"{path}: intervals[{i}] missing source_authority")
         if str(raw.get("review_status") or "").strip() != "reviewed":
             errors.append(f"{path}: intervals[{i}] review_status must be reviewed")
-        if first >= 92 and (at_large or raw.get("plural_districts")):
+        # Post-92nd: multi-seat states use numbered districts only. Single-seat states
+        # (apportionment=1) legitimately use statewide at-large seat code A (ND/MT/SD).
+        if first >= 92 and numbered > 0 and at_large > 0:
             errors.append(f"{path}: intervals[{i}] violates post-92nd single-member district invariant")
         plural = raw.get("plural_districts") or []
         if plural and not isinstance(plural, list):
@@ -265,8 +267,12 @@ def validate_house_district_topology(data: dict[str, Any], *, path: str) -> list
             except (KeyError, TypeError, ValueError):
                 errors.append(f"{path}: intervals[{i}].plural_districts[{j}] invalid district/seat_count")
                 continue
-            if district < 1 or seat_count < 2:
-                errors.append(f"{path}: intervals[{i}].plural_districts[{j}] seat_count must be >= 2")
+            includes_numbered = bool(p_raw.get("includes_numbered_seat"))
+            min_seats = 1 if includes_numbered else 2
+            if district < 1 or seat_count < min_seats:
+                errors.append(
+                    f"{path}: intervals[{i}].plural_districts[{j}] seat_count must be >= {min_seats}"
+                )
         ranges = seen_ranges.setdefault(postal, [])
         for prev_first, prev_last, prev_i in ranges:
             if prev_first <= last and first <= prev_last:
