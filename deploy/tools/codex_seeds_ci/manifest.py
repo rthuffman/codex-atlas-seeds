@@ -318,6 +318,35 @@ def validate_house_legislators_term_index(data: dict[str, Any], *, path: str) ->
     return errors
 
 
+def validate_structure_assigned_attachments(data: dict[str, Any], *, path: str) -> list[str]:
+    errors: list[str] = []
+    if int(data.get("format_version") or 0) != 1:
+        errors.append(f"{path}: format_version must be 1")
+    attachments = data.get("attachments")
+    if not isinstance(attachments, list) or not attachments:
+        errors.append(f"{path}: attachments must be a non-empty list")
+        return errors
+    count = data.get("attachment_count")
+    if count is not None and int(count) != len(attachments):
+        errors.append(f"{path}: attachment_count mismatch")
+    parents = data.get("parent_vertices")
+    if not isinstance(parents, dict) or not parents:
+        errors.append(f"{path}: parent_vertices must be a non-empty object")
+    seen: set[str] = set()
+    for i, raw in enumerate(attachments):
+        if not isinstance(raw, dict):
+            errors.append(f"{path}: attachments[{i}] must be an object")
+            continue
+        slug = str(raw.get("org_slug") or "").strip()
+        if not slug:
+            errors.append(f"{path}: attachments[{i}] missing org_slug")
+            continue
+        if slug in seen:
+            errors.append(f"{path}: attachments[{i}] duplicate org_slug {slug!r}")
+        seen.add(slug)
+    return errors
+
+
 def validate_pack_payloads(repo_root: Path) -> list[str]:
     errors: list[str] = []
     validators: dict[tuple[str, str], Any] = {
@@ -328,6 +357,7 @@ def validate_pack_payloads(repo_root: Path) -> list[str]:
         ("usg_house_non_voting_delegate_seats", "delegates.json"): validate_delegate_seats,
         ("us_house_district_topology", "topology.json"): validate_house_district_topology,
         ("us_house_legislators_term_index", "term_index.json"): validate_house_legislators_term_index,
+        ("usg_structure_assigned_attachments", "catalog.json"): validate_structure_assigned_attachments,
     }
     for pack_dir in discover_packs(repo_root):
         pack = load_pack_manifest(pack_dir)

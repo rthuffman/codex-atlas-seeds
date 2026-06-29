@@ -1,0 +1,11 @@
+pack_id: usg_structure_assigned_attachments
+
+version: "0.1.0"
+
+requires_atlas_schema_version: "1.2.0"
+
+description: Operator-certified assigned org placement inventory (293 attachment rows).
+
+files:
+
+  - catalog.json

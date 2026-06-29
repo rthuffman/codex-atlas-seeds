@@ -36,3 +36,15 @@ def test_statutory_cabinet_timeline_v3() -> None:
     cabinet_level = [row for row in departments if row.get("role_kind") == "cabinet_level"]
     assert len(cabinet_level) >= 5
     assert all(str(row.get("org_slug") or "").startswith(("usg-org-", "usg-gold-")) for row in cabinet_level)
+
+
+def test_structure_assigned_attachments_pack() -> None:
+    path = find_repo_root() / "packs" / "usg_structure_assigned_attachments" / "catalog.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert data["attachment_count"] == 293
+    assert len(data["attachments"]) == 293
+    assert data["certification_status"] == "certified"
+    assert "usg-gold-leg-v00001" in data["parent_vertices"]
+    slugs = {str(r["org_slug"]) for r in data["attachments"]}
+    assert "usg-org-epa" in slugs
+    assert "usg-org-circuit-ninth" in slugs

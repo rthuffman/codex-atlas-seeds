@@ -1,5 +1,5 @@
 bundle_format_version: 1
-bundle_version: "0.3.15"
+bundle_version: "0.3.16"
 requires_atlas_schema_version: "1.2.0"
 notes: >
   Authoritative pack list for codex-atlas-seeds release bundles.
@@ -43,6 +43,8 @@ notes: >
   skeleton catalogs (13 circuits, 94 districts, 48 independent executive org shells).
   v0.3.15: usg_executive_independent_orgs 0.2.0 — federal_attachment_class placement (Fed/USPS/TVA
   to Federal Government apex; FHFA + Fannie/Freddie GSE shells). ADR 2026-06-27.
+  v0.3.16: adds usg_structure_assigned_attachments — operator-certified 293-row assigned org
+  placement inventory from workbench triad (nominee org structure skeleton).
   Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
 packs:
   - pack_id: usg_administration_skeleton
@@ -103,5 +105,9 @@ packs:
       - catalog.json
   - pack_id: usg_executive_independent_orgs
     version: "0.2.0"
+    files:
+      - catalog.json
+  - pack_id: usg_structure_assigned_attachments
+    version: "0.1.0"
     files:
       - catalog.json
