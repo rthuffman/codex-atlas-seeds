@@ -1,0 +1,13 @@
+pack_id: usg_appointed_offices
+
+version: "0.1.0-appointed-1"
+
+requires_atlas_schema_version: "1.2.0"
+
+description: >
+  Operator-certified appointed federal office structure (constitutional, statutory,
+  independent agencies, Article III judiciary). ADR 2026-07-01.
+
+files:
+
+  - catalog.json

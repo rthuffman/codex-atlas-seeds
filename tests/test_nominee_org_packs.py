@@ -48,3 +48,17 @@ def test_structure_assigned_attachments_pack() -> None:
     slugs = {str(r["org_slug"]) for r in data["attachments"]}
     assert "usg-org-epa" in slugs
     assert "usg-org-circuit-ninth" in slugs
+
+
+def test_appointed_offices_catalog_counts() -> None:
+    path = find_repo_root() / "packs" / "usg_appointed_offices" / "catalog.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert data["certification_status"] == "certified"
+    assert data["office_count"] >= 200
+    assert len(data["offices"]) == data["office_count"]
+    assert "potus" in data["offices"]
+    assert "scotus" in data["offices"]
+    judicial = [
+        key for key, row in data["offices"].items() if str(row.get("role_kind") or "") == "judicial"
+    ]
+    assert len(judicial) >= 50

@@ -98,3 +98,6 @@ builder_fixture_mappings:
   - pack_id: usg_executive_independent_orgs
     source_file: catalog.json
     builder_fixture_name: usg_executive_independent_orgs.json
+  - pack_id: usg_appointed_offices
+    source_file: catalog.json
+    builder_fixture_name: usg_appointed_offices.json

@@ -1,117 +1,75 @@
 bundle_format_version: 1
-bundle_version: "0.3.17"
-requires_atlas_schema_version: "1.2.0"
-notes: >
-  Authoritative pack list for codex-atlas-seeds release bundles.
-  ADR: athena-codex docs/decisions/2026-05-20-codex-atlas-seeds-reference-packs.md
-  v0.2.0: 1789 USG catalog slice (admin, apportionment, session bounds, seating, delegates).
-  v0.3.0: adds Prospectus projection packs — us_geo_bootstrap, us_gold_current_structure,
-  us_gold_historical_structure (Option B: Atlas apply then bootstrap projection to Prospectus).
-  v0.3.1: removes stale optional L1/L2/L3 from projection packs so Athena derives taxonomy from VertexType/EdgeType.
-  v0.3.2: adds us_house_legislators_term_index — derived House holder lookup from congress-legislators (catalog pack).
-  v0.3.3: tainted/superseded — inferred topology rows blurred plural districts and at-large seats.
-  v0.3.4: corrective topology schema v2 with reviewed rows only, plural district seat codes,
-  and term_index format_version 2.
-  v0.3.5: Phase AT general-ticket promotion — reviewed statewide_general_ticket rows for the
-  early at-large era (CT, NH, NJ, RI, DE, GA, VT) + CT 8th-Congress seat crosswalk; term_index
-  regenerated so multi-member at-large delegations resolve to A..N seat codes (fixes CT-2/8th miss).
-  Also corrects the structural apportionment off-by-one (usg_house_apportionment_vintages 0.2.1):
-  every census now maps to the Congress where it took effect, so boundary-Congress seat counts and
-  the general-ticket at-large counts are historically accurate (e.g. CT had 5 seats for the 2nd
-  Congress, 7 from the 3rd).
-  v0.3.6: adds usg_congress_session_readiness — Gate C operator certification catalog for
-  next-session structure mint (ADR 2026-06-08); trims 2020 apportionment vintage to 118–122.
-  v0.3.7: Civil War House structural corrections — admission/split apportionment overrides,
-  operator-gold topology for congresses 36-41, and regenerated topology-aware term index.
-  v0.3.8: Civil War operator-gold term index overlay for congresses 36-41 — holder spans,
-  vacant office keys, and bioguide pins (e.g. KS Conway) from certified gold YAML; removes
-  topology-extra term-index keys (MO-37 A/B/C, KY-40 A, VA 9-11 post-split).
-  v0.3.9: Prune all non-gold term-index office_key residue in congresses 36-41 (75 legacy
-  congress-legislators keys with wrong seat codes, e.g. 36|KS|1 vs gold 36|KS|A).
-  v0.3.10: Post-reconstruction operator gold (congresses 42-79) — topology intervals from
-  certified YAML, admission apportionment overrides (CO, western states, UT, OK, AZ, NM),
-  and gold-authoritative term index overlay.
-  v0.3.11: Pre-Civil War operator gold (congresses 1-35) — topology intervals with
-  plural-district suffix seat codes (N-A, N-B, …), admission apportionment overrides,
-  and gold-authoritative term index overlay from certified pre-civil war congress.yaml.
-  Topology-extra vs gold (plain digitization labels collapsed by House records) is
-  expected where seeds retain legacy plain district codes alongside gold suffix codes.
-  v0.3.12: Mesh-band topology corrections — ND loses 2nd seat after 92nd Congress (census_1970
-  apportionment ND=1); ND 93rd–95th numbered seat 1, 96th+ at-large A through 119th; CA 118th–119th
-  merged to 52 numbered districts (fixes erroneous 12-seat 119th interval).
-  v0.3.14: adds usg_federal_judiciary_orgs and usg_executive_independent_orgs — nominee org
-  skeleton catalogs (13 circuits, 94 districts, 48 independent executive org shells).
-  v0.3.15: usg_executive_independent_orgs 0.2.0 — federal_attachment_class placement (Fed/USPS/TVA
-  to Federal Government apex; FHFA + Fannie/Freddie GSE shells). ADR 2026-06-27.
-  v0.3.16: adds usg_structure_assigned_attachments — operator-certified 293-row assigned org
-  placement inventory from workbench triad (nominee org structure skeleton).
-  v0.3.17: us_gold_current_structure 0.2.0 — 119th House session slice uses shared
-  build_congress_session_intent (office_key + delegation_key stable temp ids, e.g. 119|CA|12
-  / House CA-12) so gold-current Prospectus projection matches reference holder office_key
-  resolution and session-extend topology. Replaces legacy usg-gold-house-* temp ids for 119.
-  Stable reference edits are one-way to this repo (see ADR 2026-05-21 stable-reference policy).
+bundle_version: 0.3.18
+requires_atlas_schema_version: 1.2.0
+notes: 'v0.3.18: adds usg_appointed_offices (230 operator-certified office blocks;
+  constitutional, statutory, independent agencies, Article III judiciary). Prior notes
+  through v0.3.17 retained in git history.'
 packs:
-  - pack_id: usg_administration_skeleton
-    version: "0.2.0"
-    files:
-      - catalog.json
-  - pack_id: usg_statutory_cabinet_timeline
-    version: "0.3.0"
-    files:
-      - timeline.json
-  - pack_id: usg_house_apportionment_vintages
-    version: "0.2.5"
-    files:
-      - vintages.json
-  - pack_id: usg_congress_session_bounds
-    version: "0.2.0"
-    files:
-      - bounds.json
-  - pack_id: usg_congress_state_seating
-    version: "0.2.0"
-    files:
-      - seating.json
-  - pack_id: usg_house_non_voting_delegate_seats
-    version: "0.2.0"
-    files:
-      - delegates.json
-  - pack_id: us_geo_bootstrap
-    version: "0.1.1"
-    files:
-      - bootstrap.json
-  - pack_id: us_gold_current_structure
-    version: "0.2.0"
-    files:
-      - envelope.json
-  - pack_id: us_gold_historical_structure
-    version: "0.1.0"
-    files:
-      - envelope.json
-  - pack_id: us_house_district_topology
-    version: "0.2.5"
-    files:
-      - topology.json
-  - pack_id: us_house_legislators_term_index
-    version: "0.2.6"
-    files:
-      - term_index.json
-  - pack_id: usg_congress_session_readiness
-    version: "0.1.0"
-    files:
-      - readiness.json
-  - pack_id: us_person_nickname_lookup
-    version: "0.1.0"
-    files:
-      - names.csv
-  - pack_id: usg_federal_judiciary_orgs
-    version: "0.1.0"
-    files:
-      - catalog.json
-  - pack_id: usg_executive_independent_orgs
-    version: "0.2.0"
-    files:
-      - catalog.json
-  - pack_id: usg_structure_assigned_attachments
-    version: "0.1.0"
-    files:
-      - catalog.json
+- pack_id: usg_administration_skeleton
+  version: 0.2.0
+  files:
+  - catalog.json
+- pack_id: usg_statutory_cabinet_timeline
+  version: 0.3.0
+  files:
+  - timeline.json
+- pack_id: usg_house_apportionment_vintages
+  version: 0.2.5
+  files:
+  - vintages.json
+- pack_id: usg_congress_session_bounds
+  version: 0.2.0
+  files:
+  - bounds.json
+- pack_id: usg_congress_state_seating
+  version: 0.2.0
+  files:
+  - seating.json
+- pack_id: usg_house_non_voting_delegate_seats
+  version: 0.2.0
+  files:
+  - delegates.json
+- pack_id: us_geo_bootstrap
+  version: 0.1.1
+  files:
+  - bootstrap.json
+- pack_id: us_gold_current_structure
+  version: 0.2.0
+  files:
+  - envelope.json
+- pack_id: us_gold_historical_structure
+  version: 0.1.0
+  files:
+  - envelope.json
+- pack_id: us_house_district_topology
+  version: 0.2.5
+  files:
+  - topology.json
+- pack_id: us_house_legislators_term_index
+  version: 0.2.6
+  files:
+  - term_index.json
+- pack_id: usg_congress_session_readiness
+  version: 0.1.0
+  files:
+  - readiness.json
+- pack_id: us_person_nickname_lookup
+  version: 0.1.0
+  files:
+  - names.csv
+- pack_id: usg_federal_judiciary_orgs
+  version: 0.1.0
+  files:
+  - catalog.json
+- pack_id: usg_executive_independent_orgs
+  version: 0.2.0
+  files:
+  - catalog.json
+- pack_id: usg_structure_assigned_attachments
+  version: 0.1.0
+  files:
+  - catalog.json
+- pack_id: usg_appointed_offices
+  version: 0.1.0-appointed-1
+  files:
+  - catalog.json
