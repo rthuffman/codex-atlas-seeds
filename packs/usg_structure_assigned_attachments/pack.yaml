@@ -1,10 +1,12 @@
 pack_id: usg_structure_assigned_attachments
 
-version: "0.1.0"
+version: "0.1.1"
 
 requires_atlas_schema_version: "1.2.0"
 
-description: Operator-certified assigned org placement inventory (293 attachment rows).
+description: >
+  Operator-certified assigned org placement inventory. Statutory departments parent to
+  Executive Branch as executive_department (not enduring Cabinet statutory_cabinet_member).
 
 files:
 

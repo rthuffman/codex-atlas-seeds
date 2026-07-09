@@ -1,12 +1,8 @@
 pack_id: usg_federal_judiciary_orgs
-
-version: "0.1.0"
-
+version: "0.2.0"
 requires_atlas_schema_version: "1.2.0"
-
-description: Federal courts of appeals and district courts (28 USC / uscourts.gov structure inventory).
-
+description: >
+  Federal courts of appeals and district courts (28 USC / uscourts.gov), plus historical
+  circuit/district orgs with DoB/DoE and a catch-all for other federal judicial service.
 files:
-
   - catalog.json
-

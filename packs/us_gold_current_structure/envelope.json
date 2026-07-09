@@ -13,7 +13,7 @@
     "DoB": "2025-01-20",
     "DoE": null
   },
-  "notes": "Gold-current U.S. government structure for Prospectus bootstrap projection: 119th Congress scaffold + 47th presidential administration shell. Excludes geo bootstrap records (us_geo_bootstrap pack). Structural only — no Person vertices and no HoldsSeat edges. 119th House session slice uses build_congress_session_intent (office_key + delegation_key).",
+  "notes": "Gold-current U.S. government structure for Prospectus bootstrap projection: 119th Congress scaffold + 47th presidential administration shell. Excludes geo bootstrap records (us_geo_bootstrap pack). Structural only — no Person vertices and no HoldsSeat edges. 119th House session slice uses build_congress_session_intent (office_key + delegation_key). v0.3.0 reshape: each statutory department is Department → Secretary-office GovernmentalOrg (usg-gold-sos-*) → Cabinet secretary Office seat; removed department→enduring-Cabinet Membership.",
   "records": [
     {
       "VertexType": "Office",
@@ -9151,11 +9151,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00570",
+      "Name": "Office of the Secretary of State",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of State within Department of State (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00571",
-      "Name": "Office of the Secretary of State",
+      "Name": "Secretary of State",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of State (Secretary of State)."
+      "Blurb": "Principal seat for Department of State (Secretary of State). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9174,11 +9181,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00572",
+      "Name": "Office of the Secretary of the Treasury",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of the Treasury within Department of the Treasury (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00573",
-      "Name": "Office of the Secretary of the Treasury",
+      "Name": "Secretary of the Treasury",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of the Treasury (Secretary of the Treasury)."
+      "Blurb": "Principal seat for Department of the Treasury (Secretary of the Treasury). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9197,11 +9211,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00574",
+      "Name": "Office of the Secretary of Defense",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Defense within Department of Defense (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00575",
-      "Name": "Office of the Secretary of Defense",
+      "Name": "Secretary of Defense",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Defense (Secretary of Defense)."
+      "Blurb": "Principal seat for Department of Defense (Secretary of Defense). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9220,11 +9241,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00576",
+      "Name": "Office of the Attorney General",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Attorney General within Department of Justice (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00577",
-      "Name": "Office of the Attorney General",
+      "Name": "Attorney General",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Justice (Attorney General)."
+      "Blurb": "Principal seat for Department of Justice (Attorney General). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9243,11 +9271,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00578",
+      "Name": "Office of the Secretary of the Interior",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of the Interior within Department of the Interior (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00579",
-      "Name": "Office of the Secretary of the Interior",
+      "Name": "Secretary of the Interior",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of the Interior (Secretary of the Interior)."
+      "Blurb": "Principal seat for Department of the Interior (Secretary of the Interior). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9266,11 +9301,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00580",
+      "Name": "Office of the Secretary of Agriculture",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Agriculture within Department of Agriculture (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00581",
-      "Name": "Office of the Secretary of Agriculture",
+      "Name": "Secretary of Agriculture",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Agriculture (Secretary of Agriculture)."
+      "Blurb": "Principal seat for Department of Agriculture (Secretary of Agriculture). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9289,11 +9331,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00582",
+      "Name": "Office of the Secretary of Commerce",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Commerce within Department of Commerce (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00583",
-      "Name": "Office of the Secretary of Commerce",
+      "Name": "Secretary of Commerce",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Commerce (Secretary of Commerce)."
+      "Blurb": "Principal seat for Department of Commerce (Secretary of Commerce). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9312,11 +9361,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00584",
+      "Name": "Office of the Secretary of Labor",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Labor within Department of Labor (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00585",
-      "Name": "Office of the Secretary of Labor",
+      "Name": "Secretary of Labor",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Labor (Secretary of Labor)."
+      "Blurb": "Principal seat for Department of Labor (Secretary of Labor). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9335,11 +9391,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00586",
+      "Name": "Office of the Secretary of Health and Human Services",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Health and Human Services within Department of Health and Human Services (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00587",
-      "Name": "Office of the Secretary of Health and Human Services",
+      "Name": "Secretary of Health and Human Services",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Health and Human Services (Secretary of Health and Human Services)."
+      "Blurb": "Principal seat for Department of Health and Human Services (Secretary of Health and Human Services). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9358,11 +9421,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00588",
+      "Name": "Office of the Secretary of Housing and Urban Development",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Housing and Urban Development within Department of Housing and Urban Development (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00589",
-      "Name": "Office of the Secretary of Housing and Urban Development",
+      "Name": "Secretary of Housing and Urban Development",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Housing and Urban Development (Secretary of Housing and Urban Development)."
+      "Blurb": "Principal seat for Department of Housing and Urban Development (Secretary of Housing and Urban Development). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9381,11 +9451,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00590",
+      "Name": "Office of the Secretary of Transportation",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Transportation within Department of Transportation (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00591",
-      "Name": "Office of the Secretary of Transportation",
+      "Name": "Secretary of Transportation",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Transportation (Secretary of Transportation)."
+      "Blurb": "Principal seat for Department of Transportation (Secretary of Transportation). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9404,11 +9481,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00592",
+      "Name": "Office of the Secretary of Energy",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Energy within Department of Energy (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00593",
-      "Name": "Office of the Secretary of Energy",
+      "Name": "Secretary of Energy",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Energy (Secretary of Energy)."
+      "Blurb": "Principal seat for Department of Energy (Secretary of Energy). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9427,11 +9511,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00594",
+      "Name": "Office of the Secretary of Education",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Education within Department of Education (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00595",
-      "Name": "Office of the Secretary of Education",
+      "Name": "Secretary of Education",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Education (Secretary of Education)."
+      "Blurb": "Principal seat for Department of Education (Secretary of Education). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9450,11 +9541,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00596",
+      "Name": "Office of the Secretary of Veterans Affairs",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Veterans Affairs within Department of Veterans Affairs (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00597",
-      "Name": "Office of the Secretary of Veterans Affairs",
+      "Name": "Secretary of Veterans Affairs",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Veterans Affairs (Secretary of Veterans Affairs)."
+      "Blurb": "Principal seat for Department of Veterans Affairs (Secretary of Veterans Affairs). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -9473,11 +9571,18 @@
       ]
     },
     {
+      "VertexType": "GovernmentalOrg",
+      "submission_temp_id": "usg-gold-sos-v00598",
+      "Name": "Office of the Secretary of Homeland Security",
+      "Sticker": "Secretary office",
+      "Blurb": "Office of the Secretary of Homeland Security within Department of Homeland Security (structural gold; no named officeholder)."
+    },
+    {
       "VertexType": "Office",
       "submission_temp_id": "usg-gold-dept-v00599",
-      "Name": "Office of the Secretary of Homeland Security",
+      "Name": "Secretary of Homeland Security",
       "Sticker": "Cabinet secretary",
-      "Blurb": "Principal officer seat for Department of Homeland Security (Secretary of Homeland Security)."
+      "Blurb": "Principal seat for Department of Homeland Security (Secretary of Homeland Security). Cabinet secretary seat as structural gold (no named officeholder)."
     },
     {
       "VertexType": "GovernmentalOrg",
@@ -18009,121 +18114,241 @@
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00004",
       "from_vertex_temp_id": "usg-gold-dept-v00571",
-      "to_vertex_temp_id": "usg-gold-dept-v00570",
+      "to_vertex_temp_id": "usg-gold-sos-v00570",
       "Sticker": "SeatOf Secretary of State",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of State is the principal seat of the Office of the Secretary of State."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00570",
+      "from_vertex_temp_id": "usg-gold-sos-v00570",
+      "to_vertex_temp_id": "usg-gold-dept-v00570",
+      "Sticker": "Office of the Secretary of State in Department of State",
+      "Blurb": "Office of the Secretary of State is organized within Department of State."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00005",
       "from_vertex_temp_id": "usg-gold-dept-v00573",
-      "to_vertex_temp_id": "usg-gold-dept-v00572",
+      "to_vertex_temp_id": "usg-gold-sos-v00572",
       "Sticker": "SeatOf Secretary of the Treasury",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of the Treasury is the principal seat of the Office of the Secretary of the Treasury."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00572",
+      "from_vertex_temp_id": "usg-gold-sos-v00572",
+      "to_vertex_temp_id": "usg-gold-dept-v00572",
+      "Sticker": "Office of the Secretary of the Treasury in Department of the Treasury",
+      "Blurb": "Office of the Secretary of the Treasury is organized within Department of the Treasury."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00006",
       "from_vertex_temp_id": "usg-gold-dept-v00575",
-      "to_vertex_temp_id": "usg-gold-dept-v00574",
+      "to_vertex_temp_id": "usg-gold-sos-v00574",
       "Sticker": "SeatOf Secretary of Defense",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Defense is the principal seat of the Office of the Secretary of Defense."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00574",
+      "from_vertex_temp_id": "usg-gold-sos-v00574",
+      "to_vertex_temp_id": "usg-gold-dept-v00574",
+      "Sticker": "Office of the Secretary of Defense in Department of Defense",
+      "Blurb": "Office of the Secretary of Defense is organized within Department of Defense."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00007",
       "from_vertex_temp_id": "usg-gold-dept-v00577",
-      "to_vertex_temp_id": "usg-gold-dept-v00576",
+      "to_vertex_temp_id": "usg-gold-sos-v00576",
       "Sticker": "SeatOf Attorney General",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Attorney General is the principal seat of the Office of the Attorney General."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00576",
+      "from_vertex_temp_id": "usg-gold-sos-v00576",
+      "to_vertex_temp_id": "usg-gold-dept-v00576",
+      "Sticker": "Office of the Attorney General in Department of Justice",
+      "Blurb": "Office of the Attorney General is organized within Department of Justice."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00008",
       "from_vertex_temp_id": "usg-gold-dept-v00579",
-      "to_vertex_temp_id": "usg-gold-dept-v00578",
+      "to_vertex_temp_id": "usg-gold-sos-v00578",
       "Sticker": "SeatOf Secretary of the Interior",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of the Interior is the principal seat of the Office of the Secretary of the Interior."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00578",
+      "from_vertex_temp_id": "usg-gold-sos-v00578",
+      "to_vertex_temp_id": "usg-gold-dept-v00578",
+      "Sticker": "Office of the Secretary of the Interior in Department of the Interior",
+      "Blurb": "Office of the Secretary of the Interior is organized within Department of the Interior."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00009",
       "from_vertex_temp_id": "usg-gold-dept-v00581",
-      "to_vertex_temp_id": "usg-gold-dept-v00580",
+      "to_vertex_temp_id": "usg-gold-sos-v00580",
       "Sticker": "SeatOf Secretary of Agriculture",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Agriculture is the principal seat of the Office of the Secretary of Agriculture."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00580",
+      "from_vertex_temp_id": "usg-gold-sos-v00580",
+      "to_vertex_temp_id": "usg-gold-dept-v00580",
+      "Sticker": "Office of the Secretary of Agriculture in Department of Agriculture",
+      "Blurb": "Office of the Secretary of Agriculture is organized within Department of Agriculture."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00010",
       "from_vertex_temp_id": "usg-gold-dept-v00583",
-      "to_vertex_temp_id": "usg-gold-dept-v00582",
+      "to_vertex_temp_id": "usg-gold-sos-v00582",
       "Sticker": "SeatOf Secretary of Commerce",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Commerce is the principal seat of the Office of the Secretary of Commerce."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00582",
+      "from_vertex_temp_id": "usg-gold-sos-v00582",
+      "to_vertex_temp_id": "usg-gold-dept-v00582",
+      "Sticker": "Office of the Secretary of Commerce in Department of Commerce",
+      "Blurb": "Office of the Secretary of Commerce is organized within Department of Commerce."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00011",
       "from_vertex_temp_id": "usg-gold-dept-v00585",
-      "to_vertex_temp_id": "usg-gold-dept-v00584",
+      "to_vertex_temp_id": "usg-gold-sos-v00584",
       "Sticker": "SeatOf Secretary of Labor",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Labor is the principal seat of the Office of the Secretary of Labor."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00584",
+      "from_vertex_temp_id": "usg-gold-sos-v00584",
+      "to_vertex_temp_id": "usg-gold-dept-v00584",
+      "Sticker": "Office of the Secretary of Labor in Department of Labor",
+      "Blurb": "Office of the Secretary of Labor is organized within Department of Labor."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00012",
       "from_vertex_temp_id": "usg-gold-dept-v00587",
-      "to_vertex_temp_id": "usg-gold-dept-v00586",
+      "to_vertex_temp_id": "usg-gold-sos-v00586",
       "Sticker": "SeatOf Secretary of Health and Human Services",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Health and Human Services is the principal seat of the Office of the Secretary of Health and Human Services."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00586",
+      "from_vertex_temp_id": "usg-gold-sos-v00586",
+      "to_vertex_temp_id": "usg-gold-dept-v00586",
+      "Sticker": "Office of the Secretary of Health and Human Services in Department of Health and Human Services",
+      "Blurb": "Office of the Secretary of Health and Human Services is organized within Department of Health and Human Services."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00013",
       "from_vertex_temp_id": "usg-gold-dept-v00589",
-      "to_vertex_temp_id": "usg-gold-dept-v00588",
+      "to_vertex_temp_id": "usg-gold-sos-v00588",
       "Sticker": "SeatOf Secretary of Housing and Urban Development",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Housing and Urban Development is the principal seat of the Office of the Secretary of Housing and Urban Development."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00588",
+      "from_vertex_temp_id": "usg-gold-sos-v00588",
+      "to_vertex_temp_id": "usg-gold-dept-v00588",
+      "Sticker": "Office of the Secretary of Housing and Urban Development in Department of Housing and Urban Development",
+      "Blurb": "Office of the Secretary of Housing and Urban Development is organized within Department of Housing and Urban Development."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00014",
       "from_vertex_temp_id": "usg-gold-dept-v00591",
-      "to_vertex_temp_id": "usg-gold-dept-v00590",
+      "to_vertex_temp_id": "usg-gold-sos-v00590",
       "Sticker": "SeatOf Secretary of Transportation",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Transportation is the principal seat of the Office of the Secretary of Transportation."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00590",
+      "from_vertex_temp_id": "usg-gold-sos-v00590",
+      "to_vertex_temp_id": "usg-gold-dept-v00590",
+      "Sticker": "Office of the Secretary of Transportation in Department of Transportation",
+      "Blurb": "Office of the Secretary of Transportation is organized within Department of Transportation."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00015",
       "from_vertex_temp_id": "usg-gold-dept-v00593",
-      "to_vertex_temp_id": "usg-gold-dept-v00592",
+      "to_vertex_temp_id": "usg-gold-sos-v00592",
       "Sticker": "SeatOf Secretary of Energy",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Energy is the principal seat of the Office of the Secretary of Energy."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00592",
+      "from_vertex_temp_id": "usg-gold-sos-v00592",
+      "to_vertex_temp_id": "usg-gold-dept-v00592",
+      "Sticker": "Office of the Secretary of Energy in Department of Energy",
+      "Blurb": "Office of the Secretary of Energy is organized within Department of Energy."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00016",
       "from_vertex_temp_id": "usg-gold-dept-v00595",
-      "to_vertex_temp_id": "usg-gold-dept-v00594",
+      "to_vertex_temp_id": "usg-gold-sos-v00594",
       "Sticker": "SeatOf Secretary of Education",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Education is the principal seat of the Office of the Secretary of Education."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00594",
+      "from_vertex_temp_id": "usg-gold-sos-v00594",
+      "to_vertex_temp_id": "usg-gold-dept-v00594",
+      "Sticker": "Office of the Secretary of Education in Department of Education",
+      "Blurb": "Office of the Secretary of Education is organized within Department of Education."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00017",
       "from_vertex_temp_id": "usg-gold-dept-v00597",
-      "to_vertex_temp_id": "usg-gold-dept-v00596",
+      "to_vertex_temp_id": "usg-gold-sos-v00596",
       "Sticker": "SeatOf Secretary of Veterans Affairs",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Veterans Affairs is the principal seat of the Office of the Secretary of Veterans Affairs."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00596",
+      "from_vertex_temp_id": "usg-gold-sos-v00596",
+      "to_vertex_temp_id": "usg-gold-dept-v00596",
+      "Sticker": "Office of the Secretary of Veterans Affairs in Department of Veterans Affairs",
+      "Blurb": "Office of the Secretary of Veterans Affairs is organized within Department of Veterans Affairs."
     },
     {
       "EdgeType": "SeatOf",
       "submission_temp_id": "usg-gold-exec-e00018",
       "from_vertex_temp_id": "usg-gold-dept-v00599",
-      "to_vertex_temp_id": "usg-gold-dept-v00598",
+      "to_vertex_temp_id": "usg-gold-sos-v00598",
       "Sticker": "SeatOf Secretary of Homeland Security",
-      "Blurb": "Secretary office is seat of the department."
+      "Blurb": "Secretary of Homeland Security is the principal seat of the Office of the Secretary of Homeland Security."
+    },
+    {
+      "EdgeType": "Membership",
+      "submission_temp_id": "usg-gold-sos-mem-v00598",
+      "from_vertex_temp_id": "usg-gold-sos-v00598",
+      "to_vertex_temp_id": "usg-gold-dept-v00598",
+      "Sticker": "Office of the Secretary of Homeland Security in Department of Homeland Security",
+      "Blurb": "Office of the Secretary of Homeland Security is organized within Department of Homeland Security."
     },
     {
       "EdgeType": "SeatOf",
@@ -18284,126 +18509,6 @@
       "to_vertex_temp_id": "usg-gold-exec-v00564",
       "Sticker": "Cabinet in executive",
       "Blurb": "Cabinet under Executive Branch."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00017",
-      "from_vertex_temp_id": "usg-gold-dept-v00570",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of State in Cabinet",
-      "Blurb": "Department of State is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00018",
-      "from_vertex_temp_id": "usg-gold-dept-v00572",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of the Treasury in Cabinet",
-      "Blurb": "Department of the Treasury is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00019",
-      "from_vertex_temp_id": "usg-gold-dept-v00574",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Defense in Cabinet",
-      "Blurb": "Department of Defense is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00020",
-      "from_vertex_temp_id": "usg-gold-dept-v00576",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Justice in Cabinet",
-      "Blurb": "Department of Justice is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00021",
-      "from_vertex_temp_id": "usg-gold-dept-v00578",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of the Interior in Cabinet",
-      "Blurb": "Department of the Interior is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00022",
-      "from_vertex_temp_id": "usg-gold-dept-v00580",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Agriculture in Cabinet",
-      "Blurb": "Department of Agriculture is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00023",
-      "from_vertex_temp_id": "usg-gold-dept-v00582",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Commerce in Cabinet",
-      "Blurb": "Department of Commerce is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00024",
-      "from_vertex_temp_id": "usg-gold-dept-v00584",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Labor in Cabinet",
-      "Blurb": "Department of Labor is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00025",
-      "from_vertex_temp_id": "usg-gold-dept-v00586",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Health and Human Services in Cabinet",
-      "Blurb": "Department of Health and Human Services is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00026",
-      "from_vertex_temp_id": "usg-gold-dept-v00588",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Housing and Urban Development in Cabinet",
-      "Blurb": "Department of Housing and Urban Development is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00027",
-      "from_vertex_temp_id": "usg-gold-dept-v00590",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Transportation in Cabinet",
-      "Blurb": "Department of Transportation is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00028",
-      "from_vertex_temp_id": "usg-gold-dept-v00592",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Energy in Cabinet",
-      "Blurb": "Department of Energy is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00029",
-      "from_vertex_temp_id": "usg-gold-dept-v00594",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Education in Cabinet",
-      "Blurb": "Department of Education is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00030",
-      "from_vertex_temp_id": "usg-gold-dept-v00596",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Veterans Affairs in Cabinet",
-      "Blurb": "Department of Veterans Affairs is organized within the Cabinet."
-    },
-    {
-      "EdgeType": "Membership",
-      "submission_temp_id": "usg-gold-leg-e00031",
-      "from_vertex_temp_id": "usg-gold-dept-v00598",
-      "to_vertex_temp_id": "usg-gold-exec-v00567",
-      "Sticker": "Department of Homeland Security in Cabinet",
-      "Blurb": "Department of Homeland Security is organized within the Cabinet."
     },
     {
       "EdgeType": "Membership",
@@ -20015,5 +20120,5 @@
     }
   ],
   "pack_id": "us_gold_current_structure",
-  "record_count": 1500
+  "record_count": 1515
 }

@@ -1,16 +1,20 @@
 bundle_format_version: 1
-bundle_version: 0.3.18
+bundle_version: 0.3.20
 requires_atlas_schema_version: 1.2.0
-notes: 'v0.3.18: adds usg_appointed_offices (230 operator-certified office blocks;
-  constitutional, statutory, independent agencies, Article III judiciary). Prior notes
-  through v0.3.17 retained in git history.'
+notes: >-
+  v0.3.20: cabinet seat/Office reshape (gold 0.3.0 Department → usg-gold-sos-* support
+  GovernmentalOrg → Cabinet secretary seat; timeline 0.4.0 org=dept/gold_temp_id=seat;
+  appointed-3 support_org_slug + seatof=support; assigned attachments 0.1.1 departments
+  parent to Executive not enduring Cabinet; judiciary 0.2.0 adds 11 historical circuits,
+  31 historical districts, other-federal-service catch-all; remaps 49 historic appointed
+  blocks off SCOTUS). Prior notes through v0.3.19 retained in git history.
 packs:
 - pack_id: usg_administration_skeleton
   version: 0.2.0
   files:
   - catalog.json
 - pack_id: usg_statutory_cabinet_timeline
-  version: 0.3.0
+  version: 0.4.0
   files:
   - timeline.json
 - pack_id: usg_house_apportionment_vintages
@@ -34,7 +38,7 @@ packs:
   files:
   - bootstrap.json
 - pack_id: us_gold_current_structure
-  version: 0.2.0
+  version: 0.3.0
   files:
   - envelope.json
 - pack_id: us_gold_historical_structure
@@ -58,7 +62,7 @@ packs:
   files:
   - names.csv
 - pack_id: usg_federal_judiciary_orgs
-  version: 0.1.0
+  version: 0.2.0
   files:
   - catalog.json
 - pack_id: usg_executive_independent_orgs
@@ -66,10 +70,10 @@ packs:
   files:
   - catalog.json
 - pack_id: usg_structure_assigned_attachments
-  version: 0.1.0
+  version: 0.1.1
   files:
   - catalog.json
 - pack_id: usg_appointed_offices
-  version: 0.1.0-appointed-1
+  version: 0.1.0-appointed-3
   files:
   - catalog.json
