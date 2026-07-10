@@ -101,3 +101,6 @@ builder_fixture_mappings:
   - pack_id: usg_appointed_offices
     source_file: catalog.json
     builder_fixture_name: usg_appointed_offices.json
+  - pack_id: usg_senate_class_assignments
+    source_file: class_assignments.json
+    builder_fixture_name: usg_senate_class_assignments.json

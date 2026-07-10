@@ -1,6 +1,6 @@
 pack_id: usg_appointed_offices
 
-version: "0.1.0-appointed-3"
+version: "0.1.0-appointed-4"
 
 requires_atlas_schema_version: "1.2.0"
 
@@ -9,6 +9,8 @@ description: >
   independent agencies, Article III judiciary). ADR 2026-07-01.
 
 notes: >
+  appointed-4: potus/vp gold_office_temp_id → Office of the President/VP
+  (usg-gold-exec-v00568/v00569) so HoldsSeat materializes onto gold seats.
   appointed-3: Phase 2 cabinet seat/Office reshape — support_org_slug + seatof=support
   for statutory secretaries, war/navy, and DNI leadership office.
 

@@ -1,8 +1,10 @@
 bundle_format_version: 1
-bundle_version: 0.3.20
+bundle_version: 0.3.21
 requires_atlas_schema_version: 1.2.0
 notes: >-
-  v0.3.20: cabinet seat/Office reshape (gold 0.3.0 Department → usg-gold-sos-* support
+  v0.3.21: usg_senate_class_assignments 0.1.0 (Track 2 D6 gold SEN→class map);
+  usg_appointed_offices appointed-4 (potus/vp HoldsSeat → Office of the President/VP).
+  Prior v0.3.20: cabinet seat/Office reshape (gold 0.3.0 Department → usg-gold-sos-* support
   GovernmentalOrg → Cabinet secretary seat; timeline 0.4.0 org=dept/gold_temp_id=seat;
   appointed-3 support_org_slug + seatof=support; assigned attachments 0.1.1 departments
   parent to Executive not enduring Cabinet; judiciary 0.2.0 adds 11 historical circuits,
@@ -74,6 +76,10 @@ packs:
   files:
   - catalog.json
 - pack_id: usg_appointed_offices
-  version: 0.1.0-appointed-3
+  version: 0.1.0-appointed-4
   files:
   - catalog.json
+- pack_id: usg_senate_class_assignments
+  version: 0.1.0
+  files:
+  - class_assignments.json

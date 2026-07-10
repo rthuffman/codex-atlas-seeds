@@ -1,0 +1,19 @@
+pack_id: usg_senate_class_assignments
+
+version: "0.1.0"
+
+requires_atlas_schema_version: "1.2.0"
+
+description: >
+  Maps operator gold Senate seat_index streams (SEN1/SEN2) to permanent Senate
+  class seats (1/2/3) and gold usg-gold-sen-v* office temp ids. PLAN Track 2 D6.
+
+notes: >
+  State class membership from Ballotpedia/Wikipedia. Stream→class from gold
+  bioguide_id matched to unitedstates/congress-legislators terms[].class.
+  Special elections do not change class. AK/HI have class membership + gold
+  temp ids but no Track 2 gold streams (statehood 1959).
+
+files:
+
+  - class_assignments.json

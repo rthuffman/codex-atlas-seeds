@@ -1,0 +1,2271 @@
+{
+  "as_of": "2026-07-10",
+  "catalog_id": "usg_senate_class_assignments",
+  "notes": "Maps operator gold Senate seat_index streams (SEN1/SEN2) to permanent Senate class seats. State class membership from Ballotpedia/Wikipedia Classes of United States Senators. Stream→class from gold bioguide_id matched to unitedstates/congress-legislators terms[].class. gold_temp_id matches phase1-ingest-gold-current usg-gold-sen-v* offices. Special elections do not change class. TX 36th SEN3 is out of catalog (Civil War oddity).",
+  "sources": [
+    "https://ballotpedia.org/Classes_of_United_States_Senators",
+    "https://en.wikipedia.org/wiki/Classes_of_United_States_senators",
+    "https://unitedstates.github.io/congress-legislators/"
+  ],
+  "state_classes": {
+    "AK": [
+      2,
+      3
+    ],
+    "AL": [
+      2,
+      3
+    ],
+    "AR": [
+      2,
+      3
+    ],
+    "AZ": [
+      1,
+      3
+    ],
+    "CA": [
+      1,
+      3
+    ],
+    "CO": [
+      2,
+      3
+    ],
+    "CT": [
+      1,
+      3
+    ],
+    "DE": [
+      1,
+      2
+    ],
+    "FL": [
+      1,
+      3
+    ],
+    "GA": [
+      2,
+      3
+    ],
+    "HI": [
+      1,
+      3
+    ],
+    "IA": [
+      2,
+      3
+    ],
+    "ID": [
+      2,
+      3
+    ],
+    "IL": [
+      2,
+      3
+    ],
+    "IN": [
+      1,
+      3
+    ],
+    "KS": [
+      2,
+      3
+    ],
+    "KY": [
+      2,
+      3
+    ],
+    "LA": [
+      2,
+      3
+    ],
+    "MA": [
+      1,
+      2
+    ],
+    "MD": [
+      1,
+      3
+    ],
+    "ME": [
+      1,
+      2
+    ],
+    "MI": [
+      1,
+      2
+    ],
+    "MN": [
+      1,
+      2
+    ],
+    "MO": [
+      1,
+      3
+    ],
+    "MS": [
+      1,
+      2
+    ],
+    "MT": [
+      1,
+      2
+    ],
+    "NC": [
+      2,
+      3
+    ],
+    "ND": [
+      1,
+      3
+    ],
+    "NE": [
+      1,
+      2
+    ],
+    "NH": [
+      2,
+      3
+    ],
+    "NJ": [
+      1,
+      2
+    ],
+    "NM": [
+      1,
+      2
+    ],
+    "NV": [
+      1,
+      3
+    ],
+    "NY": [
+      1,
+      3
+    ],
+    "OH": [
+      1,
+      3
+    ],
+    "OK": [
+      2,
+      3
+    ],
+    "OR": [
+      2,
+      3
+    ],
+    "PA": [
+      1,
+      3
+    ],
+    "RI": [
+      1,
+      2
+    ],
+    "SC": [
+      2,
+      3
+    ],
+    "SD": [
+      2,
+      3
+    ],
+    "TN": [
+      1,
+      2
+    ],
+    "TX": [
+      1,
+      2
+    ],
+    "UT": [
+      1,
+      3
+    ],
+    "VA": [
+      1,
+      2
+    ],
+    "VT": [
+      1,
+      3
+    ],
+    "WA": [
+      1,
+      3
+    ],
+    "WI": [
+      1,
+      3
+    ],
+    "WV": [
+      1,
+      2
+    ],
+    "WY": [
+      1,
+      2
+    ]
+  },
+  "assignment_count": 96,
+  "assignments": [
+    {
+      "postal": "AK",
+      "seat_index": null,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00001",
+      "track2_gold_stream": false,
+      "evidence": [
+        "Ballotpedia/Wikipedia class membership; no Track 2 gold stream (statehood 1959)"
+      ]
+    },
+    {
+      "postal": "AK",
+      "seat_index": null,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00002",
+      "track2_gold_stream": false,
+      "evidence": [
+        "Ballotpedia/Wikipedia class membership; no Track 2 gold stream (statehood 1959)"
+      ]
+    },
+    {
+      "postal": "AL",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00003",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "K000217",
+          "name": "William R. King",
+          "congress": 16,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "K000217",
+          "name": "William R. King",
+          "congress": 16,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "AL",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00004",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "W000061",
+          "name": "John W. Walker",
+          "congress": 16,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "W000061",
+          "name": "John W. Walker",
+          "congress": 17,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "AR",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00005",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "F000425",
+          "name": "William S. Fulton",
+          "congress": 24,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "F000425",
+          "name": "William S. Fulton",
+          "congress": 25,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "AR",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00006",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000256",
+          "name": "Ambrose H. Sevier",
+          "congress": 24,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "S000256",
+          "name": "Ambrose H. Sevier",
+          "congress": 25,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "AZ",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00007",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "A000319",
+          "name": "Henry F. Ashurst",
+          "congress": 62,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "A000319",
+          "name": "Henry F. Ashurst",
+          "congress": 63,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "AZ",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00008",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000589",
+          "name": "Marcus A. Smith",
+          "congress": 62,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "S000589",
+          "name": "Marcus A. Smith",
+          "congress": 63,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "CA",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00009",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "F000374",
+          "name": "John C. Fremont",
+          "congress": 31,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "W000274",
+          "name": "John B. Weller",
+          "congress": 32,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "CA",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00010",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "G000540",
+          "name": "William M. Gwin",
+          "congress": 31,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "G000540",
+          "name": "William M. Gwin",
+          "congress": 32,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "CO",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00011",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "T000116",
+          "name": "Henry M. Teller",
+          "congress": 44,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "T000116",
+          "name": "Henry M. Teller",
+          "congress": 44,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "CO",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00012",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "C000271",
+          "name": "Jerome B. Chaffee",
+          "congress": 44,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "C000271",
+          "name": "Jerome B. Chaffee",
+          "congress": 45,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "CT",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00013",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "E000147",
+          "name": "Oliver Ellsworth",
+          "congress": 1,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "E000147",
+          "name": "Oliver Ellsworth",
+          "congress": 2,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "CT",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00014",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "J000182",
+          "name": "William Samuel Johnson",
+          "congress": 1,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "J000182",
+          "name": "William S. Johnson",
+          "congress": 2,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "DE",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00015",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "R000091",
+          "name": "George Read",
+          "congress": 1,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "R000091",
+          "name": "George Read",
+          "congress": 2,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "DE",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00016",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "B000226",
+          "name": "Richard Bassett",
+          "congress": 1,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "B000226",
+          "name": "Richard Bassett",
+          "congress": 2,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "FL",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00017",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "Y000061",
+          "name": "David Levy Yulee",
+          "congress": 29,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "Y000061",
+          "name": "David Levy Yulee",
+          "congress": 29,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "FL",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00018",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "W000308",
+          "name": "James Westcott",
+          "congress": 29,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "W000308",
+          "name": "James Westcott",
+          "congress": 30,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "GA",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00019",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "F000100",
+          "name": "William Few",
+          "congress": 1,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "F000100",
+          "name": "William Few",
+          "congress": 2,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "GA",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00020",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "G000526",
+          "name": "James Gunn",
+          "congress": 1,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "G000526",
+          "name": "James Gunn",
+          "congress": 2,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "HI",
+      "seat_index": null,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00021",
+      "track2_gold_stream": false,
+      "evidence": [
+        "Ballotpedia/Wikipedia class membership; no Track 2 gold stream (statehood 1959)"
+      ]
+    },
+    {
+      "postal": "HI",
+      "seat_index": null,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00022",
+      "track2_gold_stream": false,
+      "evidence": [
+        "Ballotpedia/Wikipedia class membership; no Track 2 gold stream (statehood 1959)"
+      ]
+    },
+    {
+      "postal": "IA",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00023",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "J000221",
+          "name": "George Wallace Jones",
+          "congress": 30,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "J000221",
+          "name": "George Wallace Jones",
+          "congress": 31,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "IA",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00024",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "D000394",
+          "name": "Augustus C. Dodge",
+          "congress": 30,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "D000394",
+          "name": "Augustus C. Dodge",
+          "congress": 31,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "ID",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00025",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000382",
+          "name": "George L. Shoup",
+          "congress": 51,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "S000382",
+          "name": "George L. Shoup",
+          "congress": 52,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "ID",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00026",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "M000357",
+          "name": "William J. McConnell",
+          "congress": 51,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "D000509",
+          "name": "Fred T. Dubois",
+          "congress": 52,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "IL",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00027",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "T000171",
+          "name": "Jesse B. Thomas",
+          "congress": 15,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "T000171",
+          "name": "Jesse B. Thomas",
+          "congress": 16,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "IL",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00028",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "E000078",
+          "name": "Ninian Edwards",
+          "congress": 15,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "E000078",
+          "name": "Ninian Edwards",
+          "congress": 16,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "IN",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00029",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "N000118",
+          "name": "James Noble",
+          "congress": 14,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "N000118",
+          "name": "James Noble",
+          "congress": 15,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "IN",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00030",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "T000102",
+          "name": "Waller Taylor",
+          "congress": 14,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "T000102",
+          "name": "Waller Taylor",
+          "congress": 15,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "KS",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00031",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "L000061",
+          "name": "James Lane",
+          "congress": 37,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "L000061",
+          "name": "James Lane",
+          "congress": 38,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "KS",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00032",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "P000423",
+          "name": "Samuel C. Pomeroy",
+          "congress": 37,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "P000423",
+          "name": "Samuel C. Pomeroy",
+          "congress": 38,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "KY",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00033",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "B000929",
+          "name": "John Brown",
+          "congress": 2,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "B000929",
+          "name": "John Brown",
+          "congress": 3,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "KY",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00034",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "E000075",
+          "name": "John Edwards",
+          "congress": 2,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "E000075",
+          "name": "John Edwards",
+          "congress": 3,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "LA",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00035",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "D000273",
+          "name": "Jean N. Destrehan",
+          "congress": 12,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "P000450",
+          "name": "Thomas Posey",
+          "congress": 12,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "LA",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00036",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "M000056",
+          "name": "Allan B. Magruder",
+          "congress": 12,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "F000389",
+          "name": "Eligius Fromentin",
+          "congress": 13,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "MA",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00037",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "D000013",
+          "name": "Tristram Dalton",
+          "congress": 1,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "C000009",
+          "name": "George Cabot",
+          "congress": 2,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "MA",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00038",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S001009",
+          "name": "Caleb Strong",
+          "congress": 1,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "S001009",
+          "name": "Caleb Strong",
+          "congress": 2,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "MD",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00039",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "C000185",
+          "name": "Charles Carroll",
+          "congress": 1,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "C000185",
+          "name": "Charles Carroll",
+          "congress": 2,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "MD",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00040",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "H000508",
+          "name": "John Henry",
+          "congress": 1,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "H000508",
+          "name": "John Henry",
+          "congress": 2,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "ME",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00041",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "H000739",
+          "name": "John Holmes",
+          "congress": 16,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "P000079",
+          "name": "Albion K. Parris",
+          "congress": 20,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "ME",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00042",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "C000291",
+          "name": "John Chandler",
+          "congress": 16,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "C000291",
+          "name": "John Chandler",
+          "congress": 17,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "MI",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00043",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "L000544",
+          "name": "Lucius Lyon",
+          "congress": 24,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "L000544",
+          "name": "Lucius Lyon",
+          "congress": 25,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "MI",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00044",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "N000158",
+          "name": "John Norvell",
+          "congress": 24,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "N000158",
+          "name": "John Norvell",
+          "congress": 25,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "MN",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00045",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "R000198",
+          "name": "Henry M. Rice",
+          "congress": 35,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "R000198",
+          "name": "Henry M. Rice",
+          "congress": 36,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "MN",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00046",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000362",
+          "name": "James Shields",
+          "congress": 35,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "W000476",
+          "name": "Morton S. Wilkinson",
+          "congress": 36,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "MO",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00047",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "B000398",
+          "name": "Thomas H. Benton",
+          "congress": 17,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "B000398",
+          "name": "Thomas H. Benton",
+          "congress": 18,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "MO",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00048",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "B000212",
+          "name": "David Barton",
+          "congress": 17,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "B000212",
+          "name": "David Barton",
+          "congress": 18,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "MS",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00049",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "L000177",
+          "name": "Walter Leake",
+          "congress": 15,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "L000177",
+          "name": "Walter Leake",
+          "congress": 16,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "MS",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00050",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "W000540",
+          "name": "Thomas H. Williams",
+          "congress": 15,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "W000540",
+          "name": "Thomas H. Williams",
+          "congress": 16,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "MT",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00051",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000039",
+          "name": "Wilbur F. Sanders",
+          "congress": 51,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "S000039",
+          "name": "Wilbur F. Sanders",
+          "congress": 52,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "MT",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00052",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "P000486",
+          "name": "Thomas C. Power",
+          "congress": 51,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "P000486",
+          "name": "Thomas C. Power",
+          "congress": 52,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "NC",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00053",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "J000198",
+          "name": "Samuel Johnston",
+          "congress": 1,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "J000198",
+          "name": "Samuel Johnston",
+          "congress": 2,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "NC",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00054",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "H000368",
+          "name": "Benjamin Hawkins",
+          "congress": 1,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "H000368",
+          "name": "Benjamin Hawkins",
+          "congress": 2,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "ND",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00055",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "C000227",
+          "name": "Lyman R. Casey",
+          "congress": 51,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "C000227",
+          "name": "Lyman R. Casey",
+          "congress": 52,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "ND",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00056",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "P000334",
+          "name": "Gilbert A. Pierce",
+          "congress": 51,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "H000169",
+          "name": "Henry C. Hansbrough",
+          "congress": 52,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "NE",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00057",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "T000286",
+          "name": "Thomas Tipton",
+          "congress": 39,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "T000286",
+          "name": "Thomas Tipton",
+          "congress": 40,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "NE",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00058",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "T000148",
+          "name": "John M. Thayer",
+          "congress": 39,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "T000148",
+          "name": "John M. Thayer",
+          "congress": 40,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "NH",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00059",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "W000633",
+          "name": "Paine Wingate",
+          "congress": 1,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "W000633",
+          "name": "Paine Wingate",
+          "congress": 2,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "NH",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00060",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "L000067",
+          "name": "John Langdon",
+          "congress": 1,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "L000067",
+          "name": "John Langdon",
+          "congress": 2,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "NJ",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00061",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "E000155",
+          "name": "Jonathan Elmer",
+          "congress": 1,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "R000550",
+          "name": "John Rutherfurd",
+          "congress": 2,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "NJ",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00062",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "P000102",
+          "name": "William Paterson",
+          "congress": 1,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "D000324",
+          "name": "Philemon Dickinson",
+          "congress": 1,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "NM",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00063",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "C000253",
+          "name": "Thomas B. Catron",
+          "congress": 62,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "C000253",
+          "name": "Thomas B. Catron",
+          "congress": 63,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "NM",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00064",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "F000011",
+          "name": "Albert B. Fall",
+          "congress": 62,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "F000011",
+          "name": "Albert B. Fall",
+          "congress": 63,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "NV",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00065",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000922",
+          "name": "William M. Stewart",
+          "congress": 38,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "S000922",
+          "name": "William M. Stewart",
+          "congress": 39,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "NV",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00066",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "N000177",
+          "name": "James W. Nye",
+          "congress": 38,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "N000177",
+          "name": "James W. Nye",
+          "congress": 39,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "NY",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00067",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000154",
+          "name": "Philip Schuyler",
+          "congress": 1,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "B001133",
+          "name": "Aaron Burr",
+          "congress": 2,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "NY",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00068",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "K000212",
+          "name": "Rufus King",
+          "congress": 1,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "K000212",
+          "name": "Rufus King",
+          "congress": 2,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "OH",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00069",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000567",
+          "name": "John Smith",
+          "congress": 8,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "S000567",
+          "name": "John Smith",
+          "congress": 9,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "OH",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00070",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "W000750",
+          "name": "Thomas Worthington",
+          "congress": 8,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "W000750",
+          "name": "Thomas Worthington",
+          "congress": 8,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "OK",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00071",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "O000153",
+          "name": "Robert L. Owen",
+          "congress": 60,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "O000153",
+          "name": "Robert L. Owen",
+          "congress": 61,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "OK",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00072",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "G000323",
+          "name": "Thomas P. Gore",
+          "congress": 60,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "G000323",
+          "name": "Thomas P. Gore",
+          "congress": 60,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "OR",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00073",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000526",
+          "name": "Delazon Smith",
+          "congress": 35,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "B000059",
+          "name": "Edward D. Baker",
+          "congress": 36,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "OR",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00074",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "L000062",
+          "name": "Joseph Lane",
+          "congress": 35,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "L000062",
+          "name": "Joseph Lane",
+          "congress": 36,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "PA",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00075",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "M000031",
+          "name": "William Maclay",
+          "congress": 1,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "R000448",
+          "name": "James Ross",
+          "congress": 3,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "PA",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00076",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "M000985",
+          "name": "Robert Morris",
+          "congress": 1,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "M000985",
+          "name": "Robert Morris",
+          "congress": 2,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "RI",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00077",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "F000313",
+          "name": "Theodore Foster",
+          "congress": 1,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "F000313",
+          "name": "Theodore Foster",
+          "congress": 2,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "RI",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00078",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000805",
+          "name": "Joseph Stanton Jr.",
+          "congress": 1,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "S000805",
+          "name": "Joseph Stanton Jr.",
+          "congress": 2,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "SC",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00079",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "B001186",
+          "name": "Pierce Butler",
+          "congress": 1,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "B001186",
+          "name": "Pierce Butler",
+          "congress": 1,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "SC",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00080",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "I000053",
+          "name": "Ralph Izard",
+          "congress": 1,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "I000053",
+          "name": "Ralph Izard",
+          "congress": 2,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "SD",
+      "seat_index": 1,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00081",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "P000271",
+          "name": "Richard F. Pettigrew",
+          "congress": 51,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "P000271",
+          "name": "Richard F. Pettigrew",
+          "congress": 52,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "SD",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00082",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "M000879",
+          "name": "Gideon C. Moody",
+          "congress": 51,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "P000271",
+          "name": "James H. Kyle (I, later P)",
+          "congress": 52,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "TN",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00083",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "A000197",
+          "name": "Joseph Anderson",
+          "congress": 6,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "A000197",
+          "name": "Joseph Anderson",
+          "congress": 6,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "TN",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00084",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "B000570",
+          "name": "William Blount",
+          "congress": 4,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "C000572",
+          "name": "William Cocke",
+          "congress": 6,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "TX",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00085",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "R000518",
+          "name": "Thomas J. Rusk",
+          "congress": 29,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "R000518",
+          "name": "Thomas J. Rusk",
+          "congress": 30,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "TX",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00086",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "H000827",
+          "name": "Samuel Houston",
+          "congress": 29,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "H000827",
+          "name": "Samuel Houston",
+          "congress": 30,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "UT",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00087",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "C000118",
+          "name": "Frank J. Cannon",
+          "congress": 54,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "C000118",
+          "name": "Frank J. Cannon",
+          "congress": 55,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "UT",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00088",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "B000902",
+          "name": "Arthur Brown",
+          "congress": 54,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "R000073",
+          "name": "Joseph L. Rawlins",
+          "congress": 55,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "VA",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00089",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "G000403",
+          "name": "William Grayson",
+          "congress": 1,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "W000059",
+          "name": "John Walker",
+          "congress": 1,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "VA",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00090",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "L000201",
+          "name": "Richard Henry Lee",
+          "congress": 1,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "M000858",
+          "name": "James Monroe",
+          "congress": 2,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "VT",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00091",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "R000350",
+          "name": "Moses Robinson",
+          "congress": 2,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "R000350",
+          "name": "Moses Robinson",
+          "congress": 3,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "VT",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00092",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "B000745",
+          "name": "Stephen R. Bradley",
+          "congress": 2,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "B000745",
+          "name": "Stephen R. Bradley",
+          "congress": 3,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "WA",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00093",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "A000130",
+          "name": "John B. Allen",
+          "congress": 51,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "A000130",
+          "name": "John B. Allen",
+          "congress": 52,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "WA",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00094",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "S000761",
+          "name": "Watson C. Squire",
+          "congress": 51,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "S000761",
+          "name": "Watson C. Squire",
+          "congress": 52,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "WI",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00095",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "D000396",
+          "name": "Henry Dodge",
+          "congress": 30,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "D000396",
+          "name": "Henry Dodge",
+          "congress": 31,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "WI",
+      "seat_index": 2,
+      "senate_class": 3,
+      "gold_temp_id": "usg-gold-sen-v00096",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "W000055",
+          "name": "Isaac P. Walker",
+          "congress": 30,
+          "senate_class": 3
+        },
+        {
+          "bioguide_id": "W000055",
+          "name": "Isaac P. Walker",
+          "congress": 31,
+          "senate_class": 3
+        }
+      ]
+    },
+    {
+      "postal": "WV",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00097",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "V000066",
+          "name": "Peter G. Van Winkle",
+          "congress": 38,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "V000066",
+          "name": "Peter G. Van Winkle",
+          "congress": 39,
+          "senate_class": 1
+        }
+      ]
+    },
+    {
+      "postal": "WV",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00098",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "W000484",
+          "name": "Waitman T. Willey",
+          "congress": 38,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "W000484",
+          "name": "Waitman T. Willey",
+          "congress": 39,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "WY",
+      "seat_index": 1,
+      "senate_class": 1,
+      "gold_temp_id": "usg-gold-sen-v00099",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "W000164",
+          "name": "Francis E. Warren",
+          "congress": 51,
+          "senate_class": 1
+        },
+        {
+          "bioguide_id": "W000164",
+          "name": "Francis E. Warren",
+          "congress": 51,
+          "senate_class": 2
+        }
+      ]
+    },
+    {
+      "postal": "WY",
+      "seat_index": 2,
+      "senate_class": 2,
+      "gold_temp_id": "usg-gold-sen-v00100",
+      "track2_gold_stream": true,
+      "evidence": [
+        {
+          "bioguide_id": "C000145",
+          "name": "Joseph M. Carey",
+          "congress": 51,
+          "senate_class": 2
+        },
+        {
+          "bioguide_id": "C000145",
+          "name": "Joseph M. Carey",
+          "congress": 52,
+          "senate_class": 2
+        }
+      ]
+    }
+  ]
+}

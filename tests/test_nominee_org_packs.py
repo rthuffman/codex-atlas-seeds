@@ -27,15 +27,25 @@ def test_independent_orgs_catalog_counts() -> None:
     assert "usg-ent-fannie-mae" in slugs
 
 
-def test_statutory_cabinet_timeline_v3() -> None:
+def test_statutory_cabinet_timeline_v4() -> None:
     path = find_repo_root() / "packs" / "usg_statutory_cabinet_timeline" / "timeline.json"
     data = json.loads(path.read_text(encoding="utf-8"))
-    assert data["format_version"] == 3
+    assert data["format_version"] == 4
     departments = data["departments"]
     assert len(departments) >= 15
     cabinet_level = [row for row in departments if row.get("role_kind") == "cabinet_level"]
     assert len(cabinet_level) >= 5
     assert all(str(row.get("org_slug") or "").startswith(("usg-org-", "usg-gold-")) for row in cabinet_level)
+
+
+def test_senate_class_assignments_track2_streams() -> None:
+    path = find_repo_root() / "packs" / "usg_senate_class_assignments" / "class_assignments.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert data["catalog_id"] == "usg_senate_class_assignments"
+    assert len(data["state_classes"]) == 50
+    streams = [row for row in data["assignments"] if row.get("track2_gold_stream")]
+    assert len(streams) == 96
+    assert data["assignment_count"] == 96
 
 
 def test_structure_assigned_attachments_pack() -> None:
