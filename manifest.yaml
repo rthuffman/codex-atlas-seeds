@@ -1,15 +1,12 @@
 bundle_format_version: 1
-bundle_version: 0.3.21
+bundle_version: 0.3.22
 requires_atlas_schema_version: 1.2.0
 notes: >-
-  v0.3.21: usg_senate_class_assignments 0.1.0 (Track 2 D6 gold SEN→class map);
-  usg_appointed_offices appointed-4 (potus/vp HoldsSeat → Office of the President/VP).
-  Prior v0.3.20: cabinet seat/Office reshape (gold 0.3.0 Department → usg-gold-sos-* support
-  GovernmentalOrg → Cabinet secretary seat; timeline 0.4.0 org=dept/gold_temp_id=seat;
-  appointed-3 support_org_slug + seatof=support; assigned attachments 0.1.1 departments
-  parent to Executive not enduring Cabinet; judiciary 0.2.0 adds 11 historical circuits,
-  31 historical districts, other-federal-service catch-all; remaps 49 historic appointed
-  blocks off SCOTUS). Prior notes through v0.3.19 retained in git history.
+  v0.3.22: usg_appointed_offices appointed-6 (unique EXIM/DNFSB commission names;
+  commission{} for PRC/RRB/TVA/Freddie board); independent orgs 0.2.1 (NEA/NFAH shells);
+  assigned attachments 0.1.2 (NEA/NEH under Executive). Prior v0.3.21: usg_senate_class_assignments
+  0.1.0 (Track 2 D6); appointed-4 potus/vp HoldsSeat → Office of the President/VP.
+  Prior notes through v0.3.20 retained in git history.
 packs:
 - pack_id: usg_administration_skeleton
   version: 0.2.0
@@ -68,15 +65,15 @@ packs:
   files:
   - catalog.json
 - pack_id: usg_executive_independent_orgs
-  version: 0.2.0
+  version: 0.2.1
   files:
   - catalog.json
 - pack_id: usg_structure_assigned_attachments
-  version: 0.1.1
+  version: 0.1.2
   files:
   - catalog.json
 - pack_id: usg_appointed_offices
-  version: 0.1.0-appointed-4
+  version: 0.1.0-appointed-6
   files:
   - catalog.json
 - pack_id: usg_senate_class_assignments

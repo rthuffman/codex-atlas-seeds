@@ -1,10 +1,14 @@
 pack_id: usg_executive_independent_orgs
 
-version: "0.2.0"
+version: "0.2.1"
 
 requires_atlas_schema_version: "1.2.0"
 
 description: Independent, quasi-governmental, and GSE org shells with federal_attachment_class placement (ADR 2026-06-27).
+
+notes: >
+  0.2.1: add NEA (usg-org-nea) and NFAH (usg-org-nfah) independent shells for appointed-5/6
+  NEA/NEH attachment + office resolution.
 
 files:
 

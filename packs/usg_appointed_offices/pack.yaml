@@ -1,6 +1,6 @@
 pack_id: usg_appointed_offices
 
-version: "0.1.0-appointed-4"
+version: "0.1.0-appointed-6"
 
 requires_atlas_schema_version: "1.2.0"
 
@@ -9,6 +9,9 @@ description: >
   independent agencies, Article III judiciary). ADR 2026-07-01.
 
 notes: >
+  appointed-6: unique EXIM/DNFSB commission names; commission{} for PRC/RRB/TVA/Freddie board;
+  greenfield-ready stall cohort (EXIM/PRC/RRB/TVA/Fannie/Freddie/president_of_senate).
+  appointed-5: commission{} for FLRA/FMC/FMSHRC/OSHRC; NEH agency_org_slug → usg-org-neh.
   appointed-4: potus/vp gold_office_temp_id → Office of the President/VP
   (usg-gold-exec-v00568/v00569) so HoldsSeat materializes onto gold seats.
   appointed-3: Phase 2 cabinet seat/Office reshape — support_org_slug + seatof=support
