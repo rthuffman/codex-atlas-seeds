@@ -1,12 +1,12 @@
 bundle_format_version: 1
-bundle_version: 0.3.22
+bundle_version: 0.3.23
 requires_atlas_schema_version: 1.2.0
 notes: >-
-  v0.3.22: usg_appointed_offices appointed-6 (unique EXIM/DNFSB commission names;
-  commission{} for PRC/RRB/TVA/Freddie board); independent orgs 0.2.1 (NEA/NFAH shells);
-  assigned attachments 0.1.2 (NEA/NEH under Executive). Prior v0.3.21: usg_senate_class_assignments
-  0.1.0 (Track 2 D6); appointed-4 potus/vp HoldsSeat → Office of the President/VP.
-  Prior notes through v0.3.20 retained in git history.
+  v0.3.23: us_gold_current_structure 0.3.1 — stamp Office.office_key on all 578 gold-current
+  Offices (House 119|… keys; Senate/SCOTUS/cabinet/officer usg-gold-* keys) for Prospectus
+  queryability at seed projection. Prior v0.3.22: usg_appointed_offices appointed-6;
+  independent orgs 0.2.1 (NEA/NFAH); assigned attachments 0.1.2 (NEA/NEH). Prior notes
+  through v0.3.21 retained in git history.
 packs:
 - pack_id: usg_administration_skeleton
   version: 0.2.0
@@ -37,7 +37,7 @@ packs:
   files:
   - bootstrap.json
 - pack_id: us_gold_current_structure
-  version: 0.3.0
+  version: 0.3.1
   files:
   - envelope.json
 - pack_id: us_gold_historical_structure

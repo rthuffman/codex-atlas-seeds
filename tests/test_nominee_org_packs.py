@@ -20,11 +20,13 @@ def test_judiciary_catalog_counts() -> None:
 def test_independent_orgs_catalog_counts() -> None:
     path = find_repo_root() / "packs" / "usg_executive_independent_orgs" / "catalog.json"
     data = json.loads(path.read_text(encoding="utf-8"))
-    assert data["org_count"] == 51
-    assert len(data["orgs"]) == 51
+    assert data["org_count"] == 53
+    assert len(data["orgs"]) == 53
     slugs = {str(row["slug"]) for row in data["orgs"]}
     assert "usg-org-fed-system" in slugs
     assert "usg-ent-fannie-mae" in slugs
+    assert "usg-org-nea" in slugs
+    assert "usg-org-nfah" in slugs
 
 
 def test_statutory_cabinet_timeline_v4() -> None:
@@ -51,13 +53,15 @@ def test_senate_class_assignments_track2_streams() -> None:
 def test_structure_assigned_attachments_pack() -> None:
     path = find_repo_root() / "packs" / "usg_structure_assigned_attachments" / "catalog.json"
     data = json.loads(path.read_text(encoding="utf-8"))
-    assert data["attachment_count"] == 293
-    assert len(data["attachments"]) == 293
+    assert data["attachment_count"] == 295
+    assert len(data["attachments"]) == 295
     assert data["certification_status"] == "certified"
     assert "usg-gold-leg-v00001" in data["parent_vertices"]
     slugs = {str(r["org_slug"]) for r in data["attachments"]}
     assert "usg-org-epa" in slugs
     assert "usg-org-circuit-ninth" in slugs
+    assert "usg-org-nea" in slugs
+    assert "usg-org-neh" in slugs
 
 
 def test_appointed_offices_catalog_counts() -> None:
