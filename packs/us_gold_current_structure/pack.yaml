@@ -1,5 +1,5 @@
 pack_id: us_gold_current_structure
-version: "0.3.1"
+version: "0.3.2"
 requires_atlas_schema_version: "1.2.0"
 description: >
   Gold-current U.S. government structure (119th Congress + 47th administration shell).
@@ -9,5 +9,9 @@ description: >
   v0.3.0: cabinet departments reshaped to Department → Secretary-office GovernmentalOrg (usg-gold-sos-*) → Cabinet secretary Office seat; department→enduring-Cabinet Membership removed.
   v0.3.1: every Office carries office_key (= submission_temp_id) so Prospectus projection
   persists queryable Office.office_key for House, Senate class, SCOTUS, cabinet, and officers.
+  v0.3.2: Option A — drop Gen-2 seat→Cabinet/admin Membership from the 47th admin shell
+  (15 cabseat + Pres/VP seat Membership); keep Cabinet/admin orgs and structural Membership.
+  Person→Cabinet Membership is live extend only. SCOTUS Membership temp id renumbered
+  usg-gold-leg-e00032→e00017 after Gen-1 dept→Cabinet edges left the 119th generator feed.
 files:
   - envelope.json
