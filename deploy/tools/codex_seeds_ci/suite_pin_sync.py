@@ -23,7 +23,22 @@ def _ensure_codex_ci_installed(python: Path) -> None:
     )
 
 
+def _is_json_slice_file(rel: object) -> bool:
+    """True for files applied as AtlasReferencePackSlice rows (JSON only).
+
+    Matches athena-codex ``atlas_seeds_apply.apply_atlas_seeds_bundle``, which skips
+    non-``.json`` pack assets (e.g. ``us_person_nickname_lookup`` ``names.csv``).
+    Pack manifests list relative paths as strings; there is no separate file-kind field.
+    """
+    return str(rel).replace("\\", "/").rsplit("/", 1)[-1].endswith(".json")
+
+
 def _seeds_slice_counts(repo_root: Path) -> tuple[int, int]:
+    """Return ``(pack_count, expected_slice_count)`` for suite pin sync.
+
+    ``pack_count`` is every pack in ``manifest.yaml``. ``expected_slice_count`` counts
+    only ``.json`` files — the same set ``apply_atlas_seeds_bundle`` upserts as slices.
+    """
     manifest = load_bundle_manifest(repo_root)
     packs = manifest.get("packs")
     if not isinstance(packs, list) or not packs:
@@ -37,7 +52,7 @@ def _seeds_slice_counts(repo_root: Path) -> tuple[int, int]:
         if not isinstance(files, list) or not files:
             raise ValueError(f"manifest.yaml packs[{idx}].files must be a non-empty list")
         pack_count += 1
-        slice_count += len(files)
+        slice_count += sum(1 for f in files if _is_json_slice_file(f))
     return pack_count, slice_count
 
 
