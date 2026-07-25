@@ -1,5 +1,5 @@
 pack_id: us_gold_current_structure
-version: "0.3.2"
+version: "0.3.3"
 requires_atlas_schema_version: "1.2.0"
 description: >
   Gold-current U.S. government structure (119th Congress + 47th administration shell).
@@ -13,5 +13,12 @@ description: >
   (15 cabseat + Pres/VP seat Membership); keep Cabinet/admin orgs and structural Membership.
   Person→Cabinet Membership is live extend only. SCOTUS Membership temp id renumbered
   usg-gold-leg-e00032→e00017 after Gen-1 dept→Cabinet edges left the 119th generator feed.
+  v0.3.3: Cabinet-name-per-term policy (no informal-label special-casing) — 47th admin
+  shell's Cabinet org Name changes from "United States Cabinet (trump-ii administration)"
+  to "United States Cabinet (Presidency of Donald Trump (second term))", wrapping the
+  Administration org's own catalog Name verbatim like every other administration
+  already does. Fixes an Obama-second-term Cabinet-name/PID collision found during
+  historical reference materialize; see athena-codex
+  docs/current-projects/PLAN-cabinet-membership-person-centric-correction.html Phase 4.6/5.
 files:
   - envelope.json

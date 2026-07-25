@@ -1,8 +1,13 @@
 bundle_format_version: 1
-bundle_version: 0.3.24
+bundle_version: 0.3.25
 requires_atlas_schema_version: 1.2.0
 notes: >-
-  v0.3.24: us_gold_current_structure 0.3.2 — Option A drop of Gen-2 seat→Cabinet/admin
+  v0.3.25: us_gold_current_structure 0.3.3 — Cabinet-name-per-term policy: 47th admin
+  shell's Cabinet org Name now wraps the Administration org's own catalog Name verbatim
+  ("United States Cabinet (Presidency of Donald Trump (second term))"), dropping the
+  informal short-label special-casing that previously collapsed Obama's two terms onto
+  one Cabinet Name/PID and broke historical reference materialize for his second term.
+  Prior v0.3.24: us_gold_current_structure 0.3.2 — Option A drop of Gen-2 seat→Cabinet/admin
   Membership from the 47th administration shell (keep Cabinet org + structural Membership;
   Person→Cabinet is live extend only). Prior v0.3.23: office_key stamp on gold-current
   Offices. Prior notes through v0.3.22 retained in git history.
@@ -36,7 +41,7 @@ packs:
   files:
   - bootstrap.json
 - pack_id: us_gold_current_structure
-  version: 0.3.2
+  version: 0.3.3
   files:
   - envelope.json
 - pack_id: us_gold_historical_structure
