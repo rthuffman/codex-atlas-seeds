@@ -89,8 +89,18 @@ def sync_suite_pin(
                 str(expected_slice_count),
             ]
         )
-    print(f"+ {' '.join(cmd)}", flush=True)
+    _print_safely(f"+ {' '.join(cmd)}")
     subprocess.run(cmd, check=True)
+
+
+def _print_safely(line: str) -> None:
+    """Print without crashing on a legacy console codepage (e.g. Windows cp1252)
+    choking on notes text containing non-ASCII characters like em dashes/arrows."""
+    try:
+        print(line, flush=True)
+    except UnicodeEncodeError:
+        encoding = sys.stdout.encoding or "ascii"
+        print(line.encode(encoding, errors="replace").decode(encoding), flush=True)
 
 
 def main() -> int:
