@@ -50,8 +50,14 @@ def sync_suite_pin(
     tag: str | None = None,
     dry_run: bool = False,
     repo_root: Path | None = None,
+    notes: str | None = None,
 ) -> None:
     root = repo_root or find_repo_root()
+    if notes is None:
+        # Mirror the seeds repo's own manifest.yaml notes by default (already operator-authored
+        # release-summary prose); explicit callers can still override.
+        manifest = load_bundle_manifest(root)
+        notes = str(manifest.get("notes") or "").strip() or None
     python = ensure_athena_venv()
     _ensure_codex_ci_installed(python)
     cmd = [
@@ -69,6 +75,8 @@ def sync_suite_pin(
     ]
     if tag:
         cmd.extend(["--tag", tag])
+    if notes:
+        cmd.extend(["--notes", notes])
     if dry_run:
         cmd.append("--dry-run")
     if kind == "seeds":
