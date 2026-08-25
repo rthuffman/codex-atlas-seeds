@@ -1,20 +1,15 @@
 bundle_format_version: 1
-bundle_version: 0.3.26
+bundle_version: 0.3.27
 requires_atlas_schema_version: 1.2.0
 notes: >-
-  v0.3.26: us_gold_current_structure 0.3.4 — preserve institutional SeatOf edges
-  (Senate/House officers, caucus chairs, House leadership) in gold-current export;
-  fixes orphan Office vertices on Prospectus bootstrap that lost SeatOf links when
-  legacy 119th session filtering dropped usg-gold-house-e* edges whose endpoints are
-  institutional offices. Prior v0.3.25: us_gold_current_structure 0.3.3 — Cabinet-name-per-term
-  policy: 47th admin shell's Cabinet org Name now wraps the Administration org's own
-  catalog Name verbatim ("United States Cabinet (Presidency of Donald Trump (second term))"),
-  dropping the informal short-label special-casing that previously collapsed Obama's two
-  terms onto one Cabinet Name/PID and broke historical reference materialize for his
-  second term. Prior v0.3.24: us_gold_current_structure 0.3.2 — Option A drop of Gen-2
-  seat→Cabinet/admin Membership from the 47th administration shell (keep Cabinet org +
-  structural Membership; Person→Cabinet is live extend only). Prior notes through
-  v0.3.22 retained in git history.
+  v0.3.27: us_gold_current_structure 0.3.5 — also preserve House officer/leadership
+  Office vertices (usg-gold-house-inst-*, usg-gold-house-ldr-*); v0.3.4 restored
+  institutional SeatOf edges but those House rows were still dropped by the broad
+  usg-gold-house-* legacy vertex filter, breaking full-seeds projection ingest.
+  Prior v0.3.26: us_gold_current_structure 0.3.4 — preserve institutional SeatOf
+  edges (Senate/House officers, caucus chairs, House leadership) in gold-current
+  export; fixes orphan Office vertices on Prospectus bootstrap. Prior notes through
+  v0.3.25 retained in git history.
 packs:
 - pack_id: usg_administration_skeleton
   version: 0.2.0
@@ -45,7 +40,7 @@ packs:
   files:
   - bootstrap.json
 - pack_id: us_gold_current_structure
-  version: 0.3.4
+  version: 0.3.5
   files:
   - envelope.json
 - pack_id: us_gold_historical_structure

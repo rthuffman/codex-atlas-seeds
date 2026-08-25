@@ -1,5 +1,5 @@
 pack_id: us_gold_current_structure
-version: "0.3.4"
+version: "0.3.5"
 requires_atlas_schema_version: "1.2.0"
 description: >
   Gold-current U.S. government structure (119th Congress + 47th administration shell).
@@ -23,5 +23,8 @@ description: >
   v0.3.4: preserve institutional SeatOf edges (Senate/House officers, caucus chairs,
   House leadership) in gold-current export — fixes orphan Office vertices on Prospectus
   bootstrap that lost their SeatOf links to chamber/caucus orgs.
+  v0.3.5: also preserve House officer/leadership Office vertices (usg-gold-house-inst-*,
+  usg-gold-house-ldr-*) — v0.3.4 restored SeatOf edges whose from endpoints had been
+  dropped by the broad usg-gold-house-* legacy vertex filter.
 files:
   - envelope.json
