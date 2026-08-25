@@ -1,5 +1,5 @@
 pack_id: us_gold_current_structure
-version: "0.3.3"
+version: "0.3.4"
 requires_atlas_schema_version: "1.2.0"
 description: >
   Gold-current U.S. government structure (119th Congress + 47th administration shell).
@@ -20,5 +20,8 @@ description: >
   already does. Fixes an Obama-second-term Cabinet-name/PID collision found during
   historical reference materialize; see athena-codex
   docs/current-projects/PLAN-cabinet-membership-person-centric-correction.html Phase 4.6/5.
+  v0.3.4: preserve institutional SeatOf edges (Senate/House officers, caucus chairs,
+  House leadership) in gold-current export — fixes orphan Office vertices on Prospectus
+  bootstrap that lost their SeatOf links to chamber/caucus orgs.
 files:
   - envelope.json
