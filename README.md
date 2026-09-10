@@ -61,26 +61,19 @@ dist/                      # build output (gitignored)
 
 `.github/workflows/codex-seeds-ci.yml` checks out **athena-codex** (for venv bootstrap), installs **`codex-seeds-ci`**, runs validate + test + build + parity.
 
-**Tag push** (`v*`) re-runs validate + build + parity and then **`codex-seeds-release`** to attach `dist/*.tar.gz` to GitHub Releases. You can also run release upload locally with `GITHUB_TOKEN` set.
+**Tag push** (`v*`) is meant to re-run validate + build + parity and then **`codex-seeds-release`** to attach `dist/*.tar.gz` to GitHub Releases. **That release job does not currently work**: the workflow checks out the private **athena-codex** repository with the default Actions token and fails at checkout on every `v*` tag (observed v0.3.26 to v0.3.28). Until the workflow gets a scoped token, release **locally**: push `main` and the tag first, then run `codex-seeds-release --tag vX.Y.Z` (optionally `--skip-build --archive dist/...`) with `GITHUB_TOKEN` / `GH_TOKEN` in the process environment. The bundle build is deterministic, so the local digest equals what CI would produce.
 
 ### Deploy pin (AS-1) — after you release a new bundle
 
-Clusters do **not** read `manifest.yaml` from this repo at runtime. **athena-codex** pins the tarball that bootstrap downloads. That pin is **two places**; update **both** on every bundle bump:
+Clusters do **not** read `manifest.yaml` from this repo at runtime. **athena-codex** pins the tarball that bootstrap downloads, and that pin has **one source of truth**:
 
 | Layer | Location | Fields |
 |-------|----------|--------|
-| **Committed contract** | [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json) | Default `bundle_version`, `bundle_sha256`, `bundle_url`, plus **`pack_count`**, **`expected_slice_count`**, `requires_atlas_schema_version`, release notes. Copied into Talisman/Athena images as `/app/ddl/atlas_seeds_bundle_pin.json`. Used by CI materialize/parity when deploy env is unset. |
-| **Environment override** | Deploy env → Kubernetes Secret `talisman-db-credentials` | **`CODEX_ATLAS_SEEDS_VERSION`**, **`CODEX_ATLAS_SEEDS_SHA256`**, **`CODEX_ATLAS_SEEDS_URL`** only. At runtime these **override** the three download fields from the JSON; slice counts and schema version always come from the committed JSON. |
+| **Committed contract** | [`codex/docs/atlas_bundles.yaml`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_bundles.yaml) → `generate-codex-ddls --commit` → generated [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json) | `bundle_version`, `bundle_sha256`, `bundle_url`, **`pack_count`**, **`expected_slice_count`**, `requires_atlas_schema_version`, release notes. Bundled into the Talisman/Athena images as `/app/ddl/atlas_seeds_bundle_pin.json`; bootstrap **Apply Atlas reference packs** and CI materialize/parity read it from there. |
 
-**Where to edit env overrides (by environment):**
+The old **environment override** (`CODEX_ATLAS_SEEDS_VERSION` / `_SHA256` / `_URL` in the deploy env → Secret `talisman-db-credentials`) is **deprecated**: do not set those keys. The runtime still honours them only when present, as a rollout escape hatch; the `*-env-example` files keep them commented out for that reason.
 
-| Environment | Typical file |
-|-------------|----------------|
-| **local-dev** | `athena-codex/deploy/kubernetes/deploy-local-dev.env` (and keep `deploy-local-dev.env-example` in sync — CI asserts example matches the JSON) |
-| **dev (encrypted)** | `athena-codex/deploy/kubernetes/sops/deploy-dev.env` (re-encrypt after edit) |
-| **prod / other** | Matching `deploy-*.env`, `deploy-*.env-example`, or your operator’s SOPS/plaintext deploy env — see [`deploy/kubernetes/README.md`](https://github.com/rthuffman/athena-codex/blob/main/deploy/kubernetes/README.md) |
-
-**Bump checklist:** (1) tag + GitHub Release in **this repo**; (2) update `atlas_seeds_bundle_pin.json` (version, sha256, url, **`pack_count`** when packs change); (3) update deploy env vars above for each cluster you run; (4) redeploy so `talisman-db-credentials` picks up the new values; (5) Talisman bootstrap **Apply Atlas reference packs**.
+**Bump checklist:** (1) push `main` + tag, then release **locally** with `codex-seeds-release --tag vX.Y.Z` (see CI / releases above); it runs athena-codex `codex_ci.atlas_bundle_pin_sync` for you and rewrites `atlas_bundles.yaml` + the generated pin JSON; (2) in athena-codex, verify the diff, compare `bundle_sha256` with the published `.sha256` sidecar, run `generate-codex-ddls --verify-committed`, and commit YAML + generated JSON together (hand-edit the `seeds:` block and run `generate-codex-ddls --commit` only if the automatic sync did not run); (3) rebuild + redeploy so the images carry the new `/app/ddl/atlas_seeds_bundle_pin.json`; (4) Talisman bootstrap **Apply Atlas reference packs**. Full procedure: athena-codex `docs/operations/atlas-bundle-release-and-pin-runbook.html` Part A.
 
 Policy: [`2026-05-20-codex-atlas-seeds-reference-packs`](https://github.com/rthuffman/athena-codex/blob/main/docs/decisions/2026-05-20-codex-atlas-seeds-reference-packs.md) (**AS-1**). Example env comments: `deploy/kubernetes/deploy-local-dev.env-example` § Atlas reference packs.
 
@@ -105,9 +98,9 @@ Runbook: [athena-codex `docs/prospectus-environment-first-setup.md`](https://git
 
 ## Status
 
-**Current release:** [`v0.3.8`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.8) — Civil War operator-gold term index overlay for congresses 36–41 on top of v0.3.7 topology/apportionment (**12** packs).
+**Current release:** [`v0.3.28`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.28) — `us_person_nickname_lookup` 0.2.0 (carltonnorthern `names.csv` at upstream 1524308b68, 2026-08-02) on top of v0.3.27 (**18** packs). Earlier highlights below are retained for history.
 
-**Deploy pin (both layers):** update [`codex/docs/atlas_seeds_bundle_pin.json`](https://github.com/rthuffman/athena-codex/blob/main/codex/docs/atlas_seeds_bundle_pin.json) **and** `CODEX_ATLAS_SEEDS_*` in the target cluster’s deploy dotenv / SOPS env (see **Deploy pin (AS-1)** above).
+**Deploy pin (single source of truth):** athena-codex `codex/docs/atlas_bundles.yaml` → generated `atlas_seeds_bundle_pin.json`, written automatically by `codex-seeds-release` (see **Deploy pin (AS-1)** above). No deploy-env keys.
 
 **Bundle `0.3.7`** (twelve packs) — highlights since `0.3.1`:
 
