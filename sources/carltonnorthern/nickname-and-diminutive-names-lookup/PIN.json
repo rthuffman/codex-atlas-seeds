@@ -2,11 +2,27 @@
   "upstream": "carltonnorthern/nickname-and-diminutive-names-lookup",
   "base_url": "https://github.com/carltonnorthern/nickname-and-diminutive-names-lookup",
   "pin": "live-download",
-  "downloaded_at": "2026-06-26",
+  "downloaded_at": "2026-09-09",
   "files": {
     "names.csv": {
       "url": "https://raw.githubusercontent.com/carltonnorthern/nickname-and-diminutive-names-lookup/master/names.csv",
-      "sha256": "f370c99f12a564f4f074192ba690f242b7857d53a4ea60257366e365cc63a276"
+      "sha256": "e6a4e5a55ca5b47a4146dbc118f26c71c63053d4b79ca9659de8e74efb65847e"
     }
+  },
+  "upstream_commit": "1524308b68",
+  "released_at": "2026-08-02",
+  "release_tag": null,
+  "release_note": "upstream commit date; not in any upstream tag at collection time",
+  "collected_at": "2026-09-09",
+  "collected_via": "GitHub contents API ref=1524308b68; known-good snapshot codex-workbench/vendor-snapshots/carltonnorthern-nickname-lookup/2026-08-02_1524308b68",
+  "license": {
+    "spdx": "Apache-2.0",
+    "file": "License.txt",
+    "scope_note": "repository licence; CSV coverage unconfirmed (ATH-126)"
+  },
+  "previous": {
+    "sha256": "f370c99f12a564f4f074192ba690f242b7857d53a4ea60257366e365cc63a276",
+    "upstream_commit": "af6b3a8bbd",
+    "release_tag": "v1.0.1"
   }
 }
