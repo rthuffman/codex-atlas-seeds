@@ -20,13 +20,20 @@ def test_judiciary_catalog_counts() -> None:
 def test_independent_orgs_catalog_counts() -> None:
     path = find_repo_root() / "packs" / "usg_executive_independent_orgs" / "catalog.json"
     data = json.loads(path.read_text(encoding="utf-8"))
-    assert data["org_count"] == 53
-    assert len(data["orgs"]) == 53
+    assert data["org_count"] == 56
+    assert len(data["orgs"]) == 56
     slugs = {str(row["slug"]) for row in data["orgs"]}
     assert "usg-org-fed-system" in slugs
     assert "usg-ent-fannie-mae" in slugs
     assert "usg-org-nea" in slugs
     assert "usg-org-nfah" in slugs
+    # ATH-310: EOP components as timeless statutory vertices contained by the EOP
+    for slug in ("usg-org-ustr", "usg-org-omb", "usg-org-who"):
+        assert slug in slugs
+    by_slug = {str(row["slug"]): row for row in data["orgs"]}
+    assert by_slug["usg-org-eop"]["seat_keys"] == ["white_house_chief_of_staff"]
+    assert by_slug["usg-org-ustr"]["parent_slug"] == "usg-org-eop"
+    assert by_slug["usg-org-ustr"]["org_kind"] == "eop_component"
 
 
 def test_statutory_cabinet_timeline_v4() -> None:
@@ -53,8 +60,8 @@ def test_senate_class_assignments_track2_streams() -> None:
 def test_structure_assigned_attachments_pack() -> None:
     path = find_repo_root() / "packs" / "usg_structure_assigned_attachments" / "catalog.json"
     data = json.loads(path.read_text(encoding="utf-8"))
-    assert data["attachment_count"] == 295
-    assert len(data["attachments"]) == 295
+    assert data["attachment_count"] == 298
+    assert len(data["attachments"]) == 298
     assert data["certification_status"] == "certified"
     assert "usg-gold-leg-v00001" in data["parent_vertices"]
     slugs = {str(r["org_slug"]) for r in data["attachments"]}
@@ -62,6 +69,8 @@ def test_structure_assigned_attachments_pack() -> None:
     assert "usg-org-circuit-ninth" in slugs
     assert "usg-org-nea" in slugs
     assert "usg-org-neh" in slugs
+    for slug in ("usg-org-ustr", "usg-org-omb", "usg-org-who"):
+        assert slug in slugs
 
 
 def test_appointed_offices_catalog_counts() -> None:
@@ -76,3 +85,7 @@ def test_appointed_offices_catalog_counts() -> None:
         key for key, row in data["offices"].items() if str(row.get("role_kind") or "") == "judicial"
     ]
     assert len(judicial) >= 50
+    # ATH-310: component principals lead their component, not the EOP; the Chief of Staff stays.
+    assert data["offices"]["ustr"]["agency_org_slug"] == "usg-org-ustr"
+    assert data["offices"]["omb_director"]["agency_org_slug"] == "usg-org-omb"
+    assert data["offices"]["white_house_chief_of_staff"]["agency_org_slug"] == "usg-org-eop"
