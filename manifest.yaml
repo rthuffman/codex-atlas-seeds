@@ -23,7 +23,7 @@ packs:
   files:
   - catalog.json
 - pack_id: usg_statutory_cabinet_timeline
-  version: 0.4.0
+  version: 0.4.1
   files:
   - timeline.json
 - pack_id: usg_house_apportionment_vintages

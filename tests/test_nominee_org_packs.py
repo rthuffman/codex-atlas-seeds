@@ -45,6 +45,11 @@ def test_statutory_cabinet_timeline_v4() -> None:
     cabinet_level = [row for row in departments if row.get("role_kind") == "cabinet_level"]
     assert len(cabinet_level) >= 5
     assert all(str(row.get("org_slug") or "").startswith(("usg-org-", "usg-gold-")) for row in cabinet_level)
+    by_seat = {row["seat_key"]: row for row in cabinet_level}
+    # ATH-310: the component principals bind to their component, the Chief of Staff to the EOP.
+    assert by_seat["omb_director"]["org_slug"] == "usg-org-omb"
+    assert by_seat["ustr"]["org_slug"] == "usg-org-ustr"
+    assert by_seat["white_house_chief_of_staff"]["org_slug"] == "usg-org-eop"
 
 
 def test_senate_class_assignments_track2_streams() -> None:
