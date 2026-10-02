@@ -1,6 +1,6 @@
 pack_id: usg_appointed_offices
 
-version: "0.1.0-appointed-6"
+version: "0.1.0-appointed-7"
 
 requires_atlas_schema_version: "1.2.0"
 
@@ -9,6 +9,9 @@ description: >
   independent agencies, Article III judiciary). ADR 2026-07-01.
 
 notes: >
+  appointed-7 (ATH-310): ustr -> usg-org-ustr and omb_director -> usg-org-omb so the component
+  principals lead their component, not the Executive Office of the President; the Chief of Staff
+  keeps agency_org_slug usg-org-eop (the one Leadership edge into the EOP).
   appointed-6: unique EXIM/DNFSB commission names; commission{} for PRC/RRB/TVA/Freddie board;
   greenfield-ready stall cohort (EXIM/PRC/RRB/TVA/Fannie/Freddie/president_of_senate).
   appointed-5: commission{} for FLRA/FMC/FMSHRC/OSHRC; NEH agency_org_slug → usg-org-neh.

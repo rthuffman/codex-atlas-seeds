@@ -1,6 +1,6 @@
 {
   "format_version": 4,
-  "notes": "Statutory departments and cabinet-level principal offices with era gates. role_kind distinguishes statutory department secretary seats from cabinet-level non-statutory roles. For statutory rows: org_slug is the even department GovernmentalOrg id; gold_temp_id is the odd principal officer seat Office id used for term Cabinet Membership. org_slug binds cabinet-level parent_org_hint rows to usg_executive_independent_orgs pack. Phase-1 builder includes statutory seat Membership when term_inauguration_year >= cabinet_from_inauguration_year.",
+  "notes": "Statutory departments and cabinet-level principal offices with era gates. role_kind distinguishes statutory department secretary seats from cabinet-level non-statutory roles. For statutory rows: org_slug is the even department GovernmentalOrg id; gold_temp_id is the odd principal officer seat Office id used for term Cabinet Membership. org_slug binds cabinet-level parent_org_hint rows to usg_executive_independent_orgs pack. Phase-1 builder includes statutory seat Membership when term_inauguration_year >= cabinet_from_inauguration_year. ATH-310 (2026-10-02): omb_director and ustr bind to their EOP component orgs (usg-org-omb, usg-org-ustr); white_house_chief_of_staff stays on usg-org-eop.",
   "departments": [
     {
       "seat_key": "state",
@@ -151,8 +151,8 @@
       "seat_key": "omb_director",
       "role_kind": "cabinet_level",
       "gold_temp_id": "usg-gold-office-v00602",
-      "org_slug": "usg-org-eop",
-      "parent_org_hint": "Executive Office of the President",
+      "org_slug": "usg-org-omb",
+      "parent_org_hint": "Office of Management and Budget",
       "cabinet_from_inauguration_year": 1970,
       "name_hint": "Director of the Office of Management and Budget",
       "cabinet_rank_sticker": "OMB Director (cabinet-level)"
@@ -171,8 +171,8 @@
       "seat_key": "ustr",
       "role_kind": "cabinet_level",
       "gold_temp_id": "usg-gold-office-v00604",
-      "org_slug": "usg-org-eop",
-      "parent_org_hint": "Executive Office of the President",
+      "org_slug": "usg-org-ustr",
+      "parent_org_hint": "Office of the United States Trade Representative",
       "cabinet_from_inauguration_year": 1975,
       "name_hint": "United States Trade Representative",
       "cabinet_rank_sticker": "USTR (cabinet-level)"

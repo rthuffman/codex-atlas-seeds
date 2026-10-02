@@ -1,12 +1,16 @@
 pack_id: usg_executive_independent_orgs
 
-version: "0.2.1"
+version: "0.2.2"
 
 requires_atlas_schema_version: "1.2.0"
 
 description: Independent, quasi-governmental, and GSE org shells with federal_attachment_class placement (ADR 2026-06-27).
 
 notes: >
+  0.2.2 (ATH-310): add the EOP component organisations Office of the USTR (usg-org-ustr),
+  OMB (usg-org-omb) and White House Office (usg-org-who) as eop_component / internal_contained
+  under usg-org-eop; the ustr and omb_director seats move to their components, the Chief of
+  Staff's seat stays on the EOP.
   0.2.1: add NEA (usg-org-nea) and NFAH (usg-org-nfah) independent shells for appointed-5/6
   NEA/NEH attachment + office resolution.
 
