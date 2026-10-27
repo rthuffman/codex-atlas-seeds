@@ -347,6 +347,90 @@ def validate_structure_assigned_attachments(data: dict[str, Any], *, path: str) 
     return errors
 
 
+WORLD_NATIONS_EXTERNAL_TEMP_IDS = frozenset(
+    {
+        "us-geo-nation-v001",
+        "us-geo-natregion-us-v001",
+        *(f"us-geo-territory-{code}-v001" for code in ("PR", "GU", "AS", "MP", "VI")),
+    }
+)
+WORLD_EARTH_TEMP_ID = "world-earth-v001"
+
+
+def validate_world_nations_bootstrap(data: dict[str, Any], *, path: str) -> list[str]:
+    errors: list[str] = []
+    if data.get("pack_format_version") != 1:
+        errors.append(f"{path}: pack_format_version must be 1")
+    if data.get("pack_id") != "world_nations_bootstrap":
+        errors.append(f"{path}: pack_id must be 'world_nations_bootstrap'")
+    records = data.get("records")
+    if not isinstance(records, list) or not records:
+        errors.append(f"{path}: records must be a non-empty list")
+        return errors
+    if data.get("record_count") != len(records):
+        errors.append(f"{path}: record_count {data.get('record_count')!r} != len(records) {len(records)}")
+
+    seen: set[str] = set()
+    vertex_ids: set[str] = set()
+    edges: list[tuple[int, dict[str, Any]]] = []
+    planets: list[dict[str, Any]] = []
+    for i, rec in enumerate(records):
+        if not isinstance(rec, dict):
+            errors.append(f"{path}: records[{i}] must be an object")
+            continue
+        tid = rec.get("submission_temp_id")
+        if not isinstance(tid, str) or not tid.strip():
+            errors.append(f"{path}: records[{i}] missing submission_temp_id")
+            tid = None
+        elif tid in seen:
+            errors.append(f"{path}: records[{i}] duplicate submission_temp_id {tid!r}")
+        else:
+            seen.add(tid)
+        for key in ("L1", "L2", "L3"):
+            if key in rec:
+                errors.append(f"{path}: records[{i}] must not carry {key}")
+        has_v, has_e = "VertexType" in rec, "EdgeType" in rec
+        if has_v == has_e:
+            errors.append(f"{path}: records[{i}] must have exactly one of VertexType / EdgeType")
+            continue
+        if has_e:
+            edges.append((i, rec))
+            continue
+        if tid:
+            vertex_ids.add(tid)
+        if rec.get("VertexType") == "Planet":
+            planets.append(rec)
+        aliases = rec.get("Aliases")
+        if aliases is not None:
+            if not isinstance(aliases, list):
+                errors.append(f"{path}: records[{i}] Aliases must be a list")
+            else:
+                for alias in aliases:
+                    if not isinstance(alias, str) or not alias.strip():
+                        errors.append(f"{path}: records[{i}] Aliases must be non-empty strings")
+                    elif alias.isascii() and alias.isalpha() and alias.isupper() and 2 <= len(alias) <= 3:
+                        errors.append(f"{path}: records[{i}] bare code alias {alias!r} (use a prefixed form)")
+
+    resolvable = vertex_ids | WORLD_NATIONS_EXTERNAL_TEMP_IDS
+    for i, edge in edges:
+        for key in ("from_vertex_temp_id", "to_vertex_temp_id"):
+            ref = edge.get(key)
+            if not isinstance(ref, str) or not ref:
+                errors.append(f"{path}: records[{i}] missing {key}")
+            elif ref not in resolvable:
+                errors.append(f"{path}: records[{i}] {key} {ref!r} does not resolve")
+
+    if len(planets) != 1:
+        errors.append(f"{path}: expected exactly one Planet vertex, found {len(planets)}")
+    else:
+        earth = planets[0]
+        if earth.get("submission_temp_id") != WORLD_EARTH_TEMP_ID:
+            errors.append(f"{path}: Planet must be {WORLD_EARTH_TEMP_ID!r}")
+        if earth.get("Sticker") != "EARTH":
+            errors.append(f"{path}: Earth Sticker must be 'EARTH'")
+    return errors
+
+
 def validate_pack_payloads(repo_root: Path) -> list[str]:
     errors: list[str] = []
     validators: dict[tuple[str, str], Any] = {
@@ -358,6 +442,7 @@ def validate_pack_payloads(repo_root: Path) -> list[str]:
         ("us_house_district_topology", "topology.json"): validate_house_district_topology,
         ("us_house_legislators_term_index", "term_index.json"): validate_house_legislators_term_index,
         ("usg_structure_assigned_attachments", "catalog.json"): validate_structure_assigned_attachments,
+        ("world_nations_bootstrap", "bootstrap.json"): validate_world_nations_bootstrap,
     }
     for pack_dir in discover_packs(repo_root):
         pack = load_pack_manifest(pack_dir)

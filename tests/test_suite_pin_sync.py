@@ -40,8 +40,8 @@ def test_seeds_slice_counts_skips_non_json_files(tmp_path: Path) -> None:
 
 
 def test_seeds_slice_counts_real_manifest_excludes_nickname_csv() -> None:
-    """Current repo manifest: 18 packs, 17 JSON slices (nickname pack is CSV-only)."""
+    """Current repo manifest: 19 packs, 18 JSON slices (nickname pack is CSV-only)."""
     root = find_repo_root()
     pack_count, expected_slice_count = _seeds_slice_counts(root)
-    assert pack_count == 18
-    assert expected_slice_count == 17
+    assert pack_count == 19
+    assert expected_slice_count == 18

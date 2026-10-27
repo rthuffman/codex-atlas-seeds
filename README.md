@@ -82,7 +82,7 @@ Policy: [`2026-05-20-codex-atlas-seeds-reference-packs`](https://github.com/rthu
 | Stage | Where |
 |-------|--------|
 | **Atlas runtime** | `AtlasReferencePackSlice` rows after talisman-bootstrap **Apply Atlas reference packs** |
-| **Prospectus runtime** | **Project Atlas seeds → Prospectus** reads three projection slices + merges records ([`atlas_prospectus_bootstrap.ts`](https://github.com/rthuffman/athena-codex/blob/main/talisman/src/lib/atlas_prospectus_bootstrap.ts)) |
+| **Prospectus runtime** | **Project Atlas seeds → Prospectus** reads four projection slices (`us_geo_bootstrap`, `us_gold_current_structure`, `us_gold_historical_structure`, `world_nations_bootstrap`) + merges records ([`atlas_prospectus_bootstrap.ts`](https://github.com/rthuffman/athena-codex/blob/main/talisman/src/lib/atlas_prospectus_bootstrap.ts)) |
 | **Artemis structure jobs** | Catalog packs via Athena ilink / Atlas slices (apportionment, bounds, admin catalog, …) |
 | **Legacy / DR** | [`phase1-ingest-gold-current.json`](https://github.com/rthuffman/athena-codex/blob/main/base-data/phase1-ingest-gold-current.json) export — not authoritative after v0.3.0 |
 

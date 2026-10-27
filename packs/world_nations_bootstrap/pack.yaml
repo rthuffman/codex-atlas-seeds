@@ -1,0 +1,8 @@
+pack_id: world_nations_bootstrap
+version: "0.1.0"
+requires_atlas_schema_version: "1.2.0"
+description: >
+  World nations bootstrap (ISO 3166-1 NationState / Territory / DisputedState rows with code aliases, Earth root).
+  Projected to Prospectus after Atlas apply — references us_geo_bootstrap rows by temp id.
+files:
+  - bootstrap.json
