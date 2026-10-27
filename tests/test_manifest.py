@@ -11,11 +11,12 @@ def test_validate_repo_clean() -> None:
     assert errors == []
 
 
-def test_bundle_has_eighteen_packs() -> None:
+def test_bundle_has_nineteen_packs() -> None:
     manifest = load_bundle_manifest(find_repo_root())
     pack_ids = {p["pack_id"] for p in manifest["packs"]}
-    assert len(manifest["packs"]) == 18
+    assert len(manifest["packs"]) == 19
     assert pack_ids == {
+        "world_nations_bootstrap",
         "usg_administration_skeleton",
         "usg_statutory_cabinet_timeline",
         "usg_house_apportionment_vintages",
@@ -66,6 +67,7 @@ def test_projection_packs_do_not_pin_optional_taxonomy_fields() -> None:
         root / "packs" / "us_geo_bootstrap" / "bootstrap.json",
         root / "packs" / "us_gold_current_structure" / "envelope.json",
         root / "packs" / "us_gold_historical_structure" / "envelope.json",
+        root / "packs" / "world_nations_bootstrap" / "bootstrap.json",
     ]
     for path in payloads:
         data = json.loads(path.read_text(encoding="utf-8"))

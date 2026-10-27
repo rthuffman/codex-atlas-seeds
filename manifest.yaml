@@ -1,8 +1,14 @@
 bundle_format_version: 1
-bundle_version: 0.3.29
+bundle_version: 0.3.30
 requires_atlas_schema_version: 1.2.0
 notes: >-
-  v0.3.29 (ATH-310): usg_executive_independent_orgs 0.2.2, usg_structure_assigned_attachments
+  v0.3.30 (ATH-474): world_nations_bootstrap 0.1.0 — one vertex per ISO 3166-1 entry (Name =
+  English short name, Sticker = alpha-2, Aliases ISO3166-1: / ISO3166-1-A3: / ISO3166-1-N: /
+  EDGAR:), sovereigns as NationState, dependencies as Territory contained by their sovereign,
+  Taiwan / Palestine / Western Sahara as DisputedState, one Earth Planet root (world-earth-v001,
+  M49:001 / NAIF:399) that nations, disputed states and the U.S. geo extent are contained by;
+  the U.S. and its five inhabited territories stay in us_geo_bootstrap and are referenced by temp
+  id. Fourth seeds→Prospectus projection slice. Prior v0.3.29 (ATH-310): usg_executive_independent_orgs 0.2.2, usg_structure_assigned_attachments
   0.1.3, usg_appointed_offices 0.1.0-appointed-7 — the Executive Office of the President gets
   its component organisations (Office of the USTR, OMB, White House Office) as timeless
   eop_component vertices contained by the EOP; the USTR and OMB Director lead their component
@@ -44,6 +50,10 @@ packs:
   - delegates.json
 - pack_id: us_geo_bootstrap
   version: 0.1.1
+  files:
+  - bootstrap.json
+- pack_id: world_nations_bootstrap
+  version: 0.1.0
   files:
   - bootstrap.json
 - pack_id: us_gold_current_structure
