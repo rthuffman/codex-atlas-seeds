@@ -2,8 +2,9 @@
 
 Versioned **Atlas reference packs** (flat interchange + release bundles) for the Codex suite.
 
-> **Naming note:** this repository is the **data portion of the athena-codex suite** ("Codex" is the suite's
-> graph/reference layer). It has **no relationship to the OpenAI product called Codex**.
+> **Naming note:** this public repository holds **foundational data for the Codex portion of the athena-codex
+> suite** (Codex is the suite's graph and reference layer; these packs seed its Atlas and Prospectus graphs).
+> It has **no relationship to the OpenAI product called Codex**.
 
 **Policy ADR:** [athena-codex `docs/decisions/2026-05-20-codex-atlas-seeds-reference-packs.md`](https://github.com/rthuffman/athena-codex/blob/main/docs/decisions/2026-05-20-codex-atlas-seeds-reference-packs.md)
 
