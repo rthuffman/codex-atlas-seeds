@@ -2,6 +2,9 @@
 
 Versioned **Atlas reference packs** (flat interchange + release bundles) for the Codex suite.
 
+> **Naming note:** this repository is the **data portion of the athena-codex suite** ("Codex" is the suite's
+> graph/reference layer). It has **no relationship to the OpenAI product called Codex**.
+
 **Policy ADR:** [athena-codex `docs/decisions/2026-05-20-codex-atlas-seeds-reference-packs.md`](https://github.com/rthuffman/athena-codex/blob/main/docs/decisions/2026-05-20-codex-atlas-seeds-reference-packs.md)
 
 ## Role
@@ -59,9 +62,17 @@ dist/                      # build output (gitignored)
 
 ## CI / releases
 
-`.github/workflows/codex-seeds-ci.yml` checks out **athena-codex** (for venv bootstrap), installs **`codex-seeds-ci`**, runs validate + test + build + parity.
+**GitHub Actions is disabled on this repository** (operator ruling 2026-10-27): the workflow in
+`.github/workflows/codex-seeds-ci.yml` checked out the private **athena-codex** repository with the default Actions
+token and failed at checkout on every pull request and every `v*` tag (observed v0.3.26 through v0.3.30), so its
+checks were noise. The workflow file is kept for reference only; do not expect or wait for checks on PRs.
 
-**Tag push** (`v*`) is meant to re-run validate + build + parity and then **`codex-seeds-release`** to attach `dist/*.tar.gz` to GitHub Releases. **That release job does not currently work**: the workflow checks out the private **athena-codex** repository with the default Actions token and fails at checkout on every `v*` tag (observed v0.3.26 to v0.3.28). Until the workflow gets a scoped token, release **locally**: push `main` and the tag first, then run `codex-seeds-release --tag vX.Y.Z` (optionally `--skip-build --archive dist/...`) with `GITHUB_TOKEN` / `GH_TOKEN` in the process environment. The bundle build is deterministic, so the local digest equals what CI would produce.
+Run the gate locally before merging (`codex-seeds-validate`, `codex-seeds-ci --all`), then release **locally**:
+push `main` and the tag first, then run `codex-seeds-release --tag vX.Y.Z` (optionally `--skip-build --archive dist/...`)
+with `GITHUB_TOKEN` / `GH_TOKEN` in the process environment (never echoed). The bundle build is deterministic
+(fixed mtimes, sorted entries), so the local digest is reproducible. Pass `--no-sync-suite-pin` when the pin should
+land on a feature branch of athena-codex instead of the sibling checkout (then run `codex_ci.atlas_bundle_pin_sync`
+there with `--pack-count` / `--expected-slice-count`).
 
 ### Deploy pin (AS-1) — after you release a new bundle
 
@@ -98,7 +109,7 @@ Runbook: [athena-codex `docs/prospectus-environment-first-setup.md`](https://git
 
 ## Status
 
-**Current release:** [`v0.3.28`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.28) — `us_person_nickname_lookup` 0.2.0 (carltonnorthern `names.csv` at upstream 1524308b68, 2026-08-02) on top of v0.3.27 (**18** packs). Earlier highlights below are retained for history.
+**Current release:** [`v0.3.30`](https://github.com/rthuffman/codex-atlas-seeds/releases/tag/v0.3.30) — `world_nations_bootstrap` 0.1.0 (ISO 3166-1 NationState / Territory / DisputedState rows with prefixed code aliases and an Earth `Planet` root; fourth seeds→Prospectus projection slice; **19** packs, 18 JSON slices) on top of v0.3.29 (EOP components, ATH-310) and v0.3.28 (`us_person_nickname_lookup` 0.2.0). Earlier highlights below are retained for history.
 
 **Deploy pin (single source of truth):** athena-codex `codex/docs/atlas_bundles.yaml` → generated `atlas_seeds_bundle_pin.json`, written automatically by `codex-seeds-release` (see **Deploy pin (AS-1)** above). No deploy-env keys.
 
